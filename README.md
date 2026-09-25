@@ -92,6 +92,19 @@ The system is **self-improving**: every merged PR that demonstrably improves rev
 | Swarms | Parallel task execution | `active` |
 | Fetch.ai uAgents | Agent recruitment | `active` |
 
+
+## 🧪 Related live developer diagnostics
+
+For builders working on agent and x402 integrations, NAIF also runs three free bounded diagnostics:
+
+- **RPC Doctor** — public EVM RPC reachability and basic response health.
+- **API Health Check** — public endpoint status and latency.
+- **Webhook Payload Tester** — safe JSON structure validation.
+
+Live: https://naif-store-62-83-19-162.sslip.io/tools?utm_source=github_growth_engine
+
+These tools are separate from this repository's bounty system. They do not require signup, do not execute supplied code, and public share cards are created only with explicit user consent.
+
 ## 📊 Live Metrics
 
 | Metric | Value |
