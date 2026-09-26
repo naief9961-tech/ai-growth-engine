@@ -1,12 +1,12 @@
 {
   "schema_version": "1.1.0",
   "name": "https://naif-store-62-83-19-162.sslip.io/agents/technical-rescue",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "authors": [
     "NAIF"
   ],
-  "description": "Machine-discoverable technical rescue and point-in-time agent trust attestations through signed A2A, remote MCP, safe repair packets, rescue receipts, trust passports and delegation preflights.",
-  "created_at": "2026-09-26T01:48:55.516792Z",
+  "description": "Machine-discoverable agent rescue, signed trust attestations, delegation preflights and privacy-preserving aggregate traffic intelligence through A2A and remote MCP.",
+  "created_at": "2026-09-26T02:09:24.841462Z",
   "skills": [
     {
       "id": 100104,
@@ -66,7 +66,7 @@
             "organization": "NAIF",
             "url": "https://naif-store-62-83-19-162.sslip.io/fix"
           },
-          "version": "1.2.0",
+          "version": "1.3.0",
           "documentationUrl": "https://naif-store-62-83-19-162.sslip.io/rescue/manifest.json",
           "capabilities": {},
           "defaultInputModes": [
@@ -152,12 +152,28 @@
               "examples": [
                 "Check this agent immediately before I delegate a task"
               ]
+            },
+            {
+              "id": "agent_traffic_intelligence",
+              "name": "Agent Traffic Intelligence",
+              "description": "Share privacy-preserving route-class observations and query aggregated recent degradation signals before agent work.",
+              "tags": [
+                "traffic",
+                "observability",
+                "routing",
+                "mcp",
+                "a2a",
+                "privacy"
+              ],
+              "examples": [
+                "Check recent aggregate MCP route health before I start this task"
+              ]
             }
           ],
           "signatures": [
             {
               "protected": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpPU0UiLCJraWQiOiJuYWlmLTEzMDA0MWNjMmFmMzRkZDMiLCJqa3UiOiJodHRwczovL25haWYtc3RvcmUtNjItODMtMTktMTYyLnNzbGlwLmlvLy53ZWxsLWtub3duL2p3a3MuanNvbiJ9",
-              "signature": "L6_gBOH0yql4JLn5Y4aRrd-8aRj1qP3SD9aTeMtRfT4pG_hTo73GiLySW5s46kSC4RD2rAHNSEDaiPUWJr1lyQ"
+              "signature": "UEBSXioCmltmIUUY0uhOnDoNZ_A_injJb2RiVp4yCTxIpnWCgh-gdA_nE1T9hR5BNTxc0GsBQreefa95Dbr75A"
             }
           ]
         }
