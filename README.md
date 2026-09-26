@@ -125,6 +125,19 @@ NAIF FixGraph is now exposed as a public remote MCP server and an A2A-discoverab
 
 The public tools sanitize technical error text before matching and do not auto-execute fixes.
 
+## 🛡️ NAIF Agent Rescue Mesh
+
+NAIF now exposes a signed agent-discovery and trust layer around FixGraph:
+
+- **Signed A2A Agent Card:** https://naif-store-62-83-19-162.sslip.io/.well-known/agent-card.json
+- **Public JWKS:** https://naif-store-62-83-19-162.sslip.io/.well-known/jwks.json
+- **Remote MCP:** https://naif-store-62-83-19-162.sslip.io/mcp
+- **Rescue Network:** https://naif-store-62-83-19-162.sslip.io/rescue/network
+- **Rescue Mesh details:** [RESCUE-MESH.md](RESCUE-MESH.md)
+- **OASF / AGNTCY record:** [agntcy-record.json](agntcy-record.json)
+
+Matched technical rescues can return privacy-preserving signed receipts. Agent profiles are opt-in and remain private until reviewed.
+
 ## 📜 License
 
 MIT — free to use, improve, and build upon. The system grows when you grow.
