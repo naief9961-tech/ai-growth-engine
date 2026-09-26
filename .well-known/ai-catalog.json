@@ -20,5 +20,13 @@
     "https://naifgravity.com/api/free-tools/rpc-doctor",
     "https://naifgravity.com/api/free-tools/webhook-test"
   ],
-  "offers": "https://naifgravity.com/agent/offers"
+  "offers": "https://naifgravity.com/agent/offers",
+  "neuralGravity": {
+    "manifest": "https://naifgravity.com/.well-known/naif-neural-gravity.json",
+    "state": "https://naifgravity.com/neural/state",
+    "interference": "https://naifgravity.com/neural/interference",
+    "graph": "https://naifgravity.com/neural/graph",
+    "recommendations": "https://naifgravity.com/neural/recommendations",
+    "mode": "shadow-read-only"
+  }
 }
