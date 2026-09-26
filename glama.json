@@ -1,0 +1,9 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["naief9961-tech"],
+  "name": "NAIF Agent Gravity",
+  "description": "Remote MCP and A2A technical-rescue system with free diagnostics, sanitized need intake, adaptive agent offers, trust, continuity, and traffic intelligence.",
+  "repository": "https://github.com/naief9961-tech/ai-growth-engine",
+  "homepage": "https://naifgravity.com",
+  "keywords": ["mcp","a2a","ai-agents","technical-rescue","api","rpc","webhook","agent-market","adaptive-offers","trust","continuity","diagnostics"]
+}
