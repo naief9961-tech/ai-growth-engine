@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.1.0",
+  "name": "https://naif-store-62-83-19-162.sslip.io/agents/technical-rescue",
+  "version": "1.0.0",
+  "authors": ["NAIF"],
+  "description": "Machine-discoverable technical rescue for API, EVM RPC and webhook failures through signed A2A, remote MCP, safe repair packets and rescue receipts.",
+  "created_at": "2026-09-26T00:36:09.758842Z",
+  "skills": [
+    {"id":100104,"name":"cybersecurity/application_security/api_security_testing"},
+    {"id":71102,"name":"ai_ml_engineering/llm_observability/trace_analysis"},
+    {"id":711,"name":"ai_ml_engineering/llm_observability"},
+    {"id":709,"name":"ai_ml_engineering/agent_orchestration"},
+    {"id":708,"name":"ai_ml_engineering/agent_development"}
+  ],
+  "domains": [
+    {"id":11107,"name":"technology/artificial_intelligence/ai_agents"},
+    {"id":11001,"name":"technology/process_automation/rpa"}
+  ],
+  "locators": [
+    {"type":"source_code","urls":["https://github.com/naief9961-tech/ai-growth-engine"]}
+  ],
+  "modules": [
+    {
+      "name":"integration/a2a",
+      "data":{
+        "card_schema_version":"v1.0.0",
+        "card_data":{
+          "name":"NAIF Technical Rescue Agent",
+          "description":"Public technical rescue agent for API, EVM RPC and webhook failures. Returns sanitized FixGraph matches and bounded repair packets without auto-executing changes.",
+          "supportedInterfaces":[{"url":"https://naif-store-62-83-19-162.sslip.io/a2a/v1","protocolBinding":"HTTP+JSON","protocolVersion":"1.0"}],
+          "provider":{"organization":"NAIF","url":"https://naif-store-62-83-19-162.sslip.io/fix"},
+          "version":"1.0.0",
+          "documentationUrl":"https://naif-store-62-83-19-162.sslip.io/fixgraph/agent-gateway.json",
+          "capabilities":{},
+          "defaultInputModes":["text/plain","application/json"],
+          "defaultOutputModes":["text/plain","application/json"],
+          "skills":[
+            {"id":"technical_rescue","name":"Technical Rescue","description":"Match API, RPC and webhook failures to safe diagnostic guidance and bounded fixes.","tags":["debugging","api","rpc","webhook","technical-rescue"],"examples":["502 Bad Gateway","RPC timeout","webhook signature missing"]},
+            {"id":"repair_packet","name":"Repair Packet","description":"Return a machine-readable repair packet with causes, checks, guardrails, free diagnostic and FixGraph URL.","tags":["repair","agent","fixgraph","diagnostics"],"examples":["Give me a repair packet for this API failure"]}
+          ],
+          "signatures":[
+            {
+              "protected":"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpPU0UiLCJraWQiOiJuYWlmLTEzMDA0MWNjMmFmMzRkZDMiLCJqa3UiOiJodHRwczovL25haWYtc3RvcmUtNjItODMtMTktMTYyLnNzbGlwLmlvLy53ZWxsLWtub3duL2p3a3MuanNvbiJ9",
+              "signature":"iidsIU9vdgrEaVazdSm8wUz5gETdl7401g6EUtJrDb8-RDMh2pslv2ZG5RLLEqQl28BIz6ul2x5q2y_WWSMAww"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name":"integration/mcp",
+      "data":{
+        "name":"io.github.naief9961-tech/naif-fixgraph",
+        "description":"Remote MCP for AI agents to match API, EVM RPC, and webhook failures to safe repair packets.",
+        "connections":[{"type":"streamable-http","url":"https://naif-store-62-83-19-162.sslip.io/mcp"}],
+        "mcp_data":{
+          "$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+          "name":"io.github.naief9961-tech/naif-fixgraph",
+          "title":"NAIF FixGraph Technical Rescue",
+          "description":"Remote MCP for AI agents to match API, EVM RPC, and webhook failures to safe repair packets.",
+          "version":"1.0.0",
+          "repository":{"url":"https://github.com/naief9961-tech/ai-growth-engine","source":"github"},
+          "websiteUrl":"https://naif-store-62-83-19-162.sslip.io/fix",
+          "remotes":[{"type":"streamable-http","url":"https://naif-store-62-83-19-162.sslip.io/mcp"}]
+        }
+      }
+    }
+  ]
+}
