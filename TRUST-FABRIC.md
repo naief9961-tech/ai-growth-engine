@@ -80,7 +80,7 @@ Official MCP Registry identity:
 
 `io.github.naief9961-tech/naif-fixgraph`
 
-Current registry version: **1.2.0**
+Current registry version: **1.3.0**
 
 ## Privacy and scope
 
