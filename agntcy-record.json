@@ -1,12 +1,12 @@
 {
   "schema_version": "1.1.0",
   "name": "https://naif-store-62-83-19-162.sslip.io/agents/technical-rescue",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "authors": [
     "NAIF"
   ],
-  "description": "Machine-discoverable agent rescue, trust attestations, traffic intelligence and signed cross-agent continuity capsules through A2A and remote MCP.",
-  "created_at": "2026-09-26T02:38:14.958474Z",
+  "description": "Machine-discoverable agent rescue, trust, traffic intelligence, signed cross-agent continuity and adaptive agent offers through A2A and remote MCP.",
+  "created_at": "2026-09-26T08:01:38.966570Z",
   "skills": [
     {
       "id": 100104,
@@ -66,7 +66,7 @@
             "organization": "NAIF",
             "url": "https://naif-store-62-83-19-162.sslip.io/fix"
           },
-          "version": "1.4.0",
+          "version": "1.5.0",
           "documentationUrl": "https://naif-store-62-83-19-162.sslip.io/rescue/manifest.json",
           "capabilities": {},
           "defaultInputModes": [
@@ -184,12 +184,27 @@
               "examples": [
                 "Package this task so another agent can resume from the verified state"
               ]
+            },
+            {
+              "id": "adaptive_agent_marketplace",
+              "name": "Adaptive Agent Marketplace",
+              "description": "Learn aggregate agent demand, surface temporary agent-only introductory offers, and incubate new service candidates without mutating the core storefront catalog.",
+              "tags": [
+                "agent-market",
+                "adaptive-offers",
+                "demand",
+                "pricing",
+                "marketplace"
+              ],
+              "examples": [
+                "Show me the current offer for an MCP recovery need"
+              ]
             }
           ],
           "signatures": [
             {
               "protected": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpPU0UiLCJraWQiOiJuYWlmLTEzMDA0MWNjMmFmMzRkZDMiLCJqa3UiOiJodHRwczovL25haWYtc3RvcmUtNjItODMtMTktMTYyLnNzbGlwLmlvLy53ZWxsLWtub3duL2p3a3MuanNvbiJ9",
-              "signature": "BqmrnCSRA_r5xcNMlqX8HwXysd2LkrMnWbapeJFKRg_bBeeAl2-0Arid9bDvelr4B4VOcY_oBrZHHumt54mjtw"
+              "signature": "0JCV3_h-FiBl08JPwx7Be8YHtJbfJT4PgpcFapj248KesMEjlKyp_GuN8OfaIChBgQg8D8Wnc8l86B2ESjsO1Q"
             }
           ]
         }
@@ -199,7 +214,7 @@
       "name": "integration/mcp",
       "data": {
         "name": "io.github.naief9961-tech/naif-fixgraph",
-        "description": "Remote MCP for agent rescue, trust, traffic intelligence, and signed cross-agent task continuity.",
+        "description": "Remote MCP for agent rescue, trust, continuity, traffic intelligence, and adaptive agent offers.",
         "connections": [
           {
             "type": "streamable-http",
@@ -209,9 +224,9 @@
         "mcp_data": {
           "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
           "name": "io.github.naief9961-tech/naif-fixgraph",
-          "title": "NAIF Agent Rescue, Trust, Traffic & Continuity",
-          "description": "Remote MCP for agent rescue, trust, traffic intelligence, and signed cross-agent task continuity.",
-          "version": "1.3.0",
+          "title": "NAIF Agent Rescue, Trust, Traffic, Continuity & Market",
+          "description": "Remote MCP for agent rescue, trust, continuity, traffic intelligence, and adaptive agent offers.",
+          "version": "1.4.0",
           "repository": {
             "url": "https://github.com/naief9961-tech/ai-growth-engine",
             "source": "github"
