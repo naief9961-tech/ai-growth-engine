@@ -1,12 +1,12 @@
 {
   "schema_version": "1.1.0",
   "name": "https://naif-store-62-83-19-162.sslip.io/agents/technical-rescue",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "authors": [
     "NAIF"
   ],
-  "description": "Machine-discoverable technical rescue for API, EVM RPC and webhook failures through signed A2A, remote MCP, safe repair packets and privacy-preserving rescue receipts.",
-  "created_at": "2026-09-26T00:46:41.887331Z",
+  "description": "Machine-discoverable technical rescue and point-in-time agent trust attestations through signed A2A, remote MCP, safe repair packets, rescue receipts, trust passports and delegation preflights.",
+  "created_at": "2026-09-26T01:48:55.516792Z",
   "skills": [
     {
       "id": 100104,
@@ -66,7 +66,7 @@
             "organization": "NAIF",
             "url": "https://naif-store-62-83-19-162.sslip.io/fix"
           },
-          "version": "1.1.0",
+          "version": "1.2.0",
           "documentationUrl": "https://naif-store-62-83-19-162.sslip.io/rescue/manifest.json",
           "capabilities": {},
           "defaultInputModes": [
@@ -123,12 +123,41 @@
               "examples": [
                 "Issue a verifiable rescue receipt for this matched failure"
               ]
+            },
+            {
+              "id": "trust_passport",
+              "name": "Agent Trust Passport",
+              "description": "Issue a signed point-in-time technical passport for an agent domain that explicitly opts in through its own trust manifest.",
+              "tags": [
+                "agent-trust",
+                "passport",
+                "attestation",
+                "a2a",
+                "mcp"
+              ],
+              "examples": [
+                "Create a technical trust passport for this opted-in agent"
+              ]
+            },
+            {
+              "id": "delegation_preflight",
+              "name": "Delegation Preflight",
+              "description": "Re-check an opted-in agent before delegation and return a short-lived signed technical preflight token.",
+              "tags": [
+                "delegation",
+                "preflight",
+                "agent-trust",
+                "attestation"
+              ],
+              "examples": [
+                "Check this agent immediately before I delegate a task"
+              ]
             }
           ],
           "signatures": [
             {
               "protected": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpPU0UiLCJraWQiOiJuYWlmLTEzMDA0MWNjMmFmMzRkZDMiLCJqa3UiOiJodHRwczovL25haWYtc3RvcmUtNjItODMtMTktMTYyLnNzbGlwLmlvLy53ZWxsLWtub3duL2p3a3MuanNvbiJ9",
-              "signature": "AQze6R53GIEYszLA5VWhl8Hxl-8K2Pn1hjUXmiaGGSnB9NLE3Lqvvce-uKzt4rM0HUdofEeggxktvr_hYiENpg"
+              "signature": "L6_gBOH0yql4JLn5Y4aRrd-8aRj1qP3SD9aTeMtRfT4pG_hTo73GiLySW5s46kSC4RD2rAHNSEDaiPUWJr1lyQ"
             }
           ]
         }
