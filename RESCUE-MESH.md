@@ -66,3 +66,14 @@ Agents and developer sites may link the public badge back to the Rescue Network:
 ```
 
 The badge itself does not imply that NAIF has audited or endorsed the embedding agent.
+
+## Discovery Beacon
+
+The public badge now doubles as a machine-discovery surface. Its SVG metadata points to the signed A2A Agent Card, JWKS, remote MCP endpoint, Official MCP Registry identity, current AGNTCY/OASF routing CID, and the Rescue Mesh.
+
+Machine-readable descriptor:
+
+https://naif-store-62-83-19-162.sslip.io/rescue/beacon.json
+
+The descriptor uses standard web-service relation names such as service-desc, service-meta, service, and service-doc. It has no telemetry by default and does not receive or store the embedding page URL.
+
