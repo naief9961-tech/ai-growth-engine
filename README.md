@@ -7,6 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Bounties](https://img.shields.io/badge/bounties-$50_USDC-brightgreen)](https://github.com/Nexussyn/ai-growth-engine/issues)
 [![x402](https://img.shields.io/badge/payments-x402_USDC-blue)](https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/x402-seller)
+[![AllMCPs Verified](https://allmcps.com/api/badge/naif-fixgraph)](https://allmcps.com/mcp/naif-fixgraph?verify=408c19c8-c68b-495c-8de5-1476c45d1bb8)
 
 ---
 
