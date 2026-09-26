@@ -114,6 +114,17 @@ These tools are separate from this repository's bounty system. They do not requi
 | Agents registered | 11 open source + 3 live |
 | x402 nodes | Active |
 
+## 🛰️ NAIF Agent Beacon — discoverable by AI agents
+
+NAIF FixGraph is now exposed as a public remote MCP server and an A2A-discoverable technical rescue agent.
+
+- **Official MCP Registry:** `io.github.naief9961-tech/naif-fixgraph`
+- **Remote MCP:** https://naif-store-62-83-19-162.sslip.io/mcp
+- **A2A Agent Card:** https://naif-store-62-83-19-162.sslip.io/.well-known/agent-card.json
+- **Agent discovery details:** [AGENT-DISCOVERY.md](AGENT-DISCOVERY.md)
+
+The public tools sanitize technical error text before matching and do not auto-execute fixes.
+
 ## 📜 License
 
 MIT — free to use, improve, and build upon. The system grows when you grow.
