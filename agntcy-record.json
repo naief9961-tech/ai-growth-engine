@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1.0",
-  "name": "https://naif-store-62-83-19-162.sslip.io/agents/technical-rescue",
+  "name": "https://naifgravity.com/agents/technical-rescue",
   "version": "1.5.0",
   "authors": [
     "NAIF"
@@ -57,17 +57,17 @@
           "description": "Public technical rescue agent for API, EVM RPC and webhook failures. Returns sanitized FixGraph matches and bounded repair packets without auto-executing changes.",
           "supportedInterfaces": [
             {
-              "url": "https://naif-store-62-83-19-162.sslip.io/a2a/v1",
+              "url": "https://naifgravity.com/a2a/v1",
               "protocolBinding": "HTTP+JSON",
               "protocolVersion": "1.0"
             }
           ],
           "provider": {
             "organization": "NAIF",
-            "url": "https://naif-store-62-83-19-162.sslip.io/fix"
+            "url": "https://naifgravity.com/fix"
           },
           "version": "1.5.0",
-          "documentationUrl": "https://naif-store-62-83-19-162.sslip.io/rescue/manifest.json",
+          "documentationUrl": "https://naifgravity.com/rescue/manifest.json",
           "capabilities": {},
           "defaultInputModes": [
             "text/plain",
@@ -218,7 +218,7 @@
         "connections": [
           {
             "type": "streamable-http",
-            "url": "https://naif-store-62-83-19-162.sslip.io/mcp"
+            "url": "https://naifgravity.com/mcp"
           }
         ],
         "mcp_data": {
@@ -231,11 +231,11 @@
             "url": "https://github.com/naief9961-tech/ai-growth-engine",
             "source": "github"
           },
-          "websiteUrl": "https://naif-store-62-83-19-162.sslip.io/rescue/network",
+          "websiteUrl": "https://naifgravity.com/rescue/network",
           "remotes": [
             {
               "type": "streamable-http",
-              "url": "https://naif-store-62-83-19-162.sslip.io/mcp"
+              "url": "https://naifgravity.com/mcp"
             }
           ]
         }
