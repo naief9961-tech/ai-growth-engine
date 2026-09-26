@@ -1,0 +1,24 @@
+{
+  "name": "NAIF Agent Gravity",
+  "version": "1.0.0",
+  "homepage": "https://naifgravity.com",
+  "agentCard": "https://naifgravity.com/.well-known/agent-card.json",
+  "mcp": {
+    "transport": "streamable-http",
+    "url": "https://naifgravity.com/mcp"
+  },
+  "a2a": {
+    "url": "https://naifgravity.com/a2a/v1"
+  },
+  "pullMarket": {
+    "manifest": "https://naifgravity.com/.well-known/naif-pull-market.json",
+    "need": "https://naifgravity.com/pull/need",
+    "heatmap": "https://naifgravity.com/pull/heatmap"
+  },
+  "freeTools": [
+    "https://naifgravity.com/api/free-tools/api-health",
+    "https://naifgravity.com/api/free-tools/rpc-doctor",
+    "https://naifgravity.com/api/free-tools/webhook-test"
+  ],
+  "offers": "https://naifgravity.com/agent/offers"
+}
