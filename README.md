@@ -135,6 +135,7 @@ NAIF now exposes a signed agent-discovery and trust layer around FixGraph:
 - **Rescue Network:** https://naif-store-62-83-19-162.sslip.io/rescue/network
 - **Rescue Mesh details:** [RESCUE-MESH.md](RESCUE-MESH.md)
 - **Machine Discovery Beacon:** https://naif-store-62-83-19-162.sslip.io/rescue/beacon.json
+- **Agent Trust Fabric:** [TRUST-FABRIC.md](TRUST-FABRIC.md) · https://naif-store-62-83-19-162.sslip.io/.well-known/naif-trust.json
 - **OASF / AGNTCY record:** [agntcy-record.json](agntcy-record.json)
 
 Matched technical rescues can return privacy-preserving signed receipts. Agent profiles are opt-in and remain private until reviewed.
