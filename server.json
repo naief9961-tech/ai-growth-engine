@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.naief9961-tech/naif-fixgraph",
+  "title": "NAIF FixGraph Technical Rescue",
+  "description": "Remote MCP for AI agents to match API, EVM RPC, and webhook failures to safe repair packets.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/naief9961-tech/ai-growth-engine",
+    "source": "github"
+  },
+  "websiteUrl": "https://naif-store-62-83-19-162.sslip.io/fix",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://naif-store-62-83-19-162.sslip.io/mcp"
+    }
+  ]
+}
