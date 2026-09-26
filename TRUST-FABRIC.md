@@ -40,7 +40,7 @@ Endpoint:
 
 `POST https://naif-store-62-83-19-162.sslip.io/trust/preflight`
 
-A preflight accepts a valid Trust Passport, re-checks the opted-in agent, and returns a new signed token valid for five minutes.
+A preflight accepts a valid Trust Passport, re-checks the opted-in agent, and returns a new signed token valid for five minutes.\n\n### Traffic context\n\nWhen the agent declares A2A or MCP, the preflight also attaches the current privacy-preserving aggregate Traffic Control context for those route classes. Below the public minimum sample threshold the status remains `insufficient_aggregate_data`; absence of a signal is not treated as proof of health.
 
 This is intended for a narrow workflow:
 
@@ -80,7 +80,7 @@ Official MCP Registry identity:
 
 `io.github.naief9961-tech/naif-fixgraph`
 
-Current registry version: **1.1.0**
+Current registry version: **1.2.0**
 
 ## Privacy and scope
 
