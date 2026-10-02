@@ -42,11 +42,11 @@ for n,q in enumerate(I,1):
   try:c,cm=get(u)
   except:continue
   cc.append((score(c,q),u,c,cm))
- if not cc:raise SystemExit("no candidates")
+ if not cc:\n  out.append({"round":n,"intent":q,"status":"FAIL","reason":"no candidates"}); break
  cc.sort(key=lambda x:x[0],reverse=True)
  sc,u,c,cm=cc[0]
  it=next((x for x in c.get("supportedInterfaces",[]) if str(x.get("protocolBinding","")).upper()=="JSONRPC"),None)
- if not it:raise SystemExit("no JSONRPC interface")
+ if not it:\n  out.append({"round":n,"intent":q,"status":"FAIL","reason":"no JSONRPC interface","top3":top}); break
  b={"jsonrpc":"2.0","id":n,"method":"SendMessage","params":{"message":{"messageId":str(uuid.uuid4()),"role":"ROLE_USER","parts":[{"text":q}]}}}
  r,im=get(it["url"],b,{"A2A-Version":"1.0"})
  m=(r.get("result") or {}).get("message") or r.get("message") or {}
