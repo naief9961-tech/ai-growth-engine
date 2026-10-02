@@ -1,0 +1,53 @@
+{
+  "runId": "NAIF-P6-GHA-37047648186",
+  "phase": "P6 Open-World Discovery → A2A → Free Probe → Quote",
+  "verdict": "PASS",
+  "date": "2026-10-02",
+  "runner": {
+    "provider": "GitHub Actions hosted runner",
+    "os": "Ubuntu 24.04.5 LTS",
+    "arch": "X64",
+    "workflowRunId": 37047648186,
+    "commit": "99a9fc59e183516c591a841a9c85ba67b0788911",
+    "branch": "p6-openworld-quote-proof-20261002"
+  },
+  "proofScope": "Natural-intent public-registry discovery through A2A and free probe to quote. No checkout, payment, job, or execution endpoint was called.",
+  "metrics": {
+    "rounds": 5,
+    "p50EndToEndMs": 2901.414,
+    "maxEndToEndMs": 3889.639
+  },
+  "quoteIds": [
+    "quote_muraqn82_88f3ce9e2c",
+    "quote_muraqpby_f047e7a755",
+    "quote_muraqrkj_00e67cb249",
+    "quote_muraquda_c4787b461d",
+    "quote_muraqwhp_9216efb009"
+  ],
+  "quoteSafety": {
+    "paymentState": "NOT_STARTED",
+    "paymentConfirmed": false,
+    "commercialState": "QUOTE_ONLY",
+    "automaticCheckout": false,
+    "automaticPayment": false,
+    "automaticExecution": false,
+    "automaticJob": false
+  },
+  "postRunStore": {
+    "Quotes": 47,
+    "Checkouts": 0,
+    "Payments": 0,
+    "Jobs": 0,
+    "p6Quotes": 5,
+    "p6Checkouts": 0,
+    "p6Payments": 0,
+    "integrity": "ok",
+    "foreignKeyViolations": 0,
+    "serverMjsSha256": "4286dffe0c54d36b17f29c718071669ec0bffc72dc83db4985a0a90001258954"
+  },
+  "artifact": {
+    "id": 11244413687,
+    "name": "p6-openworld-quote-proof",
+    "zipSha256": "a6ad455c4b04639e760ed5bb1c9981677e7ecdd17091cd9ac26b14492b44ded0"
+  }
+}
