@@ -1,0 +1,24 @@
+name: P7 Real Payment Preflight
+on:
+  push:
+    branches:
+      - p7-real-payment-preflight-20261002
+    paths:
+      - validation/p7_preflight.py
+      - .github/workflows/p7-real-payment-preflight.yml
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run P7 preflight
+        run: python3 validation/p7_preflight.py
+      - name: Upload preflight
+        uses: actions/upload-artifact@v4
+        with:
+          name: p7-real-payment-preflight
+          path: p7-preflight.json
+          retention-days: 7
