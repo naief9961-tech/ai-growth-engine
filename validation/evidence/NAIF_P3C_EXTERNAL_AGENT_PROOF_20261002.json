@@ -1,0 +1,106 @@
+{
+  "runId": "NAIF-P3C-GHA-37040594764",
+  "date": "2026-10-02",
+  "verdict": "PASS",
+  "phase": "P3-C External Agent Discovery + Free Probe Proof",
+  "proofScope": "Known-origin public A2A Agent Card discovery/selection/invocation from an external GitHub-hosted runner. This is not open-world registry discovery.",
+  "runner": {
+    "provider": "GitHub Actions hosted runner",
+    "underlyingRegion": "Azure westus",
+    "os": "Ubuntu 24.04.5 LTS",
+    "arch": "X64",
+    "workflowRunId": 37040594764,
+    "commit": "5ce6fdd58176c90062ee3f40e1f7d8d59b057608",
+    "branch": "p3-c-external-agent-proof-20261002"
+  },
+  "criteria": {
+    "roundsMin": 5,
+    "p50EndToEndMsLt": 30000,
+    "p95EndToEndMsLt": 60000
+  },
+  "metrics": {
+    "roundCount": 5,
+    "p50EndToEndMs": 1599.281,
+    "p95EndToEndMs": 2703.468,
+    "minEndToEndMs": 990.009,
+    "maxEndToEndMs": 2703.468
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "intent": "MCP server timeout",
+      "selectedSkill": "mcp_free_diagnostic",
+      "productId": "endpoint-health-check",
+      "endToEndMs": 1834.473,
+      "cardFetchMs": 750.15,
+      "a2aResolveMs": 289.32,
+      "freeProbeMs": 202.468
+    },
+    {
+      "round": 2,
+      "intent": "API returns HTTP 500 internal server error",
+      "selectedSkill": "technical_rescue",
+      "productId": "api-response-fix",
+      "endToEndMs": 2703.468,
+      "cardFetchMs": 739.591,
+      "a2aResolveMs": 802.49,
+      "freeProbeMs": 755.452
+    },
+    {
+      "round": 3,
+      "intent": "API returns HTTP 502 Bad Gateway",
+      "selectedSkill": "technical_rescue",
+      "productId": "deployment-rescue-mini",
+      "endToEndMs": 1120.33,
+      "cardFetchMs": 186.666,
+      "a2aResolveMs": 317.232,
+      "freeProbeMs": 199.774
+    },
+    {
+      "round": 4,
+      "intent": "API returns HTTP 401 authentication required",
+      "selectedSkill": "problem_spokes",
+      "productId": "api-integration-mini",
+      "endToEndMs": 1599.281,
+      "cardFetchMs": 198.32,
+      "a2aResolveMs": 204.521,
+      "freeProbeMs": 758.02
+    },
+    {
+      "round": 5,
+      "intent": "API returns HTTP 403 forbidden",
+      "selectedSkill": "technical_rescue",
+      "productId": "api-integration-mini",
+      "endToEndMs": 990.009,
+      "cardFetchMs": 190.356,
+      "a2aResolveMs": 213.345,
+      "freeProbeMs": 206.375
+    }
+  ],
+  "safety": {
+    "quoteEndpointCalled": false,
+    "checkoutEndpointCalled": false,
+    "paymentEndpointCalled": false,
+    "productionExecutionRequested": false,
+    "allProbeResponsesReportedQuoteCreatedFalse": true,
+    "allProbeResponsesReportedAutomaticCheckoutFalse": true,
+    "allProbeResponsesReportedAutomaticPaymentFalse": true,
+    "allProbeResponsesReportedAutomaticExecutionFalse": true
+  },
+  "postRunStore": {
+    "Quotes": 42,
+    "Checkouts": 0,
+    "Payments": 0,
+    "Jobs": 0,
+    "integrity": "ok",
+    "foreignKeyViolations": 0,
+    "serverMjsSha256": "4286dffe0c54d36b17f29c718071669ec0bffc72dc83db4985a0a90001258954",
+    "expectedRuntimeTelemetry": "5 AGENT_PROBE events with sources p3c-gha-r1 through p3c-gha-r5"
+  },
+  "artifact": {
+    "id": 11241712020,
+    "name": "naif-p3c-external-agent-proof",
+    "zipSha256": "af3eca43db832f81ef491af14128327692017208f5355e2f91384d49559dd01b",
+    "retentionDays": 7
+  }
+}
