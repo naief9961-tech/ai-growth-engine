@@ -1,0 +1,32 @@
+name: P4 Open-World Discovery Proof
+
+on:
+  push:
+    branches:
+      - p4-openworld-discovery-proof-20261002
+    paths:
+      - validation/p4_openworld_agent.py
+      - .github/workflows/p4-openworld-discovery-proof.yml
+
+permissions:
+  contents: read
+
+jobs:
+  open-world-agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout proof branch
+        uses: actions/checkout@v4
+
+      - name: Run provider-agnostic open-world discovery proof
+        run: python3 validation/p4_openworld_agent.py
+
+      - name: Upload proof evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p4-openworld-discovery-proof
+          path: p4-openworld-result.json
+          if-no-files-found: warn
+          retention-days: 7
