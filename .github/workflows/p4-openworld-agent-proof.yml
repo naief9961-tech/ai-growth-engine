@@ -1,0 +1,29 @@
+name: P4 Open-World A2A Proof
+
+on:
+  push:
+    branches:
+      - p4-openworld-agent-proof-20261002
+    paths:
+      - validation/p4_openworld_agent.py
+      - .github/workflows/p4-openworld-agent-proof.yml
+
+permissions:
+  contents: read
+
+jobs:
+  openworld-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run open-world discovery proof
+        run: python3 validation/p4_openworld_agent.py
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p4-openworld-agent-proof
+          path: p4-openworld-result.json
+          if-no-files-found: warn
+          retention-days: 7
