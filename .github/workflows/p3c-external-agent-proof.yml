@@ -1,0 +1,32 @@
+name: P3-C External Agent Proof
+
+on:
+  push:
+    branches:
+      - p3-c-external-agent-proof-20261002
+    paths:
+      - validation/p3c_external_agent.py
+      - .github/workflows/p3c-external-agent-proof.yml
+
+permissions:
+  contents: read
+
+jobs:
+  external-agent-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout proof branch
+        uses: actions/checkout@v4
+
+      - name: Run external A2A agent proof
+        run: python3 validation/p3c_external_agent.py
+
+      - name: Upload proof evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: naif-p3c-external-agent-proof
+          path: p3c-result.json
+          if-no-files-found: warn
+          retention-days: 7
