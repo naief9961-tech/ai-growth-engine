@@ -36,9 +36,20 @@ def card_score(card, intent):
             " ".join(skill.get("tags") or []), " ".join(examples)
         ])
         st = tokens(blob)
-        score = 20 * len(qt & st)
+        overlap = len(qt & st)
+        score = 20 * overlap
         if intent.lower() in " ".join(examples).lower():
             score += 1000
+        for example in examples:
+            et = tokens(example)
+            if not et:
+                continue
+            shared = len(qt & et)
+            query_coverage = shared / max(1, len(qt))
+            example_coverage = shared / max(1, len(et))
+            score = max(score, int(600 * query_coverage + 400 * example_coverage))
+            if et <= qt:
+                score = max(score, 800 + 25 * len(et))
         if "mcp" in qt and "mcp" in st:
             score += 100
         if "timeout" in qt and "timeout" in st:
