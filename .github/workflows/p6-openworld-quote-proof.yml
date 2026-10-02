@@ -1,0 +1,29 @@
+name: P6 Open-World Quote Proof
+
+on:
+  push:
+    branches:
+      - p6-openworld-quote-proof-20261002
+    paths:
+      - validation/p6_openworld_quote.py
+      - .github/workflows/p6-openworld-quote-proof.yml
+
+permissions:
+  contents: read
+
+jobs:
+  p6-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run P6 proof
+        run: python3 validation/p6_openworld_quote.py
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p6-openworld-quote-proof
+          path: p6-openworld-quote-result.json
+          if-no-files-found: warn
+          retention-days: 7
