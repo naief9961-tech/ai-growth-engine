@@ -1,0 +1,47 @@
+{
+  "runId": "NAIF-P7-PREFLIGHT-37048087910",
+  "phase": "P7 First Real Buyer + Real Payment E2E",
+  "verdict": "BLOCKED",
+  "date": "2026-10-02",
+  "blocker": "PROVIDER_ACTIVATION_REQUIRED",
+  "findings": {
+    "githubRunnerPolicy": {
+      "country": "US",
+      "privacyRisk": "ANONYMIZER",
+      "paymentMode": "QUOTE_ONLY",
+      "walletEligible": false,
+      "checkoutEligible": false,
+      "denialReason": "PRIVACY_NOT_CLEAR"
+    },
+    "tap": {
+      "storefrontState": "PENDING_ACTIVATION",
+      "applePayCheckoutEnabled": false,
+      "latestProviderStatus": "Activation request under review; TLS remediation submitted 2026-10-02; no production-activation confirmation received yet."
+    },
+    "paylink": "Trial/not approved for production; transaction limit previously zero.",
+    "paytabs": "Setup-fee path exists but no approval was given to pay the setup fee."
+  },
+  "financialSafety": {
+    "realPaymentAttempted": false,
+    "amountCharged": 0,
+    "checkoutCreated": false,
+    "paymentCreated": false,
+    "jobCreated": false,
+    "revenueRecorded": 0
+  },
+  "postRunStore": {
+    "Quotes": 47,
+    "Checkouts": 0,
+    "Payments": 0,
+    "Jobs": 0,
+    "integrity": "ok",
+    "foreignKeyViolations": 0,
+    "serverMjsSha256": "4286dffe0c54d36b17f29c718071669ec0bffc72dc83db4985a0a90001258954",
+    "revenueSqliteSha256": "f39913d40d075e08ea25cede7ff147fb61c8adcc52ef317185dd0e24cd92daee"
+  },
+  "preflight": {
+    "workflowRunId": 37048087910,
+    "artifactId": 11244838888,
+    "artifactSha256": "e7854764a77d33c1c6c3158bef084c12def9845f1052d41879354f351f529ec7"
+  }
+}
