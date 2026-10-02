@@ -1,0 +1,54 @@
+{
+  "runId": "NAIF-P5-GHA-37047177470",
+  "phase": "P5 Open-World Discovery → A2A → Free Probe",
+  "verdict": "PASS",
+  "date": "2026-10-02",
+  "runner": {
+    "provider": "GitHub Actions hosted runner",
+    "region": "Azure eastus",
+    "os": "Ubuntu 24.04.5 LTS",
+    "arch": "X64",
+    "workflowRunId": 37047177470,
+    "commit": "f34a5fe31fb6f12519858b6313dfbf7808557b2a",
+    "branch": "p5-openworld-free-probe-20261002"
+  },
+  "proofScope": "Natural-intent public-registry discovery; target identity/domain/product/probe endpoint are not discovery inputs.",
+  "metrics": {
+    "rounds": 5,
+    "p50EndToEndMs": 4493.246,
+    "maxEndToEndMs": 4995.709
+  },
+  "selectedProducts": [
+    "mcp-tool-mini",
+    "mcp-tool-mini",
+    "mcp-tool-mini",
+    "agent-engineering-sprint",
+    "mcp-tool-mini"
+  ],
+  "safety": {
+    "quoteCalled": false,
+    "checkoutCalled": false,
+    "paymentCalled": false,
+    "executionRequested": false,
+    "allQuoteCreatedFalse": true,
+    "allAutomaticCheckoutFalse": true,
+    "allAutomaticPaymentFalse": true,
+    "allAutomaticExecutionFalse": true
+  },
+  "postRunStore": {
+    "Quotes": 42,
+    "Checkouts": 0,
+    "Payments": 0,
+    "Jobs": 0,
+    "totalAgentProbeEvents": 19,
+    "p5ProbeEvents": 5,
+    "integrity": "ok",
+    "foreignKeyViolations": 0,
+    "serverMjsSha256": "4286dffe0c54d36b17f29c718071669ec0bffc72dc83db4985a0a90001258954"
+  },
+  "artifact": {
+    "id": 11245550786,
+    "name": "p5-openworld-free-probe",
+    "zipSha256": "4fe204318c47d6f6ec61dc40b02e7c54668cfb072e82952169cc68abea9f5674"
+  }
+}
