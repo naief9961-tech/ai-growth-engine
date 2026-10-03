@@ -1,14 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.naief9961-tech/naif-fixgraph",
-  "title": "NAIF Agent Gravity — Rescue, Pull Market & Adaptive Offers",
-  "description": "Remote MCP for agent rescue, free diagnostics, adaptive offers, trust, continuity, and traffic.",
-  "version": "1.5.0",
+  "title": "NAIF Agent Gravity — SOS Rescue, Free Diagnostics & Adaptive Offers",
+  "description": "NAIF SOS: free MCP/API failure triage, agent rescue, diagnostics, and bounded repair guidance.",
+  "version": "1.5.2",
   "repository": {
     "url": "https://github.com/naief9961-tech/ai-growth-engine",
     "source": "github"
   },
-  "websiteUrl": "https://naifgravity.com/pull",
+  "websiteUrl": "https://naifgravity.com/sos",
   "remotes": [
     {
       "type": "streamable-http",
