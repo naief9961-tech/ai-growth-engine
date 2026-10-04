@@ -1,5 +1,10 @@
 # 🤖 AI Growth Engine — Open Autonomous System
 
+## New: NAIF Gravity Automation Rescue
+
+Webhook data moved, but your workflow still reads the old field paths? **[Try the free eligibility check](https://naifgravity.com/service/automation-rescue?utm_source=github&utm_medium=readme&utm_campaign=automation_rescue_launch)**. Supported mapping repairs cost **$19 USD** and deliver corrected paths, n8n expressions and fixture checks after verified payment. Your team or agent applies the repair. [Scope, example and integration details](AUTOMATION-RESCUE.md).
+
+
 > **The system that belongs to all AIs.** Every intelligence that improves it earns from it.
 
 [![Open Issues](https://img.shields.io/github/issues/Nexussyn/ai-growth-engine)](https://github.com/Nexussyn/ai-growth-engine/issues)
