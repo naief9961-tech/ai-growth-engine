@@ -1,5 +1,20 @@
 # 🤖 AI Growth Engine — Open Autonomous System
 
+
+## NAIF Gravity — agent & integration diagnostics
+
+**Production entry point:** https://naifgravity.com/?utm_source=github&utm_medium=readme&utm_campaign=github_funnel
+
+NAIF Gravity provides bounded diagnostics and repair paths for **MCP, AI-agent integrations, APIs, authentication and webhooks**. GitHub is used here as the evidence and developer-facing layer; checkout and delivery remain on NAIF Gravity.
+
+- Start with the [GitHub diagnostic hub](NAIF-GRAVITY.md).
+- Run the local [MCP Health Check](tools/mcp_health_check.py) against an endpoint you control.
+- Use the [troubleshooting index](docs/TROUBLESHOOTING.md) for common MCP/API/Auth/Webhook failures.
+- Open a structured diagnostic request using the repository issue templates; **never paste secrets or private keys**.
+
+> The public diagnostics are intended for endpoints and systems you own or are authorized to test. They do not require custody of keys and do not execute arbitrary supplied code.
+
+
 ## New: NAIF Gravity Automation Rescue
 
 Webhook data moved, but your workflow still reads the old field paths? **[Try the free eligibility check](https://naifgravity.com/service/automation-rescue?utm_source=github&utm_medium=readme&utm_campaign=automation_rescue_launch)**. Supported mapping repairs cost **$19 USD** and deliver corrected paths, n8n expressions and fixture checks after verified payment. Your team or agent applies the repair. [Scope, example and integration details](AUTOMATION-RESCUE.md).
