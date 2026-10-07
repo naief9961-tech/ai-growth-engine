@@ -1,18 +1,42 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.naief9961-tech/naif-fixgraph",
-  "title": "NAIF Agent Gravity — Collision-First MCP Diagnostic & Recovery",
-  "description": "Collision-first remote MCP diagnostics for MCP, API, webhook and agent failures, with bounded repair guidance, structured evidence, service matching, trust, continuity and traffic intelligence.",
-  "version": "1.6.6",
+  "title": "NAIF Gravity",
+  "description": "AI agent and MCP diagnostics, API/auth/webhook repair, JSON validation and bounded recovery.",
+  "version": "1.7.0",
   "repository": {
     "url": "https://github.com/naief9961-tech/ai-growth-engine",
     "source": "github"
   },
-  "websiteUrl": "https://naifgravity.com/sos",
+  "websiteUrl": "https://naifgravity.com",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://naifgravity.com/mcp"
     }
-  ]
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "com.naifgravity": {
+        "description": "NAIF Gravity provides fast diagnostic and repair services for AI Agents, MCP servers, APIs, authentication flows, webhooks, automation pipelines, and agent-to-agent integrations. Built for developers and autonomous agents that need quick troubleshooting, validation, recovery, and production-readiness checks.",
+        "tags": [
+          "AI Agents",
+          "MCP",
+          "A2A",
+          "API Repair",
+          "API Integration",
+          "Authentication",
+          "Webhooks",
+          "Automation",
+          "Agent Diagnostics",
+          "Agent Recovery",
+          "Developer Tools",
+          "JSON Validation"
+        ],
+        "agentCardUrl": "https://naifgravity.com/.well-known/agent-card.json",
+        "commercialModel": "Free bounded diagnostics and small paid technical services; current scope and pricing are provided by the live catalog and quote.",
+        "catalogUrl": "https://naifgravity.com/api/agent/catalog"
+      }
+    }
+  }
 }
