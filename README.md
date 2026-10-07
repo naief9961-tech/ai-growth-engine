@@ -9,6 +9,21 @@ NAIF Gravity provides bounded diagnostics and repair workflows for MCP, AI-agent
 
 This repository contains public diagnostic guidance, a small Python MCP health-check script, issue templates, and discovery metadata. It is not a complete source distribution of the hosted service.
 
+## Service discovery
+
+These hosted pages map common developer problems to a focused diagnostic or repair path:
+
+| Problem or intent | Start here |
+| --- | --- |
+| API integration failures, request/response mismatch, or small integration fixes | [API integration diagnostic](https://naifgravity.com/service/api-integration-mini?utm_source=github&utm_medium=readme&utm_campaign=seo_discovery) |
+| JSON validity, malformed payloads, or schema-adjacent checks | [JSON validity check](https://naifgravity.com/service/json-validity-check?utm_source=github&utm_medium=readme&utm_campaign=seo_discovery) |
+| Automation workflow failures and broken task handoffs | [Automation factory](https://naifgravity.com/service/automation-factory?utm_source=github&utm_medium=readme&utm_campaign=seo_discovery) |
+| Data transformation, structured output, or pipeline repair | [Data factory](https://naifgravity.com/service/data-factory?utm_source=github&utm_medium=readme&utm_campaign=seo_discovery) |
+| Docker service health, container startup, or deployment checks | [Docker health fix](https://naifgravity.com/service/docker-health-fix?utm_source=github&utm_medium=readme&utm_campaign=seo_discovery) |
+| Small bounded repair verification | [Repair check](https://naifgravity.com/service/repair-check-beta?utm_source=github&utm_medium=readme&utm_campaign=seo_discovery) |
+
+The canonical home page is [naifgravity.com](https://naifgravity.com). These direct service links make the relationship between each developer problem and its destination explicit for both people and search engines.
+
 ## Try the MCP health check
 
 Requires Python 3 and uses only the standard library. Run against a server you own or are authorized to test:
@@ -54,4 +69,3 @@ If these diagnostics help you debug an integration, consider starring the reposi
 ## Service boundary
 
 The hosted service is available at https://naifgravity.com. Public GitHub diagnostic guidance and optional commercial repair workflows are separate; an issue or contribution does not purchase a service or guarantee a repair.
-
