@@ -19,9 +19,11 @@ cd ai-growth-engine
 python3 tools/mcp_health_check.py https://your-mcp.example/mcp
 ```
 
-Replace the example URL with your endpoint. The script requests `initialize` and `tools/list`; it never calls a tool. It reports HTTP status, JSON-RPC results or errors, and the returned tool count when a JSON response can be parsed.
+Replace the example URL with your endpoint. The script negotiates `initialize`, sends `notifications/initialized`, and reads `tools/list` when advertised. It supports JSON and SSE responses, optional bearer authentication through an environment variable, and bounded pagination; it never calls a tool. Protocol errors produce a nonzero exit status without printing server response bodies or secrets.
 
-See the [quick start and limitations](docs/DIAGNOSTIC-QUICKSTART.md) before interpreting the result. This is a basic probe, not an MCP conformance suite.
+See the [quick start and limitations](docs/DIAGNOSTIC-QUICKSTART.md) before interpreting the result. This is a discovery probe for supported handshake-era revisions, not a full MCP conformance suite.
+
+Try the [offline webhook signature example](examples/webhook_signature_fixture.py) to see why parsing and reserializing JSON can break raw-body verification. It uses synthetic data and makes no network requests.
 
 ## Find the right diagnostic path
 
@@ -52,3 +54,4 @@ If these diagnostics help you debug an integration, consider starring the reposi
 ## Service boundary
 
 The hosted service is available at https://naifgravity.com. Public GitHub diagnostic guidance and optional commercial repair workflows are separate; an issue or contribution does not purchase a service or guarantee a repair.
+
