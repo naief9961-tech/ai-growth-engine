@@ -9,6 +9,19 @@ NAIF Gravity helps developers and AI agents diagnose bounded integration failure
 3. **Webhook problem** — collect the provider, delivery status, signature-verification result and a redacted payload shape.
 4. If the failure is reproducible, open the matching GitHub diagnostic request template.
 
+## Direct diagnostic paths
+
+Use the narrowest matching destination instead of sending every visitor to the home page:
+
+- [API integration diagnostic](https://naifgravity.com/service/api-integration-mini?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=seo_discovery) — API integration errors, request/response mismatch, small integration failures.
+- [JSON validity check](https://naifgravity.com/service/json-validity-check?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=seo_discovery) — malformed JSON, payload validity, and structured-data checks.
+- [Automation factory](https://naifgravity.com/service/automation-factory?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=seo_discovery) — automation workflow failures and broken handoffs.
+- [Data factory](https://naifgravity.com/service/data-factory?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=seo_discovery) — structured data transformation and pipeline repair.
+- [Docker health fix](https://naifgravity.com/service/docker-health-fix?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=seo_discovery) — container health, startup, and deployment diagnostics.
+- [Repair check](https://naifgravity.com/service/repair-check-beta?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=seo_discovery) — bounded repair verification.
+
+Canonical home: https://naifgravity.com
+
 ## What to include
 
 Include only what is needed to reproduce the failure: public repository link if applicable, client/server versions, transport, sanitized error text, expected behavior, and a minimal reproduction.
