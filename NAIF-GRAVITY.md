@@ -22,6 +22,16 @@ Use the narrowest matching destination instead of sending every visitor to the h
 
 Canonical home: https://naifgravity.com
 
+## Guardian subscriptions for agent operators
+
+Teams that need continued visibility into agents rather than a one-time fix can use [NAIF Guardian's 30-day prepaid plans](https://naifgravity.com/subscriptions?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=guardian_30day_plans):
+
+- **Agent Health & Rescue — $9 USD / 30 days:** one agent.
+- **Guardian Pro — $29 USD / 30 days:** up to five agents.
+- **Guardian Agency — $59 USD / 30 days:** up to fifteen agents.
+
+Plans provide bounded, agent-reported health summaries and signed health passports; issue triage and expert review availability depend on tier. **Renewal is manual, with no automatic card or wallet debits currently enabled.** The existing free diagnostics and paid repair flows remain separate.
+
 ## What to include
 
 Include only what is needed to reproduce the failure: public repository link if applicable, client/server versions, transport, sanitized error text, expected behavior, and a minimal reproduction.
