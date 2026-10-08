@@ -2,6 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/naief9961-tech/ai-growth-engine?style=flat)](https://github.com/naief9961-tech/ai-growth-engine/stargazers)
 [![Diagnostic requests](https://img.shields.io/github/issues/naief9961-tech/ai-growth-engine)](https://github.com/naief9961-tech/ai-growth-engine/issues)
+[![Listed on mcpHQ](https://img.shields.io/badge/Listed%20on-mcpHQ-8A2BE2)](https://github.com/mcpHQ/awesome-mcp-servers)
 
 NAIF Gravity provides bounded diagnostics and repair workflows for MCP, AI-agent integrations, APIs, authentication, and webhooks, with reproducible developer-facing diagnostics and machine-readable agent discovery.
 
