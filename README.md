@@ -9,6 +9,20 @@ NAIF Gravity provides bounded diagnostics and repair workflows for MCP, AI-agent
 
 This repository contains public diagnostic guidance, a small Python MCP health-check script, issue templates, and discovery metadata. It is not a complete source distribution of the hosted service.
 
+## NAIF Guardian — 30-day agent-health subscriptions
+
+In addition to one-off MCP/API/webhook diagnostics, **[NAIF Guardian](https://naifgravity.com/subscriptions?utm_source=github&utm_medium=readme&utm_campaign=guardian_30day_plans)** offers prepaid, agent-reported health tracking, signed health passports, and guided incident triage. Plans for different team sizes:
+
+| Plan | Agent capacity | Price per 30 days |
+| --- | ---: | ---: |
+| Agent Health & Rescue | 1 agent | **$9 USD** |
+| Guardian Pro | Up to 5 agents | **$29 USD** |
+| Guardian Agency | Up to 15 agents | **$59 USD** |
+
+**Billing:** Each 30-day term is prepaid; renewal currently requires a new, intentional payment. **Automatic recurring card/wallet charges are not live.** No private keys or customer credentials should be submitted for health reporting. More involved implementation or repair is scoped and quoted separately.
+
+[Explore Guardian plans, eligibility and current payment options](https://naifgravity.com/subscriptions?utm_source=github&utm_medium=readme&utm_campaign=guardian_30day_plans).
+
 ## Service discovery
 
 These hosted pages map common developer problems to a focused diagnostic or repair path:
