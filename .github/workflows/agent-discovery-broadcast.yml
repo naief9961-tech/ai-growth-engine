@@ -44,4 +44,19 @@ jobs:
         run: ./mcp-publisher login github-oidc
 
       - name: Broadcast release to official MCP Registry
-        run: ./mcp-publisher publish server.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          set +e
+          output=$(./mcp-publisher publish server.json 2>&1)
+          status=$?
+          set -e
+          printf '%s\\n' "$output"
+          if [ "$status" -eq 0 ]; then
+            exit 0
+          fi
+          if grep -Fq 'invalid version: cannot publish duplicate version' <<< "$output"; then
+            echo 'MCP Registry already contains this exact version; no re-publication needed.'
+            exit 0
+          fi
+          exit "$status"
