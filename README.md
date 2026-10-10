@@ -10,19 +10,21 @@ NAIF Gravity provides bounded diagnostics and repair workflows for MCP, AI-agent
 
 This repository contains public diagnostic guidance, a small Python MCP health-check script, issue templates, and discovery metadata. It is not a complete source distribution of the hosted service.
 
-## NAIF Guardian — 30-day agent-health subscriptions
+## Live discovery for AI agents
 
-In addition to one-off MCP/API/webhook diagnostics, **[NAIF Guardian](https://naifgravity.com/subscriptions?utm_source=github&utm_medium=readme&utm_campaign=guardian_30day_plans)** offers prepaid, agent-reported health tracking, signed health passports, and guided incident triage. Plans for different team sizes:
+NAIF Gravity is openly discoverable through its machine-readable, read-only entry points:
 
-| Plan | Agent capacity | Price per 30 days |
-| --- | ---: | ---: |
-| Agent Health & Rescue | 1 agent | **$9 USD** |
-| Guardian Pro | Up to 5 agents | **$29 USD** |
-| Guardian Agency | Up to 15 agents | **$59 USD** |
+- [A2A Agent Card](https://naifgravity.com/.well-known/agent-card.json) — identity, skills, protocol interfaces.
+- [Remote MCP endpoint](https://naifgravity.com/mcp) — Streamable HTTP; MCP clients should negotiate using the MCP protocol (a normal browser GET may return 405).
+- [AI service catalog](https://naifgravity.com/.well-known/ai-catalog.json) and [agent catalog API](https://naifgravity.com/api/agent/catalog) — use live descriptions, eligibility and purchase instructions.
+- [LLM capability guide](https://naifgravity.com/llms.txt) and [A2A discovery guide](AGENT-DISCOVERY.md).
+- [A2A Registry listing](https://www.a2a-registry.org/agent/com.naifgravity.naif_technical_rescue_agent) and [Official MCP Registry listing](https://registry.modelcontextprotocol.io/?q=io.github.naief9961-tech%2Fnaif-fixgraph).
 
-**Billing:** Each 30-day term is prepaid; renewal currently requires a new, intentional payment. **Automatic recurring card/wallet charges are not live.** No private keys or customer credentials should be submitted for health reporting. More involved implementation or repair is scoped and quoted separately.
+This repository's [MCP metadata](server.json) is broadcast to the official MCP Registry via a pinned, verified GitHub Actions publisher when it changes. Listing, crawling, or a registry publish does not prove a visit, a qualified lead, or a sale.
 
-[Explore Guardian plans, eligibility and current payment options](https://naifgravity.com/subscriptions?utm_source=github&utm_medium=readme&utm_campaign=guardian_30day_plans).
+## Individual purchases (no new recurring billing)
+
+The [services catalog](https://naifgravity.com/services) lists the current individual, one-time technical services. New monthly subscriptions are paused. Pricing, purchase eligibility and region-specific payment options must be obtained from the live store; do not rely on older subscription offers, cached prices or an assumed wallet/payment path. Existing customer subscriptions and past payments are unaffected by this discovery documentation.
 
 ## Service discovery
 
