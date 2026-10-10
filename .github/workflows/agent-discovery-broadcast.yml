@@ -1,0 +1,47 @@
+name: NAIF Gravity Agent Discovery Broadcast
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - server.json
+      - .github/workflows/agent-discovery-broadcast.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: naif-gravity-mcp-registry-publish
+  cancel-in-progress: false
+
+jobs:
+  publish-mcp:
+    name: Validate and announce remote MCP
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out public discovery metadata
+        uses: actions/checkout@v4
+
+      - name: Install verified official MCP publisher
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error --retry 2 \
+            https://github.com/modelcontextprotocol/registry/releases/download/v1.8.1/mcp-publisher_linux_amd64.tar.gz \
+            --output mcp-publisher.tar.gz
+          echo 'a06c9096dcb9727c13555b6be26c7effa707b01f06a4c561ba7a3635443cf2cc  mcp-publisher.tar.gz' | sha256sum --check
+          tar -xzf mcp-publisher.tar.gz mcp-publisher
+          chmod 755 mcp-publisher
+          ./mcp-publisher --version
+
+      - name: Validate manifest
+        run: ./mcp-publisher validate server.json
+
+      - name: Sign in with GitHub OIDC
+        run: ./mcp-publisher login github-oidc
+
+      - name: Broadcast release to official MCP Registry
+        run: ./mcp-publisher publish server.json
