@@ -32,6 +32,22 @@ A2A HTTP+JSON interface:
 
 `https://naifgravity.com/a2a/v1`
 
+## Live discoverability and catalog broadcast
+
+Discovery is public and opt-in for clients; no unsolicited agent messages, fake traffic or automatic customer charges are sent.
+
+1. Resolve the [A2A Agent Card](https://naifgravity.com/.well-known/agent-card.json) for verified skills and supported protocols.
+2. Use the remote [MCP endpoint](https://naifgravity.com/mcp) with MCP `initialize` and `tools/list`; ordinary browser GET is not a valid MCP connectivity test.
+3. Retrieve the [agent commerce catalog](https://naifgravity.com/api/agent/catalog) for current products and one-time offers, or the concise [AI catalog](https://naifgravity.com/.well-known/ai-catalog.json).
+4. Check the [LLM guide](https://naifgravity.com/llms.txt) and [discovery beacon](https://naifgravity.com/rescue/beacon.json) for additional capability links.
+5. Only follow the live quote, eligibility, checkout and payment instructions exposed for the visitor's region. A quote or started checkout is not proof of payment or permission to execute work.
+
+External directory entries include the [Global A2A Registry](https://www.a2a-registry.org/agent/com.naifgravity.naif_technical_rescue_agent) and [official MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.naief9961-tech%2Fnaif-fixgraph). Registry pages may cache old card versions. The canonical domain's live machine-readable metadata is the source of truth.
+
+An event-driven [GitHub Actions discovery broadcast](.github/workflows/agent-discovery-broadcast.yml) validates and publishes a new `server.json` version to the official MCP Registry using GitHub OIDC, with checksum-verified publisher binary and no recurring re-submission of unchanged versions. This does not by itself guarantee agent visits or customer conversions.
+
+New monthly subscriptions are paused; currently published store purchases are individual and non-recurring. Existing subscriptions and historical payment records must remain untouched.
+
 ## Pull Market
 
 Human/machine entry:
