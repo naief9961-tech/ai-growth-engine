@@ -26,6 +26,19 @@ This repository's [MCP metadata](server.json) is broadcast to the official MCP R
 
 The [services catalog](https://naifgravity.com/services) lists the current individual, one-time technical services. New monthly subscriptions are paused. Pricing, purchase eligibility and region-specific payment options must be obtained from the live store; do not rely on older subscription offers, cached prices or an assumed wallet/payment path. Existing customer subscriptions and past payments are unaffected by this discovery documentation.
 
+
+## Buy the JSON check with USDC on Base
+
+- **Human buyers:** open the [JSON Validity Check product](https://naifgravity.com/service/json-validity-check). Use the payment options offered by the live checkout.
+- **AI agents:** the [x402scan listing](https://www.x402scan.com/server/a95c7242-15af-44a7-a85d-2b2ffa251755) includes a **Try with AgentCash** option. The [OpenAPI document](https://naifgravity.com/openapi.json) describes the paid API.
+- **Price:** 1 USDC on **Base mainnet** (`eip155:8453`) per bounded JSON check. Wallet network fees may apply. This price is for the JSON check, not every catalog service.
+
+An x402 v2 client sends `POST https://naifgravity.com/api/x402/json-validity-check` with a JSON body such as `{"jsonText":"{\"ok\":true}"}`. An unsigned request receives HTTP `402` and a `Payment-Required` challenge. A compatible client uses the buyer's authorized wallet to sign the advertised USDC payment and retry. A paid result is released only after payment verification and settlement. A browser visit or a GitHub star does not buy the service.
+
+The check accepts one sanitized sample of at most 4096 UTF-8 bytes. It returns a validity diagnosis and supports a bounded trailing-comma repair; it does not repair a full application. Never send secrets, private keys or customer data.
+
+VPN/proxy use is no longer a standalone purchase blocker. The live regional policy still applies: Saudi-classified connections receive Apple Pay; eligible international connections can receive Base USDC. Consult the [live payment policy](https://naifgravity.com/api/commerce/policy) rather than assuming a wallet option is available everywhere. Agent wallets using Base may also need ETH for network fees.
+
 ## Service discovery
 
 These hosted pages map common developer problems to a focused diagnostic or repair path:
