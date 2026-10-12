@@ -1,32 +1,111 @@
-name: Registry Broadcast
+name: NAIF Gravity Discovery Health
 
 on:
   schedule:
-    - cron: '0 9 * * 1'  # Every Monday 9am
+    - cron: '0 9 * * 1'
   push:
     branches: [main]
     paths:
       - '.well-known/agent.json'
-      - 'README.md'
+      - 'server.json'
+      - '.github/workflows/registry-broadcast.yml'
+  pull_request:
+    paths:
+      - '.well-known/agent.json'
+      - 'server.json'
+      - '.github/workflows/registry-broadcast.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
-  broadcast:
+  discovery-health:
+    name: Verify NAIF Gravity MCP and A2A discovery
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Submit to Agentverse (Fetch.ai)
-        run: |
-          curl -s -X POST "https://agentverse.ai/v1/agents/register" \
-            -H "Content-Type: application/json" \
-            -d '{"url":"https://github.com/Nexussyn/ai-growth-engine","manifest":"https://raw.githubusercontent.com/Nexussyn/ai-growth-engine/main/.well-known/agent.json"}' || true
+      - name: Check out public metadata
+        uses: actions/checkout@v4
 
-      - name: Submit to ACP Registry
+      - name: Validate checked-in identity and discovery links
+        shell: bash
         run: |
-          curl -s -X POST "https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/a2a-registry-submit" \
-            -H "Content-Type: application/json" \
-            -d '{"agent_url":"https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/well-known-agent","repo":"https://github.com/Nexussyn/ai-growth-engine"}'
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
 
-      - name: Submit to Runtime Open Federation
+          with open(".well-known/agent.json", encoding="utf-8") as handle:
+              agent = json.load(handle)
+          with open("server.json", encoding="utf-8") as handle:
+              mcp = json.load(handle)
+
+          repo = "https://github.com/naief9961-tech/ai-growth-engine"
+          domain = "https://naifgravity.com"
+          assert agent["name"] == "NAIF Gravity"
+          assert agent["repository"] == repo
+          assert agent["url"] == domain
+          assert agent["agentCardUrl"] == domain + "/.well-known/agent-card.json"
+          assert agent["endpoints"]["a2a"] == domain + "/a2a/v1"
+          assert agent["endpoints"]["mcp"] == domain + "/mcp"
+          assert agent["endpoints"]["catalog"] == domain + "/api/agent/catalog"
+          assert mcp["repository"]["url"] == repo
+          assert mcp["websiteUrl"] == domain
+          assert any(remote.get("url") == domain + "/mcp" for remote in mcp["remotes"])
+          assert mcp["name"] == "io.github.naief9961-tech/naif-fixgraph"
+          print("PASS: repository metadata uses the correct NAIF Gravity identity.")
+          PY
+
+      - name: Verify live public discovery endpoints (read-only)
+        shell: bash
         run: |
-          curl -s -X POST "https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/runtime-public-federation" \
-            -H "Content-Type: application/json" \
-            -d '{"action":"register","name":"ai-growth-engine","repo":"https://github.com/Nexussyn/ai-growth-engine","endpoints":{"x402":"https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/x402-seller","a2a":"https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/a2a-endpoint"}}'
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import time
+          import urllib.error
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          domain = "https://naifgravity.com"
+
+          def get_public(path):
+              url = domain + path
+              for attempt in range(3):
+                  try:
+                      request = urllib.request.Request(url, headers={
+                          "User-Agent": "Mozilla/5.0 (compatible; NAIFGravityDiscoveryHealth/1.0)",
+                          "Accept": "application/json, application/xml, text/plain, */*",
+                      })
+                      with urllib.request.urlopen(request, timeout=12) as response:
+                          if response.status != 200:
+                              raise ValueError(f"{path}: unexpected HTTP {response.status}")
+                          data = response.read(1000000)
+                          print(f"PASS: {path} HTTP 200")
+                          return data
+                  except (urllib.error.URLError, TimeoutError, ValueError) as exc:
+                      if attempt == 2:
+                          raise RuntimeError(f"FAIL: {url} -- {exc}") from exc
+                      time.sleep(2)
+
+          card = json.loads(get_public("/.well-known/agent-card.json"))
+          assert card.get("name", "").startswith("NAIF ")
+          assert any(item.get("url") == domain + "/a2a/v1"
+                     for item in card.get("supportedInterfaces", []))
+          catalog = json.loads(get_public("/api/agent/catalog"))
+          assert isinstance(catalog.get("products"), list) and catalog["products"]
+          robots = get_public("/robots.txt").decode("utf-8")
+          assert "Sitemap: https://naifgravity.com/sitemap.xml" in robots
+          sitemap = ET.fromstring(get_public("/sitemap.xml"))
+          assert any(node.tag.endswith("loc") and node.text == domain + "/"
+                     for node in sitemap.iter())
+          print("PASS: live A2A card, catalog, robots.txt and sitemap are accessible.")
+          print("NOTE: This health check does not claim approval by any third-party registry.")
+          PY
+
+      - name: Explain external registry verification scope
+        if: always()
+        shell: bash
+        run: |
+          echo 'This workflow validates public discovery URLs only. It does not auto-submit to unsupported registries or assert third-party indexing.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Official MCP Registry publication is handled separately by agent-discovery-broadcast.yml.' >> "$GITHUB_STEP_SUMMARY"
