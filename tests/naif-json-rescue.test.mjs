@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+import {checkJson} from '../skills/naif-json-rescue/scripts/check-json.mjs';
+const script=fileURLToPath(new URL('../skills/naif-json-rescue/scripts/check-json.mjs',import.meta.url));
+test('primitives and strings pass without disclosure',()=>{for(const s of ['null','true','123','[1,2]','{"secret":"fixture-private"}','"a,}"']){const out=checkJson(Buffer.from(s));assert.equal(out.status,'VALID');assert.equal(JSON.stringify(out).includes('fixture-private'),false);}});
+test('invalid JSON remains invalid without repair',()=>{for(const s of ['{"ok":true,}','[1,]','{bad}','NaN',''])assert.equal(checkJson(Buffer.from(s)).status,'INVALID');});
+test('UTF-8 bounds and encoding',()=>{assert.equal(checkJson(Buffer.from('"'+'a'.repeat(4094)+'"')).status,'VALID');assert.equal(checkJson(Buffer.from('"'+'a'.repeat(4095)+'"')).status,'TOO_LARGE');assert.equal(checkJson(Buffer.from('"'+'界'.repeat(1365)+'"')).status,'TOO_LARGE');assert.equal(checkJson(Buffer.from([255])).reason,'INVALID_UTF8');});
+test('CLI stdin status and privacy',()=>{for(const [input,code,status] of [['{"private":"fixture"}',0,'VALID'],['{bad}',1,'INVALID'],['x'.repeat(4097),2,'TOO_LARGE']]){const r=spawnSync(process.execPath,[script,'-'],{input,encoding:'utf8'});assert.equal(r.status,code);assert.equal(JSON.parse(r.stdout).status,status);assert.equal(r.stdout.includes('fixture'),false);assert.equal(r.stderr,'');}});
+test('read error does not disclose private path',()=>{const r=spawnSync(process.execPath,[script,'/missing/private/path'],{encoding:'utf8'});assert.equal(r.status,2);assert.equal(JSON.parse(r.stdout).reason,'READ_FAILED');assert.equal(r.stdout.includes('/missing'),false);});
