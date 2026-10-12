@@ -41,6 +41,42 @@ NAIF Gravity is openly discoverable through its machine-readable, read-only entr
 
 This repository's [MCP metadata](server.json) is broadcast to the official MCP Registry via a pinned, verified GitHub Actions publisher when it changes. Listing, crawling, or a registry publish does not prove a visit, a qualified lead, or a sale.
 
+## Launch offer — one-time technical services (October 12–26, 2026)
+
+**Live automatic discount, no coupon or manual agent approval.** The launch prices below apply to newly created eligible quotes through **2026-10-26 05:40 UTC (08:40 Saudi time)** **or the first 10 verified purchases of campaign products**, whichever happens first. Existing quotes and past payments retain their original terms. These are prices for **bounded technical-service jobs**, not per-call x402 tools.
+
+| Bounded technical service | Regular USD | Launch USD |
+| --- | ---: | ---: |
+| NAIF API Fixer | $89 | **$79** |
+| Web3 QA Sprint | $99 | **$89** |
+| NAIF Data Factory | $129 | **$115** |
+| Repair CI Gate Pilot | $129 | **$115** |
+| RPC Reliability Audit | $129 | **$115** |
+| Web3 Backend Rescue | $149 | **$129** |
+| x402 Endpoint Sprint | $149 | **$129** |
+| Smart-Contract Integration Review | $179 | **$159** |
+| Agentic Wallet & Payments | $199 | **$179** |
+| Automation Factory | $199 | **$179** |
+| AI Agent Engineering Sprint | $249 | **$219** |
+| Wallet Authentication Integration | $249 | **$219** |
+| Trading Agent Infrastructure Sprint | $299 | **$269** |
+| Web3 Automation Pilot | $399 | **$349** |
+
+For **real-time eligibility and exact currently purchasable prices**, agents should call [the live agent catalog](https://naifgravity.com/api/agent/catalog), then **POST /api/agent/quote → POST /api/quote/accept → select an eligible payment rail**. Use the amount returned in the accepted quote and checkout; never calculate a discount client-side. USDC on Base and USDT on TRON may be available to eligible international requests; Apple Pay requires a human handoff. Wallet availability follows country and purchase policy. Quote acceptance alone never transfers funds or triggers implementation. Most engineering products require a verified paid Work handoff and are **not instant downloadable results**.
+
+### Instant x402 API tools (separate from launch offer)
+
+These **four published full-scope paid API endpoints** remain at their existing exact per-call prices until the payment challenge and live catalog are changed together:
+
+| API tool | Price per call | Endpoint (POST) |
+| --- | ---: | --- |
+| JSON Validity Check | $1.00 USDC | [x402 JSON validity](https://naifgravity.com/api/x402/json-validity-check) |
+| API Response Shape Check | $2.00 USDC | [x402 response shape](https://naifgravity.com/api/x402/api-response-shape-check) |
+| JSON Normalize Mini | $3.00 USDC | [x402 JSON normalize](https://naifgravity.com/api/x402/json-normalizer) |
+| CSV Schema Audit Mini | $5.00 USDC | [x402 CSV schema](https://naifgravity.com/api/x402/csv-schema-audit) |
+
+Discover supported routes using the [x402 manifest](https://naifgravity.com/.well-known/x402), [x402 catalog](https://naifgravity.com/api/x402/catalog), and [OpenAPI](https://naifgravity.com/openapi.json). All four are published as self-registered services in [402 Index](https://402index.io) and are discoverable via [Agent402](https://agent402.tools/sell), which currently recognizes four tools on Base. **Lite trial rates have not been published: do not request, quote, or announce them as live.** A successful 402 challenge or an external directory listing is not proof of a settled sale or inclusion in Coinbase Bazaar.
+
 ## Individual purchases (no new recurring billing)
 
 The [services catalog](https://naifgravity.com/services) lists the current individual, one-time technical services. New monthly subscriptions are paused. Pricing, purchase eligibility and region-specific payment options must be obtained from the live store; do not rely on older subscription offers, cached prices or an assumed wallet/payment path. Existing customer subscriptions and past payments are unaffected by this discovery documentation.
