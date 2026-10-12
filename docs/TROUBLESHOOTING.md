@@ -36,7 +36,7 @@ Verify the raw request body is used, the correct signing secret is selected, tim
 Log the provider event ID, handler status, routing decision and idempotency outcome. Separate delivery from business-logic processing.
 
 ### 10. Duplicate webhook processing
-Use the provider event ID or a stable idempotency key, persist the processed state and make retries safe.
+Use a stable delivery/effect identity and persist each effect's outcome. For webhook fan-out, one event-wide processed flag can restart successful workflows when another workflow fails. Also check the crash window between durable run creation and claim completion, concurrent redelivery, and retention versus the replay window. See the [partial-success retry checklist](WEBHOOK-PARTIAL-RETRY.md) for synthetic failure-injection cases.
 
 ## Need a bounded repair?
 
