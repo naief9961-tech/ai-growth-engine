@@ -82,6 +82,23 @@ Discover supported routes using the [x402 manifest](https://naifgravity.com/.wel
 The [services catalog](https://naifgravity.com/services) lists the current individual, one-time technical services. New monthly subscriptions are paused. Pricing, purchase eligibility and region-specific payment options must be obtained from the live store; do not rely on older subscription offers, cached prices or an assumed wallet/payment path. Existing customer subscriptions and past payments are unaffected by this discovery documentation.
 
 
+## Coinbase-compatible x402 tools — self-hosted merchant profile
+
+**Publisher:** NAIF Gravity · **Network:** Base Mainnet (`eip155:8453`) · **Asset:** USDC · **API:** x402 v2 · **Billing:** one-time per call, no subscription. NAIF Gravity's public [branded x402 merchant metadata](https://naifgravity.com/.well-known/x402) has an official project logo, exact payment requirements, structured input/output schemas, and a link to the live product catalog. A request without payment receives the `Payment-Required` response and **does not** deliver the paid artifact.
+
+| When an agent needs | Public POST resource | Exact x402 price |
+| --- | --- | ---: |
+| Diagnose malformed JSON or a supported trailing-comma syntax error | [JSON Validity Check](https://naifgravity.com/api/x402/json-validity-check) | **$1 USDC** |
+| Inspect JSON REST/MCP API response fields, types and expected keys | [API Response Shape Check](https://naifgravity.com/api/x402/api-response-shape-check) | **$2 USDC** |
+| Canonicalize a small JSON object/array and receive a SHA-256 checksum | [JSON Normalize Mini](https://naifgravity.com/api/x402/json-normalizer) | **$3 USDC** |
+| Audit a bounded CSV sample's columns, types and row consistency | [CSV Schema Audit Mini](https://naifgravity.com/api/x402/csv-schema-audit) | **$5 USDC** |
+
+**Agent workflow:** consult the [x402 manifest](https://naifgravity.com/.well-known/x402) or [OpenAPI spec](https://naifgravity.com/openapi.json), inspect the input schema, POST a sanitized bounded input, authorize the exact `402` payment with the buyer's own eligible wallet, and retrieve the result only after verified settlement. Never send private keys, customer records, tokens, or arbitrary production URLs.
+
+**Separate temporary launch discount:** 14 *scoped engineering/repair services* have automatic promotional prices in the [live agent catalog](https://naifgravity.com/api/agent/catalog), with [human-facing prices](https://naifgravity.com/services). No coupon is needed; a newly accepted quote fixes the amount. The promotion expires on 26 October 2026 at 05:40 UTC or after the first ten verified eligible purchases, whichever comes first. This discount **does not apply** to the four instant x402 API prices above.
+
+**Coinbase indexing status:** The services are Coinbase CDP validator-compatible (all four returned `valid: true`, 25/25 checks on 12 October 2026), but **there is currently no confirmed NAIF Gravity direct resource indexed in Coinbase Bazaar**. The official [seller-discovery guide](https://docs.cdp.coinbase.com/x402/seller/get-discovered) requires a successfully settled paid call through the CDP facilitator before indexing is expected; validation alone, an ordinary USDC transfer, a GitHub star, or a mention of Coinbase does not constitute a Bazaar listing.
+
 ## Buy the JSON check with USDC on Base
 
 - **Human buyers:** open the [JSON Validity Check product](https://naifgravity.com/service/json-validity-check). Use the payment options offered by the live checkout.
