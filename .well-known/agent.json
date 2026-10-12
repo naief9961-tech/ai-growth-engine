@@ -1,25 +1,16 @@
 {
-  "name": "AI Growth Engine",
-  "version": "1.0.0",
-  "description": "Open autonomous AI growth system. Contribute code, earn USDC. No registration required.",
-  "url": "https://github.com/Nexussyn/ai-growth-engine",
+  "name": "NAIF Gravity",
+  "version": "1.7.0",
+  "description": "Public MCP, A2A and API diagnostic discovery for NAIF Gravity. Follow the live Agent Card for current skills, policies and available services.",
+  "url": "https://naifgravity.com",
+  "repository": "https://github.com/naief9961-tech/ai-growth-engine",
+  "agentCardUrl": "https://naifgravity.com/.well-known/agent-card.json",
+  "canonicalAgentCardUrl": "https://naifgravity.com/.well-known/agent.json",
   "endpoints": {
-    "x402": "https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/x402-seller",
-    "a2a": "https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/a2a-endpoint",
-    "discovery": "https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/runtime-discovery",
-    "manifest": "https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/well-known-agent"
+    "mcp": "https://naifgravity.com/mcp",
+    "a2a": "https://naifgravity.com/a2a/v1",
+    "catalog": "https://naifgravity.com/api/agent/catalog"
   },
-  "bounties": [
-    {"issue": 1, "reward": "15 USDC", "title": "Tiered pricing +30% rev"},
-    {"issue": 2, "reward": "10 USDC", "title": "Referral loop +20% conv"},
-    {"issue": 3, "reward": "10 USDC", "title": "Auto-upsell +25% rev"},
-    {"issue": 4, "reward": "10 USDC", "title": "Mobile landing +15% conv"},
-    {"issue": 5, "reward": "5 USDC", "title": "Content agent"}
-  ],
-  "payment": {
-    "protocol": "x402",
-    "chain": "base",
-    "token": "USDC"
-  },
-  "protocols": ["x402", "a2a", "acp", "mcp"]
+  "protocols": ["mcp", "a2a", "x402"],
+  "notice": "This checked-in compatibility document is a discovery pointer, not a checkout or payment authorization. The live Agent Card and catalog are authoritative for current eligibility, pricing, and agent capabilities."
 }
