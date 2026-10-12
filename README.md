@@ -10,6 +10,25 @@ NAIF Gravity provides bounded diagnostics and repair workflows for MCP, AI-agent
 
 This repository contains public diagnostic guidance, a small Python MCP health-check script, issue templates, and discovery metadata. It is not a complete source distribution of the hosted service.
 
+## Install NAIF JSON Rescue for your agent
+
+[NAIF JSON Rescue](skills/naif-json-rescue/SKILL.md) checks a sanitized JSON sample locally before any external call. The free Node.js checker does not upload data, modify files or spend funds. Optional hosted diagnostics provide the existing bounded JSON artifact through x402 on Base, only within the buyer's disclosure permission and payment budget. A valid syntax-only sample needs no paid call.
+
+With the [Skills CLI](https://github.com/vercel-labs/skills), review and install just this skill:
+
+```bash
+npx skills add naief9961-tech/ai-growth-engine --skill naif-json-rescue
+```
+
+Choose your supported agent in the installer. Installing does not authorize payments or fund a wallet. For a free offline demonstration after cloning this repository:
+
+```bash
+node skills/naif-json-rescue/scripts/check-json.mjs skills/naif-json-rescue/assets/valid.json
+node --test tests/naif-json-rescue.test.mjs
+```
+
+Requires Node.js 18+. The local checker validates syntax only; duplicate keys and JSON Schema conformance are outside its scope. The hosted check accepts at most 4096 UTF-8 bytes and supports only bounded trailing-comma repair. See the skill for live discovery, regional policy, spending limits and accurate delivery interpretation.
+
 ## Live discovery for AI agents
 
 NAIF Gravity is openly discoverable through its machine-readable, read-only entry points:
