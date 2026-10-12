@@ -24,6 +24,14 @@ The MCP surface includes technical rescue, repair packets, trust/preflight, traf
 
 ## A2A discovery
 
+### A2A Registry payment-capabilities extension
+
+The [signed A2A Agent Card](https://naifgravity.com/.well-known/agent-card.json) now includes the **optional A2A Registry v1 extension** (`capabilities.extensions`) with a `freemium` payment model, inbound `x402` and an official Base USDC settlement rail (`eip155:8453`). The original 17 A2A skills and card signature are preserved.
+
+This extension is **discovery metadata**, not a wallet authorization, Coinbase Bazaar listing, payment receipt, or a guarantee that external A2A Registry caches have refreshed. A buyer agent must still use an authorized payment wallet and follow its own live 402 challenge or the eligible merchant quote/checkout instructions. Direct agent purchases work independently of whether any third-party Smart Order Router accepts a seller for paid dispatch.
+
+
+
 Agent Card:
 
 `https://naifgravity.com/.well-known/agent-card.json`
