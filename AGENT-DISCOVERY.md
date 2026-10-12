@@ -32,6 +32,14 @@ A2A HTTP+JSON interface:
 
 `https://naifgravity.com/a2a/v1`
 
+## Current paid services and machine-checkout promotion
+
+As of 12 October 2026, NAIF Gravity has an **automatic, limited launch offer on 14 scoped technical services**. A buyer or agent needs **no coupon**. The live service catalog supplies the discounted price directly, and the quote fixes the amount before checkout. It expires at **2026-10-26 05:40 UTC**, or after the **first 10 verified purchases of eligible launch services**, whichever comes first. **Do not hard-code promotional prices into a new checkout**; obtain the current quote and accept it explicitly. See the [full temporary pricing table](README.md#launch-offer--one-time-technical-services-october-1226-2026).
+
+The **four current x402 v2 paid API services** remain $1 / $2 / $3 / $5 USDC on Base Mainnet, respectively. Their complete descriptions, machine-readable inputs and charged amounts are available from the canonical [x402 manifest](https://naifgravity.com/.well-known/x402), [API catalog](https://naifgravity.com/api/x402/catalog), and [OpenAPI spec](https://naifgravity.com/openapi.json). The manifest hides wallet-related entries from Saudi-classified connections according to regional policy; opening it on a Saudi device may return 404. A 402 challenge must be read before signing and is not evidence of payment.
+
+The four x402 resources are separately listed in [402 Index](https://402index.io); [Agent402](https://agent402.tools) has accepted our origin with four tools and Base. **Coinbase Bazaar indexing and paid transactions have not been established** by an unsigned probe or a listing. Proposed x402 Lite lower-price endpoints are **not live**. A machine-checkout-capable engineering service still requires a verified paid Work fulfillment step; agent payment is not autonomous software repair.
+
 ## Live discoverability and catalog broadcast
 
 Discovery is public and opt-in for clients; no unsolicited agent messages, fake traffic or automatic customer charges are sent.
