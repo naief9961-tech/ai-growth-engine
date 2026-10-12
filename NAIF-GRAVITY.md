@@ -22,6 +22,14 @@ Use the narrowest matching destination instead of sending every visitor to the h
 
 Canonical home: https://naifgravity.com
 
+## Launch discount and direct agent purchases (12–26 October 2026)
+
+The currently published, one-time developer-service offers include a **temporary 14-product launch discount**, applied automatically to new eligible quotes without a coupon. The price is locked in a Quote and remains unchanged while its checkout is completed. The campaign ends **2026-10-26 at 05:40 UTC or after 10 verified purchases of eligible launch products**, whichever comes first. See [the complete launch offer and price table](README.md#launch-offer--one-time-technical-services-october-1226-2026) and retrieve the authoritative price at the time of purchase from [the live agent catalog](https://naifgravity.com/api/agent/catalog).
+
+For an agent authorized to purchase: fetch the catalog, POST to /api/agent/quote with the real requested scope, POST to /api/quote/accept, then choose an eligible live payment method. Base USDC and TRON USDT are payment options for eligible international buyers; Apple Pay requires human buyer authorization. **No artificial purchase or payment is authorized by these discovery instructions.** All Work-required services begin only after a verified paid job and remain subject to human/scoped delivery checks.
+
+For **instant per-call x402** there are four published full-scope POST endpoints. [x402 manifest](https://naifgravity.com/.well-known/x402) and [OpenAPI](https://naifgravity.com/openapi.json) advertise exact Base USDC requirements and methods. Their existing fixed prices are $1, $2, $3, and $5 per call; **do not offer proposed Lite prices as live endpoints**. On Saudi-classified requests the regional wallet policy still applies.
+
 ## Individual services and agent discovery
 
 Use the [live services catalog](https://naifgravity.com/services?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=one_time_services) for individual, one-time purchases. New monthly subscriptions are paused. Obtain current pricing, eligibility and region-specific payment options from the live store; older Guardian subscription offers are not current purchase instructions.
