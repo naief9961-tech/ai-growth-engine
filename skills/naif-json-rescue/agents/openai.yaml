@@ -1,0 +1,4 @@
+interface:
+  display_name: "NAIF JSON Rescue"
+  short_description: "Check JSON locally and optionally use bounded paid diagnostics"
+  default_prompt: "Use $naif-json-rescue to check this sanitized JSON locally first."
