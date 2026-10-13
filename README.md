@@ -10,6 +10,24 @@ NAIF Gravity provides bounded diagnostics and repair workflows for MCP, AI-agent
 
 This repository contains public diagnostic guidance, a small Python MCP health-check script, issue templates, and discovery metadata. It is not a complete source distribution of the hosted service.
 
+## What’s new: Micro Tools V2 — free preview, paid report
+
+**Broken JSON? Unexpected API response? Need consistent data output?** Preview your sanitized sample at no charge, then choose a **one-time** report if the bounded result is useful. No subscription and no payment during preview.
+
+| Live Micro Tool V2 | One-time USD | What you receive after verified payment |
+| --- | ---: | --- |
+| **JSON Validity Check** | **$1** | Pinpoint syntax issues; flag duplicate keys; safe trailing-comma repair where supported; inferred sample schema, CI snippet and SHA-256 receipt |
+| **API Response Shape Check** | **$2** | Compare two JSON response samples for added/removed keys and type changes; generate *sample-based* TypeScript/OpenAPI response schemas and QA notes (no live API probing) |
+| **JSON Normalize Mini** | **$3** | Stable key order, optional trimming/indentation, a change log, before/after sizes and SHA-256 receipt |
+
+**[Try a free preview of the three tools →](https://naifgravity.com/micro-v2?utm_source=github&utm_medium=repo_readme&utm_campaign=micro_tools_v2)** · [Browse the live catalog](https://naifgravity.com/api/agent/catalog)
+
+**Simple agent-to-report flow:** request a sample preview (`POST /api/micro-v2/preview`), request and accept a fixed-price quote (`POST /api/agent/quote` → `POST /api/quote/accept`), select an **eligible** checkout rail returned by the response, then retrieve the bounded report (`POST /api/micro-v2/deliver`) using the private delivery token **after payment verification**. Base USDC and TRON USDT may be available to eligible international buyers; Saudi-classified buyers use Apple Pay with human authorization. Agent-wallet checkout instructions are not an instruction to transfer funds automatically.
+
+All three tools accept sanitized, bounded samples (maximum **4,096 UTF-8 bytes**). Paid V2 inputs and reports are encrypted at rest; the original input is cleared from active records after report generation, with report retrieval limited to seven days. Never submit secrets, raw customer records, private keys or payment credentials. Per-call **x402 paid API** tools are a separate purchase path; the fourth CSV tool remains $5.
+
+---
+
 ## Install NAIF JSON Rescue for your agent
 
 [NAIF JSON Rescue](skills/naif-json-rescue/SKILL.md) checks a sanitized JSON sample locally before any external call. The free Node.js checker does not upload data, modify files or spend funds. Optional hosted diagnostics provide the existing bounded JSON artifact through x402 on Base, only within the buyer's disclosure permission and payment budget. A valid syntax-only sample needs no paid call.
