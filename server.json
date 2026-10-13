@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.naief9961-tech/naif-fixgraph",
   "title": "NAIF Gravity",
-  "description": "Free, bounded MCP/API/auth/webhook diagnostics and agent recovery guidance. Complementary Micro Tools V2: free JSON preview and $1/$2/$3 one-time reports after verified payment.",
+  "description": "Free MCP/API diagnostics. Micro Tools V2: free preview, $1 JSON check, $2 API shape, $3 normalize.",
   "version": "1.7.1",
   "repository": {
     "url": "https://github.com/naief9961-tech/ai-growth-engine",
