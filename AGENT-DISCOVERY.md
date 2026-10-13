@@ -40,6 +40,24 @@ A2A HTTP+JSON interface:
 
 `https://naifgravity.com/a2a/v1`
 
+## October 13 update — Micro Tools V2 is live
+
+Three **separate, one-time, sample-only Micro Tools V2** use the same NAIF Gravity domain and live agent catalog. There is no new store or recurring plan:
+
+| Service | USD | New bounded artifact |
+| --- | ---: | --- |
+| JSON Validity Check | $1 | Syntax location, supported safe repair, duplicate-key warning, inferred schema and checksum |
+| API Response Shape Check | $2 | Two-response comparison, added/removed fields, type differences and sample-based TypeScript/OpenAPI schemas |
+| JSON Normalize Mini | $3 | Sorted output, optional trimming/indentation, change log and SHA-256 receipt |
+
+**Free browser/sample preview:** [Micro Tools V2](https://naifgravity.com/micro-v2?utm_source=github&utm_medium=agent_discovery&utm_campaign=micro_tools_v2) · `POST https://naifgravity.com/api/micro-v2/preview` (max 4,096 UTF-8 bytes; sanitized input only). The preview does not initiate a paid checkout.
+
+**Buyer-agent flow:** `GET /api/agent/catalog` → `POST /api/agent/quote` with a valid bounded sample → `POST /api/quote/accept` → select the listed *eligible* payment rail → verify payment → `POST /api/micro-v2/deliver` with `checkoutId` and private `deliveryToken`. The response exposes `preferredAgentPaymentRail`/`preferredAgentCheckoutEndpoint` for eligible international wallets, while Apple Pay is a separate human-authorization handoff. Both Base checkout IDs (`chk_...`) and TRON IDs (`tchk_...`) are supported by the delivery endpoint. Do not invent payment amounts or transfer funds without buyer authorization.
+
+Separately, [x402 Base USDC paid APIs](https://naifgravity.com/.well-known/x402) keep their $1/$2/$3/$5 per-call prices. An unsigned `402 Payment Required` is **not** a sale. The region-specific policy and independent settlement verification remain mandatory. Paid V2 samples and artifacts are encrypted at rest and the bounded report is available after confirmed payment, not before.
+
+---
+
 ## Current paid services and machine-checkout promotion
 
 As of 12 October 2026, NAIF Gravity has an **automatic, limited launch offer on 14 scoped technical services**. A buyer or agent needs **no coupon**. The live service catalog supplies the discounted price directly, and the quote fixes the amount before checkout. It expires at **2026-10-26 05:40 UTC**, or after the **first 10 verified purchases of eligible launch services**, whichever comes first. **Do not hard-code promotional prices into a new checkout**; obtain the current quote and accept it explicitly. See the [full temporary pricing table](README.md#launch-offer--one-time-technical-services-october-1226-2026).
