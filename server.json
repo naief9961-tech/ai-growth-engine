@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.naief9961-tech/naif-fixgraph",
   "title": "NAIF Gravity",
-  "description": "AI agent and MCP diagnostics, API/auth/webhook repair, JSON validation and bounded recovery.",
-  "version": "1.7.0",
+  "description": "Free, bounded MCP/API/auth/webhook diagnostics and agent recovery guidance. Complementary Micro Tools V2: free JSON preview and $1/$2/$3 one-time reports after verified payment.",
+  "version": "1.7.1",
   "repository": {
     "url": "https://github.com/naief9961-tech/ai-growth-engine",
     "source": "github"
@@ -18,7 +18,7 @@
   "_meta": {
     "io.modelcontextprotocol.registry/publisher-provided": {
       "com.naifgravity": {
-        "description": "NAIF Gravity provides fast diagnostic and repair services for AI Agents, MCP servers, APIs, authentication flows, webhooks, automation pipelines, and agent-to-agent integrations. Built for developers and autonomous agents that need quick troubleshooting, validation, recovery, and production-readiness checks.",
+        "description": "NAIF Gravity helps AI agents and developers diagnose MCP, API, authentication, webhook and automation failures using bounded evidence and safe recovery guidance. For sample-only JSON work, complementary Micro Tools V2 adds free preview, $1 JSON validity, $2 API response-shape comparison, and $3 JSON normalization with encrypted reports after verified one-time payment. Payments are always buyer-authorized; regional eligibility applies.",
         "tags": [
           "AI Agents",
           "MCP",
@@ -31,10 +31,13 @@
           "Agent Diagnostics",
           "Agent Recovery",
           "Developer Tools",
-          "JSON Validation"
+          "JSON Validation",
+          "API Response Shape",
+          "JSON Normalization",
+          "Micro Tools V2"
         ],
         "agentCardUrl": "https://naifgravity.com/.well-known/agent-card.json",
-        "commercialModel": "Free bounded diagnostics and small paid technical services; current scope and pricing are provided by the live catalog and quote.",
+        "commercialModel": "Free bounded MCP diagnostic entry. Separate one-time Micro Tools V2: free preview; $1 JSON validity, $2 API shape, $3 JSON normalization. Verified payment required for full report; no subscription or automatic transfer.",
         "catalogUrl": "https://naifgravity.com/api/agent/catalog"
       }
     }
