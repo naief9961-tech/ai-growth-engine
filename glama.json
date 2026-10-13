@@ -4,7 +4,7 @@
     "naief9961-tech"
   ],
   "name": "NAIF Agent Gravity",
-  "description": "Collision-first remote MCP and A2A technical-rescue system for MCP, API, webhook and agent failures, with bounded repair guidance, structured evidence, service matching, trust, continuity and traffic intelligence.",
+  "description": "Remote MCP and A2A diagnostics for MCP, API, auth, webhook and agent failures. Free bounded problem triage, evidence and safe recovery guidance. Complementary Micro Tools V2 offer a free preview, then one-time $1 JSON validity, $2 API response shape and $3 JSON normalization reports after verified payment; no live customer-system access.",
   "repository": "https://github.com/naief9961-tech/ai-growth-engine",
   "homepage": "https://naifgravity.com",
   "keywords": [
@@ -19,6 +19,12 @@
     "agent-compatibility",
     "trust",
     "continuity",
-    "traffic-intelligence"
+    "traffic-intelligence",
+    "micro-tools-v2",
+    "json-validity",
+    "api-response-shape",
+    "json-normalization",
+    "developer-tools",
+    "x402"
   ]
 }
