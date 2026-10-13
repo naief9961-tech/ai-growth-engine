@@ -2,6 +2,22 @@
 
 NAIF Gravity helps developers and AI agents diagnose bounded integration failures without handing over private keys or rebuilding an entire stack.
 
+## New in October 2026: useful results before you pay
+
+**A malformed JSON payload should not require an expensive repair project.** NAIF Gravity now offers **Micro Tools V2** with a *free, bounded preview* and three fixed-price, one-time diagnostics:
+
+- **$1 — JSON Validity Check:** syntax location, duplicate-key warnings, safe trailing-comma repair, inferred sample schema, CI snippet and checksum.
+- **$2 — API Response Shape Check:** compare two response samples, see added/removed fields and type changes, and get sample-based TypeScript/OpenAPI schemas.
+- **$3 — JSON Normalize Mini:** deterministic formatted JSON, optional trimming/indentation, change log and SHA-256 receipt.
+
+**[Run the free preview →](https://naifgravity.com/micro-v2?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=micro_tools_v2)** · [Live agent catalog](https://naifgravity.com/api/agent/catalog) · [x402 API catalog](https://naifgravity.com/api/x402/catalog)
+
+**Built for humans and buyer agents:** preview first, obtain an exact quote, explicitly accept it, choose an eligible payment method and receive the encrypted bounded report after verified settlement. No automatic transfers, no new subscription and no production system access for sample-only Micro Tools V2. Saudi-classified buyers use Apple Pay with human authorization; eligible international buyers can use Base USDC or TRON USDT according to the live policy. Instant per-call x402 Base USDC resources are a *separate paid API route*.
+
+Micro V2 reads only supplied sanitized input (4,096 bytes maximum). Do not paste credentials, private keys or customer records; uploaded samples do not mean live API endpoint testing.
+
+---
+
 ## Start here
 
 1. **MCP problem** — run `python3 tools/mcp_health_check.py https://your-mcp.example/mcp` against an endpoint you own or are authorized to test.
