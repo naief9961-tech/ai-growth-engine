@@ -8,6 +8,8 @@ NAIF Gravity provides bounded diagnostics and repair workflows for MCP, AI-agent
 
 **Start with the [Diagnostic Hub](NAIF-GRAVITY.md)** or visit [NAIF Gravity](https://naifgravity.com).
 
+**New — GitHub Issue Radar (14 Oct 2026):** [Read source-linked MCP and x402 failure diagnoses, proposed fixes, and regression checks](docs/GITHUB-ISSUE-RADAR-2026-10-14.md). Public technical notes only; no third-party patches or paid transactions were performed.
+
 This repository contains public diagnostic guidance, a small Python MCP health-check script, issue templates, and discovery metadata. It is not a complete source distribution of the hosted service.
 
 ## What’s new: Micro Tools V2 — free preview, paid report
