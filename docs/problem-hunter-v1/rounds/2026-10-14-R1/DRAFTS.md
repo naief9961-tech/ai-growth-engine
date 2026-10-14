@@ -1,6 +1,6 @@
 # Proposed comments — 2026-10-14 R1
 
-Status: PENDING USER APPROVAL. None posted upstream. Re-read each thread immediately before any approved posting.
+Status: USER APPROVED on 2026-10-14. Publication attempted on all three issues after re-reading their open state and empty comment threads. All attempts returned GitHub 403 `Resource not accessible by integration`. None posted upstream. No access-control workaround attempted. Re-read each thread before any later authorized publication.
 
 ## R1-01 — Microsoft Agent Framework — Unicode serialization
 

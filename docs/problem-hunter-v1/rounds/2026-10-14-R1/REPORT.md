@@ -1,3 +1,5 @@
+> **Status update — 2026-10-14:** User approved the three replies. All three posting attempts were blocked by GitHub 403 `Resource not accessible by integration`; none posted. Daily Work automation is now ACTIVE at 08:00 Asia/Riyadh starting 2026-10-15. The initial scheduling failure recorded below is historical.
+
 # First round — 14 October 2026
 
 ## الملخص

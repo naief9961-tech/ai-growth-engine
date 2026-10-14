@@ -18,12 +18,13 @@
     }
   ],
   "automation": {
-    "status": "BLOCKED_TASK_LIMIT",
-    "provider_error_code": "too_many_active_automations",
-    "active_count": 15,
-    "plan_limit": 15,
-    "requested_schedule": "daily morning around 08:00 Asia/Riyadh",
-    "created": false
+    "status": "ACTIVE",
+    "created": true,
+    "automation_id": "6acf5b3ba0a081918902433fbe4265b5",
+    "schedule": "daily 08:00 Asia/Riyadh",
+    "first_scheduled_date": "2026-10-15",
+    "timing_mode": "exact_schedule",
+    "previous_attempt": "BLOCKED_TASK_LIMIT; resolved after user removed other tasks"
   },
   "issues": [
     {
@@ -43,7 +44,11 @@
       "benefit": "high: incremental branch coverage and Unicode regression evidence",
       "tests": "8 isolated checks PASS; full framework/MCP integration NOT RUN",
       "reply": "R1-01",
-      "approval": "PENDING_USER_APPROVAL",
+      "approval": {
+        "status": "APPROVED",
+        "date": "2026-10-14",
+        "source": "User explicitly requested publication in this conversation"
+      },
       "sources": [
         {
           "path": "python/packages/core/agent_framework/_mcp.py",
@@ -64,12 +69,18 @@
           "url": "https://github.com/microsoft/agent-framework/blob/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_types.py"
         }
       ],
-      "publication_status": "NOT_POSTED",
+      "publication_status": "BLOCKED_GITHUB_403",
       "published_comment_url": null,
       "developer_response": "NOT_CONTACTED_THIS_ROUND",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
-      "last_seen_comment_id": null
+      "last_seen_comment_id": null,
+      "publication_attempt": {
+        "date": "2026-10-14",
+        "error": "403 Resource not accessible by integration",
+        "posted": false,
+        "fallback_attempted": false
+      }
     },
     {
       "round_id": "2026-10-14-R1",
@@ -88,7 +99,11 @@
       "benefit": "high: recognizes existing concurrency guard and adds tested re-signing/retention boundary",
       "tests": "9 isolated checks PASS; Convex DB/concurrency/crash/migration NOT RUN",
       "reply": "R1-02",
-      "approval": "PENDING_USER_APPROVAL",
+      "approval": {
+        "status": "APPROVED",
+        "date": "2026-10-14",
+        "source": "User explicitly requested publication in this conversation"
+      },
       "sources": [
         {
           "path": "apps/api/convex/plugins/inboundSignature.ts",
@@ -139,12 +154,18 @@
           "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/plugins/__tests__/inboundSignature.test.ts"
         }
       ],
-      "publication_status": "NOT_POSTED",
+      "publication_status": "BLOCKED_GITHUB_403",
       "published_comment_url": null,
       "developer_response": "NOT_CONTACTED_THIS_ROUND",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
-      "last_seen_comment_id": null
+      "last_seen_comment_id": null,
+      "publication_attempt": {
+        "date": "2026-10-14",
+        "error": "403 Resource not accessible by integration",
+        "posted": false,
+        "fallback_attempted": false
+      }
     },
     {
       "round_id": "2026-10-14-R1",
@@ -163,7 +184,11 @@
       "benefit": "medium-high: minimal compatibility patch and precedence/end-to-end regression plan",
       "tests": "NOT RUN: Go runtime absent. Candidate patch and matrix prepared.",
       "reply": "R1-03",
-      "approval": "PENDING_USER_APPROVAL",
+      "approval": {
+        "status": "APPROVED",
+        "date": "2026-10-14",
+        "source": "User explicitly requested publication in this conversation"
+      },
       "sources": [
         {
           "path": "internal/agents/transcript.go",
@@ -184,12 +209,18 @@
           "url": "https://github.com/giantswarm/agent-manager/blob/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/go.mod"
         }
       ],
-      "publication_status": "NOT_POSTED",
+      "publication_status": "BLOCKED_GITHUB_403",
       "published_comment_url": null,
       "developer_response": "NOT_CONTACTED_THIS_ROUND",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
-      "last_seen_comment_id": null
+      "last_seen_comment_id": null,
+      "publication_attempt": {
+        "date": "2026-10-14",
+        "error": "403 Resource not accessible by integration",
+        "posted": false,
+        "fallback_attempted": false
+      }
     },
     {
       "round_id": "2026-10-14-R1",

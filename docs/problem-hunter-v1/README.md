@@ -9,7 +9,9 @@ Evidence-based help with user approval before posting to third-party repositorie
 
 155 unique candidates screened by title/excerpt; eight complete reports read; five source investigations; ten previous threads checked. 23 isolated tests passed. No full upstream suite, upstream post, purchase or deployment.
 
-**Daily scheduling NOT active:** Work rejected creation with too_many_active_automations (15 active / limit 15). Intended cadence: morning around 08:00 Asia/Riyadh.
+**Daily scheduling ACTIVE:** Created after the user removed other tasks. Daily at 08:00 Asia/Riyadh, starting 2026-10-15.
+
+**Publication update (2026-10-14):** The user approved all three replies. All three GitHub comment attempts returned 403 `Resource not accessible by integration`; no upstream comment was posted and no permission workaround was attempted. Drafts remain available below. Future replies still require individual approval.
 
 ## Operating rules
 
