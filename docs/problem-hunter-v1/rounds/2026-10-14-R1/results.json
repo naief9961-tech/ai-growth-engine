@@ -1,0 +1,42 @@
+{
+  "kind": "bounded_source_extract_tests",
+  "run_date": "2026-10-14",
+  "environment": {
+    "python": "3.12.14",
+    "node": "24.19.0",
+    "go": "not installed"
+  },
+  "tests": {
+    "microsoft_agent_framework": {
+      "passed": 8,
+      "failed": 0,
+      "scope": "actual extracted FunctionTool methods with a Content stub; MCP serialization expression; Content.from_function_result dict path"
+    },
+    "owlat": {
+      "passed": 9,
+      "failed": 0,
+      "scope": "actual extracted verifier/crypto/digest with synthetic secret provider and byte helper; no Convex database"
+    },
+    "litellm": {
+      "passed": 3,
+      "failed": 0,
+      "scope": "actual authorize rejection function with synthetic client lookup; cookie sealing and live OAuth NOT tested"
+    },
+    "dify": {
+      "passed": 3,
+      "failed": 0,
+      "scope": "actual version-check and notification statements with model/transport stubs; full interoperability NOT tested"
+    },
+    "giantswarm_agent_manager": {
+      "passed": 0,
+      "failed": 0,
+      "status": "NOT_RUN",
+      "reason": "Go runtime unavailable; source patch and test matrix only"
+    }
+  },
+  "total_passed": 23,
+  "total_failed": 0,
+  "upstream_suites_run": false,
+  "live_payments": 0,
+  "third_party_comments_posted": 0
+}

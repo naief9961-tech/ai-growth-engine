@@ -1,0 +1,622 @@
+[
+  {
+    "url": "https://github.com/shigechika/keycloak-mcp/issues/129",
+    "title": "sites: classify() returns the first match, not the longest prefix"
+  },
+  {
+    "url": "https://github.com/gravitee-io/issues/issues/11948",
+    "title": "MCP: resource_metadata URL in 401 returns 404 when context path is not /"
+  },
+  {
+    "url": "https://github.com/moslembabaee/paper/issues/12",
+    "title": "test(e2e): Update Test Suite and Harden Cloud-First APIs"
+  },
+  {
+    "url": "https://github.com/BerriAI/litellm/issues/46414",
+    "title": "[Bug]: MCP gateway OAuth rejects Gemini (web) — `state must be at most 1024 characters`"
+  },
+  {
+    "url": "https://github.com/M-China/mcd-developer-innovation-challenge/issues/693",
+    "title": "【参赛申请】减脂餐推荐助手但不是一般的，卡路里都没算明白还能吃麦减肥？教你一键搞定科学减脂方案。放心，头不尖尖。"
+  },
+  {
+    "url": "https://github.com/gesus90/Pages/issues/50",
+    "title": "MCP: Projekte als Admin mit LÖSCHEN oder DELETE vollständig löschen"
+  },
+  {
+    "url": "https://github.com/lhj6102/artifactize/issues/226",
+    "title": "Endpoint Artifacts (cli, mcp, tui, desktop, hey-arti, tools) and docs judged and organized per endpoint"
+  },
+  {
+    "url": "https://github.com/Nicricht/helvoca/issues/823",
+    "title": "PLAN MAESTRO ÚNICO · cierre definitivo comercial Helvoca V1 (C0–C7)"
+  },
+  {
+    "url": "https://github.com/openai/codex/issues/53939",
+    "title": "[macOS] The \"f2 to view\" warnings hint needs fn on Mac, and open_warnings cannot be rebound"
+  },
+  {
+    "url": "https://github.com/kburson/AIVC/issues/5",
+    "title": "Stream grounded typed answers through Claude and the retrieval HTTP service"
+  },
+  {
+    "url": "https://github.com/JiRaska/open-bank-oss/issues/12748",
+    "title": "Goal: complete ADR-0227, 0211, 0209, 0253, 0177, 0284, 0256 via standard merge process"
+  },
+  {
+    "url": "https://github.com/777genius/agent-notifications/issues/466",
+    "title": "[Bug]: Windows - hooks fail with ConfigPublicReadable/ConfigPermissionDenied, config init and setup wizard fail"
+  },
+  {
+    "url": "https://github.com/cortrix/cortrix/issues/136",
+    "title": "1.0 follow-ups: settle the terminal task status name, and the SDK / examples / docs / workflow items behind it"
+  },
+  {
+    "url": "https://github.com/hanmiyoo10-alt/-/issues/3679",
+    "title": "Study: Alt MCP integration for lecture notes"
+  },
+  {
+    "url": "https://github.com/openai/codex/issues/53937",
+    "title": "Codex desktop: global MCP sidebar app repeatedly resumes a missing chat"
+  },
+  {
+    "url": "https://github.com/zj-linjie/J-codex-workflow/issues/3",
+    "title": "验收：v0.3.0 实际使用与完成后会话统计"
+  },
+  {
+    "url": "https://github.com/ach1992/ai-server-agent/issues/140",
+    "title": "Developer Runtime: multi-language LSP/DAP + Rust, HTML/CSS and SQL intelligence"
+  },
+  {
+    "url": "https://github.com/microsoft/vscode/issues/341497",
+    "title": "Ask and Plan missing from agent picker — VS Code 1.141.0"
+  },
+  {
+    "url": "https://github.com/WireCatLabs/cli-core/issues/1000",
+    "title": "meetings: combined search, hit context and compact cited transcripts"
+  },
+  {
+    "url": "https://github.com/AlterMundi/daimon-matrix/issues/344",
+    "title": "Integrate member-directed delivery through shared Tribe enrollment"
+  },
+  {
+    "url": "https://github.com/yoophi/box.md/issues/1",
+    "title": "td action journal"
+  },
+  {
+    "url": "https://github.com/thnak/AgentEngine/issues/172",
+    "title": "ADR-237 Phase C: index and storage seams to task (VectorIndex/SparseIndex, stores, SecretStore, RAG recall)"
+  },
+  {
+    "url": "https://github.com/sbOogway/openagentindex/issues/9",
+    "title": "Parse and validate agent cards"
+  },
+  {
+    "url": "https://github.com/TelyAgent/HireOSV2/issues/61",
+    "title": "[Tech Debt] 统一 a2a 研发流程与 Codex Review、合并后 QA 及质量证据"
+  },
+  {
+    "url": "https://github.com/TelyAgent/HireOSV2/issues/60",
+    "title": "[Tech Debt] 统一 a2a 研发流程与 Codex Review、合并后 QA 及质量证据"
+  },
+  {
+    "url": "https://github.com/ARPAHLS/skillware/issues/429",
+    "title": "[New Skill]: dev_tools/agent_protocol_bridge — cross-protocol translation for MCP, LangChain, and Agent Protocol"
+  },
+  {
+    "url": "https://github.com/gHashTag/t27/issues/9516",
+    "title": "Port gHashTag/trios:crates/trios-server/src/security.rs (Rust, 6 functions) to specs/port/trios/crates/trios-server/src/security.t27"
+  },
+  {
+    "url": "https://github.com/api-evangelist/stackone/issues/6",
+    "title": "Correction request: update StackOne description, tags and legacy APIs"
+  },
+  {
+    "url": "https://github.com/neomjs/neo-agent-institution/issues/688",
+    "title": "Add repositories with Enter in Accounts"
+  },
+  {
+    "url": "https://github.com/thnak/AgentEngine/issues/179",
+    "title": "ADR-237: move callers onto rt::Runtime / strands"
+  },
+  {
+    "url": "https://github.com/thnak/AgentEngine/issues/173",
+    "title": "ADR-237 Phase D: execution and sandbox seams to task (Runner, SandboxBackend, ExecutionSurface, PersistentShellSurface, NetEgressBackend)"
+  },
+  {
+    "url": "https://github.com/openJiuwen-ai/agent-core/issues/1951",
+    "title": "[RFC]: Agent 会议的发言锁与语音版生成"
+  },
+  {
+    "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8260",
+    "title": "[RFC]: 支持 Agent 会议"
+  },
+  {
+    "url": "https://github.com/Observal/Observal/issues/1873",
+    "title": "Make Agentic Resources a coherent, searchable six-kind workspace"
+  },
+  {
+    "url": "https://github.com/a2aproject/a2a-itk/issues/80",
+    "title": "Showing community SDKs on the dashboard"
+  },
+  {
+    "url": "https://github.com/neomjs/neo-agent-brain/issues/1017",
+    "title": "Boot Antigravity seats with contained MCP"
+  },
+  {
+    "url": "https://github.com/BerriAI/litellm/issues/46413",
+    "title": "Lens worker claims job but never progresses, fails after ~15 min with \"Worker disconnected repeatedly\""
+  },
+  {
+    "url": "https://github.com/Anhtran88/material.zl-agent/issues/1",
+    "title": "LUNA-000 — Architecture & Product Specification"
+  },
+  {
+    "url": "https://github.com/Abilityai/trinity/issues/3644",
+    "title": "chore(a2a): refresh the AAuth prototype branch feature/623-aauth-agent-identity onto current dev (394 behind, 7 conflicting files) so PR #2956 builds again"
+  },
+  {
+    "url": "https://github.com/Abilityai/trinity/issues/3702",
+    "title": "bug(ui): A2A tab hides \"Choose…\" for advertised skills after exposure is switched on in the tab"
+  },
+  {
+    "url": "https://github.com/ArcedeDev/open-402/issues/44",
+    "title": "Add: x402-wallet-profile-api-production.up.railway.app"
+  },
+  {
+    "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/issues/409",
+    "title": "Portfolio GitHub Actions audit — 136 workflows, safe incremental hardening"
+  },
+  {
+    "url": "https://github.com/aeoess/agent-governance-vocabulary/issues/199",
+    "title": "Scoping: a checkout gate for agent purchases and refunds"
+  },
+  {
+    "url": "https://github.com/x402-foundation/x402/issues/3803",
+    "title": "[Bug]: PAYMENT-REQUIRED has no size budget; Bazaar examples push live 402s past Node's 16 KB and aiohttp's 8 KB header limits"
+  },
+  {
+    "url": "https://github.com/diawest82/clearsigned-mcp/issues/1",
+    "title": "verify.clearsigned.com/verify/t1 is unpayable through CDP: 824-char description rejected as invalid paymentPayload"
+  },
+  {
+    "url": "https://github.com/Merit-Systems/x402scan/issues/1284",
+    "title": "Discover/Router search: origin passes the audit cleanly (23 routes, 7 paid) but new capability queries do not return it"
+  },
+  {
+    "url": "https://github.com/haoruilee/awesome-agent-native-services/issues/212",
+    "title": "[New Service] APEX Faucet: x402 data for agents, MCP tools and G2 Jobs (ERC-8183-readable escrow)"
+  },
+  {
+    "url": "https://github.com/sohopay/skills/issues/172",
+    "title": "sp6-live-regression: sequencing-consent-before-sign"
+  },
+  {
+    "url": "https://github.com/sohopay/skills/issues/168",
+    "title": "sp6-live-regression: header-opacity"
+  },
+  {
+    "url": "https://github.com/sohopay/skills/issues/170",
+    "title": "sp6-live-regression: no-signer-fails-closed"
+  },
+  {
+    "url": "https://github.com/Merit-Systems/x402scan/issues/1287",
+    "title": "[Register x402 Resource] M2M Market — Freedom Engine Gateway (Base & Solana USDC)"
+  },
+  {
+    "url": "https://github.com/xka0085-byte/mcpreflight/issues/7",
+    "title": "outreach digest 2026-10-14: 0 new replies, 2 newly closed, 6 PR updates"
+  },
+  {
+    "url": "https://github.com/bakyang2/kr-crypto-intelligence/issues/7",
+    "title": "Failed x402 payment returns HTTP 500 instead of 402 with reason"
+  },
+  {
+    "url": "https://github.com/oblique-markets/oblique-examples/issues/3",
+    "title": "Failed x402 payment returns HTTP 500 (payment_processing_error) instead of 402"
+  },
+  {
+    "url": "https://github.com/johnyi12/tickersfeed-sdk/issues/2",
+    "title": "Bazaar listing uses literal /stock/:symbol URL, which returns 404"
+  },
+  {
+    "url": "https://github.com/Merit-Systems/x402scan/issues/1280",
+    "title": "Add origin: rae-fleet-router.fly.dev — RAEN fleet bundle + 5 x402 endpoints with OpenAPI + .well-known/x402"
+  },
+  {
+    "url": "https://github.com/coinbase/cdp-sdk/issues/850",
+    "title": "[x402 Bazaar] SI native MCP resource absent after successful CDP settlement"
+  },
+  {
+    "url": "https://github.com/a2aproject/A2A/issues/2351",
+    "title": "Add an optional contact URI to AgentProvider"
+  },
+  {
+    "url": "https://github.com/ArcedeDev/open-402/issues/43",
+    "title": "Add: api.aomi.dev — Aomi Task Endpoint (production launch pending)"
+  },
+  {
+    "url": "https://github.com/x402-foundation/x402/issues/3772",
+    "title": "Proposal: one ingress-derived attempt identity, resolved identically by settle and refusal"
+  },
+  {
+    "url": "https://github.com/pgextwin/build/issues/75",
+    "title": "Eliminate Work-only Dispatch: Chat-authorized Release trigger and automatic Catalog proposal"
+  },
+  {
+    "url": "https://github.com/olafkfreund/siphon/issues/87",
+    "title": "Microsoft Teams: outgoing webhooks (teams-hmac + synchronous reply)"
+  },
+  {
+    "url": "https://github.com/olafkfreund/siphon/issues/85",
+    "title": "Notion: webhook verification handshake and remote MCP"
+  },
+  {
+    "url": "https://github.com/olafkfreund/siphon/issues/84",
+    "title": "Discord: interactions webhook (ed25519 + PING)"
+  },
+  {
+    "url": "https://github.com/camster91/ashbi-platform/issues/565",
+    "title": "[Consolidation] One shared Ashbi workspace for Notion, Fluent Boards, Bonsai and freelance work"
+  },
+  {
+    "url": "https://github.com/olafkfreund/siphon/issues/82",
+    "title": "Mattermost: outgoing webhooks and slash commands (body-token mode)"
+  },
+  {
+    "url": "https://github.com/milanosirki-code/madagaskarsirki-wordpress/issues/250",
+    "title": "Milano checkout: single canonical MDG ledger and milanosirki.com-only user journey"
+  },
+  {
+    "url": "https://github.com/denis229115/velo/issues/1",
+    "title": "Spec: Freshdesk tickets, ClickUp follow-ups, safe AI gateway, send-later and MonoCode theme"
+  },
+  {
+    "url": "https://github.com/drone/go-scm/issues/365",
+    "title": "feat: support HMAC-SHA256 webhook signature validation for GitLab and Bitbucket Cloud"
+  },
+  {
+    "url": "https://github.com/MrFixITslu/V79hub/issues/138",
+    "title": "Live release: G1.2 CEO/COO E2E, pinned WiPay preservation and safe test-account cleanup"
+  },
+  {
+    "url": "https://github.com/DigiNodes/truthbounty-api/issues/655",
+    "title": "PREWAVE-BE-059 — Sign Outbound Webhooks and Make Delivery Idempotent"
+  },
+  {
+    "url": "https://github.com/DigiNodes/truthbounty-api/issues/656",
+    "title": "PREWAVE-BE-058 — Verify Inbound Webhook Signatures and Replay Windows"
+  },
+  {
+    "url": "https://github.com/DigiNodes/truthbounty-api/issues/668",
+    "title": "PREWAVE-BE-072 — Propagate Privacy-Safe Tracing Across HTTP, Queues, and Streams"
+  },
+  {
+    "url": "https://github.com/DigiNodes/truthbounty-api/issues/672",
+    "title": "PREWAVE-BE-076 — Support Credential Rotation Without Service Restart Gaps"
+  },
+  {
+    "url": "https://github.com/DigiNodes/truthbounty-api/issues/681",
+    "title": "PREWAVE-BE-086 — Add Abuse Signals Without Becoming Protocol Authority"
+  },
+  {
+    "url": "https://github.com/DigiNodes/truthbounty-api/issues/682",
+    "title": "PREWAVE-BE-085 — Define Cost-Aware Distributed Rate-Limit Budgets"
+  },
+  {
+    "url": "https://github.com/biletflow/biletflow/issues/81",
+    "title": "Sandbox pay + payment webhook"
+  },
+  {
+    "url": "https://github.com/paulchrisluke/krabiclaw/issues/1374",
+    "title": "Payments: built-in credit-card fee pass-through with Stripe PaymentIntents; simplify settlement/refunds"
+  },
+  {
+    "url": "https://github.com/qnbs/WorldScript-Studio/issues/1042",
+    "title": "ops(vercel/github): safely prune obsolete Vercel-created GitHub deployment records"
+  },
+  {
+    "url": "https://github.com/ayhammouda/pair-ai/issues/6",
+    "title": "T06: Evidence service as an MCP server"
+  },
+  {
+    "url": "https://github.com/coder/xum/issues/6509",
+    "title": "🤖 fix: start plugin stdio MCP servers without the full host environment"
+  },
+  {
+    "url": "https://github.com/james-mitchell-ba/SnagList/issues/27",
+    "title": "[MEDIUM] MCP photo tool decodes unbounded base64 with unsanitised file name"
+  },
+  {
+    "url": "https://github.com/james-mitchell-ba/SnagList/issues/22",
+    "title": "[HIGH] MCP host never syncs StaffIdentity, breaking reporter attribution and email"
+  },
+  {
+    "url": "https://github.com/Fluxify-rest/Fluxify/issues/799",
+    "title": "[Server]: External MCP tools for internal agents (always user-approved, per-chat permission toggle)"
+  },
+  {
+    "url": "https://github.com/electricsheephq/lcm-x/issues/1192",
+    "title": "One memory across harnesses: memory service, MCP endpoint, Claude Code adapter"
+  },
+  {
+    "url": "https://github.com/langgenius/dify/issues/44064",
+    "title": "MCP client rejects protocol version 2025-11-25 during initialize"
+  },
+  {
+    "url": "https://github.com/fmanimashaun/claude-skills/issues/2049",
+    "title": "MCP write tools: consider for a future release (deferred by owner ruling on #2034)"
+  },
+  {
+    "url": "https://github.com/pollen-robotics/reachy_mini_conversation_app/issues/579",
+    "title": "Move the basic time tool onto the robot instead of a remote MCP Space"
+  },
+  {
+    "url": "https://github.com/objectstack-ai/objectstack/issues/23456",
+    "title": "security(mcp): the stdio face resolves OS_MCP_STDIO_API_KEY with no owner posture, so a held owner's key starts and serves stdio MCP where ruling C′ refuses it at every seam"
+  },
+  {
+    "url": "https://github.com/Ephemeral-AI-Lab/layerfs/issues/322",
+    "title": "Agent-facing SDK: branch-head fs, Sandbox execution, and Project history across JS/Python/CLI/MCP"
+  },
+  {
+    "url": "https://github.com/microsoft/agent-framework/issues/9366",
+    "title": "Python: [Bug]: MCP structuredContent and function tool results escape non-ASCII characters to \\uXXXX"
+  },
+  {
+    "url": "https://github.com/Brage1025/payday-radar/issues/6",
+    "title": "Expose Payday Radar tools as an MCP server"
+  },
+  {
+    "url": "https://github.com/IBM/carbon-components-ember/issues/1068",
+    "title": "Check the agent skill and MCP server end to end in an app"
+  },
+  {
+    "url": "https://github.com/IBM/carbon-components-ember/issues/1066",
+    "title": "MCP server: guided prompts"
+  },
+  {
+    "url": "https://github.com/IBM/carbon-components-ember/issues/1065",
+    "title": "MCP server: search design tokens"
+  },
+  {
+    "url": "https://github.com/giantswarm/agent-manager/issues/157",
+    "title": "Tool calls are not read from kagent.dev/a2a/part-type metadata (2.0.0 transcripts show none)"
+  },
+  {
+    "url": "https://github.com/openclaw/openclaw/issues/171985",
+    "title": "[Bug]: A2A queued followup sends host notices (status, run-failure) to the peer as messages → agent↔agent ack loop"
+  },
+  {
+    "url": "https://github.com/MisterVVP/a2a-cpp/issues/309",
+    "title": "[Bug]: Align ListTasks cursor pagination and update-time ordering with A2A"
+  },
+  {
+    "url": "https://github.com/depalmar/ai-dfir-toolkit/issues/123",
+    "title": "[intel] owasp-asi-tracker:apr-2025-agent-in-the-middle-a2a-protocol-spoofing - OWASP ASI tracker: **Agent-in-the-Middle (A2A Protocol Spoofing)**"
+  },
+  {
+    "url": "https://github.com/giantswarm/kagent-upstream/issues/565",
+    "title": "fix(e2e): TestRuntimeRevisionLifecycle/kagent flakes with A2A DeadlineExceeded (gvisor)"
+  },
+  {
+    "url": "https://github.com/izzywdev/FuzeInfra/issues/1412",
+    "title": "[watchdog] stuck-containercreating: fuzesocial/a2a-fuzesocial"
+  },
+  {
+    "url": "https://github.com/tboydar/multi-agent-vs-single-agent-zh/issues/7",
+    "title": "協議層分析：MCP（工具）vs A2A（代理）— 標準化交接能降低協調稅嗎？"
+  },
+  {
+    "url": "https://github.com/tboydar/multi-agent-vs-single-agent-zh/issues/4",
+    "title": "框架比較：LangGraph / CrewAI / AG2 / Agents SDK / Claude subagents / ADK+A2A"
+  },
+  {
+    "url": "https://github.com/Grizzly-Endeavors/residuum/issues/643",
+    "title": "Flaky under load: a2a_is_rate_limited_per_peer races token refill against real time"
+  },
+  {
+    "url": "https://github.com/Zygros/conzet-sovereign-intelligence/issues/8",
+    "title": "Build adversarial reliability test matrix for the A2A ↔ GitHub pipeline"
+  },
+  {
+    "url": "https://github.com/Zygros/conzet-sovereign-intelligence/issues/5",
+    "title": "Implement A2A capability router, task envelope, and policy gate"
+  },
+  {
+    "url": "https://github.com/Zygros/conzet-sovereign-intelligence/issues/3",
+    "title": "Build low-latency event-driven A2A ↔ GitHub pipeline"
+  },
+  {
+    "url": "https://github.com/gke-labs/kube-agents/issues/2992",
+    "title": "a2a: follow-ups from the next-mode Slack interactivity PR (#2971)"
+  },
+  {
+    "url": "https://github.com/gke-labs/kube-agents/issues/2984",
+    "title": "🎲 flaky check: A2A Module Tests: Run A2A Module Tests / Detect changes"
+  },
+  {
+    "url": "https://github.com/a2aproject/A2A/issues/2349",
+    "title": "docs: add Quilzo to the A2A integrations list"
+  },
+  {
+    "url": "https://github.com/jinwon-int/ccc-node/issues/2302",
+    "title": "머지 큐 배치 대기 적용(2026-10-14): min_entries_to_merge 2 + wait 3분 — ccc-node·family-messenger·a2a-nexus, D+14 검증"
+  },
+  {
+    "url": "https://github.com/ChristopherDavenport/agentturn/issues/258",
+    "title": "front/a2a: escalation does not cover sub-agent asks or a tool's own questions"
+  },
+  {
+    "url": "https://github.com/ValNyz/ldvelh/issues/16",
+    "title": "Undocumented strict day_transition schema discards the whole turn after dice are applied"
+  },
+  {
+    "url": "https://github.com/crate/sqlalchemy-cratedb/issues/325",
+    "title": "`get_view_names()` ignores the `schema` argument and returns views from all schemas"
+  },
+  {
+    "url": "https://github.com/chaitin/agent-compose/issues/777",
+    "title": "[Bug]: workflow schema agent 的 `finalText` 解析失败被静默吞掉：codex adapter 不产出 JSON，整体仍报成功"
+  },
+  {
+    "url": "https://github.com/FAIR-DM/fairdm/issues/493",
+    "title": "The url and html_url fields of every serializer have no API schema type"
+  },
+  {
+    "url": "https://github.com/epam/ai-dial-admin-frontend/issues/5019",
+    "title": "[Eval > Datasets] Add field creates hidden duplicate fields on the Schema tab"
+  },
+  {
+    "url": "https://github.com/shakenfist/client-python/issues/428",
+    "title": "sf-client instance upload sends an integer mode that the server's schema refuses"
+  },
+  {
+    "url": "https://github.com/misaalanshori/lca/issues/306",
+    "title": "bug(provider): `validate_against_schema` ignores union type arrays (e.g. `[\"string\", \"null\"]`) and `enum` constraints"
+  },
+  {
+    "url": "https://github.com/misaalanshori/lca/issues/298",
+    "title": "bug(ext-question): `QuestionWasm::get_schema` omits the `questions.items` schema in WASM mode, causing model argument parsing failures"
+  },
+  {
+    "url": "https://github.com/misaalanshori/lca/issues/264",
+    "title": "bug(cli): `HeadlessSink` drops `TurnEvent::ExtensionEvent` in `--mode json`, violating the headless event schema"
+  },
+  {
+    "url": "https://github.com/joromi1/splitvault-contracts/issues/88",
+    "title": "Unhandled String Panic in `require_schema_current` Disrupting Client Error Handling"
+  },
+  {
+    "url": "https://github.com/omnigent-ai/omnigent/issues/9983",
+    "title": "[Bug] CockroachDB bootstrap marks a schema-only migration applied without creating its column"
+  },
+  {
+    "url": "https://github.com/apache/flink-agents/issues/1254",
+    "title": "[Bug][integrations][java] An enum with @JsonProperty on only some constants lists Java names in native schemas"
+  },
+  {
+    "url": "https://github.com/apache/flink-agents/issues/1253",
+    "title": "[Bug][integrations][java] A Map field in a native schema becomes an empty object on OpenAI, Azure OpenAI and Anthropic"
+  },
+  {
+    "url": "https://github.com/Your-Voldemort/StudentStack/issues/74",
+    "title": "Bug (Phase 0): 'free-for-indian-students' preset returns only 5 results — fix region collapse in schema and normalization"
+  },
+  {
+    "url": "https://github.com/jt-mchorse/prompt-regression-suite/issues/251",
+    "title": "schema: a zero-norm stored embedding loads clean, then fails every diff (even its own canonical text) at cosine 0.0, exit 1"
+  },
+  {
+    "url": "https://github.com/Ethereal-Future/FuTuRe/issues/1532",
+    "title": "backend/prisma/schema.prisma: Duplicate model Session definition breaks Prisma Client generation"
+  },
+  {
+    "url": "https://github.com/dflippojr/integration-failure-lab/issues/75",
+    "title": "Free-form 'Try:' hint recommends safeguards that cannot fix the run (e.g. ordering and schema validation for a dropped ClaimPaid)"
+  },
+  {
+    "url": "https://github.com/charlieanna/autocode/issues/1231",
+    "title": "Structured Figma planning validates an advertised design_coverage field against the static schema"
+  },
+  {
+    "url": "https://github.com/Konfirm-xyz/konfirm-backend/issues/29",
+    "title": "refunded payment status is schema-real and frontend-real but structurally unreachable"
+  },
+  {
+    "url": "https://github.com/FusionVault/streams/issues/274",
+    "title": "The steps keep the schema's metadata through a drop, and through no other step"
+  },
+  {
+    "url": "https://github.com/Koopa0/goen/issues/1966",
+    "title": "a lost checkout.session.expired webhook leaves store credit and the coupon spent"
+  },
+  {
+    "url": "https://github.com/mambastick/Cleanarr/issues/48",
+    "title": "Fail closed in the webhook source-absence guard when Jellyfin is not configured"
+  },
+  {
+    "url": "https://github.com/feedback-loop-ai/swarmail/issues/47",
+    "title": "Give each webhook target its own delivery budget and validate targets on PUT"
+  },
+  {
+    "url": "https://github.com/kimdre/doco-cd/issues/2044",
+    "title": "Scheduled services with pre_start hooks are recreated on every webhook after Compose v5.6.0 upgrade"
+  },
+  {
+    "url": "https://github.com/snapotter-hq/SnapOtter/issues/2554",
+    "title": "GET /api/v1/enterprise/siem/config 500s on corrupt JSON and webhook_destinations parsers swallow parse errors silently"
+  },
+  {
+    "url": "https://github.com/wolvesdotink/owlat/issues/1367",
+    "title": "Plugin Svix webhooks reprocess a delivery when Svix retries after a lost response"
+  },
+  {
+    "url": "https://github.com/marioatcloudvane/litefactory/issues/845",
+    "title": "Failed GitHub webhook deliveries (502) silently lose owner comments; daemon should redeliver them"
+  },
+  {
+    "url": "https://github.com/Arbiter-xyz/arbiter-app/issues/201",
+    "title": "customer.js's billing integration is wrong on four independent points: webhook endpoint shape, checkout body, response field name, and (already tracked) auth header"
+  },
+  {
+    "url": "https://github.com/Ethereal-Future/FuTuRe/issues/1542",
+    "title": "backend/src/routes/stellar/payments.js: Race condition in post-payment balance broadcast and missing recipient webhook"
+  },
+  {
+    "url": "https://github.com/Ethereal-Future/FuTuRe/issues/1517",
+    "title": "backend/src/webhooks/dispatcher.js: Duplicate const signature declaration in deliverOnce"
+  },
+  {
+    "url": "https://github.com/joeyyax/vardo/issues/997",
+    "title": "install.sh writes GITHUB_WEBHOOK_SECRET that nothing reads"
+  },
+  {
+    "url": "https://github.com/dflippojr/plex-webhook/issues/90",
+    "title": "Urlencoded webhook field over 512 KiB gets 400 invalid_form instead of 413 field_too_large"
+  },
+  {
+    "url": "https://github.com/dflippojr/plex-webhook/issues/89",
+    "title": "Webhook returns 500 (and desyncs events.jsonl from SQLite) for surrogate strings, huge integers and deeply nested JSON"
+  },
+  {
+    "url": "https://github.com/OpenHands/software-agent-sdk/issues/5969",
+    "title": "[Bug]: A slow webhook receiver makes POST /run answer 409 \"already running\" on a finished conversation"
+  },
+  {
+    "url": "https://github.com/OpenHands/software-agent-sdk/issues/5952",
+    "title": "[Bug]: Webhook events published during an in-flight batch POST wait for flush_delay although the buffer is full"
+  },
+  {
+    "url": "https://github.com/open-mercato/open-mercato/issues/7402",
+    "title": "[Shipping Carriers] - A user cancel that overlaps the carrier's \"delivered\" webhook overwrites delivered with cancelled - both events fire and the return claim is received for a cancelled shipment"
+  },
+  {
+    "url": "https://github.com/KumoCorp/kumomta/issues/635",
+    "title": "Docs/config defaults to prevent problems for high-volume webhook users"
+  },
+  {
+    "url": "https://github.com/theam/facility/issues/459",
+    "title": "A webhook delivery is lost for good if queueing it fails"
+  },
+  {
+    "url": "https://github.com/open-mercato/open-mercato/issues/7380",
+    "title": "bug: A logout after the access token expired emits no auth.logout, so webhooks and workflows on that event miss it"
+  },
+  {
+    "url": "https://github.com/sebrandon1/bps-operator/issues/197",
+    "title": "Make the validating webhook deployable (Service, certs, manifests) and correct the docs"
+  },
+  {
+    "url": "https://github.com/seleniumboot/selenium-boot/issues/155",
+    "title": "[Bug]: warning in running github actions"
+  },
+  {
+    "url": "https://github.com/pingdotgg/t3code/issues/19095",
+    "title": "[Bug]: Merge and other write actions are hidden when GitHub is authenticated as a GitHub App installation"
+  },
+  {
+    "url": "https://github.com/DewaldOosthuizen/nudity-detector/issues/106",
+    "title": "BUG: Pin GitHub Actions to immutable commit SHAs"
+  }
+]

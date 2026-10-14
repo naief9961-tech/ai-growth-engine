@@ -1,0 +1,164 @@
+[
+  {
+    "repository": "BerriAI/litellm",
+    "path": "litellm/proxy/_experimental/mcp_server/gateway_dcr_flow.py",
+    "local": "litellm-gateway.py",
+    "blob_sha": "a895dfed1623af73456a6fc2fb48d692905a74d8",
+    "commit": "30b8db325e85740eb86901d08597da845b206504",
+    "url": "https://raw.githubusercontent.com/BerriAI/litellm/30b8db325e85740eb86901d08597da845b206504/litellm/proxy/_experimental/mcp_server/gateway_dcr_flow.py",
+    "source": "https://github.com/BerriAI/litellm/blob/30b8db325e85740eb86901d08597da845b206504/litellm/proxy/_experimental/mcp_server/gateway_dcr_flow.py"
+  },
+  {
+    "repository": "giantswarm/agent-manager",
+    "path": "internal/agents/transcript.go",
+    "local": "agent-manager-transcript.go",
+    "blob_sha": "15e8e10ca86548cba247dc5a2bc43a617fd7d54a",
+    "commit": "fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7",
+    "url": "https://raw.githubusercontent.com/giantswarm/agent-manager/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/internal/agents/transcript.go",
+    "source": "https://github.com/giantswarm/agent-manager/blob/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/internal/agents/transcript.go"
+  },
+  {
+    "repository": "giantswarm/agent-manager",
+    "path": "internal/agents/transcript_test.go",
+    "local": "agent-manager-test.go",
+    "blob_sha": "e66fec6794ed5b3536f8b40a835be6a5c7f2fe71",
+    "commit": "fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7",
+    "url": "https://raw.githubusercontent.com/giantswarm/agent-manager/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/internal/agents/transcript_test.go",
+    "source": "https://github.com/giantswarm/agent-manager/blob/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/internal/agents/transcript_test.go"
+  },
+  {
+    "repository": "giantswarm/agent-manager",
+    "path": "go.mod",
+    "local": "agent-manager-go.mod",
+    "blob_sha": "ad176231ac4049eebccce6c71d77bb11e15c0d23",
+    "commit": "fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7",
+    "url": "https://raw.githubusercontent.com/giantswarm/agent-manager/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/go.mod",
+    "source": "https://github.com/giantswarm/agent-manager/blob/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/go.mod"
+  },
+  {
+    "repository": "microsoft/agent-framework",
+    "path": "python/packages/core/agent_framework/_mcp.py",
+    "local": "maf-mcp.py",
+    "blob_sha": "89d32f9000d63a3e6a24bff205ebc76cf98ac724",
+    "commit": "cd3f6c8f2acbae41396530a516e0e47808e54d95",
+    "url": "https://raw.githubusercontent.com/microsoft/agent-framework/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_mcp.py",
+    "source": "https://github.com/microsoft/agent-framework/blob/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_mcp.py"
+  },
+  {
+    "repository": "microsoft/agent-framework",
+    "path": "python/packages/core/agent_framework/_tools.py",
+    "local": "maf-tools.py",
+    "blob_sha": "e5ec4bbae374f1ff1116118d4f109adb073cb430",
+    "commit": "cd3f6c8f2acbae41396530a516e0e47808e54d95",
+    "url": "https://raw.githubusercontent.com/microsoft/agent-framework/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_tools.py",
+    "source": "https://github.com/microsoft/agent-framework/blob/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_tools.py"
+  },
+  {
+    "repository": "microsoft/agent-framework",
+    "path": "python/packages/core/agent_framework/_types.py",
+    "local": "maf-types.py",
+    "blob_sha": "da09b37c7420480a5cf2374cfb26b6d22820ad45",
+    "commit": "cd3f6c8f2acbae41396530a516e0e47808e54d95",
+    "url": "https://raw.githubusercontent.com/microsoft/agent-framework/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_types.py",
+    "source": "https://github.com/microsoft/agent-framework/blob/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_types.py"
+  },
+  {
+    "repository": "langgenius/dify",
+    "path": "api/core/mcp/session/client_session.py",
+    "local": "dify-session.py",
+    "blob_sha": "1f1f574afabe3bfa73ec89a2556d8c52bf18e58d",
+    "commit": "341660f9b060d818309eecfbf740209b38c13bcb",
+    "url": "https://raw.githubusercontent.com/langgenius/dify/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/session/client_session.py",
+    "source": "https://github.com/langgenius/dify/blob/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/session/client_session.py"
+  },
+  {
+    "repository": "langgenius/dify",
+    "path": "api/core/mcp/types.py",
+    "local": "dify-types.py",
+    "blob_sha": "8d1e6587c5f6e53ab6e7af9816928e2b25baa298",
+    "commit": "341660f9b060d818309eecfbf740209b38c13bcb",
+    "url": "https://raw.githubusercontent.com/langgenius/dify/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/types.py",
+    "source": "https://github.com/langgenius/dify/blob/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/types.py"
+  },
+  {
+    "repository": "langgenius/dify",
+    "path": "api/core/mcp/entities.py",
+    "local": "dify-entities.py",
+    "blob_sha": "21edc86a57f08d354179133bb4da6cade31b2ee8",
+    "commit": "341660f9b060d818309eecfbf740209b38c13bcb",
+    "url": "https://raw.githubusercontent.com/langgenius/dify/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/entities.py",
+    "source": "https://github.com/langgenius/dify/blob/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/entities.py"
+  },
+  {
+    "repository": "wolvesdotink/owlat",
+    "path": "apps/api/convex/plugins/inboundSignature.ts",
+    "local": "owlat-signature.ts",
+    "blob_sha": "369a7a5bf03c85c2b5905a24d97ebdc1e1c46fb0",
+    "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+    "url": "https://raw.githubusercontent.com/wolvesdotink/owlat/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/plugins/inboundSignature.ts",
+    "source": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/plugins/inboundSignature.ts"
+  },
+  {
+    "repository": "wolvesdotink/owlat",
+    "path": "apps/api/convex/webhooks/pluginFeedbackDeliveries.ts",
+    "local": "owlat-claims.ts",
+    "blob_sha": "efcac4967fee1a81ba5863d09a046818cddb1446",
+    "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+    "url": "https://raw.githubusercontent.com/wolvesdotink/owlat/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/pluginFeedbackDeliveries.ts",
+    "source": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/pluginFeedbackDeliveries.ts"
+  },
+  {
+    "repository": "wolvesdotink/owlat",
+    "path": "apps/api/convex/webhooks/pluginFeedbackHttp.ts",
+    "local": "owlat-http.ts",
+    "blob_sha": "7cf997fbcc28e451eec670598475be89bae26a24",
+    "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+    "url": "https://raw.githubusercontent.com/wolvesdotink/owlat/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/pluginFeedbackHttp.ts",
+    "source": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/pluginFeedbackHttp.ts"
+  },
+  {
+    "repository": "wolvesdotink/owlat",
+    "path": "apps/api/convex/webhooks/adapters/resend.ts",
+    "local": "owlat-resend.ts",
+    "blob_sha": "aa9db7449d60ae730335af7caf31cbffeef08c28",
+    "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+    "url": "https://raw.githubusercontent.com/wolvesdotink/owlat/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/adapters/resend.ts",
+    "source": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/adapters/resend.ts"
+  },
+  {
+    "repository": "wolvesdotink/owlat",
+    "path": "apps/api/convex/webhooks/security.ts",
+    "local": "owlat-security.ts",
+    "blob_sha": "1c1b01e876896d3f74908d73085aad6ede2555d4",
+    "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+    "url": "https://raw.githubusercontent.com/wolvesdotink/owlat/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/security.ts",
+    "source": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/security.ts"
+  },
+  {
+    "repository": "wolvesdotink/owlat",
+    "path": "apps/api/convex/lib/crypto.ts",
+    "local": "owlat-crypto.ts",
+    "blob_sha": "d0ff68a6ed92dd5dea4612bdf3a4f86a29063cd4",
+    "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+    "url": "https://raw.githubusercontent.com/wolvesdotink/owlat/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/lib/crypto.ts",
+    "source": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/lib/crypto.ts"
+  },
+  {
+    "repository": "wolvesdotink/owlat",
+    "path": "apps/api/convex/lib/bytes.ts",
+    "local": "owlat-bytes.ts",
+    "blob_sha": "b41480a4517d55189380d968629053991dfbc316",
+    "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+    "url": "https://raw.githubusercontent.com/wolvesdotink/owlat/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/lib/bytes.ts",
+    "source": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/lib/bytes.ts"
+  },
+  {
+    "repository": "wolvesdotink/owlat",
+    "path": "apps/api/convex/plugins/__tests__/inboundSignature.test.ts",
+    "local": "owlat-signature-test.ts",
+    "blob_sha": "66929de00c4a4eba74d76ce67af2c67383205ef2",
+    "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+    "url": "https://raw.githubusercontent.com/wolvesdotink/owlat/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/plugins/__tests__/inboundSignature.test.ts",
+    "source": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/plugins/__tests__/inboundSignature.test.ts"
+  }
+]

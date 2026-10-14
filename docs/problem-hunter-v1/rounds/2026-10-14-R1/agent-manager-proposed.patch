@@ -1,0 +1,18 @@
+--- a/internal/agents/transcript.go
++++ b/internal/agents/transcript.go
+@@ -211,13 +211,13 @@
+ }
+ 
+ // partType is a data part's ADK type (function_call, function_response, …),
+-// read as the ADK reads it: adk_type, else kagent_type.
++// read from legacy keys first, then the namespaced kagent key.
+ func partType(part *a2apb.Part) string {
+ 	if part.GetData() == nil {
+ 		return ""
+ 	}
+ 	fields := part.GetMetadata().GetFields()
+-	for _, key := range []string{"adk_type", "kagent_type"} {
++	for _, key := range []string{"adk_type", "kagent_type", "kagent.dev/a2a/part-type"} {
+ 		if v, ok := fields[key]; ok {
+ 			return v.GetStringValue()
+ 		}

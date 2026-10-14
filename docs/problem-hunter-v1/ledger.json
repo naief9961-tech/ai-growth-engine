@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
+  "owner": "naief9961-tech",
+  "last_round": "2026-10-14-R1",
+  "date_timezone": "Asia/Riyadh",
+  "rounds": [
+    {
+      "id": "2026-10-14-R1",
+      "discovery_unique": 155,
+      "full_issue_candidate_reads": 8,
+      "source_investigations": 5,
+      "followup_threads_read": 10,
+      "local_tests_passed": 23,
+      "upstream_full_suites_run": 0,
+      "third_party_comments_posted": 0,
+      "commercial_requests_verified": 0
+    }
+  ],
+  "automation": {
+    "status": "BLOCKED_TASK_LIMIT",
+    "provider_error_code": "too_many_active_automations",
+    "active_count": 15,
+    "plan_limit": 15,
+    "requested_schedule": "daily morning around 08:00 Asia/Riyadh",
+    "created": false
+  },
+  "issues": [
+    {
+      "round_id": "2026-10-14-R1",
+      "rank": 1,
+      "url": "https://github.com/microsoft/agent-framework/issues/9366",
+      "repository": "microsoft/agent-framework",
+      "issue_number": 9366,
+      "reporter": "Katilho",
+      "created_at": "2026-10-14T10:01:43Z",
+      "updated_at": "2026-10-14T10:09:08Z",
+      "discovered_date": "2026-10-14",
+      "state_at_review": "open",
+      "diagnosis": "Four model-visible json.dumps sites across three files use default ensure_ascii=True, including the mixed Content/object branch.",
+      "solution": "Set ensure_ascii=False only at the four identified model-visible sites; preserve JSON meaning, raw Content, modes and metadata.",
+      "confidence": "high: source and isolated reproduction",
+      "benefit": "high: incremental branch coverage and Unicode regression evidence",
+      "tests": "8 isolated checks PASS; full framework/MCP integration NOT RUN",
+      "reply": "R1-01",
+      "approval": "PENDING_USER_APPROVAL",
+      "sources": [
+        {
+          "path": "python/packages/core/agent_framework/_mcp.py",
+          "commit": "cd3f6c8f2acbae41396530a516e0e47808e54d95",
+          "blob_sha": "89d32f9000d63a3e6a24bff205ebc76cf98ac724",
+          "url": "https://github.com/microsoft/agent-framework/blob/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_mcp.py"
+        },
+        {
+          "path": "python/packages/core/agent_framework/_tools.py",
+          "commit": "cd3f6c8f2acbae41396530a516e0e47808e54d95",
+          "blob_sha": "e5ec4bbae374f1ff1116118d4f109adb073cb430",
+          "url": "https://github.com/microsoft/agent-framework/blob/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_tools.py"
+        },
+        {
+          "path": "python/packages/core/agent_framework/_types.py",
+          "commit": "cd3f6c8f2acbae41396530a516e0e47808e54d95",
+          "blob_sha": "da09b37c7420480a5cf2374cfb26b6d22820ad45",
+          "url": "https://github.com/microsoft/agent-framework/blob/cd3f6c8f2acbae41396530a516e0e47808e54d95/python/packages/core/agent_framework/_types.py"
+        }
+      ],
+      "publication_status": "NOT_POSTED",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": null
+    },
+    {
+      "round_id": "2026-10-14-R1",
+      "rank": 2,
+      "url": "https://github.com/wolvesdotink/owlat/issues/1367",
+      "repository": "wolvesdotink/owlat",
+      "issue_number": 1367,
+      "reporter": "marcelxpfeifer",
+      "created_at": "2026-10-14T07:51:04Z",
+      "updated_at": "2026-10-14T07:51:04Z",
+      "discovered_date": "2026-10-14",
+      "state_at_review": "open",
+      "diagnosis": "Verified Svix digest contains attempt timestamp and signature; receipt retention is 2*tolerance (10min at 300s), while a re-signed retry has a new digest.",
+      "solution": "After authentication derive versioned plugin/transport/id/body-hash identity, separate receipt retention from freshness, reuse existing atomic claim states; test crash/partial effects.",
+      "confidence": "high for identity/TTL; integration unresolved",
+      "benefit": "high: recognizes existing concurrency guard and adds tested re-signing/retention boundary",
+      "tests": "9 isolated checks PASS; Convex DB/concurrency/crash/migration NOT RUN",
+      "reply": "R1-02",
+      "approval": "PENDING_USER_APPROVAL",
+      "sources": [
+        {
+          "path": "apps/api/convex/plugins/inboundSignature.ts",
+          "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+          "blob_sha": "369a7a5bf03c85c2b5905a24d97ebdc1e1c46fb0",
+          "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/plugins/inboundSignature.ts"
+        },
+        {
+          "path": "apps/api/convex/webhooks/pluginFeedbackDeliveries.ts",
+          "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+          "blob_sha": "efcac4967fee1a81ba5863d09a046818cddb1446",
+          "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/pluginFeedbackDeliveries.ts"
+        },
+        {
+          "path": "apps/api/convex/webhooks/pluginFeedbackHttp.ts",
+          "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+          "blob_sha": "7cf997fbcc28e451eec670598475be89bae26a24",
+          "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/pluginFeedbackHttp.ts"
+        },
+        {
+          "path": "apps/api/convex/webhooks/adapters/resend.ts",
+          "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+          "blob_sha": "aa9db7449d60ae730335af7caf31cbffeef08c28",
+          "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/adapters/resend.ts"
+        },
+        {
+          "path": "apps/api/convex/webhooks/security.ts",
+          "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+          "blob_sha": "1c1b01e876896d3f74908d73085aad6ede2555d4",
+          "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/webhooks/security.ts"
+        },
+        {
+          "path": "apps/api/convex/lib/crypto.ts",
+          "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+          "blob_sha": "d0ff68a6ed92dd5dea4612bdf3a4f86a29063cd4",
+          "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/lib/crypto.ts"
+        },
+        {
+          "path": "apps/api/convex/lib/bytes.ts",
+          "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+          "blob_sha": "b41480a4517d55189380d968629053991dfbc316",
+          "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/lib/bytes.ts"
+        },
+        {
+          "path": "apps/api/convex/plugins/__tests__/inboundSignature.test.ts",
+          "commit": "47ccccdea81a50af6dfbb770892513c7b5f6f289",
+          "blob_sha": "66929de00c4a4eba74d76ce67af2c67383205ef2",
+          "url": "https://github.com/wolvesdotink/owlat/blob/47ccccdea81a50af6dfbb770892513c7b5f6f289/apps/api/convex/plugins/__tests__/inboundSignature.test.ts"
+        }
+      ],
+      "publication_status": "NOT_POSTED",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": null
+    },
+    {
+      "round_id": "2026-10-14-R1",
+      "rank": 3,
+      "url": "https://github.com/giantswarm/agent-manager/issues/157",
+      "repository": "giantswarm/agent-manager",
+      "issue_number": 157,
+      "reporter": "teemow",
+      "created_at": "2026-10-14T09:24:46Z",
+      "updated_at": "2026-10-14T09:24:46Z",
+      "discovered_date": "2026-10-14",
+      "state_at_review": "open",
+      "diagnosis": "partType ignores kagent.dev/a2a/part-type; only adk_type/kagent_type checked after data-part guard.",
+      "solution": "Append namespaced key preserving current precedence. Test call/response under all three keys and a whole transcript.",
+      "confidence": "high from direct source; patch not compiled",
+      "benefit": "medium-high: minimal compatibility patch and precedence/end-to-end regression plan",
+      "tests": "NOT RUN: Go runtime absent. Candidate patch and matrix prepared.",
+      "reply": "R1-03",
+      "approval": "PENDING_USER_APPROVAL",
+      "sources": [
+        {
+          "path": "internal/agents/transcript.go",
+          "commit": "fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7",
+          "blob_sha": "15e8e10ca86548cba247dc5a2bc43a617fd7d54a",
+          "url": "https://github.com/giantswarm/agent-manager/blob/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/internal/agents/transcript.go"
+        },
+        {
+          "path": "internal/agents/transcript_test.go",
+          "commit": "fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7",
+          "blob_sha": "e66fec6794ed5b3536f8b40a835be6a5c7f2fe71",
+          "url": "https://github.com/giantswarm/agent-manager/blob/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/internal/agents/transcript_test.go"
+        },
+        {
+          "path": "go.mod",
+          "commit": "fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7",
+          "blob_sha": "ad176231ac4049eebccce6c71d77bb11e15c0d23",
+          "url": "https://github.com/giantswarm/agent-manager/blob/fe929b652c6ff05fbc5818d2a8afd1fc34bb15d7/go.mod"
+        }
+      ],
+      "publication_status": "NOT_POSTED",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": null
+    },
+    {
+      "round_id": "2026-10-14-R1",
+      "rank": 4,
+      "url": "https://github.com/BerriAI/litellm/issues/46414",
+      "repository": "BerriAI/litellm",
+      "issue_number": 46414,
+      "reporter": "cyleo",
+      "created_at": "2026-10-14T09:44:55Z",
+      "updated_at": "2026-10-14T10:15:44Z",
+      "discovered_date": "2026-10-14",
+      "state_at_review": "open",
+      "diagnosis": "Authorize gate explicitly rejects state >1024; reported Gemini state is 1112. State is included in sealed cookie.",
+      "solution": "Consider 2048 only with actual full sealed Set-Cookie budget validation and unchanged redirect/PKCE checks; test 1024,1025,1112,2048,2049 and combined-field budgets. Never truncate opaque state.",
+      "confidence": "high for gate; cookie/OAuth end-to-end unverified",
+      "benefit": "low incremental outreach value: another contributor already offered same fix/tests",
+      "tests": "3 isolated gate checks PASS with synthetic client lookup; sealed cookie/live Gemini NOT RUN",
+      "reply": null,
+      "approval": "HOLD_EXISTING_CONTRIBUTOR",
+      "sources": [
+        {
+          "path": "litellm/proxy/_experimental/mcp_server/gateway_dcr_flow.py",
+          "commit": "30b8db325e85740eb86901d08597da845b206504",
+          "blob_sha": "a895dfed1623af73456a6fc2fb48d692905a74d8",
+          "url": "https://github.com/BerriAI/litellm/blob/30b8db325e85740eb86901d08597da845b206504/litellm/proxy/_experimental/mcp_server/gateway_dcr_flow.py"
+        }
+      ],
+      "publication_status": "NOT_POSTED",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": 6166060763
+    },
+    {
+      "round_id": "2026-10-14-R1",
+      "rank": 5,
+      "url": "https://github.com/langgenius/dify/issues/44064",
+      "repository": "langgenius/dify",
+      "issue_number": 44064,
+      "reporter": "thorstengrimm",
+      "created_at": "2026-10-14T10:09:51Z",
+      "updated_at": "2026-10-14T10:10:57Z",
+      "discovered_date": "2026-10-14",
+      "state_at_review": "open",
+      "diagnosis": "2025-11-25 absent from supported client revisions; source raises before initialized notification despite HTTP 200.",
+      "solution": "Server may negotiate 2025-06-18 only if truly supported; adding a new client revision requires compatibility verification. Keep unknown versions rejected.",
+      "confidence": "high for allowlist; exact reporter handshake not captured",
+      "benefit": "low incremental outreach value: existing Dosu comment already diagnoses it",
+      "tests": "3 isolated gate checks PASS; full protocol interoperability NOT RUN",
+      "reply": null,
+      "approval": "HOLD_EXISTING_DIAGNOSIS",
+      "sources": [
+        {
+          "path": "api/core/mcp/session/client_session.py",
+          "commit": "341660f9b060d818309eecfbf740209b38c13bcb",
+          "blob_sha": "1f1f574afabe3bfa73ec89a2556d8c52bf18e58d",
+          "url": "https://github.com/langgenius/dify/blob/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/session/client_session.py"
+        },
+        {
+          "path": "api/core/mcp/types.py",
+          "commit": "341660f9b060d818309eecfbf740209b38c13bcb",
+          "blob_sha": "8d1e6587c5f6e53ab6e7af9816928e2b25baa298",
+          "url": "https://github.com/langgenius/dify/blob/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/types.py"
+        },
+        {
+          "path": "api/core/mcp/entities.py",
+          "commit": "341660f9b060d818309eecfbf740209b38c13bcb",
+          "blob_sha": "21edc86a57f08d354179133bb4da6cade31b2ee8",
+          "url": "https://github.com/langgenius/dify/blob/341660f9b060d818309eecfbf740209b38c13bcb/api/core/mcp/entities.py"
+        }
+      ],
+      "publication_status": "NOT_POSTED",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": 6165979650
+    }
+  ],
+  "followups": [
+    {
+      "url": "https://github.com/cyanheads/musicbrainz-mcp-server/issues/21",
+      "state": "closed",
+      "last_own_comment_id": 6147172930,
+      "last_own_comment_at": "2026-10-13T13:54:52Z",
+      "last_seen_comment_id": 6148454351,
+      "last_seen_comment_at": "2026-10-13T14:57:33Z",
+      "replies_after_last_own": [
+        {
+          "id": 6148454351,
+          "author": "cyanheads",
+          "created_at": "2026-10-13T14:57:33Z",
+          "url": "https://github.com/cyanheads/musicbrainz-mcp-server/issues/21#issuecomment-6148454351",
+          "summary": "Shipped in [v0.2.0](https://github.com/cyanheads/musicbrainz-mcp-server/blob/main/changelog/0.2.x/0.2.0.md).\n\nMBID schemas advertise the hexadecimal UUID shape, including accepted whitespace and uppercase. Shared service"
+        }
+      ],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "2026-10-13: maintainer announced v0.2.0 including normalization before cache/fetch; not independently retested here."
+    },
+    {
+      "url": "https://github.com/wbskt/Wbskt/issues/293",
+      "state": "closed",
+      "last_own_comment_id": 6117159450,
+      "last_own_comment_at": "2026-10-12T03:22:53Z",
+      "last_seen_comment_id": 6140314655,
+      "last_seen_comment_at": "2026-10-13T07:11:48Z",
+      "replies_after_last_own": [
+        {
+          "id": 6140314655,
+          "author": "richardjoy530",
+          "created_at": "2026-10-13T07:11:48Z",
+          "url": "https://github.com/wbskt/Wbskt/issues/293#issuecomment-6140314655",
+          "summary": "> 3\\. One additional regression case for the per-registration claim: interrupt the worker after the first run has been durably created, but before its claim is marked successful, then redeliver the same queued callback. "
+        }
+      ],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "2026-10-13: maintainer explicitly thanked @naief9961-tech for crash-window regression finding; no purchase request."
+    },
+    {
+      "url": "https://github.com/abi83/prepify/issues/279",
+      "state": "open",
+      "last_own_comment_id": 6093268389,
+      "last_own_comment_at": "2026-10-10T03:23:53Z",
+      "last_seen_comment_id": 6093268389,
+      "last_seen_comment_at": "2026-10-10T03:23:53Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "No newer comment after our last contribution in the inspected thread."
+    },
+    {
+      "url": "https://github.com/logly/mureo/issues/807",
+      "state": "closed",
+      "last_own_comment_id": 6050810750,
+      "last_own_comment_at": "2026-10-08T02:16:59Z",
+      "last_seen_comment_id": 6050810750,
+      "last_seen_comment_at": "2026-10-08T02:16:59Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "No newer comment after our last contribution in the inspected thread."
+    },
+    {
+      "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
+      "state": "closed",
+      "last_own_comment_id": 6050775628,
+      "last_own_comment_at": "2026-10-08T02:13:46Z",
+      "last_seen_comment_id": 6051654617,
+      "last_seen_comment_at": "2026-10-08T03:36:57Z",
+      "replies_after_last_own": [
+        {
+          "id": 6051513302,
+          "author": "FreeZAgent",
+          "created_at": "2026-10-08T03:23:13Z",
+          "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68#issuecomment-6051513302",
+          "summary": "FreeZ Agent here. I would like to take #68 at the advertised US$85 bounty. Per CONTRIBUTING.md, I am commenting before starting the change.\n\nI will keep the patch focused on the MCP boundary: structured tool-named failur"
+        },
+        {
+          "id": 6051524698,
+          "author": "davtx82",
+          "created_at": "2026-10-08T03:24:20Z",
+          "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68#issuecomment-6051524698",
+          "summary": "I'm David's AI assistant, acting for the owner of this GitHub account. Before implementing #68, could a maintainer confirm that it is still available, who funds the advertised US$85, and what acceptance/payment trigger a"
+        },
+        {
+          "id": 6051637636,
+          "author": "FreeZAgent",
+          "created_at": "2026-10-08T03:35:21Z",
+          "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68#issuecomment-6051637636",
+          "summary": "FreeZ Agent — working patch and reproducible results are ready: https://gist.github.com/FreeZAgent/e01b2527292d1af23e98f6826c4c5984/401d60f1c9bc8d6a86d67881acdd85351b09bce6\n\nThe eight-file patch targets `4f4a0612a36f454e"
+        },
+        {
+          "id": 6051654617,
+          "author": "jaskerpy",
+          "created_at": "2026-10-08T03:36:57Z",
+          "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68#issuecomment-6051654617",
+          "summary": "I have implemented the complete fix fulfilling all acceptance criteria in PR #107.\n\n- Named tool in error payload\n- Preserved suggestions from services\n- Full stack traces logged to stderr\n- Validated with pnpm typecheck"
+        }
+      ],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "Other contributors posted offers/patches; not direct replies or leads for NAIF."
+    },
+    {
+      "url": "https://github.com/api-evangelist/roadmap/issues/938",
+      "state": "open",
+      "last_own_comment_id": 6028257699,
+      "last_own_comment_at": "2026-10-07T00:39:24Z",
+      "last_seen_comment_id": 6060311321,
+      "last_seen_comment_at": "2026-10-08T12:53:57Z",
+      "replies_after_last_own": [
+        {
+          "id": 6060311321,
+          "author": "kinlane",
+          "created_at": "2026-10-08T12:53:57Z",
+          "url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6060311321",
+          "summary": "**Built the flows split; protocolVersion stays 0.3 on purpose.** `network/.well-known/agent-card.json` now declares `oauth2-code` (authorizationCode only) and `oauth2-client` (clientCredentials only), one flow each, and "
+        }
+      ],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "2026-10-08: maintainer reported OAuth-flow split and referenced our post-migration checks; deployment pending."
+    },
+    {
+      "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
+      "state": "open",
+      "last_own_comment_id": 6028276761,
+      "last_own_comment_at": "2026-10-07T00:40:40Z",
+      "last_seen_comment_id": 6029324495,
+      "last_seen_comment_at": "2026-10-07T02:03:48Z",
+      "replies_after_last_own": [
+        {
+          "id": 6029324495,
+          "author": "parisbs",
+          "created_at": "2026-10-07T02:03:48Z",
+          "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143#issuecomment-6029324495",
+          "summary": "Thanks, this sharpened the criteria. I've updated the issue body; here is what changed and why.\n\n- Two configurations side by side: folded into AC-3. In production each registration is its own process, so they cannot lea"
+        }
+      ],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "2026-10-07: maintainer said feedback sharpened acceptance criteria; no commercial request."
+    },
+    {
+      "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
+      "state": "open",
+      "last_own_comment_id": 6050883458,
+      "last_own_comment_at": "2026-10-08T02:23:51Z",
+      "last_seen_comment_id": 6050883458,
+      "last_seen_comment_at": "2026-10-08T02:23:51Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "No newer comment after our last contribution in the inspected thread."
+    },
+    {
+      "url": "https://github.com/web3insight-ai/web3insight/issues/32",
+      "state": "closed",
+      "last_own_comment_id": 5797651890,
+      "last_own_comment_at": "2026-09-23T15:27:15Z",
+      "last_seen_comment_id": 5797651890,
+      "last_seen_comment_at": "2026-09-23T15:27:15Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "No newer comment after our last contribution in the inspected thread."
+    },
+    {
+      "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
+      "state": "open",
+      "last_own_comment_id": 5822471348,
+      "last_own_comment_at": "2026-09-24T21:23:16Z",
+      "last_seen_comment_id": 5822471348,
+      "last_seen_comment_at": "2026-09-24T21:23:16Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "BASELINED_IN_R1",
+      "outcome": "No newer comment after our last contribution in the inspected thread."
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://github.com/feedback-loop-ai/swarmail/issues/40",
+      "reason": "Previous radar; no re-investigation without new evidence"
+    },
+    {
+      "url": "https://github.com/CherryHQ/cherry-studio/issues/21674",
+      "reason": "Previous radar; no re-investigation without new evidence"
+    },
+    {
+      "url": "https://github.com/x402-foundation/x402/issues/3803",
+      "reason": "Previous radar; excluded despite appearing in fresh search"
+    },
+    {
+      "url": "https://github.com/morluto/rea/issues/3408",
+      "reason": "Previous radar; no re-investigation without new evidence"
+    },
+    {
+      "url": "https://github.com/gravitee-io/issues/issues/11948",
+      "reason": "Read full report; not selected because gateway/dispatcher source investigation exceeds this bounded round"
+    },
+    {
+      "url": "https://github.com/diawest82/clearsigned-mcp/issues/1",
+      "reason": "Read full report; reporter already supplies specific description-length workaround; no additional source-confirmed repair in this round"
+    },
+    {
+      "url": "https://github.com/johnyi12/tickersfeed-sdk/issues/2",
+      "reason": "Read full report; literal-route problem and workaround already explained; no new value demonstrated"
+    }
+  ],
+  "history_search": {
+    "reported_total": 49,
+    "returned_items": 41,
+    "coverage": "10 selected threads read; remainder indexed only",
+    "indexed": [
+      {
+        "url": "https://github.com/cyanheads/musicbrainz-mcp-server/issues/21",
+        "state": "closed",
+        "updated_at": "2026-10-13T14:57:35Z"
+      },
+      {
+        "url": "https://github.com/wbskt/Wbskt/issues/293",
+        "state": "closed",
+        "updated_at": "2026-10-13T07:37:51Z"
+      },
+      {
+        "url": "https://github.com/web3insight-ai/web3insight/issues/32",
+        "state": "closed",
+        "updated_at": "2026-10-13T05:01:39Z"
+      },
+      {
+        "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
+        "state": "open",
+        "updated_at": "2026-10-12T20:18:43Z"
+      },
+      {
+        "url": "https://github.com/abi83/prepify/issues/279",
+        "state": "open",
+        "updated_at": "2026-10-10T03:23:53Z"
+      },
+      {
+        "url": "https://github.com/logly/mureo/issues/807",
+        "state": "closed",
+        "updated_at": "2026-10-09T06:41:17Z"
+      },
+      {
+        "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
+        "state": "closed",
+        "updated_at": "2026-10-08T14:21:02Z"
+      },
+      {
+        "url": "https://github.com/api-evangelist/roadmap/issues/938",
+        "state": "open",
+        "updated_at": "2026-10-08T12:53:57Z"
+      },
+      {
+        "url": "https://github.com/jsight/ha-pecron/issues/17",
+        "state": "open",
+        "updated_at": "2026-10-08T02:25:10Z"
+      },
+      {
+        "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
+        "state": "open",
+        "updated_at": "2026-10-08T02:23:52Z"
+      },
+      {
+        "url": "https://github.com/gblsmlo/tc96-parttens/issues/98",
+        "state": "open",
+        "updated_at": "2026-10-08T02:22:36Z"
+      },
+      {
+        "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
+        "state": "open",
+        "updated_at": "2026-10-07T02:03:48Z"
+      },
+      {
+        "url": "https://github.com/Emmy123222/Stellar-MicroPay/issues/1115",
+        "state": "closed",
+        "updated_at": "2026-10-02T14:32:38Z"
+      },
+      {
+        "url": "https://github.com/Happybello365/innov8/issues/130",
+        "state": "closed",
+        "updated_at": "2026-10-02T10:43:11Z"
+      },
+      {
+        "url": "https://github.com/TevaLabs/Xelma-Frontend/issues/585",
+        "state": "closed",
+        "updated_at": "2026-10-01T14:47:00Z"
+      },
+      {
+        "url": "https://github.com/winsznx/routedock/issues/328",
+        "state": "open",
+        "updated_at": "2026-09-30T12:14:35Z"
+      },
+      {
+        "url": "https://github.com/enliven17/talos-stellar/issues/595",
+        "state": "closed",
+        "updated_at": "2026-09-30T10:29:39Z"
+      },
+      {
+        "url": "https://github.com/Arbiter-xyz/arbiter-app/issues/13",
+        "state": "closed",
+        "updated_at": "2026-09-30T00:34:39Z"
+      },
+      {
+        "url": "https://github.com/winsznx/routedock/issues/339",
+        "state": "closed",
+        "updated_at": "2026-09-29T19:38:51Z"
+      },
+      {
+        "url": "https://github.com/Nexussyn/ai-growth-engine/issues/2",
+        "state": "open",
+        "updated_at": "2026-09-29T19:19:27Z"
+      },
+      {
+        "url": "https://github.com/Nexussyn/ai-growth-engine/issues/1",
+        "state": "open",
+        "updated_at": "2026-09-29T19:19:25Z"
+      },
+      {
+        "url": "https://github.com/winsznx/routedock/issues/327",
+        "state": "open",
+        "updated_at": "2026-09-29T18:12:04Z"
+      },
+      {
+        "url": "https://github.com/Stellar-Agent-Guard/stellar-agent-guard-contracts/issues/144",
+        "state": "closed",
+        "updated_at": "2026-09-29T17:49:40Z"
+      },
+      {
+        "url": "https://github.com/Stellar-Agent-Guard/stellar-agent-guard-contracts/issues/123",
+        "state": "closed",
+        "updated_at": "2026-09-29T13:54:30Z"
+      },
+      {
+        "url": "https://github.com/winsznx/routedock/issues/329",
+        "state": "open",
+        "updated_at": "2026-09-29T11:12:42Z"
+      },
+      {
+        "url": "https://github.com/winsznx/routedock/issues/324",
+        "state": "open",
+        "updated_at": "2026-09-29T09:06:13Z"
+      },
+      {
+        "url": "https://github.com/veracindarella/votechain-contracts/issues/81",
+        "state": "closed",
+        "updated_at": "2026-09-29T06:28:08Z"
+      },
+      {
+        "url": "https://github.com/winsznx/routedock/issues/332",
+        "state": "open",
+        "updated_at": "2026-09-28T13:30:38Z"
+      },
+      {
+        "url": "https://github.com/kindfi-org/kindfi/issues/1028",
+        "state": "closed",
+        "updated_at": "2026-09-27T18:34:53Z"
+      },
+      {
+        "url": "https://github.com/ExcelDsigN-tech/DukaPay/issues/534",
+        "state": "closed",
+        "updated_at": "2026-09-26T15:29:02Z"
+      },
+      {
+        "url": "https://github.com/dupdab/dupdap-frontend/issues/295",
+        "state": "closed",
+        "updated_at": "2026-09-25T21:10:18Z"
+      },
+      {
+        "url": "https://github.com/sorolens/sorolens/issues/224",
+        "state": "closed",
+        "updated_at": "2026-09-25T14:50:34Z"
+      },
+      {
+        "url": "https://github.com/sorolens/sorolens/issues/187",
+        "state": "closed",
+        "updated_at": "2026-09-25T10:40:41Z"
+      },
+      {
+        "url": "https://github.com/Stellar-Agent-Guard/stellar-agent-guard-contracts/issues/125",
+        "state": "closed",
+        "updated_at": "2026-09-25T08:40:38Z"
+      },
+      {
+        "url": "https://github.com/stellar-compliance-kit/compliance-adapters/issues/523",
+        "state": "closed",
+        "updated_at": "2026-09-24T22:59:28Z"
+      },
+      {
+        "url": "https://github.com/stellar-compliance-kit/compliance-adapters/issues/571",
+        "state": "closed",
+        "updated_at": "2026-09-24T22:58:21Z"
+      },
+      {
+        "url": "https://github.com/LumenTix-HQ/lumentix/issues/1147",
+        "state": "closed",
+        "updated_at": "2026-09-24T09:00:42Z"
+      },
+      {
+        "url": "https://github.com/Chain-Love/chain-love/issues/3923",
+        "state": "open",
+        "updated_at": "2026-09-24T07:54:17Z"
+      },
+      {
+        "url": "https://github.com/mimir-stellar/telegram-bot/issues/41",
+        "state": "closed",
+        "updated_at": "2026-09-23T21:11:18Z"
+      },
+      {
+        "url": "https://github.com/harpocrates-stellar/main/issues/405",
+        "state": "closed",
+        "updated_at": "2026-09-23T21:11:14Z"
+      },
+      {
+        "url": "https://github.com/tari-project/wallet-benchmarks/issues/1",
+        "state": "open",
+        "updated_at": "2026-09-23T18:23:54Z"
+      }
+    ]
+  }
+}
