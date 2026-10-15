@@ -18,8 +18,13 @@ jobs:
         env:
           SUPABASE_WEBHOOK_URL: https://kjtirbnxxymeumycrhqv.supabase.co/functions/v1/github-webhook
         run: |
-          curl -s -X POST "$SUPABASE_WEBHOOK_URL" \
+          set -euo pipefail
+          # Read the GitHub-provided event file instead of inserting untrusted
+          # JSON into shell source. Apostrophes/newlines cannot break quoting.
+          curl --fail-with-body --silent --show-error \
+            --connect-timeout 5 --max-time 20 \
+            -X POST "$SUPABASE_WEBHOOK_URL" \
             -H "Content-Type: application/json" \
-            -H "x-github-event: ${{ github.event_name }}" \
-            -H "x-github-delivery: ${{ github.run_id }}-${{ github.run_attempt }}" \
-            -d '${{ toJson(github.event) }}'
+            -H "x-github-event: $GITHUB_EVENT_NAME" \
+            -H "x-github-delivery: $GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" \
+            --data-binary "@$GITHUB_EVENT_PATH"
