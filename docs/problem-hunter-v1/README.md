@@ -2,16 +2,18 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [First report](rounds/2026-10-14-R1/REPORT.md)
-- [Three exact proposed comments](rounds/2026-10-14-R1/DRAFTS.md)
+- [Latest report — 2026-10-15 R2](rounds/2026-10-15-R2/REPORT.md)
+- [Latest three proposed comments](rounds/2026-10-15-R2/DRAFTS.md)
+- [First report — 2026-10-14 R1](rounds/2026-10-14-R1/REPORT.md)
+- [R1 proposed comments](rounds/2026-10-14-R1/DRAFTS.md)
 - [Tracking ledger](ledger.json)
 - [Prior radar / exclusions](../GITHUB-ISSUE-RADAR-2026-10-14.md)
 
-155 unique candidates screened by title/excerpt; eight complete reports read; five source investigations; ten previous threads checked. 23 isolated tests passed. No full upstream suite, upstream post, purchase or deployment.
+Latest round: 393 unique issue URLs screened; 12 complete issue reports read; five selected source investigations; ten previous threads checked. Five isolated boundary tests passed. No full upstream suite, upstream post, purchase or deployment.
 
 **Daily scheduling ACTIVE:** Created after the user removed other tasks. Daily at 08:00 Asia/Riyadh, starting 2026-10-15.
 
-**Publication update (2026-10-14):** The user approved all three replies. All three GitHub comment attempts returned 403 `Resource not accessible by integration`; no upstream comment was posted and no permission workaround was attempted. Drafts remain available below. Future replies still require individual approval.
+**Round update (2026-10-15):** R2 produced three new reply drafts awaiting approval; no external post was attempted in the scheduled run. Ten tracked threads had no comment after their saved cursor.\n\n**Publication update (2026-10-14):** The user approved all three replies. All three GitHub comment attempts returned 403 `Resource not accessible by integration`; no upstream comment was posted and no permission workaround was attempted. Drafts remain available below. Future replies still require individual approval.
 
 ## Operating rules
 

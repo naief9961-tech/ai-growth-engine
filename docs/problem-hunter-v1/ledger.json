@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-10-14-R1",
+  "last_round": "2026-10-15-R2",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -15,6 +15,18 @@
       "upstream_full_suites_run": 0,
       "third_party_comments_posted": 0,
       "commercial_requests_verified": 0
+    },
+    {
+      "id": "2026-10-15-R2",
+      "discovery_unique": 393,
+      "full_issue_candidate_reads": 12,
+      "source_investigations": 5,
+      "followup_threads_read": 10,
+      "local_tests_passed": 5,
+      "local_test_attempts_blocked": 1,
+      "upstream_full_suites_run": 0,
+      "third_party_comments_posted": 0,
+      "commercial_requests_verified": 0
     }
   ],
   "automation": {
@@ -24,7 +36,8 @@
     "schedule": "daily 08:00 Asia/Riyadh",
     "first_scheduled_date": "2026-10-15",
     "timing_mode": "exact_schedule",
-    "previous_attempt": "BLOCKED_TASK_LIMIT; resolved after user removed other tasks"
+    "previous_attempt": "BLOCKED_TASK_LIMIT; resolved after user removed other tasks",
+    "last_successful_run": "2026-10-15"
   },
   "issues": [
     {
@@ -299,6 +312,183 @@
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "last_seen_comment_id": 6165979650
+    },
+    {
+      "round_id": "2026-10-15-R2",
+      "discovered_date": "2026-10-15",
+      "state_at_review": "open",
+      "approval": "PENDING_USER_APPROVAL",
+      "publication_status": "NOT_POSTED_SCHEDULED_RUN",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": null,
+      "rank": 1,
+      "url": "https://github.com/microsoft/vscode/issues/341683",
+      "repository": "microsoft/vscode",
+      "issue_number": 341683,
+      "reporter": "Yamano-Yuki",
+      "created_at": "2026-10-15T04:48:39Z",
+      "updated_at": "2026-10-15T04:48:39Z",
+      "diagnosis": "The validated detail URL is requested with followRedirects:0; GitHub Pages canonicalizes directory URLs by adding '/', and the renderer can expose that manual cross-origin redirect as status 0.",
+      "solution": "Retry once with a slash-terminated URL after revalidating it against the registry origin/path; keep redirects disabled and preserve existing status handling.",
+      "confidence": "high: current source and isolated URL-boundary test",
+      "benefit": "high: restores custom registry resolution without weakening redirect controls",
+      "tests": "1 isolated same-origin/path canonicalization test PASS; renderer opaque redirect and VS Code suite NOT RUN",
+      "reply": "R2-01",
+      "sources": [
+        {
+          "path": "src/vs/platform/mcp/common/mcpGalleryService.ts",
+          "commit": "9ebdca5c15f666ab336ca0b0421f5ee25bf1cbe0",
+          "blob_sha": "48b810b82b36031dc18b3be977f326c031b0ce57",
+          "url": "https://github.com/microsoft/vscode/blob/9ebdca5c15f666ab336ca0b0421f5ee25bf1cbe0/src/vs/platform/mcp/common/mcpGalleryService.ts"
+        }
+      ]
+    },
+    {
+      "round_id": "2026-10-15-R2",
+      "discovered_date": "2026-10-15",
+      "state_at_review": "open",
+      "approval": "PENDING_USER_APPROVAL",
+      "publication_status": "NOT_POSTED_SCHEDULED_RUN",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": null,
+      "rank": 2,
+      "url": "https://github.com/a2aproject/a2a-python/issues/1341",
+      "repository": "a2aproject/a2a-python",
+      "issue_number": 1341,
+      "reporter": "fpt-long-hd",
+      "created_at": "2026-10-15T03:28:35Z",
+      "updated_at": "2026-10-15T03:28:43Z",
+      "diagnosis": "All current v1 JSON-RPC and REST client response parsers, including streaming, use strict protobuf parsing while other client compatibility paths are lenient.",
+      "solution": "Centralize received-response parsing with ignore_unknown_fields=True across unary and streaming JSON-RPC/REST paths; retain malformed-known-field failures and document unknown enum behavior.",
+      "confidence": "high: current source across both transports; direct protobuf run unavailable",
+      "benefit": "high: forward compatibility for the official A2A Python client and downstream gateways",
+      "tests": "1 isolated strict/ignore parser model PASS; direct SDK reproduction BLOCKED because google.protobuf is absent; upstream suite NOT RUN",
+      "reply": "R2-02",
+      "sources": [
+        {
+          "path": "src/a2a/client/transports/jsonrpc.py",
+          "commit": "a4c4fc91a22778f3d805e5e592bf690915a33033",
+          "blob_sha": "b6a68799828e09dfac594850657d0d61ad6b8766",
+          "url": "https://github.com/a2aproject/a2a-python/blob/a4c4fc91a22778f3d805e5e592bf690915a33033/src/a2a/client/transports/jsonrpc.py"
+        },
+        {
+          "path": "src/a2a/client/transports/rest.py",
+          "commit": "a4c4fc91a22778f3d805e5e592bf690915a33033",
+          "blob_sha": "01aea2d775986f98cd5e363cea469b7b9840c2d0",
+          "url": "https://github.com/a2aproject/a2a-python/blob/a4c4fc91a22778f3d805e5e592bf690915a33033/src/a2a/client/transports/rest.py"
+        }
+      ]
+    },
+    {
+      "round_id": "2026-10-15-R2",
+      "discovered_date": "2026-10-15",
+      "state_at_review": "open",
+      "approval": "PENDING_USER_APPROVAL",
+      "publication_status": "NOT_POSTED_SCHEDULED_RUN",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": null,
+      "rank": 3,
+      "url": "https://github.com/Abilityai/trinity/issues/3749",
+      "repository": "Abilityai/trinity",
+      "issue_number": 3749,
+      "reporter": "vybe",
+      "created_at": "2026-10-15T04:06:48Z",
+      "updated_at": "2026-10-15T04:06:48Z",
+      "diagnosis": "message/send awaits dispatch_and_await_terminal before an execution id can be returned, although tasks/get already maps queued/running rows to submitted/working.",
+      "solution": "Split durable dispatch from terminal wait; bind caller ownership immediately, wait under a shielded server budget, return a pollable Task, and derive replay state from execution id without early terminal audit.",
+      "confidence": "high: current source and isolated asyncio boundary test",
+      "benefit": "high: prevents completed and billed long-running work from becoming unreachable to callers",
+      "tests": "1 isolated shielded-timeout test PASS; Trinity DB, AAuth, billing and audit integrations NOT RUN",
+      "reply": "R2-03",
+      "sources": [
+        {
+          "path": "src/backend/routers/a2a.py",
+          "commit": "43576279b43d27cca67559a66f47f33e6ddedb56",
+          "blob_sha": "1c7bac3da52d7983cfb337ee593016e24bee0052",
+          "url": "https://github.com/Abilityai/trinity/blob/43576279b43d27cca67559a66f47f33e6ddedb56/src/backend/routers/a2a.py"
+        }
+      ]
+    },
+    {
+      "round_id": "2026-10-15-R2",
+      "discovered_date": "2026-10-15",
+      "state_at_review": "open",
+      "approval": "PENDING_USER_APPROVAL",
+      "publication_status": "NOT_POSTED_SCHEDULED_RUN",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": null,
+      "rank": 4,
+      "url": "https://github.com/php-mcp/laravel/issues/50",
+      "repository": "php-mcp/laravel",
+      "issue_number": 50,
+      "reporter": "gms8994",
+      "created_at": "2026-10-15T01:08:01Z",
+      "updated_at": "2026-10-15T01:08:01Z",
+      "diagnosis": "The Protocol's intended 404 is queued through a SessionManager that silently drops messages for an expired session; JSON response mode then converts the empty dequeue to a generic 500.",
+      "solution": "Short-circuit invalid/expired sessions in the streamable HTTP transport and return the prepared 404 JSON-RPC error directly before queue-dependent response handling.",
+      "confidence": "high: source-confirmed across laravel 4.0.0 and server 3.3.0",
+      "benefit": "high: correct client recovery semantics and removes misleading internal errors",
+      "tests": "1 isolated queue/state-machine test PASS; PHP/Laravel suites NOT RUN",
+      "reply": null,
+      "sources": [
+        {
+          "path": "src/Transports/StreamableHttpServerTransport.php",
+          "commit": "39c233348dbea594305da56ffc4ef03036fc226f",
+          "blob_sha": "f07a32dd7bd92371c8c1765139bdadf7b11f2c79",
+          "url": "https://github.com/php-mcp/laravel/blob/39c233348dbea594305da56ffc4ef03036fc226f/src/Transports/StreamableHttpServerTransport.php"
+        },
+        {
+          "path": "src/Session/SessionManager.php",
+          "commit": "3.3.0",
+          "blob_sha": "01d5edd2cc91b4c3c8e049578dd01253d7663654",
+          "url": "https://github.com/php-mcp/server/blob/3.3.0/src/Session/SessionManager.php"
+        }
+      ]
+    },
+    {
+      "round_id": "2026-10-15-R2",
+      "discovered_date": "2026-10-15",
+      "state_at_review": "open",
+      "approval": "PENDING_USER_APPROVAL",
+      "publication_status": "NOT_POSTED_SCHEDULED_RUN",
+      "published_comment_url": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "last_seen_comment_id": null,
+      "rank": 5,
+      "url": "https://github.com/tidynotebook/tidynotebook/issues/389",
+      "repository": "tidynotebook/tidynotebook",
+      "issue_number": 389,
+      "reporter": "bkhanale",
+      "created_at": "2026-10-15T04:50:31Z",
+      "updated_at": "2026-10-15T04:50:31Z",
+      "diagnosis": "The challenge helper emits invalid_token in the body but omits it from 401 WWW-Authenticate, and its caller conflates missing and invalid credentials; 403 already advertises insufficient_scope.",
+      "solution": "Pass an explicit challenge kind so missing credentials omit error, invalid/expired/revoked tokens include invalid_token, and scope failures retain insufficient_scope.",
+      "confidence": "high: pinned source and RFC-shaped header matrix",
+      "benefit": "medium-high: standards-compliant OAuth discovery and better client recovery",
+      "tests": "1 isolated challenge-header matrix PASS; Fastify/integration suites NOT RUN",
+      "reply": null,
+      "sources": [
+        {
+          "path": "apps/server/src/mcp/protocol.ts",
+          "commit": "c92e23248770b04fba5c246684460a8250252f60",
+          "blob_sha": "43daf0926f10f52d017235b09d820b5e3afcc9ad",
+          "url": "https://github.com/tidynotebook/tidynotebook/blob/c92e23248770b04fba5c246684460a8250252f60/apps/server/src/mcp/protocol.ts"
+        }
+      ]
     }
   ],
   "followups": [
@@ -512,6 +702,26 @@
     {
       "url": "https://github.com/johnyi12/tickersfeed-sdk/issues/2",
       "reason": "Read full report; literal-route problem and workaround already explained; no new value demonstrated"
+    },
+    {
+      "url": "https://github.com/turnstonelabs/turnstone/issues/1391",
+      "reason": "Excluded after linked open PR #1395 implemented the 16 MiB event cap and regression coverage; avoid duplicate advice."
+    },
+    {
+      "url": "https://github.com/LanternOps/breeze/issues/8798",
+      "reason": "Issue/adjacent PR record states this failure has its own PR; no duplicate outreach."
+    },
+    {
+      "url": "https://github.com/miqro-org/miqro-gate/issues/34",
+      "reason": "Linked PR #35 already covers the SSE wrapping, Accept header and 202 notification handling."
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/registry/issues/1712",
+      "reason": "Auto-generated proposal/data report rather than a focused unresolved bug; promotional link present."
+    },
+    {
+      "url": "https://github.com/kagent-dev/kagent/issues/3210",
+      "reason": "A contributor already volunteered and was told to proceed; held to avoid duplicate work."
     }
   ],
   "history_search": {
@@ -725,5 +935,13 @@
         "updated_at": "2026-09-23T18:23:54Z"
       }
     ]
+  },
+  "history_search_r2": {
+    "review_date": "2026-10-15",
+    "unique_issue_urls_screened": 393,
+    "full_issue_reads": 12,
+    "selected_source_investigations": 5,
+    "followup_threads_checked": 10,
+    "new_followup_replies": 0
   }
 }
