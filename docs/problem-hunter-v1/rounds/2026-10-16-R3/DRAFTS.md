@@ -1,6 +1,6 @@
 # R3 — English replies for review (2026-10-16)
 
-Status: **R3-01 POSTED_MANUALLY_VERIFIED**; **R3-02 and R3-03 PENDING_USER_APPROVAL**. The scheduled run sent no comments. The user subsequently published R3-01 manually on 2026-10-16 at 05:23:05Z (08:23:05 Asia/Riyadh): [verified comment](https://github.com/agnt-gg/agnt/issues/169#issuecomment-6208715705). No subsequent reply was present at verification. Re-read each thread and linked PRs before any future publication. This manual post does not authorize other comments.
+Status: **R3-01 and R3-02 POSTED_MANUALLY_VERIFIED**; **R3-03 PENDING_USER_APPROVAL**. The scheduled run sent no comments. The user subsequently published R3-01 manually on 2026-10-16 at 05:23:05Z (08:23:05 Asia/Riyadh): [verified comment](https://github.com/agnt-gg/agnt/issues/169#issuecomment-6208715705). No subsequent reply was present at verification. Re-read each thread and linked PRs before any future publication. R3-02 was subsequently published manually at 2026-10-16T05:26:11Z (08:26:11 Asia/Riyadh): [verified comment](https://github.com/owasp-noir/noir/issues/3078#issuecomment-6208753257). No subsequent response was present at verification. These manual posts do not authorize other comments.
 
 ## R3-01 — AGNT OAuth concurrency
 Target: https://github.com/agnt-gg/agnt/issues/169

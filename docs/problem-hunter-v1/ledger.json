@@ -596,7 +596,9 @@
       "tests": "1 synthetic Python predicate case PASS; no Crystal compiler or Noir suite. Reference/allOf/oneOf/anyOf behavior NOT RUN.",
       "reply": "R3-02",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "USER_MANUAL_PUBLICATION",
+        "date": "2026-10-16",
+        "source": "User confirmed 'نشرته' after manually publishing R3-02; GitHub verified. No authorization for other comments."
       },
       "sources": [
         {
@@ -610,12 +612,23 @@
           "blob_sha": "58061efad5f80055fc252d44807b90b8418681a2"
         }
       ],
-      "publication_status": "DRAFT_ONLY",
-      "published_comment_url": null,
-      "last_seen_comment_id": null,
-      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/owasp-noir/noir/issues/3078#issuecomment-6208753257",
+      "last_seen_comment_id": 6208753257,
+      "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
       "commercial_interest": "NONE_OBSERVED",
-      "purchase_evidence": null
+      "purchase_evidence": null,
+      "published_comment_at": "2026-10-16T05:26:11Z",
+      "publication_history": [
+        {
+          "date": "2026-10-16",
+          "event": "MANUAL_PUBLICATION_VERIFIED",
+          "comment_id": 6208753257,
+          "url": "https://github.com/owasp-noir/noir/issues/3078#issuecomment-6208753257",
+          "published_at": "2026-10-16T05:26:11Z",
+          "actor": "naief9961-tech"
+        }
+      ]
     },
     {
       "round_id": "2026-10-16-R3",
@@ -939,6 +952,19 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_MANUAL_PUBLICATION",
       "outcome": "User manually published R3-01 after scheduled round; no developer response observed.",
+      "last_checked_date": "2026-10-16"
+    },
+    {
+      "url": "https://github.com/owasp-noir/noir/issues/3078",
+      "state": "open",
+      "last_own_comment_id": 6208753257,
+      "last_own_comment_at": "2026-10-16T05:26:11Z",
+      "last_seen_comment_id": 6208753257,
+      "last_seen_comment_at": "2026-10-16T05:26:11Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "VERIFIED_MANUAL_PUBLICATION",
+      "outcome": "User manually published R3-02 after scheduled round; no developer response observed.",
       "last_checked_date": "2026-10-16"
     }
   ],
