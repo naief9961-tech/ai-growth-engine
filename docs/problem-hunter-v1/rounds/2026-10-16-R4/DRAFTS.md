@@ -1,6 +1,6 @@
 # R4 — reply for review (2026-10-16)
 
-Status: **PENDING_USER_APPROVAL**. No external comment or PR was sent. Only one new reply is ready for review. Re-read the thread immediately before publication.
+Status: **POSTED_MANUALLY_VERIFIED**. The user manually published R4-01 on 2026-10-16 at 05:52:54Z (08:52:54 Asia/Riyadh): [verified comment](https://github.com/MementoRC/mcp-git/issues/298#issuecomment-6209070203). No subsequent developer response was present at verification. The agent sent no external comment or PR. The text below is a historical draft, not a request to post it again. This publication does not authorize other comments.
 
 ## R4-01 — MCP Git parameter-shape validation
 

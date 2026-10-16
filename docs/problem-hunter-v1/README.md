@@ -53,3 +53,7 @@ The [existing free MCP probe](https://github.com/naief9961-tech/naif-gravity-mcp
 - All three R3 comments were subsequently posted manually by the user and verified; see the ledger and R4 report for exact URLs. This does not authorize other comments. AGNT does not accept outside auth PRs; the comment provides reproduction evidence only.
 - R2 correction: VS Code's slash retry does not establish the cause of general restart disablement; registry detail serialization is another unresolved observation. REST SSE in A2A Python uses Parse, not ParseDict; the manually posted comment correctly states this.
 - [Local evidence and limits](rounds/2026-10-16-R3/TESTS.md).
+
+## R4 manual publication — 2026-10-16
+
+The user manually published the sole R4 reply at 08:52:54 Asia/Riyadh: [MCP Git #298](https://github.com/MementoRC/mcp-git/issues/298#issuecomment-6209070203). Verified in GitHub; no subsequent developer reply or commercial request was present at verification. The ledger cursor is 6209070203. R4's draft is now a historical copy and must not be posted again.

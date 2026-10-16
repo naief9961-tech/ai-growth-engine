@@ -62,7 +62,15 @@
       "upstream_full_suites_run": 0,
       "third_party_comments_posted": 0,
       "manual_publications_reconciled": 1,
-      "commercial_requests_verified": 0
+      "commercial_requests_verified": 0,
+      "post_round_manual_publications": [
+        {
+          "reply": "R4-01",
+          "comment_url": "https://github.com/MementoRC/mcp-git/issues/298#issuecomment-6209070203",
+          "published_at": "2026-10-16T05:52:54Z",
+          "verified_at": "2026-10-16T05:53:28Z"
+        }
+      ]
     }
   ],
   "automation": {
@@ -713,7 +721,7 @@
       "issue_number": 298,
       "reporter": "MementoRC",
       "created_at": "2026-10-16T01:07:07Z",
-      "updated_at": "2026-10-16T01:07:07Z",
+      "updated_at": "2026-10-16T05:52:54Z",
       "discovered_date": "2026-10-16",
       "state_at_review": "open",
       "diagnosis": "Top-level non-object bodies hit .get before validation. Parameter validation is dispatch-dependent: initialize/list ignore non-objects; tools/call coerces falsey values with params or {} and produces -32603 for truthy wrong types.",
@@ -723,12 +731,14 @@
       "tests": "5 groups PASS: 2 baseline source-extracted groups and 3 candidate-extract groups; includes 24 invalid-param method/value combinations. No FastAPI/ASGI, live HTTP, Git operations, notification or full-suite tests.",
       "reply": "R4-01",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "USER_MANUAL_PUBLICATION",
+        "date": "2026-10-16",
+        "source": "User confirmed manual publication in this conversation; GitHub verified. No authority for any other comment."
       },
-      "publication_status": "DRAFT_ONLY",
-      "published_comment_url": null,
-      "last_seen_comment_id": null,
-      "developer_response": "NOT_CONTACTED",
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/MementoRC/mcp-git/issues/298#issuecomment-6209070203",
+      "last_seen_comment_id": 6209070203,
+      "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "sources": [
@@ -749,6 +759,17 @@
           "commit": "648cb467d80311ef83f7246dfa9a07bd930db072",
           "blob_sha": "8383fc4f1cb176588b5157d6e8677454908cf55e",
           "url": "https://github.com/MementoRC/mcp-git/blob/648cb467d80311ef83f7246dfa9a07bd930db072/src/mcp_server_git/transport/http_rpc_responses.py"
+        }
+      ],
+      "published_comment_at": "2026-10-16T05:52:54Z",
+      "publication_history": [
+        {
+          "date": "2026-10-16",
+          "event": "MANUAL_PUBLICATION_VERIFIED",
+          "comment_id": 6209070203,
+          "url": "https://github.com/MementoRC/mcp-git/issues/298#issuecomment-6209070203",
+          "published_at": "2026-10-16T05:52:54Z",
+          "actor": "naief9961-tech"
         }
       ]
     },
@@ -1151,6 +1172,20 @@
       "status": "VERIFIED_MANUAL_PUBLICATION",
       "outcome": "Current R3-03 manual comment verified. Earlier observed comment ID no longer listed. No developer response.",
       "last_checked_date": "2026-10-16"
+    },
+    {
+      "url": "https://github.com/MementoRC/mcp-git/issues/298",
+      "state": "open",
+      "last_own_comment_id": 6209070203,
+      "last_own_comment_at": "2026-10-16T05:52:54Z",
+      "last_seen_comment_id": 6209070203,
+      "last_seen_comment_at": "2026-10-16T05:52:54Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "VERIFIED_MANUAL_PUBLICATION",
+      "outcome": "User manually published R4-01; no developer response observed.",
+      "last_checked_date": "2026-10-16",
+      "last_checked_at": "2026-10-16T05:53:28Z"
     }
   ],
   "exclusions": [
