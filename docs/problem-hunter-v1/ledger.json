@@ -549,7 +549,9 @@
       "tests": "2 source-extracted baseline reproductions + 2 candidate concurrency model cases PASS. Real file persistence, permissions, token rotation, OAuth/session recovery and upstream suite NOT RUN.",
       "reply": "R3-01",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "USER_MANUAL_PUBLICATION",
+        "date": "2026-10-16",
+        "source": "User said 'نشرته' in this conversation after manually posting R3-01; verified via GitHub. This does not authorize any other publication."
       },
       "sources": [
         {
@@ -558,12 +560,23 @@
           "blob_sha": "ef149de39c19a166fc874fd8de0c3b1382ed8b2a"
         }
       ],
-      "publication_status": "DRAFT_ONLY",
-      "published_comment_url": null,
-      "last_seen_comment_id": null,
-      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/agnt-gg/agnt/issues/169#issuecomment-6208715705",
+      "last_seen_comment_id": 6208715705,
+      "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
       "commercial_interest": "NONE_OBSERVED",
-      "purchase_evidence": null
+      "purchase_evidence": null,
+      "published_comment_at": "2026-10-16T05:23:05Z",
+      "publication_history": [
+        {
+          "date": "2026-10-16",
+          "event": "MANUAL_PUBLICATION_VERIFIED",
+          "comment_id": 6208715705,
+          "url": "https://github.com/agnt-gg/agnt/issues/169#issuecomment-6208715705",
+          "published_at": "2026-10-16T05:23:05Z",
+          "actor": "naief9961-tech"
+        }
+      ]
     },
     {
       "round_id": "2026-10-16-R3",
@@ -913,6 +926,19 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "PR #3750 merged to dev as f5fc04fb07afcd6ea62e991016d33849fa9107f1; live acceptance pending. No causal attribution to our comment.",
+      "last_checked_date": "2026-10-16"
+    },
+    {
+      "url": "https://github.com/agnt-gg/agnt/issues/169",
+      "state": "open",
+      "last_own_comment_id": 6208715705,
+      "last_own_comment_at": "2026-10-16T05:23:05Z",
+      "last_seen_comment_id": 6208715705,
+      "last_seen_comment_at": "2026-10-16T05:23:05Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "VERIFIED_MANUAL_PUBLICATION",
+      "outcome": "User manually published R3-01 after scheduled round; no developer response observed.",
       "last_checked_date": "2026-10-16"
     }
   ],
