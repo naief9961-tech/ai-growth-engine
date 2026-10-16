@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-10-16-R3",
+  "last_round": "2026-10-16-R4",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -42,6 +42,26 @@
       "manual_publications_reconciled": 3,
       "new_comments_after_saved_or_verified_own_cursor": 6,
       "direct_technical_acknowledgements": 1,
+      "commercial_requests_verified": 0
+    },
+    {
+      "id": "2026-10-16-R4",
+      "run_type": "USER_REQUESTED_ADDITIONAL_ROUND",
+      "discovery_unique": 398,
+      "previous_round_screening_overlap": 86,
+      "already_recorded_urls_in_search": 4,
+      "full_issue_candidate_reads": 11,
+      "source_investigations": 3,
+      "actionable_open_drafts": 1,
+      "open_investigations_held_for_policy": 1,
+      "withdrawn_after_issue_closed": 1,
+      "followup_threads_read": 3,
+      "local_test_groups_passed": 21,
+      "source_extracted_baseline_groups": 6,
+      "candidate_model_or_extract_groups": 15,
+      "upstream_full_suites_run": 0,
+      "third_party_comments_posted": 0,
+      "manual_publications_reconciled": 1,
       "commercial_requests_verified": 0
     }
   ],
@@ -648,7 +668,9 @@
       "tests": "3 synthetic Python scan-model cases PASS; Go absent, no Engram/doctor execution; actual filesystem permissions and CLI output NOT RUN.",
       "reply": "R3-03",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "USER_MANUAL_PUBLICATION",
+        "date": "2026-10-16",
+        "source": "User confirmed manual publication in this conversation. GitHub verified; no authorization for other comments."
       },
       "sources": [
         {
@@ -657,12 +679,162 @@
           "blob_sha": "24ccbbca81573f64b2768152557fd8121c839062"
         }
       ],
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/Gentleman-Programming/engram/issues/1899#issuecomment-6208832958",
+      "last_seen_comment_id": 6208832958,
+      "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "published_comment_at": "2026-10-16T05:32:58Z",
+      "publication_history": [
+        {
+          "date": "2026-10-16",
+          "event": "MANUAL_PUBLICATION_OBSERVED",
+          "comment_id": 6208777198,
+          "url": "https://github.com/Gentleman-Programming/engram/issues/1899#issuecomment-6208777198",
+          "published_at": "2026-10-16T05:28:14Z",
+          "later_status": "NO_LONGER_LISTED_IN_LATEST_COMMENTS; cause not inferred"
+        },
+        {
+          "date": "2026-10-16",
+          "event": "CURRENT_MANUAL_PUBLICATION_VERIFIED",
+          "comment_id": 6208832958,
+          "url": "https://github.com/Gentleman-Programming/engram/issues/1899#issuecomment-6208832958",
+          "published_at": "2026-10-16T05:32:58Z",
+          "actor": "naief9961-tech"
+        }
+      ]
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "rank": 1,
+      "url": "https://github.com/MementoRC/mcp-git/issues/298",
+      "repository": "MementoRC/mcp-git",
+      "issue_number": 298,
+      "reporter": "MementoRC",
+      "created_at": "2026-10-16T01:07:07Z",
+      "updated_at": "2026-10-16T01:07:07Z",
+      "discovered_date": "2026-10-16",
+      "state_at_review": "open",
+      "diagnosis": "Top-level non-object bodies hit .get before validation. Parameter validation is dispatch-dependent: initialize/list ignore non-objects; tools/call coerces falsey values with params or {} and produces -32603 for truthy wrong types.",
+      "solution": "Validate envelope before .get; for methods requiring object params validate explicit params before dispatch, retaining absent versus null and request ID. Batch and notification policy need separate integration checks.",
+      "confidence": "high for source-extracted dispatch behavior; integration and batch policy unverified",
+      "benefit": "high: adds falsey/truthy and method-dispatch boundaries absent from existing characterization pair",
+      "tests": "5 groups PASS: 2 baseline source-extracted groups and 3 candidate-extract groups; includes 24 invalid-param method/value combinations. No FastAPI/ASGI, live HTTP, Git operations, notification or full-suite tests.",
+      "reply": "R4-01",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
       "publication_status": "DRAFT_ONLY",
       "published_comment_url": null,
       "last_seen_comment_id": null,
-      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "developer_response": "NOT_CONTACTED",
       "commercial_interest": "NONE_OBSERVED",
-      "purchase_evidence": null
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "path": "src/mcp_server_git/transport/http_jsonrpc.py",
+          "commit": "648cb467d80311ef83f7246dfa9a07bd930db072",
+          "blob_sha": "730b378f8c68ed0e15c6fa31795607cc23201bea",
+          "url": "https://github.com/MementoRC/mcp-git/blob/648cb467d80311ef83f7246dfa9a07bd930db072/src/mcp_server_git/transport/http_jsonrpc.py"
+        },
+        {
+          "path": "src/mcp_server_git/transport/http_tool_call.py",
+          "commit": "648cb467d80311ef83f7246dfa9a07bd930db072",
+          "blob_sha": "2720df013e687d111a2b162350bdb3613cd18393",
+          "url": "https://github.com/MementoRC/mcp-git/blob/648cb467d80311ef83f7246dfa9a07bd930db072/src/mcp_server_git/transport/http_tool_call.py"
+        },
+        {
+          "path": "src/mcp_server_git/transport/http_rpc_responses.py",
+          "commit": "648cb467d80311ef83f7246dfa9a07bd930db072",
+          "blob_sha": "8383fc4f1cb176588b5157d6e8677454908cf55e",
+          "url": "https://github.com/MementoRC/mcp-git/blob/648cb467d80311ef83f7246dfa9a07bd930db072/src/mcp_server_git/transport/http_rpc_responses.py"
+        }
+      ]
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "rank": 2,
+      "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3710",
+      "repository": "modelcontextprotocol/python-sdk",
+      "issue_number": 3710,
+      "reporter": "inanna-malick",
+      "created_at": "2026-10-14T22:07:26Z",
+      "updated_at": "2026-10-15T23:04:23Z",
+      "discovered_date": "2026-10-16",
+      "state_at_review": "open",
+      "diagnosis": "Reserved-name prefixing collides with a literal parameter name and overwrites the model-field dictionary before Pydantic. Declaration order changes the lost field.",
+      "solution": "Allocate an internal name against all original parameter names plus already generated names; preserve alias/original kwargs binding and constraints. Test both orders and repeated-prefix names via public MCP Client/server before upstream use.",
+      "confidence": "high for construction-time collision; candidate end-to-end compatibility unverified",
+      "benefit": "medium to high: order-independent allocation and repeated-prefix regression boundary",
+      "tests": "9 groups PASS using extracted ArgModelBase and argument-construction prefix: 2 baseline orders, 6 candidate permutations and 1 annotation/default/constraint control. Python 3.12.14/Pydantic 2.13.5; no MCP package, public roundtrip or suite.",
+      "reply": null,
+      "approval": {
+        "status": "HELD_REPOSITORY_AI_POLICY"
+      },
+      "publication_status": "HELD_REPOSITORY_AI_POLICY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NOT_CONTACTED",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "path": "src/mcp/server/mcpserver/utilities/func_metadata.py",
+          "commit": "754254c08fe1c3eda18b69da3d336106fe8d72d6",
+          "blob_sha": "96d25ec5ab50261dc303f55c8585cdeeca4db99d",
+          "url": "https://github.com/modelcontextprotocol/python-sdk/blob/754254c08fe1c3eda18b69da3d336106fe8d72d6/src/mcp/server/mcpserver/utilities/func_metadata.py"
+        }
+      ],
+      "policy_note": "CONTRIBUTING requires disclosure, personal understanding and a human who encountered the problem/read output; those conditions not established for this third-party triage. No copy-ready posting recommendation. External PR requires assignment or help wanted."
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "rank": 3,
+      "url": "https://github.com/markdlabrecque/pi-claude-subscription/issues/22",
+      "repository": "markdlabrecque/pi-claude-subscription",
+      "issue_number": 22,
+      "reporter": "markdlabrecque",
+      "created_at": "2026-10-16T05:24:29Z",
+      "updated_at": "2026-10-16T05:39:31Z",
+      "discovered_date": "2026-10-16",
+      "state_at_review": "closed",
+      "diagnosis": "At inspected default-branch snapshot two unguarded writes can leave schema and partial config artifacts. PID-only file names do not identify individual call ownership.",
+      "solution": "Investigation suggested owned per-call paths, cleanup covering both writes and preserving original error. Withdrawn from posting when owner closed issue citing fix/pr-17-review-followups; branch now has UUID paths and second-write schema cleanup.",
+      "confidence": "high for historical pinned source; closure verified, complete maintainer fix not independently integration-tested",
+      "benefit": "WITHDRAWN: issue closed during investigation",
+      "tests": "7 groups PASS: 2 baseline injected partial-write failures and 5 limited cleanup/ownership candidate-model groups. Memory filesystem; no actual ENOSPC/EACCES, CLI, Vitest or crash recovery. Maintainer branch tests were not run by us.",
+      "reply": null,
+      "approval": {
+        "status": "WITHDRAWN_ISSUE_CLOSED"
+      },
+      "publication_status": "WITHDRAWN_ISSUE_CLOSED",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NOT_CONTACTED",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "path": "src/mcp-config.ts",
+          "commit": "e0c9a12ac21be4c197e82795f7207746f3183028",
+          "blob_sha": "04854611e280a6dfc3a3ddab76c83c855fa8d801",
+          "url": "https://github.com/markdlabrecque/pi-claude-subscription/blob/e0c9a12ac21be4c197e82795f7207746f3183028/src/mcp-config.ts"
+        },
+        {
+          "path": "index.ts",
+          "commit": "e0c9a12ac21be4c197e82795f7207746f3183028",
+          "blob_sha": "4b77482487cff70296081e8e80e6fdcda5b9e597",
+          "url": "https://github.com/markdlabrecque/pi-claude-subscription/blob/e0c9a12ac21be4c197e82795f7207746f3183028/index.ts"
+        }
+      ],
+      "closure": {
+        "comment_id": 6208910728,
+        "reported_fix_commit": "c861e737a52248db020051f874efa7572e564682",
+        "branch": "fix/pr-17-review-followups",
+        "source_blob": "64fbc4dad0a23ce1dbe22974929e8ecfeb724b99",
+        "note": "Owner reported fixed and closed. Branch source read; owner test claims not ours."
+      }
     }
   ],
   "followups": [
@@ -966,6 +1138,19 @@
       "status": "VERIFIED_MANUAL_PUBLICATION",
       "outcome": "User manually published R3-02 after scheduled round; no developer response observed.",
       "last_checked_date": "2026-10-16"
+    },
+    {
+      "url": "https://github.com/Gentleman-Programming/engram/issues/1899",
+      "state": "open",
+      "last_own_comment_id": 6208832958,
+      "last_own_comment_at": "2026-10-16T05:32:58Z",
+      "last_seen_comment_id": 6208832958,
+      "last_seen_comment_at": "2026-10-16T05:32:58Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "VERIFIED_MANUAL_PUBLICATION",
+      "outcome": "Current R3-03 manual comment verified. Earlier observed comment ID no longer listed. No developer response.",
+      "last_checked_date": "2026-10-16"
     }
   ],
   "exclusions": [
@@ -1046,6 +1231,46 @@
       "url": "https://github.com/winsznx/routedock/issues/570",
       "reason": "Fix outline already detailed and contributors volunteering; no distinct added value this round.",
       "round_id": "2026-10-16-R3"
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "url": "https://github.com/volcengine/OpenViking/issues/6158",
+      "reason": "Reporter already supplies source-level cause and eight wire-level cases; no distinct added value established."
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "url": "https://github.com/aotter/mantle/issues/1693",
+      "reason": "PR #1694 already implements normalized issuer verification with regression coverage; no duplicate comment."
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "url": "https://github.com/neatlogs/neatroots/issues/154",
+      "reason": "PR #155 verified merged; excluded as already repaired upstream."
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "url": "https://github.com/bmorton/temporal-operator/issues/223",
+      "reason": "Owner already supplies detailed causal chain and remediation; no additional independently tested fix."
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3711",
+      "reason": "Existing targeted dataclass reproductions; source read was preliminary, not a completed additional investigation."
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3714",
+      "reason": "Reporter already supplies deterministic delayed-error reproduction; no new contribution completed."
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/issues/3019",
+      "reason": "PR #3021 already covers null-prototype registries and tests; no duplicate."
+    },
+    {
+      "round_id": "2026-10-16-R4",
+      "url": "https://github.com/FreeTWAI/freedom-platform/issues/827",
+      "reason": "PR #828 already covers exact media-type parsing and native HTTP regressions; no duplicate."
     }
   ],
   "history_search": {

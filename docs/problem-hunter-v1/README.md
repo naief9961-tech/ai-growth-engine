@@ -2,15 +2,19 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-16 R3](rounds/2026-10-16-R3/REPORT.md)
-- [Latest three proposed comments](rounds/2026-10-16-R3/DRAFTS.md)
+- [Latest report — 2026-10-16 R4](rounds/2026-10-16-R4/REPORT.md)
+- [One new proposed comment for review](rounds/2026-10-16-R4/DRAFTS.md)
+- [R4 isolated evidence](rounds/2026-10-16-R4/TESTS.md)
+- [Previous report — 2026-10-16 R3](rounds/2026-10-16-R3/REPORT.md)
 - [Previous report — 2026-10-15 R2](rounds/2026-10-15-R2/REPORT.md)
 - [First report — 2026-10-14 R1](rounds/2026-10-14-R1/REPORT.md)
 - [R1 proposed comments](rounds/2026-10-14-R1/DRAFTS.md)
 - [Tracking ledger](ledger.json)
 - [Prior radar / exclusions](../GITHUB-ISSUE-RADAR-2026-10-14.md)
 
-Latest round: 215 unique issue URLs screened; nine full candidate reads; three source investigations; 16 tracked/draft threads checked. Eight isolated cases passed (two source-extracted baseline reproductions; six candidate/design model cases). No upstream suite or external post this round.
+Latest round R4: 398 unique URLs screened (86 previously screened in R3); 11 full candidate reads; three source investigations. One open reply draft, one policy hold, one withdrawn after closure. Twenty-one isolated assertion groups passed (six source-extracted baseline groups; fifteen candidate/model groups); no upstream full suite. No external comment sent. The three R3 manual posts are verified; no subsequent developer reply or commercial request was present at the latest check.
+
+Historical R3 round: 215 unique issue URLs screened; nine full candidate reads; three source investigations; 16 tracked/draft threads checked. Eight isolated cases passed (two source-extracted baseline reproductions; six candidate/design model cases). No upstream suite or external post this round.
 
 **Daily scheduling ACTIVE:** Created after the user removed other tasks. Daily at 08:00 Asia/Riyadh, starting 2026-10-15.
 
@@ -46,6 +50,6 @@ The [existing free MCP probe](https://github.com/naief9961-tech/naif-gravity-mcp
 
 - Reconciled three user-posted comments from 15 October (VS Code, A2A Python, Trinity) with exact URLs in the ledger. No duplicate comments sent.
 - New direct technical acknowledgement from parisbs; successor #180 retains configuration/isolation criteria. Trinity PR #3750 merged into dev; live acceptance remains pending. No commercial request.
-- R3 drafts require fresh user approval. AGNT does not accept outside auth PRs; its draft provides reproduction evidence only.
+- All three R3 comments were subsequently posted manually by the user and verified; see the ledger and R4 report for exact URLs. This does not authorize other comments. AGNT does not accept outside auth PRs; the comment provides reproduction evidence only.
 - R2 correction: VS Code's slash retry does not establish the cause of general restart disablement; registry detail serialization is another unresolved observation. REST SSE in A2A Python uses Parse, not ParseDict; the manually posted comment correctly states this.
 - [Local evidence and limits](rounds/2026-10-16-R3/TESTS.md).
