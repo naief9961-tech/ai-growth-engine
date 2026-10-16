@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-10-15-R2",
+  "last_round": "2026-10-16-R3",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -27,6 +27,22 @@
       "upstream_full_suites_run": 0,
       "third_party_comments_posted": 0,
       "commercial_requests_verified": 0
+    },
+    {
+      "id": "2026-10-16-R3",
+      "discovery_unique": 215,
+      "full_issue_candidate_reads": 9,
+      "source_investigations": 3,
+      "followup_threads_read": 16,
+      "local_tests_passed": 8,
+      "source_extracted_baseline_reproductions": 2,
+      "candidate_or_design_model_cases": 6,
+      "upstream_full_suites_run": 0,
+      "third_party_comments_posted": 0,
+      "manual_publications_reconciled": 3,
+      "new_comments_after_saved_or_verified_own_cursor": 6,
+      "direct_technical_acknowledgements": 1,
+      "commercial_requests_verified": 0
     }
   ],
   "automation": {
@@ -37,7 +53,7 @@
     "first_scheduled_date": "2026-10-15",
     "timing_mode": "exact_schedule",
     "previous_attempt": "BLOCKED_TASK_LIMIT; resolved after user removed other tasks",
-    "last_successful_run": "2026-10-15"
+    "last_successful_run": "2026-10-16"
   },
   "issues": [
     {
@@ -317,13 +333,17 @@
       "round_id": "2026-10-15-R2",
       "discovered_date": "2026-10-15",
       "state_at_review": "open",
-      "approval": "PENDING_USER_APPROVAL",
-      "publication_status": "NOT_POSTED_SCHEDULED_RUN",
-      "published_comment_url": null,
-      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "approval": {
+        "status": "USER_MANUAL_PUBLICATION",
+        "date": "2026-10-15",
+        "source": "User manually posted the reply and confirmed in this conversation; verified via GitHub on 2026-10-16. Not authorization for another comment."
+      },
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/microsoft/vscode/issues/341683#issuecomment-6184978396",
+      "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
-      "last_seen_comment_id": null,
+      "last_seen_comment_id": 6184978396,
       "rank": 1,
       "url": "https://github.com/microsoft/vscode/issues/341683",
       "repository": "microsoft/vscode",
@@ -344,19 +364,30 @@
           "blob_sha": "48b810b82b36031dc18b3be977f326c031b0ce57",
           "url": "https://github.com/microsoft/vscode/blob/9ebdca5c15f666ab336ca0b0421f5ee25bf1cbe0/src/vs/platform/mcp/common/mcpGalleryService.ts"
         }
+      ],
+      "review_updates": [
+        {
+          "date": "2026-10-16",
+          "confidence": "medium for redirect symptom only; root cause of restart disablement unproven",
+          "note": "Reporter revised title/body before manual publication: v0.1 detail payloads also lacked packages/remotes. R2 high confidence was too broad. Slash retry alone cannot be claimed to fix restart disablement."
+        }
       ]
     },
     {
       "round_id": "2026-10-15-R2",
       "discovered_date": "2026-10-15",
       "state_at_review": "open",
-      "approval": "PENDING_USER_APPROVAL",
-      "publication_status": "NOT_POSTED_SCHEDULED_RUN",
-      "published_comment_url": null,
-      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "approval": {
+        "status": "USER_MANUAL_PUBLICATION",
+        "date": "2026-10-15",
+        "source": "User manually posted the reply and confirmed in this conversation; verified via GitHub on 2026-10-16. Not authorization for another comment."
+      },
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/a2aproject/a2a-python/issues/1341#issuecomment-6184993589",
+      "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
-      "last_seen_comment_id": null,
+      "last_seen_comment_id": 6184993589,
       "rank": 2,
       "url": "https://github.com/a2aproject/a2a-python/issues/1341",
       "repository": "a2aproject/a2a-python",
@@ -383,19 +414,29 @@
           "blob_sha": "01aea2d775986f98cd5e363cea469b7b9840c2d0",
           "url": "https://github.com/a2aproject/a2a-python/blob/a4c4fc91a22778f3d805e5e592bf690915a33033/src/a2a/client/transports/rest.py"
         }
+      ],
+      "review_updates": [
+        {
+          "date": "2026-10-16",
+          "note": "Correction to R2 report: REST SSE uses Parse, not ParseDict. The manually posted comment correctly covers this distinction."
+        }
       ]
     },
     {
       "round_id": "2026-10-15-R2",
       "discovered_date": "2026-10-15",
       "state_at_review": "open",
-      "approval": "PENDING_USER_APPROVAL",
-      "publication_status": "NOT_POSTED_SCHEDULED_RUN",
-      "published_comment_url": null,
-      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "approval": {
+        "status": "USER_MANUAL_PUBLICATION",
+        "date": "2026-10-15",
+        "source": "User manually posted the reply and confirmed in this conversation; verified via GitHub on 2026-10-16. Not authorization for another comment."
+      },
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/Abilityai/trinity/issues/3749#issuecomment-6185031732",
+      "developer_response": "MAINTAINER_IMPLEMENTATION_UPDATE",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
-      "last_seen_comment_id": null,
+      "last_seen_comment_id": 6186662739,
       "rank": 3,
       "url": "https://github.com/Abilityai/trinity/issues/3749",
       "repository": "Abilityai/trinity",
@@ -489,6 +530,113 @@
           "url": "https://github.com/tidynotebook/tidynotebook/blob/c92e23248770b04fba5c246684460a8250252f60/apps/server/src/mcp/protocol.ts"
         }
       ]
+    },
+    {
+      "round_id": "2026-10-16-R3",
+      "rank": 1,
+      "url": "https://github.com/agnt-gg/agnt/issues/169",
+      "repository": "agnt-gg/agnt",
+      "issue_number": 169,
+      "reporter": "agnt-gg",
+      "created_at": "2026-10-16T03:11:31Z",
+      "updated_at": "2026-10-16T03:11:31Z",
+      "discovered_date": "2026-10-16",
+      "state_at_review": "open",
+      "diagnosis": "refresh snapshots all accounts before awaiting token exchange; no per-server single-flight; delayed full-store write can overwrite another server's successful refresh.",
+      "solution": "Maintainer-owned single-flight plus serialized commit-time read/merge/write of the current store; atomic persistence and lifecycle generation checks require separate review. No external auth patch.",
+      "confidence": "high for two source-extracted races; integration unverified",
+      "benefit": "high: deterministic interleaving and boundary for write locking",
+      "tests": "2 source-extracted baseline reproductions + 2 candidate concurrency model cases PASS. Real file persistence, permissions, token rotation, OAuth/session recovery and upstream suite NOT RUN.",
+      "reply": "R3-01",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/agnt-gg/agnt/blob/52f1a8644bf8f672df660534dc3584fbeb3138fc/backend/src/services/MCPOAuthService.js",
+          "commit": "52f1a8644bf8f672df660534dc3584fbeb3138fc",
+          "blob_sha": "ef149de39c19a166fc874fd8de0c3b1382ed8b2a"
+        }
+      ],
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null
+    },
+    {
+      "round_id": "2026-10-16-R3",
+      "rank": 2,
+      "url": "https://github.com/owasp-noir/noir/issues/3078",
+      "repository": "owasp-noir/noir",
+      "issue_number": 3078,
+      "reporter": "hahwul",
+      "created_at": "2026-10-16T04:52:09Z",
+      "updated_at": "2026-10-16T04:52:09Z",
+      "discovered_date": "2026-10-16",
+      "state_at_review": "open",
+      "diagnosis": "Four JSON/YAML property loops discard property metadata and unconditionally add request parameters, including readOnly fields; shared collectors also cover form media.",
+      "solution": "Filter boolean readOnly:true at property emission in both versions/formats; keep writeOnly and false/missing flags. Resolve referenced property annotations with existing cycle/document safeguards; retain request/response distinction.",
+      "confidence": "high for direct-property source finding; reference/composition semantics need upstream validation",
+      "benefit": "medium-high: OAS2/form/format parity and negative tests",
+      "tests": "1 synthetic Python predicate case PASS; no Crystal compiler or Noir suite. Reference/allOf/oneOf/anyOf behavior NOT RUN.",
+      "reply": "R3-02",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/owasp-noir/noir/blob/8d8600bf8aab07c40ee8a75f2b9b4a93d82f626b/src/analyzer/analyzers/specification/oas3.cr",
+          "commit": "8d8600bf8aab07c40ee8a75f2b9b4a93d82f626b",
+          "blob_sha": "6da7f483f2a46c08d30f034c0b398334d6db33e1"
+        },
+        {
+          "url": "https://github.com/owasp-noir/noir/blob/8d8600bf8aab07c40ee8a75f2b9b4a93d82f626b/src/analyzer/analyzers/specification/oas2.cr",
+          "commit": "8d8600bf8aab07c40ee8a75f2b9b4a93d82f626b",
+          "blob_sha": "58061efad5f80055fc252d44807b90b8418681a2"
+        }
+      ],
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null
+    },
+    {
+      "round_id": "2026-10-16-R3",
+      "rank": 3,
+      "url": "https://github.com/Gentleman-Programming/engram/issues/1899",
+      "repository": "Gentleman-Programming/engram",
+      "issue_number": 1899,
+      "reporter": "Taber37",
+      "created_at": "2026-10-15T19:31:32Z",
+      "updated_at": "2026-10-15T19:31:32Z",
+      "discovered_date": "2026-10-16",
+      "state_at_review": "open",
+      "diagnosis": "StaleMCPCommands passes empty bytes to json.Unmarshal then returns at first error, preventing later adapters from being inspected.",
+      "solution": "Read-only blank-file guard after successful read, before Unmarshal; keep malformed nonempty content as an error. Avoid changing shared readJSONConfig/write paths merely for doctor.",
+      "confidence": "high for source path; Go reproduction unavailable",
+      "benefit": "medium-high: cross-adapter finding visibility and no-write regression contract",
+      "tests": "3 synthetic Python scan-model cases PASS; Go absent, no Engram/doctor execution; actual filesystem permissions and CLI output NOT RUN.",
+      "reply": "R3-03",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/Gentleman-Programming/engram/blob/9c4382f60e2fb300c6cb877bb6ff295ecfbdf2ee/internal/setup/registry.go",
+          "commit": "9c4382f60e2fb300c6cb877bb6ff295ecfbdf2ee",
+          "blob_sha": "24ccbbca81573f64b2768152557fd8121c839062"
+        }
+      ],
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NOT_CONTACTED_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null
     }
   ],
   "followups": [
@@ -510,7 +658,8 @@
       ],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "2026-10-13: maintainer announced v0.2.0 including normalization before cache/fetch; not independently retested here."
+      "outcome": "2026-10-13: maintainer announced v0.2.0 including normalization before cache/fetch; not independently retested here.",
+      "last_checked_date": "2026-10-16"
     },
     {
       "url": "https://github.com/wbskt/Wbskt/issues/293",
@@ -530,7 +679,8 @@
       ],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "2026-10-13: maintainer explicitly thanked @naief9961-tech for crash-window regression finding; no purchase request."
+      "outcome": "2026-10-13: maintainer explicitly thanked @naief9961-tech for crash-window regression finding; no purchase request.",
+      "last_checked_date": "2026-10-16"
     },
     {
       "url": "https://github.com/abi83/prepify/issues/279",
@@ -542,7 +692,8 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "No newer comment after our last contribution in the inspected thread."
+      "outcome": "No newer comment after our last contribution in the inspected thread.",
+      "last_checked_date": "2026-10-16"
     },
     {
       "url": "https://github.com/logly/mureo/issues/807",
@@ -554,7 +705,8 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "No newer comment after our last contribution in the inspected thread."
+      "outcome": "No newer comment after our last contribution in the inspected thread.",
+      "last_checked_date": "2026-10-16"
     },
     {
       "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
@@ -595,7 +747,8 @@
       ],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "Other contributors posted offers/patches; not direct replies or leads for NAIF."
+      "outcome": "Other contributors posted offers/patches; not direct replies or leads for NAIF.",
+      "last_checked_date": "2026-10-16"
     },
     {
       "url": "https://github.com/api-evangelist/roadmap/issues/938",
@@ -615,15 +768,16 @@
       ],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "2026-10-08: maintainer reported OAuth-flow split and referenced our post-migration checks; deployment pending."
+      "outcome": "2026-10-08: maintainer reported OAuth-flow split and referenced our post-migration checks; deployment pending.",
+      "last_checked_date": "2026-10-16"
     },
     {
       "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
-      "state": "open",
+      "state": "closed",
       "last_own_comment_id": 6028276761,
       "last_own_comment_at": "2026-10-07T00:40:40Z",
-      "last_seen_comment_id": 6029324495,
-      "last_seen_comment_at": "2026-10-07T02:03:48Z",
+      "last_seen_comment_id": 6201356227,
+      "last_seen_comment_at": "2026-10-15T20:14:15Z",
       "replies_after_last_own": [
         {
           "id": 6029324495,
@@ -631,11 +785,20 @@
           "created_at": "2026-10-07T02:03:48Z",
           "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143#issuecomment-6029324495",
           "summary": "Thanks, this sharpened the criteria. I've updated the issue body; here is what changed and why.\n\n- Two configurations side by side: folded into AC-3. In production each registration is its own process, so they cannot lea"
+        },
+        {
+          "id": 6201356227,
+          "author": "parisbs",
+          "created_at": "2026-10-15T20:14:15Z",
+          "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143#issuecomment-6201356227",
+          "summary": "Closing in favour of #180, which keeps the goal and changes the approach.\n\nTwo findings changed the design:\n\n- With tool search, which Claude Code enables by default, only tool names and server instructions load at session start; a tool's description reaches the model only once the tool is loaded ([docs](https://code.claude.com/docs/en/mcp#scale-with-mcp-tool-search)). The orchestrator picks a registration before it reads any description, so the server instructions carry most of the value here.\n- Generating every tool and parameter description from the configuration, as proposed above, turns fixed schemas into per-configuration factories and needs a rule for what each description says while the configuration has errors. Most of that cost exists only because the descriptions state configured values.\n\nSo #180 splits the job: descriptions describe the tool and are true under every configuration, and the server instructions are the one text generated from the configuration. The single exception is the `codex_recommend` guidance, which today overrides a configured default model; it becomes conditional so the fix works in every client.\n\nWhat carries over from this thread, @naief9961-tech: one validated configuration object feeds everything the server says, two configurations are tested side by side in one process, and a misconfigured server says so instead of describing fallback values. The purpose variable is dropped to avoid new configuration surface before the 1.0 freeze (#139); the stated facts already tell registrations apart when their configuration differs. Thanks for the review."
         }
       ],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "2026-10-07: maintainer said feedback sharpened acceptance criteria; no commercial request."
+      "outcome": "Maintainer explicitly thanked our review and carried configuration consistency and isolation criteria to replacement issue #180. Technical acknowledgement, not commercial interest.",
+      "last_checked_date": "2026-10-16",
+      "successor_url": "https://github.com/parisbs/codex-subagent-mcp/issues/180"
     },
     {
       "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
@@ -647,7 +810,8 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "No newer comment after our last contribution in the inspected thread."
+      "outcome": "No newer comment after our last contribution in the inspected thread.",
+      "last_checked_date": "2026-10-16"
     },
     {
       "url": "https://github.com/web3insight-ai/web3insight/issues/32",
@@ -659,19 +823,97 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "No newer comment after our last contribution in the inspected thread."
+      "outcome": "No newer comment after our last contribution in the inspected thread.",
+      "last_checked_date": "2026-10-16"
     },
     {
       "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
-      "state": "open",
+      "state": "closed",
       "last_own_comment_id": 5822471348,
       "last_own_comment_at": "2026-09-24T21:23:16Z",
-      "last_seen_comment_id": 5822471348,
-      "last_seen_comment_at": "2026-09-24T21:23:16Z",
-      "replies_after_last_own": [],
+      "last_seen_comment_id": 6195420882,
+      "last_seen_comment_at": "2026-10-15T15:11:47Z",
+      "replies_after_last_own": [
+        {
+          "id": 6194426631,
+          "author": "chief197",
+          "created_at": "2026-10-15T14:25:19Z",
+          "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8#issuecomment-6194426631",
+          "summary": "@chief197 has applied to work on this issue as part of the **Stellar Wave Program**'s 10th wave.\n\n<!-- wave:application-id:91d6b5e9-d4d5-4d65-89f0-6a42e5eee7b8 -->\n<!-- wave:app-text-start -->\n> Hello boss, I've gone through the issue and i'd love to work on this issue, kindly assign me\n<!-- wave:app-text-end -->\n\nℹ️ **Repo Maintainers**: To accept this application, [review their application](https://www.drips.network/wave/maintainers/issues/53021f05-0b81-44b4-a179-9cda230a19f2) or assign @chief197 to this issue."
+        },
+        {
+          "id": 6194436162,
+          "author": "drips-wave[bot]",
+          "created_at": "2026-10-15T14:25:46Z",
+          "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8#issuecomment-6194436162",
+          "summary": "Congratulations, @chief197! 🎉 Your application was accepted by the repo's maintainers, and the issue is **due on October 22, 2026**.\n\n**🧑‍💻 @chief197**: Please resolve the issue such that the repo's maintainers have enough time to review your contribution before the due date. You'll earn Points for completing the issue on-time, which will make you eligible for a share of the **Stellar Wave Program**'s reward pool.\n\n> [!WARNING]\n> When opening a PR, please [link it to this issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) to ensure it gets tracked accurately. Points are awarded when **this issue is marked as completed** by the maintainer.\n\n**🤠 Repo maintainers**: Please keep an eye on the contributor's progress and review their work before the due date. You can manage this issue, including adjusting its complexity and points, [here](https://www.drips.network/wave/maintainers/issues/53021f05-0b81-44b4-a179-9cda230a19f2).\n\n🌊 Happy Wave 🌊"
+        },
+        {
+          "id": 6195420882,
+          "author": "drips-wave[bot]",
+          "created_at": "2026-10-15T15:11:47Z",
+          "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8#issuecomment-6195420882",
+          "summary": "This issue has been completed by @chief197 as part of the [**Stellar Wave Program's 10th Wave**](https://www.drips.network/wave/stellar) 🥳\n\n😎 **@chief197**: You **earned 200 Points** for completing this issue! Once the Wave's rewards are finalized, you'll be eligible for a percentage of the Wave's reward pool based on the percentage of total points you've earned. Learn more [here](https://docs.drips.network/wave/contributors/solving-issues-and-earning-rewards). You can also [**Leave a review**](https://www.drips.network/wave/stellar/issues/53021f05-0b81-44b4-a179-9cda230a19f2/review) to share your experience working on this issue.\n\n🧑‍💻 **Repo maintainers**: How'd the contributor do? [**Leave a review**](https://www.drips.network/wave/stellar/issues/53021f05-0b81-44b4-a179-9cda230a19f2/review) to share your experience working with them."
+        }
+      ],
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
-      "outcome": "No newer comment after our last contribution in the inspected thread."
+      "outcome": "Assigned to and completed by chief197. Program bot activity, not a reply or payment to NAIF.",
+      "last_checked_date": "2026-10-16"
+    },
+    {
+      "url": "https://github.com/microsoft/vscode/issues/341683",
+      "state": "open",
+      "last_own_comment_id": 6184978396,
+      "last_own_comment_at": "2026-10-15T05:15:04Z",
+      "last_seen_comment_id": 6184978396,
+      "last_seen_comment_at": "2026-10-15T05:15:04Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "VERIFIED_R3",
+      "outcome": "Manual publication verified; no developer response.",
+      "last_checked_date": "2026-10-16"
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-python/issues/1341",
+      "state": "open",
+      "last_own_comment_id": 6184993589,
+      "last_own_comment_at": "2026-10-15T05:16:16Z",
+      "last_seen_comment_id": 6184993589,
+      "last_seen_comment_at": "2026-10-15T05:16:16Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "VERIFIED_R3",
+      "outcome": "Manual publication verified; no developer response.",
+      "last_checked_date": "2026-10-16"
+    },
+    {
+      "url": "https://github.com/Abilityai/trinity/issues/3749",
+      "state": "open",
+      "last_own_comment_id": 6185031732,
+      "last_own_comment_at": "2026-10-15T05:19:23Z",
+      "last_seen_comment_id": 6186662739,
+      "last_seen_comment_at": "2026-10-15T07:15:00Z",
+      "replies_after_last_own": [
+        {
+          "id": 6185989903,
+          "author": "vybe",
+          "created_at": "2026-10-15T06:29:57Z",
+          "url": "https://github.com/Abilityai/trinity/issues/3749#issuecomment-6185989903",
+          "summary": "Draft PR: https://github.com/Abilityai/trinity/pull/3750 — branch `feature/3749-a2a-long-turn-working-task` (tip 9cc4b5ce5, 5 commits off dev 3e5622ab9). Review MERGEABLE, sweep green after two fixture fixes, mutations M1–M6 caught. Next: `/validate-pr`, then merge (operator-authorised)."
+        },
+        {
+          "id": 6186662739,
+          "author": "vybe",
+          "created_at": "2026-10-15T07:15:00Z",
+          "url": "https://github.com/Abilityai/trinity/issues/3749#issuecomment-6186662739",
+          "summary": "Merged to `dev` as f5fc04fb0 (PR #3750, squash, 2026-10-15T07:13:57Z) after `/validate-pr` APPROVE — every guard mutation caught, fast path byte-identical, CI and `dev` green. Live acceptance after the next deploy: one cross-instance turn over 25 s comes back `working` + `task_id` and resolves through `get_a2a_task`. Follow-ups filed: #3751 (bearer `tasks/get` read scope, deferred from the plan) and #3752 (AAuth replay-before-ownership + untested paid null-id branch, from validation). Closes with the release PR."
+        }
+      ],
+      "business_interest": "NONE_OBSERVED",
+      "status": "VERIFIED_R3",
+      "outcome": "PR #3750 merged to dev as f5fc04fb07afcd6ea62e991016d33849fa9107f1; live acceptance pending. No causal attribution to our comment.",
+      "last_checked_date": "2026-10-16"
     }
   ],
   "exclusions": [
@@ -722,6 +964,36 @@
     {
       "url": "https://github.com/kagent-dev/kagent/issues/3210",
       "reason": "A contributor already volunteered and was told to proceed; held to avoid duplicate work."
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-dotnet/issues/551",
+      "reason": "Author's PR #552 already covers JSON response handling/tests; no additive reply.",
+      "round_id": "2026-10-16-R3"
+    },
+    {
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues/5891",
+      "reason": "Author's PR #5893 covers alias fix and tests; no duplicate advice.",
+      "round_id": "2026-10-16-R3"
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI/issues/8216",
+      "reason": "PR #8217 plus existing detailed comment already covers pagination and repeated cursors.",
+      "round_id": "2026-10-16-R3"
+    },
+    {
+      "url": "https://github.com/agentscope-ai/agentscope/issues/3337",
+      "reason": "Assigned to reporter; source-level BOM remedy already explicit, no additional value.",
+      "round_id": "2026-10-16-R3"
+    },
+    {
+      "url": "https://github.com/openJiuwen-ai/agent-runtime/issues/271",
+      "reason": "Reporter supplies exact newline fix and reproduction; mirrored GitCode issue; no incremental source investigation.",
+      "round_id": "2026-10-16-R3"
+    },
+    {
+      "url": "https://github.com/winsznx/routedock/issues/570",
+      "reason": "Fix outline already detailed and contributors volunteering; no distinct added value this round.",
+      "round_id": "2026-10-16-R3"
     }
   ],
   "history_search": {

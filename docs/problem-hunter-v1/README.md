@@ -2,18 +2,21 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-15 R2](rounds/2026-10-15-R2/REPORT.md)
-- [Latest three proposed comments](rounds/2026-10-15-R2/DRAFTS.md)
+- [Latest report — 2026-10-16 R3](rounds/2026-10-16-R3/REPORT.md)
+- [Latest three proposed comments](rounds/2026-10-16-R3/DRAFTS.md)
+- [Previous report — 2026-10-15 R2](rounds/2026-10-15-R2/REPORT.md)
 - [First report — 2026-10-14 R1](rounds/2026-10-14-R1/REPORT.md)
 - [R1 proposed comments](rounds/2026-10-14-R1/DRAFTS.md)
 - [Tracking ledger](ledger.json)
 - [Prior radar / exclusions](../GITHUB-ISSUE-RADAR-2026-10-14.md)
 
-Latest round: 393 unique issue URLs screened; 12 complete issue reports read; five selected source investigations; ten previous threads checked. Five isolated boundary tests passed. No full upstream suite, upstream post, purchase or deployment.
+Latest round: 215 unique issue URLs screened; nine full candidate reads; three source investigations; 16 tracked/draft threads checked. Eight isolated cases passed (two source-extracted baseline reproductions; six candidate/design model cases). No upstream suite or external post this round.
 
 **Daily scheduling ACTIVE:** Created after the user removed other tasks. Daily at 08:00 Asia/Riyadh, starting 2026-10-15.
 
-**Round update (2026-10-15):** R2 produced three new reply drafts awaiting approval; no external post was attempted in the scheduled run. Ten tracked threads had no comment after their saved cursor.\n\n**Publication update (2026-10-14):** The user approved all three replies. All three GitHub comment attempts returned 403 `Resource not accessible by integration`; no upstream comment was posted and no permission workaround was attempted. Drafts remain available below. Future replies still require individual approval.
+**Round update (2026-10-15):** R2 produced three new reply drafts awaiting approval; no external post was attempted in the scheduled run. Ten tracked threads had no comment after their saved cursor.
+
+**Publication update (2026-10-14):** The user approved all three replies. All three GitHub comment attempts returned 403 `Resource not accessible by integration`; no upstream comment was posted and no permission workaround was attempted. Drafts remain available below. Future replies still require individual approval.
 
 ## Operating rules
 
@@ -38,3 +41,11 @@ The fetcher verifies 18 pinned Git blob hashes; no installation or upstream entr
 [NAIF tools](https://naifgravity.com/tools) was retrieved on 2026-10-14: bounded public endpoint reachability/status and sanitized JSON structure. It cannot verify signatures or deduplicate delivery.
 
 The [existing free MCP probe](https://github.com/naief9961-tech/naif-gravity-mcp-diagnostics) may help an authorized endpoint owner isolate handshake behavior for Dify, but cannot repair its allowlist, log in with OAuth, inspect stdio or parse A2A transcripts. The schema-guide page could not be retrieved and was not recommended. No commercial links appear in the three drafts.
+
+## R3 update — 2026-10-16
+
+- Reconciled three user-posted comments from 15 October (VS Code, A2A Python, Trinity) with exact URLs in the ledger. No duplicate comments sent.
+- New direct technical acknowledgement from parisbs; successor #180 retains configuration/isolation criteria. Trinity PR #3750 merged into dev; live acceptance remains pending. No commercial request.
+- R3 drafts require fresh user approval. AGNT does not accept outside auth PRs; its draft provides reproduction evidence only.
+- R2 correction: VS Code's slash retry does not establish the cause of general restart disablement; registry detail serialization is another unresolved observation. REST SSE in A2A Python uses Parse, not ParseDict; the manually posted comment correctly states this.
+- [Local evidence and limits](rounds/2026-10-16-R3/TESTS.md).
