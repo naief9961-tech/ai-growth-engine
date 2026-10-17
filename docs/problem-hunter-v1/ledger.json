@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-10-16-R4",
+  "last_round": "2026-10-17-R5",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -71,6 +71,25 @@
           "verified_at": "2026-10-16T05:53:28Z"
         }
       ]
+    },
+    {
+      "id": "2026-10-17-R5",
+      "discovery_unique": 316,
+      "search_queries": 8,
+      "search_result_limit_each": 40,
+      "full_issue_candidate_reads": 7,
+      "source_investigations": 1,
+      "followup_threads_read": 17,
+      "new_comments_after_saved_cursor": 4,
+      "direct_technical_acknowledgements": 1,
+      "new_verified_upstream_merges": 2,
+      "local_test_groups_passed": 8,
+      "source_extracted_baseline_groups": 3,
+      "candidate_groups": 5,
+      "upstream_full_suites_run": 0,
+      "reply_drafts": 1,
+      "third_party_comments_posted": 0,
+      "commercial_requests_verified": 0
     }
   ],
   "automation": {
@@ -81,7 +100,7 @@
     "first_scheduled_date": "2026-10-15",
     "timing_mode": "exact_schedule",
     "previous_attempt": "BLOCKED_TASK_LIMIT; resolved after user removed other tasks",
-    "last_successful_run": "2026-10-16"
+    "last_successful_run": "2026-10-17"
   },
   "issues": [
     {
@@ -378,7 +397,7 @@
       "issue_number": 341683,
       "reporter": "Yamano-Yuki",
       "created_at": "2026-10-15T04:48:39Z",
-      "updated_at": "2026-10-15T04:48:39Z",
+      "updated_at": "2026-10-15T05:15:04Z",
       "diagnosis": "The validated detail URL is requested with followRedirects:0; GitHub Pages canonicalizes directory URLs by adding '/', and the renderer can expose that manual cross-origin redirect as status 0.",
       "solution": "Retry once with a slash-terminated URL after revalidating it against the registry origin/path; keep redirects disabled and preserve existing status handling.",
       "confidence": "high: current source and isolated URL-boundary test",
@@ -399,7 +418,8 @@
           "confidence": "medium for redirect symptom only; root cause of restart disablement unproven",
           "note": "Reporter revised title/body before manual publication: v0.1 detail payloads also lacked packages/remotes. R2 high confidence was too broad. Slash retry alone cannot be claimed to fix restart disablement."
         }
-      ]
+      ],
+      "latest_state": "open"
     },
     {
       "round_id": "2026-10-15-R2",
@@ -422,7 +442,7 @@
       "issue_number": 1341,
       "reporter": "fpt-long-hd",
       "created_at": "2026-10-15T03:28:35Z",
-      "updated_at": "2026-10-15T03:28:43Z",
+      "updated_at": "2026-10-15T05:16:16Z",
       "diagnosis": "All current v1 JSON-RPC and REST client response parsers, including streaming, use strict protobuf parsing while other client compatibility paths are lenient.",
       "solution": "Centralize received-response parsing with ignore_unknown_fields=True across unary and streaming JSON-RPC/REST paths; retain malformed-known-field failures and document unknown enum behavior.",
       "confidence": "high: current source across both transports; direct protobuf run unavailable",
@@ -448,7 +468,8 @@
           "date": "2026-10-16",
           "note": "Correction to R2 report: REST SSE uses Parse, not ParseDict. The manually posted comment correctly covers this distinction."
         }
-      ]
+      ],
+      "latest_state": "open"
     },
     {
       "round_id": "2026-10-15-R2",
@@ -471,7 +492,7 @@
       "issue_number": 3749,
       "reporter": "vybe",
       "created_at": "2026-10-15T04:06:48Z",
-      "updated_at": "2026-10-15T04:06:48Z",
+      "updated_at": "2026-10-15T07:15:00Z",
       "diagnosis": "message/send awaits dispatch_and_await_terminal before an execution id can be returned, although tasks/get already maps queued/running rows to submitted/working.",
       "solution": "Split durable dispatch from terminal wait; bind caller ownership immediately, wait under a shielded server budget, return a pollable Task, and derive replay state from execution id without early terminal audit.",
       "confidence": "high: current source and isolated asyncio boundary test",
@@ -485,7 +506,8 @@
           "blob_sha": "1c7bac3da52d7983cfb337ee593016e24bee0052",
           "url": "https://github.com/Abilityai/trinity/blob/43576279b43d27cca67559a66f47f33e6ddedb56/src/backend/routers/a2a.py"
         }
-      ]
+      ],
+      "latest_state": "open"
     },
     {
       "round_id": "2026-10-15-R2",
@@ -567,7 +589,7 @@
       "issue_number": 169,
       "reporter": "agnt-gg",
       "created_at": "2026-10-16T03:11:31Z",
-      "updated_at": "2026-10-16T03:11:31Z",
+      "updated_at": "2026-10-16T05:23:05Z",
       "discovered_date": "2026-10-16",
       "state_at_review": "open",
       "diagnosis": "refresh snapshots all accounts before awaiting token exchange; no per-server single-flight; delayed full-store write can overwrite another server's successful refresh.",
@@ -604,7 +626,8 @@
           "published_at": "2026-10-16T05:23:05Z",
           "actor": "naief9961-tech"
         }
-      ]
+      ],
+      "latest_state": "open"
     },
     {
       "round_id": "2026-10-16-R3",
@@ -614,7 +637,7 @@
       "issue_number": 3078,
       "reporter": "hahwul",
       "created_at": "2026-10-16T04:52:09Z",
-      "updated_at": "2026-10-16T04:52:09Z",
+      "updated_at": "2026-10-17T01:54:09Z",
       "discovered_date": "2026-10-16",
       "state_at_review": "open",
       "diagnosis": "Four JSON/YAML property loops discard property metadata and unconditionally add request parameters, including readOnly fields; shared collectors also cover form media.",
@@ -642,8 +665,8 @@
       ],
       "publication_status": "POSTED_MANUALLY_VERIFIED",
       "published_comment_url": "https://github.com/owasp-noir/noir/issues/3078#issuecomment-6208753257",
-      "last_seen_comment_id": 6208753257,
-      "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
+      "last_seen_comment_id": 6228187553,
+      "developer_response": "TECHNICAL_ACKNOWLEDGEMENT_PR_INVITED",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "published_comment_at": "2026-10-16T05:26:11Z",
@@ -656,7 +679,8 @@
           "published_at": "2026-10-16T05:26:11Z",
           "actor": "naief9961-tech"
         }
-      ]
+      ],
+      "latest_state": "open"
     },
     {
       "round_id": "2026-10-16-R3",
@@ -666,7 +690,7 @@
       "issue_number": 1899,
       "reporter": "Taber37",
       "created_at": "2026-10-15T19:31:32Z",
-      "updated_at": "2026-10-15T19:31:32Z",
+      "updated_at": "2026-10-16T18:21:00Z",
       "discovered_date": "2026-10-16",
       "state_at_review": "open",
       "diagnosis": "StaleMCPCommands passes empty bytes to json.Unmarshal then returns at first error, preventing later adapters from being inspected.",
@@ -689,7 +713,7 @@
       ],
       "publication_status": "POSTED_MANUALLY_VERIFIED",
       "published_comment_url": "https://github.com/Gentleman-Programming/engram/issues/1899#issuecomment-6208832958",
-      "last_seen_comment_id": 6208832958,
+      "last_seen_comment_id": 6221741562,
       "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
@@ -711,7 +735,14 @@
           "published_at": "2026-10-16T05:32:58Z",
           "actor": "naief9961-tech"
         }
-      ]
+      ],
+      "latest_state": "closed",
+      "upstream_resolution": {
+        "status": "MERGED",
+        "pr": "https://github.com/Gentleman-Programming/engram/pull/1915",
+        "detail": "PR #1915 independently verified merged at 2026-10-16T18:20:58Z, commit 403ad71cb23a1d9ecff4ec00a2b5333207dbc826. Contributor-reported tests not rerun. No attribution of causality or deployed release.",
+        "verified_date": "2026-10-17"
+      }
     },
     {
       "round_id": "2026-10-16-R4",
@@ -721,7 +752,7 @@
       "issue_number": 298,
       "reporter": "MementoRC",
       "created_at": "2026-10-16T01:07:07Z",
-      "updated_at": "2026-10-16T05:52:54Z",
+      "updated_at": "2026-10-16T18:58:28Z",
       "discovered_date": "2026-10-16",
       "state_at_review": "open",
       "diagnosis": "Top-level non-object bodies hit .get before validation. Parameter validation is dispatch-dependent: initialize/list ignore non-objects; tools/call coerces falsey values with params or {} and produces -32603 for truthy wrong types.",
@@ -771,7 +802,14 @@
           "published_at": "2026-10-16T05:52:54Z",
           "actor": "naief9961-tech"
         }
-      ]
+      ],
+      "latest_state": "closed",
+      "upstream_resolution": {
+        "status": "MERGED",
+        "pr": "https://github.com/MementoRC/mcp-git/pull/304",
+        "detail": "PR #304 independently verified merged at 2026-10-16T18:58:26Z, commit 221e6b03cf86c393d3301ae3b43f5a4a0d24aa25. Source diff read; maintainer tests not rerun. No direct reply or commercial interest; no deployment claim.",
+        "verified_date": "2026-10-17"
+      }
     },
     {
       "round_id": "2026-10-16-R4",
@@ -856,6 +894,61 @@
         "source_blob": "64fbc4dad0a23ce1dbe22974929e8ecfeb724b99",
         "note": "Owner reported fixed and closed. Branch source read; owner test claims not ours."
       }
+    },
+    {
+      "round_id": "2026-10-17-R5",
+      "rank": 1,
+      "url": "https://github.com/huiliyi37/Tianshu-harness/issues/507",
+      "repository": "huiliyi37/Tianshu-harness",
+      "issue_number": 507,
+      "reporter": "L131444",
+      "created_at": "2026-10-17T04:56:10Z",
+      "updated_at": "2026-10-17T04:56:10Z",
+      "discovered_date": "2026-10-17",
+      "state_at_review": "open",
+      "diagnosis": "Wrapper reconstructs input_schema from type/properties/required, discarding reference definitions and independent root constraints. Request-definition builder forwards that lossy schema unchanged.",
+      "solution": "Preserve the JSON schema with a detached copy and existing empty-properties fallback; widen root schema types; handle provider dialect adaptation explicitly and test serialized request definitions.",
+      "confidence": "high for pinned public wrapper data loss; provider/desktop behavior unverified",
+      "benefit": "high: adds constraint-loss and serialized-request regression boundaries beyond the report's missing definitions",
+      "tests": "8 isolated groups PASS (3 original-loss groups, 5 candidate groups), Node v24.19.0, source wrapper/builder with unrelated policy stubs. No full suite, tsc, general JSON Schema validation, desktop or provider calls.",
+      "reply": "R5-01",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NOT_CONTACTED",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "path": "src/mcp/wrapper.ts",
+          "commit": "76a968a6b0a927cd2408882641baab4f7563b61b",
+          "blob_sha": "6f430637bfd5d4a42eb3646fda87fc0f00dd1e7a",
+          "url": "https://github.com/huiliyi37/Tianshu-harness/blob/76a968a6b0a927cd2408882641baab4f7563b61b/src/mcp/wrapper.ts"
+        },
+        {
+          "path": "src/api/types.ts",
+          "commit": "76a968a6b0a927cd2408882641baab4f7563b61b",
+          "blob_sha": "82fd5c0b3b04dcb265d37a1cb6a7c2dc172e18e2",
+          "url": "https://github.com/huiliyi37/Tianshu-harness/blob/76a968a6b0a927cd2408882641baab4f7563b61b/src/api/types.ts"
+        },
+        {
+          "path": "src/prompt/oai-tool-definitions.ts",
+          "commit": "76a968a6b0a927cd2408882641baab4f7563b61b",
+          "blob_sha": "da519cb05a5e52791abf21af6bd5a4ebb0a328d7",
+          "url": "https://github.com/huiliyi37/Tianshu-harness/blob/76a968a6b0a927cd2408882641baab4f7563b61b/src/prompt/oai-tool-definitions.ts"
+        },
+        {
+          "path": "src/mcp/__tests__/wrapper.test.ts",
+          "commit": "76a968a6b0a927cd2408882641baab4f7563b61b",
+          "blob_sha": "96be2d0e859b14e416bca233752fc0f0e466bfa1",
+          "url": "https://github.com/huiliyi37/Tianshu-harness/blob/76a968a6b0a927cd2408882641baab4f7563b61b/src/mcp/__tests__/wrapper.test.ts"
+        }
+      ],
+      "pr_check": "No matching PR in current six-open-PR collection, issue timeline, or REST search for #507/$defs.",
+      "policy": "Read AGENTS.md, CONTRIBUTING.md and EXTERNAL-PRS.md; public repo is a projection of private dev. No upstream changes made."
     }
   ],
   "followups": [
@@ -878,7 +971,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-13: maintainer announced v0.2.0 including normalization before cache/fetch; not independently retested here.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/wbskt/Wbskt/issues/293",
@@ -899,7 +993,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-13: maintainer explicitly thanked @naief9961-tech for crash-window regression finding; no purchase request.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/abi83/prepify/issues/279",
@@ -912,7 +1007,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/logly/mureo/issues/807",
@@ -925,7 +1021,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
@@ -967,7 +1064,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Other contributors posted offers/patches; not direct replies or leads for NAIF.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/api-evangelist/roadmap/issues/938",
@@ -988,7 +1086,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-08: maintainer reported OAuth-flow split and referenced our post-migration checks; deployment pending.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
@@ -1016,8 +1115,9 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Maintainer explicitly thanked our review and carried configuration consistency and isolation criteria to replacement issue #180. Technical acknowledgement, not commercial interest.",
-      "last_checked_date": "2026-10-16",
-      "successor_url": "https://github.com/parisbs/codex-subagent-mcp/issues/180"
+      "last_checked_date": "2026-10-17",
+      "successor_url": "https://github.com/parisbs/codex-subagent-mcp/issues/180",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
@@ -1030,7 +1130,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/web3insight-ai/web3insight/issues/32",
@@ -1043,7 +1144,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
@@ -1078,7 +1180,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Assigned to and completed by chief197. Program bot activity, not a reply or payment to NAIF.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/microsoft/vscode/issues/341683",
@@ -1091,7 +1194,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "Manual publication verified; no developer response.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/a2aproject/a2a-python/issues/1341",
@@ -1104,7 +1208,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "Manual publication verified; no developer response.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/Abilityai/trinity/issues/3749",
@@ -1132,7 +1237,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "PR #3750 merged to dev as f5fc04fb07afcd6ea62e991016d33849fa9107f1; live acceptance pending. No causal attribution to our comment.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/agnt-gg/agnt/issues/169",
@@ -1145,47 +1251,118 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_MANUAL_PUBLICATION",
       "outcome": "User manually published R3-01 after scheduled round; no developer response observed.",
-      "last_checked_date": "2026-10-16"
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z"
     },
     {
       "url": "https://github.com/owasp-noir/noir/issues/3078",
       "state": "open",
       "last_own_comment_id": 6208753257,
       "last_own_comment_at": "2026-10-16T05:26:11Z",
-      "last_seen_comment_id": 6208753257,
-      "last_seen_comment_at": "2026-10-16T05:26:11Z",
-      "replies_after_last_own": [],
+      "last_seen_comment_id": 6228187553,
+      "last_seen_comment_at": "2026-10-17T01:54:09Z",
+      "replies_after_last_own": [
+        {
+          "id": 6228187553,
+          "author": "hahwul",
+          "created_at": "2026-10-17T01:54:09Z",
+          "url": "https://github.com/owasp-noir/noir/issues/3078#issuecomment-6228187553",
+          "summary": "Thanks for the detailed breakdown, agreed on all points:\n\n- Fix all four collectors (oas2/oas3 × json/yaml), and cover form bodies as well as JSON.\n- Skip only `readOnly: true`. Keep `readOnly: false`, missing annotations and `writeOnly`.\n- Don't mutate the shared schema.\n\nFor `$ref`/composed schemas, going through the existing resolver is fine. If that gets heavy, a first pass covering only inline properties is OK and refs can follow in a separate PR.\n\nPRs welcome. Please add OAS2 + OAS3 fixtures under `spec/functional_test/fixtures/specification/` and run `just test` before submitting."
+        }
+      ],
       "business_interest": "NONE_OBSERVED",
-      "status": "VERIFIED_MANUAL_PUBLICATION",
-      "outcome": "User manually published R3-02 after scheduled round; no developer response observed.",
-      "last_checked_date": "2026-10-16"
+      "status": "TECHNICAL_ACKNOWLEDGEMENT",
+      "outcome": "Maintainer explicitly agreed with diagnosis and invited PR with OAS2/OAS3 fixtures and just test. Technical acknowledgement only; no commercial request.",
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z",
+      "history": [
+        {
+          "round_id": "2026-10-17-R5",
+          "date": "2026-10-17",
+          "previous_state": "open",
+          "state": "open",
+          "new_comment_ids": [
+            6228187553
+          ],
+          "outcome": "Maintainer explicitly agreed with diagnosis and invited PR with OAS2/OAS3 fixtures and just test. Technical acknowledgement only; no commercial request."
+        }
+      ]
     },
     {
       "url": "https://github.com/Gentleman-Programming/engram/issues/1899",
-      "state": "open",
+      "state": "closed",
       "last_own_comment_id": 6208832958,
       "last_own_comment_at": "2026-10-16T05:32:58Z",
-      "last_seen_comment_id": 6208832958,
-      "last_seen_comment_at": "2026-10-16T05:32:58Z",
-      "replies_after_last_own": [],
+      "last_seen_comment_id": 6221741562,
+      "last_seen_comment_at": "2026-10-16T18:07:15Z",
+      "replies_after_last_own": [
+        {
+          "id": 6221608922,
+          "author": "dnlrsls",
+          "created_at": "2026-10-16T18:00:25Z",
+          "url": "https://github.com/Gentleman-Programming/engram/issues/1899#issuecomment-6221608922",
+          "summary": "## Bounded work unit: blank MCP configuration inspection\n\nScope: change only the read-only generic MCP inspection used by doctor. Empty files and JSON whitespace (space, tab, CR, LF) mean no registrations. Do not change setup writers or shared JSON loading policy.\n\nAcceptance:\n- [ ] Absent, zero-byte, JSON-whitespace-only and {} configs do not produce mcp_inspection_error.\n- [ ] A blank earlier adapter does not hide a later setup-owned stale Engram command.\n- [ ] Nonempty malformed JSON, including non-JSON whitespace, remains an inspection error.\n- [ ] Inspection creates no missing files and preserves all existing config bytes.\n- [ ] Public doctor output, stderr and exit status are verified in isolated state; focused regression fails before the fix and passes afterward; affected package checks are recorded.\n\nNon-goals: automatic repair, changes to custom entries, adapter-wide error aggregation, CI changes or release work. Starting with this unit; no claim of reproduction or fix yet."
+        },
+        {
+          "id": 6221645761,
+          "author": "dnlrsls",
+          "created_at": "2026-10-16T18:02:20Z",
+          "url": "https://github.com/Gentleman-Programming/engram/issues/1899#issuecomment-6221645761",
+          "summary": "## Current-main reproduction and accepted implementation scope\n\nReproduced on exact remote main 9c4382f60e2fb300c6cb877bb6ff295ecfbdf2ee, Windows amd64, Go 1.26.4, using the built public CLI and isolated HOME/USERPROFILE/ENGRAM_DATA_DIR. No user configuration or database was used.\n\nengram doctor --json results:\n- Missing ~/.gemini/config/mcp_config.json: report status ok.\n- Zero-byte file: report status error with mcp_inspection_error / unexpected end of JSON input.\n- Space/tab/CR/LF-only file: same inspection error.\n- {}: report status ok.\nAll four invocations exit 0 with empty stderr; the bug concerns the JSON diagnostic status, not process failure. The reproduction harness exited 0 because it records those outcomes; it is not a claimed failing regression test.\n\nFirst violated invariant: an existing config containing no JSON registrations aborts the read-only generic-adapter scan before later clients are inspected. StaleMCPCommands calls json.Unmarshal immediately after reading bytes.\n\nAccepted design: skip zero bytes or only JSON whitespace within StaleMCPCommands, before unmarshalling. Retain all I/O and nonempty parse failures, exact setup-entry matching, and setup writer behavior. No new CLI flag or output schema.\n\nRegression plan: public doctor tests cover missing/empty/JSON-whitespace/{}, later stale registrations, malformed nonempty JSON and non-JSON whitespace; assert config bytes and absence of newly created configs. Run focused RED/GREEN, affected Go packages, and a before/after CLI comparison. Low-risk read-only diagnostic change, no data rewrite, permission or concurrency change."
+        },
+        {
+          "id": 6221741562,
+          "author": "dnlrsls",
+          "created_at": "2026-10-16T18:07:15Z",
+          "url": "https://github.com/Gentleman-Programming/engram/issues/1899#issuecomment-6221741562",
+          "summary": "## Local implementation and verification complete (not published)\n\nBase: exact remote main 9c4382f60e2fb300c6cb877bb6ff295ecfbdf2ee. Branch fix/1899-doctor-empty-config in an isolated same-clone worktree. Three staged, uncommitted files: internal/setup/registry.go, cmd/engram/doctor_empty_mcp_test.go, docs/DOCTOR.md.\n\nThe read-only scan now skips zero-byte and JSON-whitespace-only files. It does not change setup writers, custom-entry matching, nonempty malformed JSON handling, CLI flags or schemas.\n\nObserved evidence:\n- RED: go test ./cmd/engram -run \"^TestDoctorBlankMCPConfig$\" -count=1 -timeout=90s exited 1 before the fix. Exactly four expected failures: empty and JSON whitespace, each alone and before a later stale adapter.\n- GREEN: the same focused command exited 0 (2.928s), covering 12 scenarios.\n- Affected packages: go test ./internal/setup ./cmd/engram -count=1 -timeout=180s exited 0; setup 19.407s, CLI 160.994s.\n- Before/after real-binary differential: 48 pairs; 8 requested output differences, 40 exact stdout/stderr/exit matches, no unrequested differences. Includes text/JSON, --project, --check, malformed JSON and non-JSON whitespace.\n- Config bytes unchanged, missing configs not created, and later stale registrations remain visible in applicable cases.\n- git diff --cached --check and no-unstaged-change checks passed.\n- Normalized native assessment: medium, 153 diff lines, reviewDue=false (under_budget); no independent verifier required and no native review started.\n\nNot run: full-module suite, lint or hosted CI. No commit, push, PR, merge or release. The issue remains open until delivery. Risk: none; the changed scan is read-only and its production consumer is doctor, while shared setup writers and JSON loading are untouched."
+        }
+      ],
       "business_interest": "NONE_OBSERVED",
-      "status": "VERIFIED_MANUAL_PUBLICATION",
-      "outcome": "Current R3-03 manual comment verified. Earlier observed comment ID no longer listed. No developer response.",
-      "last_checked_date": "2026-10-16"
+      "status": "UPSTREAM_FIX_MERGED",
+      "outcome": "PR #1915 independently verified merged at 2026-10-16T18:20:58Z, commit 403ad71cb23a1d9ecff4ec00a2b5333207dbc826. Contributor-reported tests not rerun. No attribution of causality or deployed release.",
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z",
+      "upstream_pr": "https://github.com/Gentleman-Programming/engram/pull/1915",
+      "history": [
+        {
+          "round_id": "2026-10-17-R5",
+          "date": "2026-10-17",
+          "previous_state": "open",
+          "state": "closed",
+          "new_comment_ids": [
+            6221608922,
+            6221645761,
+            6221741562
+          ],
+          "outcome": "PR #1915 independently verified merged at 2026-10-16T18:20:58Z, commit 403ad71cb23a1d9ecff4ec00a2b5333207dbc826. Contributor-reported tests not rerun. No attribution of causality or deployed release."
+        }
+      ]
     },
     {
       "url": "https://github.com/MementoRC/mcp-git/issues/298",
-      "state": "open",
+      "state": "closed",
       "last_own_comment_id": 6209070203,
       "last_own_comment_at": "2026-10-16T05:52:54Z",
       "last_seen_comment_id": 6209070203,
       "last_seen_comment_at": "2026-10-16T05:52:54Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "VERIFIED_MANUAL_PUBLICATION",
-      "outcome": "User manually published R4-01; no developer response observed.",
-      "last_checked_date": "2026-10-16",
-      "last_checked_at": "2026-10-16T05:53:28Z"
+      "status": "UPSTREAM_FIX_MERGED",
+      "outcome": "PR #304 independently verified merged at 2026-10-16T18:58:26Z, commit 221e6b03cf86c393d3301ae3b43f5a4a0d24aa25. Source diff read; maintainer tests not rerun. No direct reply or commercial interest; no deployment claim.",
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T05:07:48Z",
+      "upstream_pr": "https://github.com/MementoRC/mcp-git/pull/304",
+      "history": [
+        {
+          "round_id": "2026-10-17-R5",
+          "date": "2026-10-17",
+          "previous_state": "open",
+          "state": "closed",
+          "new_comment_ids": [],
+          "outcome": "PR #304 independently verified merged at 2026-10-16T18:58:26Z, commit 221e6b03cf86c393d3301ae3b43f5a4a0d24aa25. Source diff read; maintainer tests not rerun. No direct reply or commercial interest; no deployment claim."
+        }
+      ]
     }
   ],
   "exclusions": [
@@ -1306,6 +1483,36 @@
       "round_id": "2026-10-16-R4",
       "url": "https://github.com/FreeTWAI/freedom-platform/issues/827",
       "reason": "PR #828 already covers exact media-type parsing and native HTTP regressions; no duplicate."
+    },
+    {
+      "round_id": "2026-10-17-R5",
+      "url": "https://github.com/crewAIInc/crewAI/issues/8205",
+      "reason": "Open PR #8206 already decodes the Redis password and tests a literal plus; patch and regression read. No incremental contribution."
+    },
+    {
+      "round_id": "2026-10-17-R5",
+      "url": "https://github.com/tenuo-ai/tenuo/issues/934",
+      "reason": "Open PR #938 already handles aware/naive UTC and non-UTC offsets; patch and proposed tests read. No duplicate comment."
+    },
+    {
+      "round_id": "2026-10-17-R5",
+      "url": "https://github.com/a2aproject/a2a-python/issues/1347",
+      "reason": "Open PR #1348 already restores repr and tests both exception classes; no duplicate reply."
+    },
+    {
+      "round_id": "2026-10-17-R5",
+      "url": "https://github.com/standard-webhooks/standard-webhooks/issues/346",
+      "reason": "Open PR #347 covers Ruby; PR #343 covers malformed entries across libraries including Python. Python patch/tests inspected; no duplicate patch."
+    },
+    {
+      "round_id": "2026-10-17-R5",
+      "url": "https://github.com/Monkopedia/rouse-context/issues/782",
+      "reason": "Reporter already provides exact single-slot race and gated regression design; no additional source-grounded improvement established in this round."
+    },
+    {
+      "round_id": "2026-10-17-R5",
+      "url": "https://github.com/x402-foundation/x402/issues/3837",
+      "reason": "Reporter already supplies version-pinned header mismatch and verification boundary. Cross-package source verification not completed; no speculative header rewrite or payment test recommended."
     }
   ],
   "history_search": {

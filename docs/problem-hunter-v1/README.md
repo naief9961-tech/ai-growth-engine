@@ -2,8 +2,12 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-16 R4](rounds/2026-10-16-R4/REPORT.md)
-- [One new proposed comment for review](rounds/2026-10-16-R4/DRAFTS.md)
+- [Latest report — 2026-10-17 R5](rounds/2026-10-17-R5/REPORT.md)
+- [One new English reply for review](rounds/2026-10-17-R5/DRAFTS.md)
+- [R5 isolated tests](rounds/2026-10-17-R5/TESTS.md)
+- [R5 discovery audit](rounds/2026-10-17-R5/SCREENING.md)
+- [Previous report — 2026-10-16 R4](rounds/2026-10-16-R4/REPORT.md)
+- [R4 historical comment](rounds/2026-10-16-R4/DRAFTS.md)
 - [R4 isolated evidence](rounds/2026-10-16-R4/TESTS.md)
 - [Previous report — 2026-10-16 R3](rounds/2026-10-16-R3/REPORT.md)
 - [Previous report — 2026-10-15 R2](rounds/2026-10-15-R2/REPORT.md)
@@ -12,7 +16,7 @@ Evidence-based help with user approval before posting to third-party repositorie
 - [Tracking ledger](ledger.json)
 - [Prior radar / exclusions](../GITHUB-ISSUE-RADAR-2026-10-14.md)
 
-Latest round R4: 398 unique URLs screened (86 previously screened in R3); 11 full candidate reads; three source investigations. One open reply draft, one policy hold, one withdrawn after closure. Twenty-one isolated assertion groups passed (six source-extracted baseline groups; fifteen candidate/model groups); no upstream full suite. No external comment sent. The three R3 manual posts are verified; no subsequent developer reply or commercial request was present at the latest check.
+Historical round R4: 398 unique URLs screened (86 previously screened in R3); 11 full candidate reads; three source investigations. One open reply draft, one policy hold, one withdrawn after closure. Twenty-one isolated assertion groups passed (six source-extracted baseline groups; fifteen candidate/model groups); no upstream full suite. No external comment sent. The three R3 manual posts are verified; no subsequent developer reply or commercial request was present at the latest check.
 
 Historical R3 round: 215 unique issue URLs screened; nine full candidate reads; three source investigations; 16 tracked/draft threads checked. Eight isolated cases passed (two source-extracted baseline reproductions; six candidate/design model cases). No upstream suite or external post this round.
 
@@ -57,3 +61,9 @@ The [existing free MCP probe](https://github.com/naief9961-tech/naif-gravity-mcp
 ## R4 manual publication — 2026-10-16
 
 The user manually published the sole R4 reply at 08:52:54 Asia/Riyadh: [MCP Git #298](https://github.com/MementoRC/mcp-git/issues/298#issuecomment-6209070203). Verified in GitHub; no subsequent developer reply or commercial request was present at verification. The ledger cursor is 6209070203. R4's draft is now a historical copy and must not be posted again.
+
+## R5 update — 2026-10-17
+
+316 unique URLs screened from 320 capped results; seven complete candidate reads; one new source investigation (Tianshu #507). Eight isolated assertion groups passed; no full suite, typecheck, desktop or provider validation. One additive reply remains pending user approval; no external comment sent.
+
+Seventeen tracked threads checked. Four new comments: Noir's maintainer agreed with the technical diagnosis and invited a PR; an Engram contributor described reproduction and tests. Separately verified merged PRs: [Engram #1915](https://github.com/Gentleman-Programming/engram/pull/1915) and [MCP Git #304](https://github.com/MementoRC/mcp-git/pull/304). Their tests were not rerun, no deployed release verified, and no causal credit claimed. No explicit commercial request. Comment cursors and outcome history updated in the ledger.
