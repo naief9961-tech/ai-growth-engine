@@ -89,7 +89,23 @@
       "upstream_full_suites_run": 0,
       "reply_drafts": 1,
       "third_party_comments_posted": 0,
-      "commercial_requests_verified": 0
+      "commercial_requests_verified": 0,
+      "reply_drafts_available_after_followup": 0,
+      "followup_updates": [
+        {
+          "date": "2026-10-17",
+          "checked_at": "2026-10-17T06:13:41Z",
+          "threads_checked": 2,
+          "new_maintainer_comments": 1,
+          "new_replies_to_our_posts": 0,
+          "withdrawn_drafts": [
+            "R5-01"
+          ],
+          "native_patch_candidates": 1,
+          "native_tests_run": 0,
+          "third_party_posts": 0
+        }
+      ]
     }
   ],
   "automation": {
@@ -680,7 +696,27 @@
           "actor": "naief9961-tech"
         }
       ],
-      "latest_state": "open"
+      "latest_state": "open",
+      "implementation_history": [
+        {
+          "date": "2026-10-17",
+          "source_commit": "8372858c86e2ffd17123214641174f59f0a3828b",
+          "status": "CANDIDATE_NATIVE_VALIDATION_PENDING",
+          "scope": "Inline boolean readOnly:true in four OAS2/OAS3 JSON/YAML collectors; property-level refs/composition inference deferred as maintainer permitted.",
+          "artifact": "rounds/2026-10-17-R5/NOIR-3078-CANDIDATE.md",
+          "candidate_files": 8,
+          "native_regressions_prepared": 28,
+          "native_tests_run": 0,
+          "validation": "Two pinned source hashes; four fixture parses; two JSON/YAML parity pairs; git apply --check --whitespace=error; applied eight-file content matches SHA256 manifest. These validate the artifact, not Crystal behavior.",
+          "blockers": [
+            "Crystal, shards, just, Docker unavailable in isolated workspace",
+            "No full build or just test; no heavyweight installation/compilation before FUNDING_VERIFIED"
+          ],
+          "pr_status": "NOT_CREATED",
+          "external_publication_approval": "NOT_REQUESTED_NO_PUBLICATION",
+          "upstream_pr_check": "Issue timeline and current open PR list show no linked or competing readOnly fix; REST search is:pr 3078 returned zero."
+        }
+      ]
     },
     {
       "round_id": "2026-10-16-R3",
@@ -903,7 +939,7 @@
       "issue_number": 507,
       "reporter": "L131444",
       "created_at": "2026-10-17T04:56:10Z",
-      "updated_at": "2026-10-17T04:56:10Z",
+      "updated_at": "2026-10-17T05:14:16Z",
       "discovered_date": "2026-10-17",
       "state_at_review": "open",
       "diagnosis": "Wrapper reconstructs input_schema from type/properties/required, discarding reference definitions and independent root constraints. Request-definition builder forwards that lossy schema unchanged.",
@@ -913,12 +949,13 @@
       "tests": "8 isolated groups PASS (3 original-loss groups, 5 candidate groups), Node v24.19.0, source wrapper/builder with unrelated policy stubs. No full suite, tsc, general JSON Schema validation, desktop or provider calls.",
       "reply": "R5-01",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "WITHDRAWN_NO_PUBLICATION",
+        "reason": "Maintainer explicitly declined the fix and closed the issue."
       },
-      "publication_status": "DRAFT_ONLY",
+      "publication_status": "WITHDRAWN_CLOSED_NOT_PLANNED",
       "published_comment_url": null,
-      "last_seen_comment_id": null,
-      "developer_response": "NOT_CONTACTED",
+      "last_seen_comment_id": 6230037956,
+      "developer_response": "MAINTAINER_DECLINED_FIX_BEFORE_CONTACT",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "sources": [
@@ -948,7 +985,24 @@
         }
       ],
       "pr_check": "No matching PR in current six-open-PR collection, issue timeline, or REST search for #507/$defs.",
-      "policy": "Read AGENTS.md, CONTRIBUTING.md and EXTERNAL-PRS.md; public repo is a projection of private dev. No upstream changes made."
+      "policy": "Read AGENTS.md, CONTRIBUTING.md and EXTERNAL-PRS.md; public repo is a projection of private dev. No upstream changes made.",
+      "history": [
+        {
+          "date": "2026-10-17",
+          "checked_at": "2026-10-17T06:13:41Z",
+          "event": "MAINTAINER_DECLINED_FIX_AND_CLOSED",
+          "previous_state": "open",
+          "previous_publication_status": "DRAFT_ONLY",
+          "previous_approval": {
+            "status": "PENDING_USER_APPROVAL"
+          },
+          "comment_id": 6230037956,
+          "url": "https://github.com/huiliyi37/Tianshu-harness/issues/507#issuecomment-6230037956",
+          "summary": "Owner confirmed the projection/dangling-reference mechanism but explicitly declined REA adaptation and a fix. Closed as not_planned at 2026-10-17T05:14:16Z. No NAIF comment had been sent. Withdraw R5-01; closure is not a fix."
+        }
+      ],
+      "latest_state": "closed",
+      "state_reason": "not_planned"
     }
   ],
   "followups": [
@@ -1274,7 +1328,7 @@
       "status": "TECHNICAL_ACKNOWLEDGEMENT",
       "outcome": "Maintainer explicitly agreed with diagnosis and invited PR with OAS2/OAS3 fixtures and just test. Technical acknowledgement only; no commercial request.",
       "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z",
+      "last_checked_at": "2026-10-17T06:13:41Z",
       "history": [
         {
           "round_id": "2026-10-17-R5",
@@ -1285,6 +1339,14 @@
             6228187553
           ],
           "outcome": "Maintainer explicitly agreed with diagnosis and invited PR with OAS2/OAS3 fixtures and just test. Technical acknowledgement only; no commercial request."
+        },
+        {
+          "date": "2026-10-17",
+          "checked_at": "2026-10-17T06:13:41Z",
+          "event": "LOCAL_CANDIDATE_PREPARED",
+          "new_comment_ids": [],
+          "artifact": "rounds/2026-10-17-R5/NOIR-3078-CANDIDATE.md",
+          "outcome": "Inline candidate and 28 native regressions prepared; artifact validation only; Crystal native validation pending. No new upstream response or publication."
         }
       ]
     },
@@ -1361,6 +1423,27 @@
           "state": "closed",
           "new_comment_ids": [],
           "outcome": "PR #304 independently verified merged at 2026-10-16T18:58:26Z, commit 221e6b03cf86c393d3301ae3b43f5a4a0d24aa25. Source diff read; maintainer tests not rerun. No direct reply or commercial interest; no deployment claim."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/huiliyi37/Tianshu-harness/issues/507",
+      "state": "closed",
+      "last_own_comment_id": null,
+      "last_seen_comment_id": 6230037956,
+      "last_seen_comment_at": "2026-10-17T05:14:12Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "WITHDRAWN_CLOSED_NOT_PLANNED",
+      "outcome": "Maintainer confirmed reported mechanism but declined fix. No NAIF contact; draft withdrawn. Not fixed.",
+      "last_checked_date": "2026-10-17",
+      "last_checked_at": "2026-10-17T06:13:41Z",
+      "history": [
+        {
+          "date": "2026-10-17",
+          "event": "MAINTAINER_DECLINED_FIX_BEFORE_CONTACT",
+          "comment_id": 6230037956,
+          "url": "https://github.com/huiliyi37/Tianshu-harness/issues/507#issuecomment-6230037956"
         }
       ]
     }

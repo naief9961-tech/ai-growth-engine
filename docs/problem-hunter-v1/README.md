@@ -2,8 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
+- [Latest follow-up — 2026-10-17: Tianshu withdrawal and Noir candidate](rounds/2026-10-17-R5/FOLLOWUP-2026-10-17.md)
+- [Noir #3078 patch and 28 unexecuted native regression cases](rounds/2026-10-17-R5/NOIR-3078-CANDIDATE.md)
+
 - [Latest report — 2026-10-17 R5](rounds/2026-10-17-R5/REPORT.md)
-- [One new English reply for review](rounds/2026-10-17-R5/DRAFTS.md)
+- [R5 reply withdrawn after maintainer declined the fix](rounds/2026-10-17-R5/DRAFTS.md)
 - [R5 isolated tests](rounds/2026-10-17-R5/TESTS.md)
 - [R5 discovery audit](rounds/2026-10-17-R5/SCREENING.md)
 - [Previous report — 2026-10-16 R4](rounds/2026-10-16-R4/REPORT.md)
@@ -64,6 +67,12 @@ The user manually published the sole R4 reply at 08:52:54 Asia/Riyadh: [MCP Git 
 
 ## R5 update — 2026-10-17
 
-316 unique URLs screened from 320 capped results; seven complete candidate reads; one new source investigation (Tianshu #507). Eight isolated assertion groups passed; no full suite, typecheck, desktop or provider validation. One additive reply remains pending user approval; no external comment sent.
+316 unique URLs screened from 320 capped results; seven complete candidate reads; one new source investigation (Tianshu #507). Eight isolated assertion groups passed; no full suite, typecheck, desktop or provider validation. At the initial check one additive reply was pending user approval; it was subsequently withdrawn after the maintainer declined the fix and closed #507. No external comment sent.
 
 Seventeen tracked threads checked. Four new comments: Noir's maintainer agreed with the technical diagnosis and invited a PR; an Engram contributor described reproduction and tests. Separately verified merged PRs: [Engram #1915](https://github.com/Gentleman-Programming/engram/pull/1915) and [MCP Git #304](https://github.com/MementoRC/mcp-git/pull/304). Their tests were not rerun, no deployed release verified, and no causal credit claimed. No explicit commercial request. Comment cursors and outcome history updated in the ledger.
+
+## R5 follow-up — 2026-10-17
+
+Tianshu #507 was closed as not_planned at 05:14:16Z. The owner confirmed the reported mechanism but declined a fix; this is not a repair. R5-01 is withdrawn and must not be posted. The ledger cursor is 6230037956.
+
+Noir's existing PR invitation was followed with a local eight-file inline candidate and 28 authored Crystal regressions. Patch applicability, source hashes, fixture parsing/parity and eight-file manifest agreement were checked. Crystal/shards/just/Docker are unavailable; no native tests, build or full suite ran. Candidate is held for native validation, with no upstream publication or commercial request.

@@ -1,6 +1,14 @@
+# WITHDRAWN — do not publish R5-01
+
+On 2026-10-17 at 05:14:16Z, the maintainer closed #507 as not_planned and explicitly declined the fix. [Maintainer decision](https://github.com/huiliyi37/Tianshu-harness/issues/507#issuecomment-6230037956). No NAIF comment was posted. This is not a successful repair. The original draft below is retained only as historical research; its approval request is no longer active.
+
+See [follow-up](FOLLOWUP-2026-10-17.md) for the current status and Noir candidate.
+
+---
+
 # R5 — English reply for review (2026-10-17)
 
-**PENDING_USER_APPROVAL.** No comment or PR sent. Only one additive reply selected. Re-read the issue and linked PRs immediately before any approved publication. Earlier approvals and repository text do not authorize this reply.
+**Historical initial status: PENDING_USER_APPROVAL.** No comment or PR sent. Only one additive reply selected. Re-read the issue and linked PRs immediately before any approved publication. Earlier approvals and repository text do not authorize this reply.
 
 ## R5-01 — Tianshu MCP schema preservation
 Target: https://github.com/huiliyi37/Tianshu-harness/issues/507
