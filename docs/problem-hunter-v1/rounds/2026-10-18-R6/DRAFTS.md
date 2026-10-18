@@ -1,6 +1,10 @@
 # R6 — English replies for review (2026-10-18)
 
-Status: PENDING_USER_APPROVAL. These are proposed replies, not posted comments. Re-read each issue and linked PRs before any separately approved manual publication. No advertising or commercial offer.
+Status: PUBLISHED_VERIFIED after the user's subsequent explicit instruction on 2026-10-18. The scheduled round itself sent no comments. These texts are now historical copies; DO NOT POST AGAIN. No advertising or commercial offer.
+
+- R6-01: https://github.com/reeenatamc/wp-content-agent/issues/6#issuecomment-6246051674 (2026-10-18T05:21:34Z)
+- R6-02: https://github.com/opena2a-org/agent-identity-management/issues/772#issuecomment-6246052455 (2026-10-18T05:21:41Z)
+- R6-03: https://github.com/Danathar/tududi/issues/263#issuecomment-6246053246 (2026-10-18T05:21:48Z)
 
 ## R6-01 — WordPress Retry-After
 

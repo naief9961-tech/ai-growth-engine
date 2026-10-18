@@ -125,7 +125,13 @@
       "upstream_full_suites_run": 0,
       "reply_drafts": 3,
       "third_party_comments_posted": 0,
-      "commercial_requests_verified": 0
+      "commercial_requests_verified": 0,
+      "manual_followup_publication": {
+        "date": "2026-10-18",
+        "comments": 3,
+        "verified": true,
+        "authorization": "Explicit subsequent user instruction: نفذ"
+      }
     }
   ],
   "automation": {
@@ -1043,12 +1049,14 @@
       "tests": "6 Python cases: 2 extracted baseline/guard checks and 4 standalone delay-policy cases. Integrated helper, native pytest and WordPress/MCP untested.",
       "reply": "R6-01",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "APPROVED_BY_USER",
+        "instruction": "نفذ",
+        "date": "2026-10-18"
       },
-      "publication_status": "DRAFT_ONLY",
-      "published_comment_url": null,
-      "last_seen_comment_id": null,
-      "developer_response": "NO_NAIF_CONTACT",
+      "publication_status": "PUBLISHED_VERIFIED",
+      "published_comment_url": "https://github.com/reeenatamc/wp-content-agent/issues/6#issuecomment-6246051674",
+      "last_seen_comment_id": 6246051674,
+      "developer_response": "AWAITING_RESPONSE",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "sources": [
@@ -1060,7 +1068,16 @@
         }
       ],
       "pr_check": "PR #3 merged 2026-10-18T04:58:53Z; reviewed comments and latest head. Main 00b41fd5eecfc561af28dfba8068777e24fdc34f has identical client blob. #6 remains open; no retry-specific PR found.",
-      "review_note": null
+      "review_note": null,
+      "history": [
+        {
+          "date": "2026-10-18",
+          "event": "USER_APPROVED_AND_COMMENT_PUBLISHED",
+          "previous_publication_status": "DRAFT_ONLY",
+          "comment_id": 6246051674,
+          "url": "https://github.com/reeenatamc/wp-content-agent/issues/6#issuecomment-6246051674"
+        }
+      ]
     },
     {
       "round_id": "2026-10-18-R6",
@@ -1081,12 +1098,14 @@
       "tests": "3 Python cases: extracted wrong-route reproduction, candidate populated/empty response behavior, and synthetic authorization-error propagation. Go/signing/full SDK untested.",
       "reply": "R6-02",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "APPROVED_BY_USER",
+        "instruction": "نفذ",
+        "date": "2026-10-18"
       },
-      "publication_status": "DRAFT_ONLY",
-      "published_comment_url": null,
-      "last_seen_comment_id": null,
-      "developer_response": "NO_NAIF_CONTACT",
+      "publication_status": "PUBLISHED_VERIFIED",
+      "published_comment_url": "https://github.com/opena2a-org/agent-identity-management/issues/772#issuecomment-6246052455",
+      "last_seen_comment_id": 6246052455,
+      "developer_response": "AWAITING_RESPONSE",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "sources": [
@@ -1110,7 +1129,16 @@
         }
       ],
       "pr_check": "Issue timeline empty; no matching #772 PR. Skills-related historic PRs do not change pinned missing route.",
-      "review_note": null
+      "review_note": null,
+      "history": [
+        {
+          "date": "2026-10-18",
+          "event": "USER_APPROVED_AND_COMMENT_PUBLISHED",
+          "previous_publication_status": "DRAFT_ONLY",
+          "comment_id": 6246052455,
+          "url": "https://github.com/opena2a-org/agent-identity-management/issues/772#issuecomment-6246052455"
+        }
+      ]
     },
     {
       "round_id": "2026-10-18-R6",
@@ -1131,12 +1159,14 @@
       "tests": "2 Node groups: source-extracted failed redelivery reproduction and 8-contender exclusive-claim design model. No Sequelize/database/provider/signature/concurrency integration.",
       "reply": "R6-03",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "APPROVED_BY_USER",
+        "instruction": "نفذ",
+        "date": "2026-10-18"
       },
-      "publication_status": "DRAFT_ONLY",
-      "published_comment_url": null,
-      "last_seen_comment_id": 6245886142,
-      "developer_response": "NO_NAIF_CONTACT",
+      "publication_status": "PUBLISHED_VERIFIED",
+      "published_comment_url": "https://github.com/Danathar/tududi/issues/263#issuecomment-6246053246",
+      "last_seen_comment_id": 6246053246,
+      "developer_response": "AWAITING_RESPONSE",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "sources": [
@@ -1172,7 +1202,16 @@
         }
       ],
       "pr_check": "No open or matching webhook/#263 PR found. New scanner claim at 04:59:59Z; recheck resulting work before posting.",
-      "review_note": "Another agent has claimed this issue; avoid duplicating its work. Claim is not authorization to act."
+      "review_note": "Another agent has claimed this issue; avoid duplicating its work. Claim is not authorization to act.",
+      "history": [
+        {
+          "date": "2026-10-18",
+          "event": "USER_APPROVED_AND_COMMENT_PUBLISHED",
+          "previous_publication_status": "DRAFT_ONLY",
+          "comment_id": 6246053246,
+          "url": "https://github.com/Danathar/tududi/issues/263#issuecomment-6246053246"
+        }
+      ]
     }
   ],
   "followups": [
@@ -1620,41 +1659,41 @@
     {
       "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
       "state": "open",
-      "last_own_comment_id": null,
-      "last_seen_comment_id": null,
-      "last_seen_comment_at": null,
+      "last_own_comment_id": 6246051674,
+      "last_seen_comment_id": 6246051674,
+      "last_seen_comment_at": "2026-10-18T05:21:34Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_PENDING_USER_APPROVAL",
+      "status": "PUBLISHED_AWAITING_RESPONSE",
       "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z",
-      "outcome": "New reviewed draft; no NAIF comment sent."
+      "last_checked_at": "2026-10-18T05:21:34Z",
+      "outcome": "Published after explicit user instruction; exact text and account verified. No developer response established."
     },
     {
       "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
       "state": "open",
-      "last_own_comment_id": null,
-      "last_seen_comment_id": null,
-      "last_seen_comment_at": null,
+      "last_own_comment_id": 6246052455,
+      "last_seen_comment_id": 6246052455,
+      "last_seen_comment_at": "2026-10-18T05:21:41Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_PENDING_USER_APPROVAL",
+      "status": "PUBLISHED_AWAITING_RESPONSE",
       "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z",
-      "outcome": "New reviewed draft; no NAIF comment sent."
+      "last_checked_at": "2026-10-18T05:21:41Z",
+      "outcome": "Published after explicit user instruction; exact text and account verified. No developer response established."
     },
     {
       "url": "https://github.com/Danathar/tududi/issues/263",
       "state": "open",
-      "last_own_comment_id": null,
-      "last_seen_comment_id": 6245886142,
-      "last_seen_comment_at": "2026-10-18T04:59:59Z",
+      "last_own_comment_id": 6246053246,
+      "last_seen_comment_id": 6246053246,
+      "last_seen_comment_at": "2026-10-18T05:21:48Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_PENDING_USER_APPROVAL",
+      "status": "PUBLISHED_AWAITING_RESPONSE",
       "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z",
-      "outcome": "Other agent claimed issue; no reply to NAIF and no commercial signal."
+      "last_checked_at": "2026-10-18T05:21:48Z",
+      "outcome": "Published after explicit user instruction; exact text and account verified. No developer response established."
     }
   ],
   "exclusions": [
