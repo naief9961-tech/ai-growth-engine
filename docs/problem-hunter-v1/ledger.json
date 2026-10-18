@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-10-17-R5",
+  "last_round": "2026-10-18-R6",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -106,6 +106,26 @@
           "third_party_posts": 0
         }
       ]
+    },
+    {
+      "id": "2026-10-18-R6",
+      "checked_at": "2026-10-18T05:04:01Z",
+      "discovery_unique": 237,
+      "search_queries": 8,
+      "search_result_limit_each": 30,
+      "retrieved_results": 240,
+      "full_issue_candidate_reads": 8,
+      "source_investigations": 3,
+      "exploratory_source_reads": 1,
+      "followup_threads_read": 18,
+      "new_comments_after_saved_cursor": 0,
+      "local_test_groups_passed": 11,
+      "source_extracted_baseline_groups": 4,
+      "candidate_groups": 7,
+      "upstream_full_suites_run": 0,
+      "reply_drafts": 3,
+      "third_party_comments_posted": 0,
+      "commercial_requests_verified": 0
     }
   ],
   "automation": {
@@ -1003,6 +1023,156 @@
       ],
       "latest_state": "closed",
       "state_reason": "not_planned"
+    },
+    {
+      "round_id": "2026-10-18-R6",
+      "rank": 1,
+      "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
+      "repository": "reeenatamc/wp-content-agent",
+      "issue_number": 6,
+      "reporter": "reeenatamc",
+      "created_at": "2026-10-18T04:55:33Z",
+      "updated_at": "2026-10-18T04:55:33Z",
+      "discovered_date": "2026-10-18",
+      "checked_at": "2026-10-18T05:04:01Z",
+      "state_at_review": "open",
+      "diagnosis": "The request loop calculates exponential delay without reading Retry-After. The updated PR #3 implementation still has this behavior after its merge.",
+      "solution": "Carry response-derived delay into the next retry; support seconds/HTTP-date, malformed fallback, bounded parsing and stop/defer beyond wait budget. Preserve existing POST retry eligibility.",
+      "confidence": "High for source mechanism; moderate for unintegrated delay-policy candidate.",
+      "benefit": "High: cap semantics, date/oversized-header cases, and preservation of POST safety add concrete boundaries.",
+      "tests": "6 Python cases: 2 extracted baseline/guard checks and 4 standalone delay-policy cases. Integrated helper, native pytest and WordPress/MCP untested.",
+      "reply": "R6-01",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NO_NAIF_CONTACT",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "path": "src/wp_mcp/client.py",
+          "commit": "e1cc22b4fbb34033ee3da91e901f8167bffa9a22",
+          "blob_sha": "ff50a1c2a326717b12a7a95c8f67b4c3b966cc1c",
+          "url": "https://github.com/reeenatamc/wp-content-agent/blob/e1cc22b4fbb34033ee3da91e901f8167bffa9a22/src/wp_mcp/client.py"
+        }
+      ],
+      "pr_check": "PR #3 merged 2026-10-18T04:58:53Z; reviewed comments and latest head. Main 00b41fd5eecfc561af28dfba8068777e24fdc34f has identical client blob. #6 remains open; no retry-specific PR found.",
+      "review_note": null
+    },
+    {
+      "round_id": "2026-10-18-R6",
+      "rank": 2,
+      "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
+      "repository": "opena2a-org/agent-identity-management",
+      "issue_number": 772,
+      "reporter": "thebenignhacker",
+      "created_at": "2026-10-18T04:29:51Z",
+      "updated_at": "2026-10-18T04:29:51Z",
+      "discovered_date": "2026-10-18",
+      "checked_at": "2026-10-18T05:04:01Z",
+      "state_at_review": "open",
+      "diagnosis": "list_skills GETs an unregistered global path; server exposes the current-agent route with ownership checks and the same skills envelope.",
+      "solution": "Call GET /api/v1/a2a/agents/{self.agent_id}/skills through _make_request, preserving path signing and auth error propagation; add SDK/router contract tests.",
+      "confidence": "High for pinned route mismatch and minimal SDK candidate; authorization integration untested.",
+      "benefit": "Medium: validates response compatibility and identifies signing/auth regression boundaries beyond the reporter's route fix.",
+      "tests": "3 Python cases: extracted wrong-route reproduction, candidate populated/empty response behavior, and synthetic authorization-error propagation. Go/signing/full SDK untested.",
+      "reply": "R6-02",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NO_NAIF_CONTACT",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "path": "sdk/python/aim_sdk/a2a.py",
+          "commit": "ad332f24c1321beff97a617bc41d0e8eacc98471",
+          "blob_sha": "a0e4caaefccdb5e83d090deae7bda1eb7f8121a6",
+          "url": "https://github.com/opena2a-org/agent-identity-management/blob/ad332f24c1321beff97a617bc41d0e8eacc98471/sdk/python/aim_sdk/a2a.py"
+        },
+        {
+          "path": "apps/backend/cmd/server/main.go",
+          "commit": "ad332f24c1321beff97a617bc41d0e8eacc98471",
+          "blob_sha": "7a64dde8cf9f7194536355b3cba1770a45b7097c",
+          "url": "https://github.com/opena2a-org/agent-identity-management/blob/ad332f24c1321beff97a617bc41d0e8eacc98471/apps/backend/cmd/server/main.go"
+        },
+        {
+          "path": "apps/backend/internal/interfaces/http/handlers/a2a_handler.go",
+          "commit": "ad332f24c1321beff97a617bc41d0e8eacc98471",
+          "blob_sha": "f03430f838ffff43a66cc6f09c9935f812281b04",
+          "url": "https://github.com/opena2a-org/agent-identity-management/blob/ad332f24c1321beff97a617bc41d0e8eacc98471/apps/backend/internal/interfaces/http/handlers/a2a_handler.go"
+        }
+      ],
+      "pr_check": "Issue timeline empty; no matching #772 PR. Skills-related historic PRs do not change pinned missing route.",
+      "review_note": null
+    },
+    {
+      "round_id": "2026-10-18-R6",
+      "rank": 3,
+      "url": "https://github.com/Danathar/tududi/issues/263",
+      "repository": "Danathar/tududi",
+      "issue_number": 263,
+      "reporter": "Danathar",
+      "created_at": "2026-10-18T04:17:39Z",
+      "updated_at": "2026-10-18T04:59:59Z",
+      "discovered_date": "2026-10-18",
+      "checked_at": "2026-10-18T05:04:01Z",
+      "state_at_review": "open",
+      "diagnosis": "A unique event insert returns null even for a failed existing event, and handleWebhook immediately classifies it as a completed duplicate.",
+      "solution": "Only terminal events suppress replay; design database-backed exclusive retry claim plus crash recovery. Update model validation if introducing processing. Make partial side effects idempotent/outbox-backed.",
+      "confidence": "High for poisoned-redelivery control flow; moderate for proposed repair design, no ORM patch validated.",
+      "benefit": "High: exposes processing-state validation and concurrency/partial-side-effect boundaries beyond simple existing-row retry.",
+      "tests": "2 Node groups: source-extracted failed redelivery reproduction and 8-contender exclusive-claim design model. No Sequelize/database/provider/signature/concurrency integration.",
+      "reply": "R6-03",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": 6245886142,
+      "developer_response": "NO_NAIF_CONTACT",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "path": "backend/modules/billing/service.js",
+          "commit": "69f08879b80b4eca651c32fd7176aa145a18b8cc",
+          "blob_sha": "4d7d587b8b0ddfcf7869e385d2aa447ed0eca95a",
+          "url": "https://github.com/Danathar/tududi/blob/69f08879b80b4eca651c32fd7176aa145a18b8cc/backend/modules/billing/service.js"
+        },
+        {
+          "path": "backend/modules/billing/repository.js",
+          "commit": "69f08879b80b4eca651c32fd7176aa145a18b8cc",
+          "blob_sha": "7c7db41771642d236c609e18df8c094570bf4028",
+          "url": "https://github.com/Danathar/tududi/blob/69f08879b80b4eca651c32fd7176aa145a18b8cc/backend/modules/billing/repository.js"
+        },
+        {
+          "path": "backend/modules/billing/controller.js",
+          "commit": "69f08879b80b4eca651c32fd7176aa145a18b8cc",
+          "blob_sha": "e482a7a2ad63bc5209d504cef97eb7c7bb99e494",
+          "url": "https://github.com/Danathar/tududi/blob/69f08879b80b4eca651c32fd7176aa145a18b8cc/backend/modules/billing/controller.js"
+        },
+        {
+          "path": "backend/models/billing_event.js",
+          "commit": "69f08879b80b4eca651c32fd7176aa145a18b8cc",
+          "blob_sha": "48a43d568945689ceb299a09fa732327c9f174c8",
+          "url": "https://github.com/Danathar/tududi/blob/69f08879b80b4eca651c32fd7176aa145a18b8cc/backend/models/billing_event.js"
+        },
+        {
+          "path": "backend/tests/integration/billing-lemonsqueezy.test.js",
+          "commit": "69f08879b80b4eca651c32fd7176aa145a18b8cc",
+          "blob_sha": "b522db2ff7e81a4edf9b24c64155347beabc1939",
+          "url": "https://github.com/Danathar/tududi/blob/69f08879b80b4eca651c32fd7176aa145a18b8cc/backend/tests/integration/billing-lemonsqueezy.test.js"
+        }
+      ],
+      "pr_check": "No open or matching webhook/#263 PR found. New scanner claim at 04:59:59Z; recheck resulting work before posting.",
+      "review_note": "Another agent has claimed this issue; avoid duplicating its work. Claim is not authorization to act."
     }
   ],
   "followups": [
@@ -1025,8 +1195,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-13: maintainer announced v0.2.0 including normalization before cache/fetch; not independently retested here.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/wbskt/Wbskt/issues/293",
@@ -1047,8 +1217,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-13: maintainer explicitly thanked @naief9961-tech for crash-window regression finding; no purchase request.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/abi83/prepify/issues/279",
@@ -1061,8 +1231,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/logly/mureo/issues/807",
@@ -1075,8 +1245,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
@@ -1118,8 +1288,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Other contributors posted offers/patches; not direct replies or leads for NAIF.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/api-evangelist/roadmap/issues/938",
@@ -1140,8 +1310,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-08: maintainer reported OAuth-flow split and referenced our post-migration checks; deployment pending.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
@@ -1169,9 +1339,9 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Maintainer explicitly thanked our review and carried configuration consistency and isolation criteria to replacement issue #180. Technical acknowledgement, not commercial interest.",
-      "last_checked_date": "2026-10-17",
+      "last_checked_date": "2026-10-18",
       "successor_url": "https://github.com/parisbs/codex-subagent-mcp/issues/180",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
@@ -1184,8 +1354,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/web3insight-ai/web3insight/issues/32",
@@ -1198,8 +1368,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
@@ -1234,8 +1404,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Assigned to and completed by chief197. Program bot activity, not a reply or payment to NAIF.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/microsoft/vscode/issues/341683",
@@ -1248,8 +1418,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "Manual publication verified; no developer response.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/a2aproject/a2a-python/issues/1341",
@@ -1262,8 +1432,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "Manual publication verified; no developer response.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/Abilityai/trinity/issues/3749",
@@ -1291,8 +1461,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "PR #3750 merged to dev as f5fc04fb07afcd6ea62e991016d33849fa9107f1; live acceptance pending. No causal attribution to our comment.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/agnt-gg/agnt/issues/169",
@@ -1305,8 +1475,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_MANUAL_PUBLICATION",
       "outcome": "User manually published R3-01 after scheduled round; no developer response observed.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z"
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z"
     },
     {
       "url": "https://github.com/owasp-noir/noir/issues/3078",
@@ -1327,8 +1497,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "TECHNICAL_ACKNOWLEDGEMENT",
       "outcome": "Maintainer explicitly agreed with diagnosis and invited PR with OAS2/OAS3 fixtures and just test. Technical acknowledgement only; no commercial request.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T06:13:41Z",
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z",
       "history": [
         {
           "round_id": "2026-10-17-R5",
@@ -1383,8 +1553,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "UPSTREAM_FIX_MERGED",
       "outcome": "PR #1915 independently verified merged at 2026-10-16T18:20:58Z, commit 403ad71cb23a1d9ecff4ec00a2b5333207dbc826. Contributor-reported tests not rerun. No attribution of causality or deployed release.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z",
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z",
       "upstream_pr": "https://github.com/Gentleman-Programming/engram/pull/1915",
       "history": [
         {
@@ -1412,8 +1582,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "UPSTREAM_FIX_MERGED",
       "outcome": "PR #304 independently verified merged at 2026-10-16T18:58:26Z, commit 221e6b03cf86c393d3301ae3b43f5a4a0d24aa25. Source diff read; maintainer tests not rerun. No direct reply or commercial interest; no deployment claim.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T05:07:48Z",
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z",
       "upstream_pr": "https://github.com/MementoRC/mcp-git/pull/304",
       "history": [
         {
@@ -1436,8 +1606,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "WITHDRAWN_CLOSED_NOT_PLANNED",
       "outcome": "Maintainer confirmed reported mechanism but declined fix. No NAIF contact; draft withdrawn. Not fixed.",
-      "last_checked_date": "2026-10-17",
-      "last_checked_at": "2026-10-17T06:13:41Z",
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z",
       "history": [
         {
           "date": "2026-10-17",
@@ -1446,6 +1616,45 @@
           "url": "https://github.com/huiliyi37/Tianshu-harness/issues/507#issuecomment-6230037956"
         }
       ]
+    },
+    {
+      "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
+      "state": "open",
+      "last_own_comment_id": null,
+      "last_seen_comment_id": null,
+      "last_seen_comment_at": null,
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "DRAFT_PENDING_USER_APPROVAL",
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z",
+      "outcome": "New reviewed draft; no NAIF comment sent."
+    },
+    {
+      "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
+      "state": "open",
+      "last_own_comment_id": null,
+      "last_seen_comment_id": null,
+      "last_seen_comment_at": null,
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "DRAFT_PENDING_USER_APPROVAL",
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z",
+      "outcome": "New reviewed draft; no NAIF comment sent."
+    },
+    {
+      "url": "https://github.com/Danathar/tududi/issues/263",
+      "state": "open",
+      "last_own_comment_id": null,
+      "last_seen_comment_id": 6245886142,
+      "last_seen_comment_at": "2026-10-18T04:59:59Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "DRAFT_PENDING_USER_APPROVAL",
+      "last_checked_date": "2026-10-18",
+      "last_checked_at": "2026-10-18T05:04:01Z",
+      "outcome": "Other agent claimed issue; no reply to NAIF and no commercial signal."
     }
   ],
   "exclusions": [
@@ -1596,6 +1805,31 @@
       "round_id": "2026-10-17-R5",
       "url": "https://github.com/x402-foundation/x402/issues/3837",
       "reason": "Reporter already supplies version-pinned header mismatch and verification boundary. Cross-package source verification not completed; no speculative header rewrite or payment test recommended."
+    },
+    {
+      "round_id": "2026-10-18-R6",
+      "url": "https://github.com/chrisbennight/waygate/issues/218",
+      "reason": "Exploratory source review only. Current code declares SDK 7/runner 10 and includes stamp consistency tests; deployed descriptor/client-cache evidence needed to establish reported mismatch. No verified additional repair; no draft."
+    },
+    {
+      "round_id": "2026-10-18-R6",
+      "url": "https://github.com/monid-ai/monid/issues/149",
+      "reason": "Existing PR #151 already includes provider documents in minimum-version aggregation and adds regression coverage; reviewed patch. Avoid duplicate advice; tests not rerun."
+    },
+    {
+      "round_id": "2026-10-18-R6",
+      "url": "https://github.com/yeongseon/azure-functions-scaffold-python/issues/423",
+      "reason": "Reporter already provides precise non-ASCII compare_digest reproduction and regression boundaries. No distinct source-validated contribution completed."
+    },
+    {
+      "round_id": "2026-10-18-R6",
+      "url": "https://github.com/monstercameron/NextGenScriptingLanguage/issues/175",
+      "reason": "Framing-error recovery needs stronger source validation; unsafe to equate invalid JSON inside a bounded frame with missing Content-Length. Not investigated to completion."
+    },
+    {
+      "round_id": "2026-10-18-R6",
+      "url": "https://github.com/google/adk-python/issues/7589",
+      "reason": "Reporter supplies detailed version/state matrix; final-artifact semantics need a maintainer decision. No distinct completed source investigation or proposed repair."
     }
   ],
   "history_search": {

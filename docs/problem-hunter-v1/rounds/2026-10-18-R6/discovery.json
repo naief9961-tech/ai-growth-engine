@@ -1,0 +1,1202 @@
+{
+  "round": "2026-10-18-R6",
+  "queries": [
+    "is:issue is:open created:>=2026-10-17 MCP in:title",
+    "is:issue is:open created:>=2026-10-16 A2A in:title",
+    "is:issue is:open created:>=2026-10-16 x402 in:title",
+    "is:issue is:open created:>=2026-10-17 webhook in:title",
+    "is:issue is:open created:>=2026-10-17 schema in:title",
+    "is:issue is:open created:>=2026-10-17 JSON-RPC",
+    "is:issue is:open created:>=2026-10-17 authentication API",
+    "is:issue is:open created:>=2026-10-17 \"GitHub Actions\" failure"
+  ],
+  "retrieved_count": 240,
+  "unique_count": 237,
+  "items": [
+    {
+      "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
+      "title": "wp_mcp: honor Retry-After on 429 responses",
+      "stage": "SELECTED_SOURCE_INVESTIGATION"
+    },
+    {
+      "url": "https://github.com/reeenatamc/wp-content-agent/issues/5",
+      "title": "wp_mcp: paginate categories and tags beyond 100 terms",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/zendev-sh/goai/issues/194",
+      "title": "Proposal: rebuild the mcp package on the official MCP Go SDK (spec 2026-07-28)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ruanyf/weekly/issues/12500",
+      "title": "【网站自荐】少装一点：按任务挑选 MCP 工具、Skills 和编辑器插件",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/trey-gonsoulin/playground/issues/493",
+      "title": "Pin base images and uv in the genealogy, therapist-finder and ynab-mcp Dockerfiles — from #454",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ClearMeasureLabs/bootcamp-palermo-workorders/issues/10308",
+      "title": "token-exp p6 u07: Status filter for list-work-orders MCP tool",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/harshsinghmp/musememory/issues/113",
+      "title": "fix(connect): align ALL_MEMORY_TOOLS with complete registered MCP tools (T-011)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/xgodev/boost/issues/70",
+      "title": "feat(factory): MCP server and client contrib on modelcontextprotocol/go-sdk",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/sarmadahsan/pay-guard/issues/96",
+      "title": "Budget authorization is serialized only per process (MCP server vs approve_retry, or two CLIs)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/devexhq/dovo/issues/938",
+      "title": "Spike: run Dovo from agent sessions (skill, MCP server, inline agent mode)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/mxbaylee/spinel/issues/41",
+      "title": "❓ SPN-034 Should optional MCP access be built now?",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/AquilaXk/steward/issues/22",
+      "title": "[Feat] Support multi-workspace MCP calls, Antigravity host hooks, and CLI option errors",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/vshulcz/deja-vu/issues/5203",
+      "title": "cline-auto over a read-only ~/.cline/plugins writes the MCP entry, then refuses the target",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/jhwiv/trip-optimizer/issues/168",
+      "title": "Proposal: keyless editorial grounding with Parallel Search MCP",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/chatmcp/mcpso/issues/5641",
+      "title": "Submit Remote MCP Server: Diogenes Gateway (io.github.stand-out-of-my-sun/diogenes-gateway)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/harshsinghmp/musememory/issues/111",
+      "title": "fix(orchestrator): align profile tool definitions with registered MCP tools (T-010)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/valtronforever/healthy-eating-backend/issues/13",
+      "title": "MCP tools to read back and delete meals",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-test/issues/23562",
+      "title": "GitHub remote MCP passed",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/psamin/speculativespeculativeagentaction/issues/105",
+      "title": "Agent observability: sign in and watch what your MCP agent (e.g. Claude Code) is doing, live",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4051",
+      "title": "Report broken MCP entry: livetennisapi/livetennisapi-mcp",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4052",
+      "title": "Report broken MCP entry: pl728/substack-fetcher-mcp",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4049",
+      "title": "Report broken MCP entry: TvojeLajky hosted MCP",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4050",
+      "title": "Report broken MCP entry: henryco23/NBA",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4048",
+      "title": "Report broken MCP entry: ThreadFox Lite",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/averagejoematt/life-platform/issues/4979",
+      "title": "Coach and MCP wiring for the watch's signals, plus pre-registered watch-enabled hypotheses",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ahmadrosid/nakama/issues/1886",
+      "title": "MCP server config is stored in plain text",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-test/issues/23547",
+      "title": "Large MCP JSON payload passed",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/destacey/Wayd/issues/1069",
+      "title": "MCP: composite tools for recording deliveries and story map goals",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/destacey/Wayd/issues/1068",
+      "title": "MCP: composite read tools for evidence and lookups",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/inclusionAI/Avernet/issues/2860",
+      "title": "feat(backend): keep MCP header credentials out of bot genome revisions",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
+      "title": "Python SDK A2AClient.list_skills calls GET /api/v1/a2a/skills, a route the server does not mount",
+      "stage": "SELECTED_SOURCE_INVESTIGATION"
+    },
+    {
+      "url": "https://github.com/itsdarklikehell/veloren-agent-intergration/issues/31",
+      "title": "S3-Q: Validate A2A heartbeat posting and config",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/itsdarklikehell/veloren-agent-intergration/issues/30",
+      "title": "S3-D: Implement A2A heartbeat bridge to Hermes Kanban",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/itsdarklikehell/veloren-agent-intergration/issues/21",
+      "title": "S3: A2A stdio/JSON bridge to Hermes Kanban",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-samples/issues/724",
+      "title": "Proposal: A2A-only client sample accessing MCP repository documentation",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/rootwarp/rvc/issues/705",
+      "title": "[FU-A2a] Doppelganger: stop on detection, with a detection latch that makes Detected terminal while shutdown drains",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/opena2a-org/agent-identity-management/issues/769",
+      "title": "A2A policy evaluation test fails when the evaluatedAt timestamp contains 0.93 or 0.87",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/WingedGuardian/GENesis-AGI/issues/3403",
+      "title": "A2A ListTasks orders by start time; the 1.0 spec requires status-update time, newest first",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/jinwon-int/a2a-nexus/issues/2390",
+      "title": "feat(analysis-bridge): 레인 종류별 리뷰 스킬을 분석 프롬프트에 명시 — A2A 레인 스킬 사용 0% 해소 (플래그 뒤 파일럿)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ThomasHendrickx/aeolus-fleet/issues/878",
+      "title": "Gateway: A2A in and out, verified versus stated identity",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Castrozan/.dotfiles/issues/239",
+      "title": "Investigate and remove the unrequested a2a fleet ledger",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/arminazimi/seaworthy/issues/223",
+      "title": "A2A agent card at `/.well-known/agent-card.json` matches the 1.0 schema, when present",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/tikhandesanket/pizzapilot-agent-lab/issues/40",
+      "title": "[M9] Optional: A2A boundary experiment",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3685",
+      "title": "A2A signed-card gate: official SDK canonicalization must preserve protobuf field presence",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/RodnaPamet/inflect-compliance/issues/3679",
+      "title": "[Agentic IAM 4b] A2A messaging with one vendor partner",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/RodnaPamet/inflect-compliance/issues/3673",
+      "title": "[Agentic IAM 2e] A2A design: peer registration, agent-card pinning and the mapping onto the funnel",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3679",
+      "title": "Epic: speak MCP 2026-07-28 and A2A 1.0 natively — host the vendor connector ecosystem, replace Kestrel's draft-era A2A wire",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Adaggubati404/Vector-database/issues/1",
+      "title": "A2A",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/flashinfer-ai/flashinfer/issues/6674",
+      "title": "[cake deslop] cake_comm (2): drop byte-identical MNNVL a2a SM103 file, template union/Ulysses clones, share one prelude (-13.6K lines)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ai-village-agents/ai-village-external-agents/issues/103",
+      "title": "A2A collaboration request: SDV World — a persistent farm world for agents",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/GabrieleTurchetti/trust-aware-agentic-ai/issues/1",
+      "title": "Create A2A example network",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/senara-solutions/mika/issues/2759",
+      "title": "fix(a2a): le plancher client >= total de mika#2297 n'est pas tenu pour une enveloppe per-agent — mika-arch 900 s face à un client à 600 s (suivi de mika#2309)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/3401",
+      "title": "🎲 flaky check: A2A Module Tests: TestAReusedSessionPodTakesTurnsAcrossItsGrantExpiry",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/liujuanjuan1984/codex-a2a/issues/385",
+      "title": "[chore] 在 PR 382 吸收 a2a-sdk 1.2.2 及依赖升级并完成适配",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/assafbar2/agentswitchboard.dev/issues/212",
+      "title": "Submission: CareJobs.Now Healthcare Jobs Agent. A free A2A agent that an…",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ichinya/ariel/issues/118",
+      "title": "Research: optional A2A 1.0 endpoint для локальных persistent agents с scoped grants",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/google/adk-python/issues/7589",
+      "title": "RemoteA2aAgent as a Workflow node: streaming output is None on a2a-sdk 0.3 and an intermediate text on 1.x",
+      "stage": "FULL_READ_NOT_SELECTED"
+    },
+    {
+      "url": "https://github.com/chrismaghuhn/duoforge/issues/641",
+      "title": "Life Dew skips allies' TryHit abilities: Water Absorb refused since A2a, Good as Gold a silent divergence on main",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/planetarium/vicoop-bridge/issues/522",
+      "title": "server: 관리자 에이전트(POST /)도 A2A 1.0 지원 — #519 소유권 검사·목록 범위 제한을 1.0 경로에도 적용",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/cwdcwd/vector-sigma/issues/70",
+      "title": "A2A: audit every send path for gateway-key auth (receivers drop 401s silently)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/x402-foundation/wg-identity/issues/41",
+      "title": "Solution: Subcento — pre-verification of the transaction itself (x402, Base)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8320",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/chatmcp/mcpso/issues/5632",
+      "title": "[Submit] io.github.Mlartab2/canonicalhash — Deterministic JSON hashing and EIP-712 attestations for AI agents via x402.",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8309",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/OpenAIMP/cfagent/issues/183",
+      "title": "Agentic wallet routes use a shared anonymous identity (agentic_consumer) for unauthenticated x402 callers",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8304",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/LiamVisionary/bee-scouts/issues/15",
+      "title": "Show the x402 first-payment match status on the SuperAgent API rewards page",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/coinbase/agentic-wallet-skills/issues/67",
+      "title": "[agentic.market] Add branded listing for base-gas-x402 (Base gas oracle, costs in USD)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8298",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/chester-hill-solutions/riding-and-address/issues/176",
+      "title": "x402: implement direct CDP JWT authentication before production activation",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/sarmadahsan/pay-guard/issues/44",
+      "title": "Task 8.6: A seller on Stripe's x402 offering, sandbox and testnet first, bought through the same code path",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/MikeyPetrillo/Agent402/issues/1664",
+      "title": "token-risk: add an executed buy/sell simulation as a probe (paid x402 upstream, ~$0.008)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/cline/mcp-marketplace/issues/3065",
+      "title": "Add DDG Agent Services — payment-aware MCP wrapper (421 x402-paid APIs, freemium)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8296",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8295",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/safetrustcr/backend-SafeTrust/issues/665",
+      "title": "Disable unused or unsafe experimental features, including ZK and x402",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8293",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8290",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/LiamVisionary/bee-scouts/issues/14",
+      "title": "Show the x402 first-payment match status on the Hall receipts page",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/methakon/homeguardian-ai/issues/5",
+      "title": "HG-VPS-02: staged retirement of obsolete x402 without any mail or cloud-network changes",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8289",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/vanduc2514/hackathon-circle-misthos/issues/200",
+      "title": "Epic: x402 monetization — wire existing APIs and add paid pricing, review, reputation and attestation endpoints",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8274",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Maha-Strategies/maha-corp-web/issues/912",
+      "title": "x402 discovery contract_failure: book-epub-the-maha-principle",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Maha-Strategies/maha-corp-web/issues/911",
+      "title": "x402 discovery contract_failure: book-epub-the-orbital-mind",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Maha-Strategies/maha-corp-web/issues/910",
+      "title": "x402 discovery contract_failure: cabezon-buyer-brief-pack",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8264",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8262",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/jyharju-code/verifi/issues/35",
+      "title": "your x402 manifest lists /verify and /verify-unlock, but GET returns 404 and only POST returns the 402",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Merit-Systems/x402scan/issues/1294",
+      "title": "Refresh stale Skavio x402 server metadata without replacing existing listing",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/maritonx/easy-cms/issues/178",
+      "title": "Opt-in outbox for `afterChange` and webhooks",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/maritonx/easy-cms/issues/166",
+      "title": "Sign webhook timestamps to stop replays",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/maritonx/easy-cms/issues/153",
+      "title": "Claim scheduled jobs and webhook deliveries with `SKIP LOCKED`",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/monid-ai/monid/issues/149",
+      "title": "Bundle minimum engine version omits provider webhook requirements",
+      "stage": "FULL_READ_NOT_SELECTED"
+    },
+    {
+      "url": "https://github.com/win07xp/kaalm/issues/524",
+      "title": "controller: Ready messages copy webhook denial text uncut and can block status writes",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/PeteyFranchise/funun/issues/189",
+      "title": "Stripe webhook rejects delayed payments and ignores refunds and disputes",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Bruxaok122/indicadorprobr/issues/1",
+      "title": "Hardcoded credentials in setup-admin / whatsapp-webhook (public repo)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Josephat-S/karebe-v2/issues/18",
+      "title": "[KAR-018] Process provider webhooks and background media jobs idempotently",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/HarryNgoFire/CNPM_Topic4/issues/4",
+      "title": "[Doc][Webhook] Event webhook không đảm bảo thứ tự nhận",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/HarryNgoFire/CNPM_Topic4/issues/3",
+      "title": "[Bug][Webhook] Đăng ký trùng URL tạo nhiều subscription, mỗi event bị gửi nhiều lần",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Danathar/tududi/issues/263",
+      "title": "Billing webhook redelivery is ignored after a failed first attempt, so the subscription is never applied",
+      "stage": "SELECTED_SOURCE_INVESTIGATION"
+    },
+    {
+      "url": "https://github.com/joshg253/Lectio/issues/409",
+      "title": "Automation pass skips webhook/Instapaper/save-article/Quire/playlist rules when no core rule exists",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/lamberto15/nestjs-monorepo-template/issues/138",
+      "title": "feat(api): retention for outgoing webhook deliveries (and their recorded requests)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/arpan404/ace/issues/975",
+      "title": "Start automations from signed webhooks",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gke-labs/eval-runner/issues/105",
+      "title": "webhook: create Runs and a Comparison on pull_request/push events (signature-verified, idempotent, baseline reuse)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/metalsp0rk/boiler-snake/issues/519",
+      "title": "e2e flake: webhook execute multipart (fire-and-forget) background persist races the assertion",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/CodedSceptre/ai-net/issues/383",
+      "title": "feat(backend): Build webhook delivery system for task completion events",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gxurav1710/YouPI-PG/issues/26",
+      "title": "[High] COD orders fire a plain SUCCESS webhook with no money received",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Adriano-Perez/Clutter_Bot/issues/28",
+      "title": "[S3] Post-call webhook → iMessage summary",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/cebertowicz/corsia/issues/1019",
+      "title": "GitHub webhook deliveries time out at ingress and silently drop reviewer triggers",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/marioatcloudvane/litefactory/issues/967",
+      "title": "Backlog drain after webhook fallback stalls the tick: each session times out in bind session ticket (119 sessions, ~1 min each)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/FootprintAI/Containarium/issues/2643",
+      "title": "threatdetect: every dedupe upsert re-delivers the webhook, so a persistent finding alerts once per evaluation cycle",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Terry-BrooksJr/accord/issues/5",
+      "title": "Document and demonstrate the webhook receipt acceptance contract",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Terry-BrooksJr/accord/issues/3",
+      "title": "Record Stripe webhook receipts atomically and distinguish duplicates",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Terry-BrooksJr/accord/issues/1",
+      "title": "Make the webhook gateway build and start with environment configuration",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/wyrd-company/trowel/issues/13",
+      "title": "Drop sender baggage at the public webhook boundary",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/wyrd-company/trowel/issues/12",
+      "title": "Server spans export wildcard webhook path segments",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/yeongseon/azure-functions-scaffold-python/issues/423",
+      "title": "fix(templates): reject malformed webhook signatures without raising type errors",
+      "stage": "FULL_READ_NOT_SELECTED"
+    },
+    {
+      "url": "https://github.com/lecovi/tienda-remeras-nerd/issues/8",
+      "title": "Webhook MercadoPago: no valida monto/moneda del pago aprobado",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/pointgoddesscc-sketch/orgsuite-meta-ai-agent/issues/1",
+      "title": "Org Suite Radio: secure voice bridge foundation and webhook fail-closed hardening",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/on4net/on4net-idpn/issues/10",
+      "title": "Implement initial database schema, migrations and seed data",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/maritonx/easy-cms/issues/172",
+      "title": "`schema` option for `@easy-cms/db-postgres`",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/maritonx/easy-cms/issues/156",
+      "title": "Document database isolation levels and test a separate schema",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/brume-app/brume/issues/31",
+      "title": "feat(generator): generate relations and integrate the schema in the export",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/brume-app/brume/issues/30",
+      "title": "feat(generator): generate the Prisma schema for models and fields",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/dzhioev/bro/issues/976",
+      "title": "tools: validate tool arguments against their schema in the live tool layer",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kurone-kito/idd-skill/issues/4498",
+      "title": "docs(discover): list excluded roadmap leaves in output schema",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/moonrockz/partiql/issues/40",
+      "title": "Refine Ion support: binary Ion, multiple elements, Ion Schema, embeddable engine",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-extension-template/issues/29",
+      "title": "feat(schema): 参考scene/noteのpure Schema配布入口",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-time-space-sync/issues/20",
+      "title": "feat(schema): Spec由来配置2契約のpure bundleと意味検証",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-realtime-motion-capture/issues/32",
+      "title": "feat(schema): consumer別motion入力とTypeBox生成Schemaのpure配布",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-camera-calibration/issues/38",
+      "title": "feat(schema): 校正importの形式判定とpure consumer adapter",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-camera-source/issues/47",
+      "title": "feat(schema): 形式別カメラprofileの固定bundleとpure adapter",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-3d-scene-runtime/issues/1",
+      "title": "feat(schema): bare/wrapper/空sourceを保持するscene adapter",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-scene-graph/issues/5",
+      "title": "feat(schema): scene-documentと同梱3 resourceのpure配布",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ikostan/SkyLockAssault/issues/1055",
+      "title": "[BUG] GDScript docs sync fails: Gemini can't fill Dict-typed \"parameters\" in response schema",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/yyx462/whitehartlane/issues/152",
+      "title": "schema v2: stage-first workflows — chain of stages, each with declared topology + per-stage hooks (unifies fan-out/coworker/lab/steps)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-aframe/issues/19",
+      "title": "feat(schema): 現行テンプレートの互換Schemaとpure配布入口を追加する",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/slavins-co/keep-in-touch/issues/385",
+      "title": "Spotlight semantic index (IndexedEntity), .system.open/.searchInApp schemas, view annotations (names only, never notes)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/cyanheads/mcp-ts-core/issues/756",
+      "title": "bug(canvas): SQL gate admits the bare current_schema keyword",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/averagejoematt/life-platform/issues/4970",
+      "title": "Map the watch's new daily metrics (tiers, SCHEMA, absence semantics) and add registry staleness plus a dead-man for the watch",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-extension-data-editor/issues/20",
+      "title": "feat(schema): S1-3の同期owner合成と明示bundleフォームを接続する",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/monstercameron/NextGenScriptingLanguage/issues/168",
+      "title": "checkpoint status --json for a graph checkpoint violates checkpoint-status.v1.schema.json",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/issues/176066",
+      "title": "[Bug]: Schema-rejected tool calls are reported to users as \"blocked\" (policy vocabulary for a non-policy failure)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/pulse-compute/pulse/issues/376",
+      "title": "B10-03 — Prevent generated context data from unnecessarily selecting full schema tests",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/DevNiola/Prism/issues/14",
+      "title": "Create contributor guide for error taxonomy with TOML schema and validation workflow",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/DevNiola/Prism/issues/12",
+      "title": "Document WebSocket trace streaming protocol with message schemas and examples",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/chrisbennight/waygate/issues/218",
+      "title": "Code Mode results fail client validation against their published output schemas",
+      "stage": "FULL_READ_NOT_SELECTED"
+    },
+    {
+      "url": "https://github.com/Tristan2828/ui-foundation/issues/149",
+      "title": "buildInfo(): carry the Alembic head (schema), or extra fields, in build-info.json",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubohiroya/turbowarp-extension-data-editor/issues/19",
+      "title": "feat(schema): S1-2の方言別オフラインengineと同梱refを実装する",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/saadshahd/roundup/issues/2628",
+      "title": "U2556a/U2556b: bounded Project-owned worktrunk collector prerequisite",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Jecvay/paseo-dsh-direct/issues/73",
+      "title": "[P1] 修复 dsh 0.2.1 直连时 provider 刷新报 invalid JSON",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ZeroK-RTS/CrashReports/issues/183835",
+      "title": "Spring Crash [2026.07.04] ",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/paraloom-labs/paraloom-core/issues/1004",
+      "title": "[BOUNTY] Medium: Unsynchronized swapOutputs & wallet storage read-modify-write races, cross-context reconcile/reshield double-execution, maybeAutoLock TOCTOU, unretried 429/408 swap RPCs, and unvalidated NaN/Infinity prices (paraloom-wallet)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/93",
+      "title": "[BOUNTY] Medium: Unsynchronized swapOutputs & wallet storage read-modify-write races, cross-context reconcile/reshield double-execution, maybeAutoLock TOCTOU, unretried 429/408 swap RPCs, and unvalidated NaN/Infinity prices (paraloom-wallet)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Cyoh-Tim/Fieldbus-Archtecture/issues/136",
+      "title": "[큐 31] T12-9 — PN 자체 HMAC 보안 기본값 끄기·명칭 정리",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/monstercameron/NextGenScriptingLanguage/issues/175",
+      "title": "Language server exits on one malformed JSON frame instead of replying -32700",
+      "stage": "FULL_READ_NOT_SELECTED"
+    },
+    {
+      "url": "https://github.com/smithersai/smithers/issues/4265",
+      "title": "Deploy apps publishes a frontend that needs a newer backend than production runs (CSRF cookie rename)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/issues/176067",
+      "title": "Windows 2026.10.3 (59cb447): event-loop stalls of 76-163 s during interactive turns; replies fail with \"worker task timed out\"; reclamation reports SqliteReclamationInputsChangedError",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/DevNiola/Prism/issues/17",
+      "title": "Add E2E test suite for web app decode and trace replay workflows",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/DevNiola/Prism/issues/16",
+      "title": "Add unit tests for cache LRU eviction and TTL expiry in core cache store",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/DevNiola/Prism/issues/13",
+      "title": "Write comprehensive integration guide covering CLI, server, and web app setup",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/DevNiola/Prism/issues/7",
+      "title": "Add retry logic with circuit breaker to RPC client for transient Stellar node failures",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/DevNiola/Prism/issues/5",
+      "title": "Add rate limiting and request throttling to server API routes",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/microsoft/conductor/issues/603",
+      "title": "fix(copilot): forward BYOK prompt and output budgets",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kagura-ai/memory-cloud/issues/2074",
+      "title": "fix(mcp): guard the DELETE /mcp session lookup like GET and POST",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/youyuanwu/tonic-h3/issues/59",
+      "title": "Track intermittent Windows reconnect-test hang and add bounded shutdown diagnostics",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/930",
+      "title": "[intake 输入][test/Windows] `isPathUnder` 身份回退在无文件索引卷（FAT32/exFAT）上退化为\"同卷即同根\"，workspace-write 写围栏可全卷失守（B，条件性）＋ 词法快线对非 canonical 输入（junction、字面 `..`）误判\"在内\"，围栏正确性完全外包给上游 resolve（C）＋ entry 引用 ordinal 校验形同虚设（D）",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/929",
+      "title": "[intake 输入][test/Windows] henlii/dsh-plugins（dsh-web-auth 0.4.0 鉴权插件）快测：回环豁免对 Host/Origin 零校验，DNS rebinding 可绕过密码门直达 /api（A）＋ 全局登录锁可被无凭据持续锁死全员含本机（B）＋ 既有 WS 升级路由无清扫（C）＋ GET logout 无方法校验（C）＋ 静态与插件 bundle 无门槛（C）",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Enard52/Hivora/issues/45",
+      "title": "[Performance] Use MCP benchmark results to optimize concurrent request latency",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/tddworks/ClaudeBar/issues/577",
+      "title": "Added logins never read this Mac: replace accounts.patch with one law",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Harness-X-Harness/codex/issues/423",
+      "title": "[Grok context-reduce P1 / CR-06] Eliminate redundant typed-SDK to JSON and back projections in Story observers",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Harness-X-Harness/codex/issues/422",
+      "title": "[Grok context-reduce P1 / CR-03] Delete unreachable JSON-RPC envelope state from application notifications",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/datnguyenquy94/news-radar/issues/809",
+      "title": "📊 AI CLI Tools Digest 2026-10-18",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/zibyn/stars-sandbox/issues/109",
+      "title": "MCP Tool API：stars-sandbox mcp",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/zibyn/stars-sandbox/issues/107",
+      "title": "M2 实现前补齐规格：MCP 精选工具集、2026-07-28 规范对齐、SDK 形态与 M2 场景修订",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/axolotl-logic/project-buddy/issues/446",
+      "title": "Issue pipeline: the spec writer stops on a provider rate limit instead of deferring",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/langbot-app/LangBot/issues/2716",
+      "title": "[Bug]: 多群并发下 LocalAgent 重复计数与状态轮询放大开销，Box 在 30 秒预算下超时",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/DarojaAI/openclaw-gateway/issues/155",
+      "title": "[Bug]: No recovery path for terminal subagent delivery failure or dead preparation queue entries",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/danmunz/amazanban/issues/3",
+      "title": "Add desktop Firefox support and publish on AMO",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/AI-Degen-69/spread-hunter/issues/649",
+      "title": "[CREATE] User Account WebSocket stream for real-time fills and order updates",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/AI-Degen-69/spread-hunter/issues/648",
+      "title": "[CREATE] Live Market WebSocket stream engine replacing HTTP polling for quote evaluation",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/QwenLM/qwen-code/issues/14530",
+      "title": "Provider admission proposal: Ace Data Cloud (affiliation and evidence gaps disclosed)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/bogdan-alexandrescu/SwarmCloud/issues/1518",
+      "title": "A workspace has no roles of its own: anyone a workspace admits may do everything a member may, and the profile page can show only derived roles",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/roian6/apple-health-ai-bridge/issues/77",
+      "title": "[Feature]: Pair an iPhone with a Mac receiver through iCloud without a receiver URL",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/qhkm/zeptoclaw/issues/713",
+      "title": "fix(serve): OpenAI-compatible serve API has no authentication",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-test/issues/23565",
+      "title": "[aw] Test Copilot Assign To Agent With Config failed to assign agent",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-test/issues/23564",
+      "title": "[aw] Test Copilot Assign To Agent Reasoning Effort failed to assign agent",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/powersemmi/ruststream-rumqttc/issues/69",
+      "title": "A service survives a server DISCONNECT: reconnection chosen on the builder, the client's own by default",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/can1357/oh-my-pi/issues/16141",
+      "title": "[P1] Perplexity SSO login completely blocked by Google's \"browser may not be secure\" error in Chrome for Testing",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Josephat-S/karebe-v2/issues/9",
+      "title": "[KAR-009] Implement audit logging and the application security baseline",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Josephat-S/karebe-v2/issues/7",
+      "title": "[KAR-007] Enforce role-based authorization for viewer, editor, and super admin actions",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Josephat-S/karebe-v2/issues/6",
+      "title": "[KAR-006] Implement authentication and secure session management",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Mininglamp-OSS/octo-runtime/issues/25",
+      "title": "Support host-managed local installation and per-invocation activation of Marketplace plugins",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Josephat-S/karebe-v2/issues/2",
+      "title": "[KAR-003] Complete the Prisma domain model for the full Karebe product",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gnolruf/assistd/issues/485",
+      "title": "Supervise a SearXNG Instance Alongside the Daemon",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/SECiD-UNAM/secid-website/issues/79",
+      "title": "Auth: servir restablecer contraseña / verificar email desde secid.mx en vez de secid-org.firebaseapp.com",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/stacklok/toolhive-catalog/issues/1734",
+      "title": "Add Mysocial official remote MCP server",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/sethusrinivasan/box_hackathon/issues/3",
+      "title": "Aurora PostgreSQL express configuration not supported in CloudFormation/CDK (workaround: custom resource)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/larrytao05/drone/issues/18",
+      "title": "Add an authenticated browser-ready agent endpoint",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/philfanzhou/Lexarbor/issues/313",
+      "title": "[教材音频] 新增书单元录音目录管理与条件编辑页面",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/926",
+      "title": "[intake 输入][test/Windows] GET status 无认证回传 authKey/probeKey → 本地任意进程可窃钥替换 PAT 致会话经攻击者账号外送（P2）＋ PAT 明文落盘且 Windows 忽略 0600 权限位（P3）＋ `pat set` 位置参数令牌进 argv 与 PSReadLine 历史（P3）＋ 日志脱敏键黑名单不含 pat（P4）＋ 从用户可写目录无签名 spawn runtime-info.exe（P4）",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Danathar/tududi/issues/216",
+      "title": "An API token can mint never-expiring keys and set a password on a passwordless account",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Lime-coder/eshop-sut-N05/issues/12",
+      "title": "[B-BUG-004][B-FR09] Apply coupon không yêu cầu authentication",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/PEC-CSS/acm-website-backend/issues/134",
+      "title": "feat: Add backend support for rotating QR attendance",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/cipherstash/stack/issues/1254",
+      "title": "No guide for building a language integration on Stack Encrypt — write one, with the wire format documented in vitaminc-aead-frame",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/leonardolandeo-a11y/StudyStreak/issues/62",
+      "title": "Implement web authentication foundation",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/atengk/ateng-boot/issues/82",
+      "title": "[Spec] ateng-boot 全局优化、增强与渐进式扩展技术规格",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/f5-sales-demo/xcsh/issues/4970",
+      "title": "fix(ci): complete published-verification workflow metadata",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/edwardricardo/omni-post/issues/647",
+      "title": "Nightly test suite failing",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/lmcdo/nswcompliance/issues/1350",
+      "title": "🔴 main is red — gates failing",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/danmunz/amazanban/issues/2",
+      "title": "Create Chrome packaging and GitHub Releases workflow",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/69843",
+      "title": "[aw] The Great Escapi: had a request rejected",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/saladinayoubi1/lbank-research-automation/issues/2729",
+      "title": "[NEXUS CI] Test failed on 688c8fec3e9a",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/69842",
+      "title": "[windows-integration] Bound ConPTY output draining after Windows CLI timeout",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/apache/fluss/issues/4702",
+      "title": "[flink] TieringSourceEnumerator may lose finished tiering reports during shutdown",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/openwong2kim/wmux/issues/2391",
+      "title": "Nightly red: Runtime suite",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/69841",
+      "title": "[Firewall Test] Escape test failed",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/craigoley/remudero/issues/12722",
+      "title": "mutation-nightly is failing",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kubernetes-sigs/security-profiles-operator/issues/3597",
+      "title": "Weekly fuzz run failed",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/HikaruEgashira/plugin-ptm01/issues/10",
+      "title": "[hikaevi] Issue #7: [warning] CI: build",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/morluto/rea/issues/4961",
+      "title": "commandFinalizationCancellation fails on main CI depending on which worker runs it",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/IntelliTect/EssentialCSharp.Web/issues/1534",
+      "title": "[aw] Repo Assist has no AI credits pricing for model (gpt-5.6-luna-utility)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/mobinpda-lab/Arvin-clean/issues/2807",
+      "title": "[AUTO-FIX] Arvin Build (24be931c54bf0b6ed754bcc735dbd996caf790d9) failed at 24be931c54bf",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/HikaruEgashira/bun-gas/issues/6",
+      "title": "[hikaevi] Issue #5: [warning] CICD: cicd",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/KeeperCommunity/bitcoin-keeper/issues/7061",
+      "title": "Cloud-first Keeper release pipeline for every release (R5 first)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/atyrode/dotfiles/issues/767",
+      "title": "Pin refresh PR is not landing",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/BabsyIT/Babsy-SSH-Key-Managment/issues/1058",
+      "title": "⚠️ Ansible User Deployment Failed - 2026-10-18",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/AI-Shipping-Labs/website/issues/1989",
+      "title": "[CI] Scheduled Playwright full suite failing",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-workshop/issues/4710",
+      "title": "[workshop-sim] Repair: Verify Copilot access and billing path inside Step 7 checkpoint",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/plaplanche/ariane/issues/194",
+      "title": "ariane update: one CI re-run for unstable jobs, bounded CI rounds, stop on the same failure (C11, C19)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-workshop/issues/4709",
+      "title": "[workshop-sim] Improve: Add graded checkpoint and chunked activities to What Are Agentic Workflows?",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-workshop/issues/4708",
+      "title": "[workshop-sim] Improve: Add worked example and checkpoint to GitHub Actions in 5 Minutes",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/anzarsajid91/ICM_Graphing_Tool/issues/93",
+      "title": "Live Pages regression",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-workshop/issues/4707",
+      "title": "[workshop-sim] Workshop Simulation Report — 2026-10-18 (Run #67000, 1000×Monte Carlo)",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/microsoft/vstest/issues/16583",
+      "title": "[aw] PR Iteration Agent 🔧 failed",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/hahoangphuong/GXP-QLCL/issues/29",
+      "title": "Protect main: require PR and all six GitHub Actions checks",
+      "stage": "TITLE_BODY_SCREEN_ONLY"
+    }
+  ]
+}

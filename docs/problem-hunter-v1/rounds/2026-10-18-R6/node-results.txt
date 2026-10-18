@@ -1,0 +1,2 @@
+PASS source-extracted failed redelivery is silently classified duplicate
+PASS candidate state-machine model: one claim across 8 contenders, terminal suppression

@@ -1,0 +1,14 @@
+test_aim_baseline_missing_route (__main__.Boundaries.test_aim_baseline_missing_route) ... ok
+test_aim_candidate_does_not_swallow_authorization_error (__main__.Boundaries.test_aim_candidate_does_not_swallow_authorization_error) ... ok
+test_aim_candidate_route_and_results (__main__.Boundaries.test_aim_candidate_route_and_results) ... ok
+test_policy_dates (__main__.Boundaries.test_policy_dates) ... ok
+test_policy_delta_seconds (__main__.Boundaries.test_policy_delta_seconds) ... ok
+test_policy_invalid_and_missing_fallback (__main__.Boundaries.test_policy_invalid_and_missing_fallback) ... ok
+test_policy_over_budget_defers_instead_of_shortening (__main__.Boundaries.test_policy_over_budget_defers_instead_of_shortening) ... ok
+test_wp_baseline_ignores_retry_after (__main__.Boundaries.test_wp_baseline_ignores_retry_after) ... ok
+test_wp_post_500_is_not_retried (__main__.Boundaries.test_wp_post_500_is_not_retried) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.029s
+
+OK

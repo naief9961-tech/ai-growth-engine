@@ -2,10 +2,14 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest follow-up — 2026-10-17: Tianshu withdrawal and Noir candidate](rounds/2026-10-17-R5/FOLLOWUP-2026-10-17.md)
+- [Latest report — 2026-10-18 R6](rounds/2026-10-18-R6/REPORT.md)
+- [R6: three English review drafts](rounds/2026-10-18-R6/DRAFTS.md)
+- [R6 isolated checks and limits](rounds/2026-10-18-R6/TESTS.md)
+
+- [Previous follow-up — 2026-10-17: Tianshu withdrawal and Noir candidate](rounds/2026-10-17-R5/FOLLOWUP-2026-10-17.md)
 - [Noir #3078 patch and 28 unexecuted native regression cases](rounds/2026-10-17-R5/NOIR-3078-CANDIDATE.md)
 
-- [Latest report — 2026-10-17 R5](rounds/2026-10-17-R5/REPORT.md)
+- [Previous report — 2026-10-17 R5](rounds/2026-10-17-R5/REPORT.md)
 - [R5 reply withdrawn after maintainer declined the fix](rounds/2026-10-17-R5/DRAFTS.md)
 - [R5 isolated tests](rounds/2026-10-17-R5/TESTS.md)
 - [R5 discovery audit](rounds/2026-10-17-R5/SCREENING.md)
@@ -76,3 +80,7 @@ Seventeen tracked threads checked. Four new comments: Noir's maintainer agreed w
 Tianshu #507 was closed as not_planned at 05:14:16Z. The owner confirmed the reported mechanism but declined a fix; this is not a repair. R5-01 is withdrawn and must not be posted. The ledger cursor is 6230037956.
 
 Noir's existing PR invitation was followed with a local eight-file inline candidate and 28 authored Crystal regressions. Patch applicability, source hashes, fixture parsing/parity and eight-file manifest agreement were checked. Crystal/shards/just/Docker are unavailable; no native tests, build or full suite ran. Candidate is held for native validation, with no upstream publication or commercial request.
+
+## R6 update — 2026-10-18
+
+237 unique URLs screened from 240 capped results; eight complete candidate reads; three completed source investigations and one exploratory source read. Three review drafts, no external publication. Eleven isolated checks passed (four source-extracted baseline/guard checks and seven candidate/model checks); no upstream suite. Eighteen prior tracked threads checked with no new comments after saved cursors and no explicit commercial interest. WP PR #3 merged during review but #6 remains unresolved; Tududi #263 has another agent's active claim, so recheck its work before posting.
