@@ -84,3 +84,12 @@ Noir's existing PR invitation was followed with a local eight-file inline candid
 ## R6 update — 2026-10-18
 
 237 unique URLs screened from 240 capped results; eight complete candidate reads; three completed source investigations and one exploratory source read. Three review drafts, no external publication. Eleven isolated checks passed (four source-extracted baseline/guard checks and seven candidate/model checks); no upstream suite. Eighteen prior tracked threads checked with no new comments after saved cursors and no explicit commercial interest. WP PR #3 merged during review but #6 remains unresolved; Tududi #263 has another agent's active claim, so recheck its work before posting.
+
+
+## R7 update — 2026-10-19
+
+[Latest report](rounds/2026-10-19-R7/REPORT.md) · [Two review drafts](rounds/2026-10-19-R7/DRAFTS.md) · [Evidence and tests](rounds/2026-10-19-R7/TESTS.md).
+
+199 unique URLs screened, seven candidate threads read, two completed source investigations, eight isolated groups passed. Twenty-one previous threads checked: one new maintainer comment and three newly verified merged PRs; four issues closed. Merge and maintainer reports are distinguished from independent acceptance tests. Remaining Retry-After/concurrent-retry limits are recorded; no causal credit or commercial request claimed. Comment cursors advanced only for new evidence. No external publication in R7.
+
+R6's three drafts were subsequently approved and published; see [R6 publication evidence](rounds/2026-10-18-R6/PUBLICATION.md). Do not post them again. R7 drafts need their own explicit approval.

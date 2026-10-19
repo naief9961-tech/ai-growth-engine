@@ -1,0 +1,88 @@
+{
+  "runtime": "v24.19.0",
+  "scope": "Source-extracted control-flow checks with synthetic fetch/parser boundaries; no live server, upstream suite, persistence or full MCP runtime.",
+  "results": [
+    {
+      "case": "cockpit json",
+      "before": {
+        "attempts": 2,
+        "effects": 2,
+        "ok": true,
+        "unknownOutcome": false
+      },
+      "after": {
+        "attempts": 1,
+        "effects": 1,
+        "ok": false,
+        "unknownOutcome": true
+      },
+      "passed": true
+    },
+    {
+      "case": "cockpit socket",
+      "before": {
+        "attempts": 2,
+        "effects": 2,
+        "ok": true,
+        "unknownOutcome": false
+      },
+      "after": {
+        "attempts": 1,
+        "effects": 1,
+        "ok": false,
+        "unknownOutcome": true
+      },
+      "passed": true
+    },
+    {
+      "case": "cockpit refused recovery",
+      "after": {
+        "attempts": 2,
+        "effects": 1,
+        "ok": true,
+        "unknownOutcome": false
+      },
+      "passed": true
+    },
+    {
+      "case": "cockpit 401 recovery",
+      "after": {
+        "attempts": 2,
+        "effects": 1,
+        "ok": true,
+        "unknownOutcome": false
+      },
+      "passed": true
+    },
+    {
+      "case": "cockpit default retry compatibility",
+      "observed": {
+        "attempts": 2,
+        "effects": 2,
+        "ok": true,
+        "unknownOutcome": false
+      },
+      "passed": true
+    },
+    {
+      "case": "hyde reversed completion with parallel reads",
+      "before": [
+        "crm",
+        "shop"
+      ],
+      "after": [
+        "shop",
+        "crm"
+      ],
+      "passed": true
+    },
+    {
+      "case": "hyde last-good refresh and live map preserved",
+      "passed": true
+    },
+    {
+      "case": "hyde absent app is not reported ready",
+      "passed": true
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-10-18-R6",
+  "last_round": "2026-10-19-R7",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -132,6 +132,26 @@
         "verified": true,
         "authorization": "Explicit subsequent user instruction: نفذ"
       }
+    },
+    {
+      "id": "2026-10-19-R7",
+      "checked_at": "2026-10-19T05:05:07.626Z",
+      "discovery_unique": 199,
+      "retrieved_results": 200,
+      "search_queries": 8,
+      "search_result_limit_each": 25,
+      "full_issue_candidate_reads": 7,
+      "source_investigations": 2,
+      "exploratory_source_reads": 1,
+      "followup_threads_read": 21,
+      "new_comments_after_saved_cursor": 1,
+      "new_closed_threads": 4,
+      "verified_merged_prs": 3,
+      "local_test_groups_passed": 8,
+      "upstream_full_suites_run": 0,
+      "reply_drafts": 2,
+      "third_party_comments_posted": 0,
+      "commercial_requests_verified": 0
     }
   ],
   "automation": {
@@ -1040,7 +1060,7 @@
       "created_at": "2026-10-18T04:55:33Z",
       "updated_at": "2026-10-18T04:55:33Z",
       "discovered_date": "2026-10-18",
-      "checked_at": "2026-10-18T05:04:01Z",
+      "checked_at": "2026-10-19T05:05:07.626Z",
       "state_at_review": "open",
       "diagnosis": "The request loop calculates exponential delay without reading Retry-After. The updated PR #3 implementation still has this behavior after its merge.",
       "solution": "Carry response-derived delay into the next retry; support seconds/HTTP-date, malformed fallback, bounded parsing and stop/defer beyond wait budget. Preserve existing POST retry eligibility.",
@@ -1076,8 +1096,19 @@
           "previous_publication_status": "DRAFT_ONLY",
           "comment_id": 6246051674,
           "url": "https://github.com/reeenatamc/wp-content-agent/issues/6#issuecomment-6246051674"
+        },
+        {
+          "round_id": "2026-10-19-R7",
+          "date": "2026-10-19",
+          "event": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+          "outcome": "PR #19 merged: Retry-After parsing and taxonomy pagination. Source still caps requested waits with min(seconds,cap); long Retry-After can be shortened. Upstream tests not rerun; no blanket correctness or causal credit claimed.",
+          "pr_url": "https://github.com/reeenatamc/wp-content-agent/pull/19",
+          "merge_commit_sha": "176f91ad1b75c17efa474bb1073649f7044441ef",
+          "merged_at": "2026-10-18T05:46:24Z"
         }
-      ]
+      ],
+      "current_state": "closed",
+      "followup_status": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS"
     },
     {
       "round_id": "2026-10-18-R6",
@@ -1089,7 +1120,7 @@
       "created_at": "2026-10-18T04:29:51Z",
       "updated_at": "2026-10-18T04:29:51Z",
       "discovered_date": "2026-10-18",
-      "checked_at": "2026-10-18T05:04:01Z",
+      "checked_at": "2026-10-19T05:05:07.626Z",
       "state_at_review": "open",
       "diagnosis": "list_skills GETs an unregistered global path; server exposes the current-agent route with ownership checks and the same skills envelope.",
       "solution": "Call GET /api/v1/a2a/agents/{self.agent_id}/skills through _make_request, preserving path signing and auth error propagation; add SDK/router contract tests.",
@@ -1137,8 +1168,19 @@
           "previous_publication_status": "DRAFT_ONLY",
           "comment_id": 6246052455,
           "url": "https://github.com/opena2a-org/agent-identity-management/issues/772#issuecomment-6246052455"
+        },
+        {
+          "round_id": "2026-10-19-R7",
+          "date": "2026-10-19",
+          "event": "CLOSED_UPSTREAM_FIX_MERGED",
+          "outcome": "PR #777 merged; list_skills delegates to get_skills on the owned-agent route; dedicated route regression added. Source reviewed; upstream suite not rerun. No direct developer reply or causal credit established.",
+          "pr_url": "https://github.com/opena2a-org/agent-identity-management/pull/777",
+          "merge_commit_sha": "3c6917f3ae7ceacbc56078523b49844d4d72d159",
+          "merged_at": "2026-10-18T08:35:17Z"
         }
-      ]
+      ],
+      "current_state": "closed",
+      "followup_status": "CLOSED_UPSTREAM_FIX_MERGED"
     },
     {
       "round_id": "2026-10-18-R6",
@@ -1150,7 +1192,7 @@
       "created_at": "2026-10-18T04:17:39Z",
       "updated_at": "2026-10-18T04:59:59Z",
       "discovered_date": "2026-10-18",
-      "checked_at": "2026-10-18T05:04:01Z",
+      "checked_at": "2026-10-19T05:05:07.626Z",
       "state_at_review": "open",
       "diagnosis": "A unique event insert returns null even for a failed existing event, and handleWebhook immediately classifies it as a completed duplicate.",
       "solution": "Only terminal events suppress replay; design database-backed exclusive retry claim plus crash recovery. Update model validation if introducing processing. Make partial side effects idempotent/outbox-backed.",
@@ -1210,8 +1252,137 @@
           "previous_publication_status": "DRAFT_ONLY",
           "comment_id": 6246053246,
           "url": "https://github.com/Danathar/tududi/issues/263#issuecomment-6246053246"
+        },
+        {
+          "round_id": "2026-10-19-R7",
+          "date": "2026-10-19",
+          "event": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+          "outcome": "PR #291 merged: failed records can be retried; terminal records return duplicate. Retry path has no exclusive claim; concurrent retry/partial side-effect safety remains unverified. New integration regression covers failed-event replay, not exactly-once processing. Tests not rerun.",
+          "pr_url": "https://github.com/Danathar/tududi/pull/291",
+          "merge_commit_sha": "e6f5cb6f52d59b2243a31a541ee167a51a5f3582",
+          "merged_at": "2026-10-18T07:23:00Z"
         }
-      ]
+      ],
+      "current_state": "closed",
+      "followup_status": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS"
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "rank": 1,
+      "url": "https://github.com/ktysne/agent-cockpit/issues/564",
+      "repository": "ktysne/agent-cockpit",
+      "issue_number": 564,
+      "reporter": "ktysne",
+      "created_at": "2026-10-19T04:34:03Z",
+      "updated_at": "2026-10-19T04:34:03Z",
+      "discovered_date": "2026-10-19",
+      "checked_at": "2026-10-19T05:05:07.626Z",
+      "state_at_review": "open",
+      "diagnosis": "Ambiguous non-timeout failures enter the catch/retry loop despite retryAfterTimeout:false; the MCP result path lacks unknown-outcome propagation.",
+      "solution": "Opt MCP writes out of ambiguous retry, retain typed ECONNREFUSED/401 recovery, forward unknown outcome through all write wrappers and diagnostics.",
+      "confidence": "High for source-level retry mechanism; moderate for full repair, MCP propagation/persistence/runtime untested.",
+      "benefit": "Moderate: measured synthetic reproduction adds evidence to reporter's already detailed plan.",
+      "tests": "Source-extracted Node transport checks reproduced two simulated effects before and one after the candidate; refused/401/default-policy controls passed.",
+      "reply": "R7-01",
+      "approval": {
+        "status": "AWAITING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NO_OUTREACH_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "repository": "ktysne/agent-cockpit",
+          "path": "src/client/server-connection.js",
+          "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+          "blob_sha": "a84397f4b47db69c4b328256491c78df19af5818",
+          "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/src/client/server-connection.js"
+        },
+        {
+          "repository": "ktysne/agent-cockpit",
+          "path": "src/mcp/server.js",
+          "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+          "blob_sha": "94ec40193e8db4adcf926778747a79cd0f812109",
+          "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/src/mcp/server.js"
+        },
+        {
+          "repository": "ktysne/agent-cockpit",
+          "path": "test/server-connection.test.js",
+          "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+          "blob_sha": "0918101e5f324f205780b7a7bdb3757aa9c5ccdb",
+          "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/test/server-connection.test.js"
+        }
+      ],
+      "pr_check": "#368 merged only to old codex/feature-codex-support; current main source still has retry. #569 documentation only; open PR list and issue-referencing search reviewed."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "rank": 2,
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34",
+      "repository": "bergbacher/hyde-mcp-gateway",
+      "issue_number": 34,
+      "reporter": "darivs",
+      "created_at": "2026-10-19T04:44:45Z",
+      "updated_at": "2026-10-19T04:44:45Z",
+      "discovered_date": "2026-10-19",
+      "checked_at": "2026-10-19T05:05:07.626Z",
+      "state_at_review": "open",
+      "diagnosis": "Concurrent schema loads insert live Map entries in completion order; boot copies that order into an order-sensitive redacted report.",
+      "solution": "Project loaded schema names through registry order with has filtering; preserve concurrent loads/live maps. Review adjacent log-map assertion separately.",
+      "confidence": "High for report-order cause and projection; full boot/Vitest/typecheck untested.",
+      "benefit": "High: deterministic no-sleep reproduction, missing/last-good boundaries, adjacent order-dependent assertion.",
+      "tests": "Source-extracted SchemaStore with gated synthetic reader/parser stubs reproduces reverse order; candidate report order, missing entries, and last-good preservation passed.",
+      "reply": "R7-02",
+      "approval": {
+        "status": "AWAITING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NO_OUTREACH_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "src/schema-store.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "e75b5bb175836a8a9bdfec38496338a056f08cba",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/schema-store.ts"
+        },
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "src/boot.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "b5cc16f363834ba957ed0cf33094bd8e3c41c169",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/boot.ts"
+        },
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "src/registry.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "d6a1edc24c4ec7c2de7b69340d27db830eb7df9f",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/registry.ts"
+        },
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "test/boot.test.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "c987a4fff5ac5fdc9bade1545612ec6e0a0760d8",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/test/boot.test.ts"
+        },
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "test/schema-store.test.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "e7bcc9524f5f70823efd306ffefa3dccce75434f",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/test/schema-store.test.ts"
+        }
+      ],
+      "pr_check": "#33 merged TLS fix into reviewed head, unrelated to schema ordering; open #32 unrelated, no PR matching #34 found."
     }
   ],
   "followups": [
@@ -1234,8 +1405,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-13: maintainer announced v0.2.0 including normalization before cache/fetch; not independently retested here.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/wbskt/Wbskt/issues/293",
@@ -1256,8 +1427,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-13: maintainer explicitly thanked @naief9961-tech for crash-window regression finding; no purchase request.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/abi83/prepify/issues/279",
@@ -1270,8 +1441,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/logly/mureo/issues/807",
@@ -1284,8 +1455,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
@@ -1327,16 +1498,16 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Other contributors posted offers/patches; not direct replies or leads for NAIF.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/api-evangelist/roadmap/issues/938",
-      "state": "open",
+      "state": "closed",
       "last_own_comment_id": 6028257699,
       "last_own_comment_at": "2026-10-07T00:39:24Z",
-      "last_seen_comment_id": 6060311321,
-      "last_seen_comment_at": "2026-10-08T12:53:57Z",
+      "last_seen_comment_id": 6252888731,
+      "last_seen_comment_at": "2026-10-18T17:25:45Z",
       "replies_after_last_own": [
         {
           "id": 6060311321,
@@ -1344,13 +1515,38 @@
           "created_at": "2026-10-08T12:53:57Z",
           "url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6060311321",
           "summary": "**Built the flows split; protocolVersion stays 0.3 on purpose.** `network/.well-known/agent-card.json` now declares `oauth2-code` (authorizationCode only) and `oauth2-client` (clientCredentials only), one flow each, and "
+        },
+        {
+          "id": 6252888731,
+          "author": "kinlane",
+          "created_at": "2026-10-18T17:25:45Z",
+          "url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6252888731",
+          "summary": "**Verified live 2026-10-18**: the served card declares one flow per OAuth scheme (oauth2-code, oauth2-client). The 1.0 serialization migration stays noted on /blueprint/ as open. Closing; reopen if `a2a card get` still refuses it.",
+          "classification": "TECHNICAL_FIX_CONFIRMATION_NOT_COMMERCIAL"
         }
       ],
       "business_interest": "NONE_OBSERVED",
-      "status": "BASELINED_IN_R1",
-      "outcome": "2026-10-08: maintainer reported OAuth-flow split and referenced our post-migration checks; deployment pending.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "status": "MAINTAINER_REPORTED_LIVE_OAUTH_FLOW_FIX",
+      "outcome": "Maintainer kinlane reports live one-flow-per-OAuth-scheme verification on 2026-10-18; closed. A2A 1.0 serialization migration remains open. Not independently tested.",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "event": "STATE_CHANGED",
+          "from": "open",
+          "to": "closed",
+          "round_id": "2026-10-19-R7"
+        },
+        {
+          "round_id": "2026-10-19-R7",
+          "date": "2026-10-19",
+          "event": "MAINTAINER_REPORTED_LIVE_OAUTH_FLOW_FIX",
+          "outcome": "Maintainer kinlane reports live one-flow-per-OAuth-scheme verification on 2026-10-18; closed. A2A 1.0 serialization migration remains open. Not independently tested.",
+          "comment_id": 6252888731,
+          "comment_url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6252888731"
+        }
+      ]
     },
     {
       "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
@@ -1378,9 +1574,9 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Maintainer explicitly thanked our review and carried configuration consistency and isolation criteria to replacement issue #180. Technical acknowledgement, not commercial interest.",
-      "last_checked_date": "2026-10-18",
+      "last_checked_date": "2026-10-19",
       "successor_url": "https://github.com/parisbs/codex-subagent-mcp/issues/180",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
@@ -1393,8 +1589,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/web3insight-ai/web3insight/issues/32",
@@ -1407,8 +1603,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
@@ -1443,8 +1639,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Assigned to and completed by chief197. Program bot activity, not a reply or payment to NAIF.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/microsoft/vscode/issues/341683",
@@ -1457,8 +1653,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "Manual publication verified; no developer response.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/a2aproject/a2a-python/issues/1341",
@@ -1471,8 +1667,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "Manual publication verified; no developer response.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/Abilityai/trinity/issues/3749",
@@ -1500,8 +1696,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "PR #3750 merged to dev as f5fc04fb07afcd6ea62e991016d33849fa9107f1; live acceptance pending. No causal attribution to our comment.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/agnt-gg/agnt/issues/169",
@@ -1514,8 +1710,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_MANUAL_PUBLICATION",
       "outcome": "User manually published R3-01 after scheduled round; no developer response observed.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z"
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z"
     },
     {
       "url": "https://github.com/owasp-noir/noir/issues/3078",
@@ -1536,8 +1732,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "TECHNICAL_ACKNOWLEDGEMENT",
       "outcome": "Maintainer explicitly agreed with diagnosis and invited PR with OAS2/OAS3 fixtures and just test. Technical acknowledgement only; no commercial request.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
       "history": [
         {
           "round_id": "2026-10-17-R5",
@@ -1592,8 +1788,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "UPSTREAM_FIX_MERGED",
       "outcome": "PR #1915 independently verified merged at 2026-10-16T18:20:58Z, commit 403ad71cb23a1d9ecff4ec00a2b5333207dbc826. Contributor-reported tests not rerun. No attribution of causality or deployed release.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
       "upstream_pr": "https://github.com/Gentleman-Programming/engram/pull/1915",
       "history": [
         {
@@ -1621,8 +1817,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "UPSTREAM_FIX_MERGED",
       "outcome": "PR #304 independently verified merged at 2026-10-16T18:58:26Z, commit 221e6b03cf86c393d3301ae3b43f5a4a0d24aa25. Source diff read; maintainer tests not rerun. No direct reply or commercial interest; no deployment claim.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
       "upstream_pr": "https://github.com/MementoRC/mcp-git/pull/304",
       "history": [
         {
@@ -1645,8 +1841,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "WITHDRAWN_CLOSED_NOT_PLANNED",
       "outcome": "Maintainer confirmed reported mechanism but declined fix. No NAIF contact; draft withdrawn. Not fixed.",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:04:01Z",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
       "history": [
         {
           "date": "2026-10-17",
@@ -1658,42 +1854,147 @@
     },
     {
       "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
-      "state": "open",
+      "state": "closed",
       "last_own_comment_id": 6246051674,
       "last_seen_comment_id": 6246051674,
       "last_seen_comment_at": "2026-10-18T05:21:34Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "PUBLISHED_AWAITING_RESPONSE",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:21:34Z",
-      "outcome": "Published after explicit user instruction; exact text and account verified. No developer response established."
+      "status": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
+      "outcome": "PR #19 merged: Retry-After parsing and taxonomy pagination. Source still caps requested waits with min(seconds,cap); long Retry-After can be shortened. Upstream tests not rerun; no blanket correctness or causal credit claimed.",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "event": "STATE_CHANGED",
+          "from": "open",
+          "to": "closed",
+          "round_id": "2026-10-19-R7"
+        },
+        {
+          "round_id": "2026-10-19-R7",
+          "date": "2026-10-19",
+          "event": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+          "outcome": "PR #19 merged: Retry-After parsing and taxonomy pagination. Source still caps requested waits with min(seconds,cap); long Retry-After can be shortened. Upstream tests not rerun; no blanket correctness or causal credit claimed.",
+          "pr_url": "https://github.com/reeenatamc/wp-content-agent/pull/19",
+          "merge_commit_sha": "176f91ad1b75c17efa474bb1073649f7044441ef",
+          "merged_at": "2026-10-18T05:46:24Z"
+        }
+      ],
+      "merge_evidence": {
+        "round_id": "2026-10-19-R7",
+        "date": "2026-10-19",
+        "event": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+        "outcome": "PR #19 merged: Retry-After parsing and taxonomy pagination. Source still caps requested waits with min(seconds,cap); long Retry-After can be shortened. Upstream tests not rerun; no blanket correctness or causal credit claimed.",
+        "pr_url": "https://github.com/reeenatamc/wp-content-agent/pull/19",
+        "merge_commit_sha": "176f91ad1b75c17efa474bb1073649f7044441ef",
+        "merged_at": "2026-10-18T05:46:24Z"
+      }
     },
     {
       "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
-      "state": "open",
+      "state": "closed",
       "last_own_comment_id": 6246052455,
       "last_seen_comment_id": 6246052455,
       "last_seen_comment_at": "2026-10-18T05:21:41Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "PUBLISHED_AWAITING_RESPONSE",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:21:41Z",
-      "outcome": "Published after explicit user instruction; exact text and account verified. No developer response established."
+      "status": "CLOSED_UPSTREAM_FIX_MERGED",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
+      "outcome": "PR #777 merged; list_skills delegates to get_skills on the owned-agent route; dedicated route regression added. Source reviewed; upstream suite not rerun. No direct developer reply or causal credit established.",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "event": "STATE_CHANGED",
+          "from": "open",
+          "to": "closed",
+          "round_id": "2026-10-19-R7"
+        },
+        {
+          "round_id": "2026-10-19-R7",
+          "date": "2026-10-19",
+          "event": "CLOSED_UPSTREAM_FIX_MERGED",
+          "outcome": "PR #777 merged; list_skills delegates to get_skills on the owned-agent route; dedicated route regression added. Source reviewed; upstream suite not rerun. No direct developer reply or causal credit established.",
+          "pr_url": "https://github.com/opena2a-org/agent-identity-management/pull/777",
+          "merge_commit_sha": "3c6917f3ae7ceacbc56078523b49844d4d72d159",
+          "merged_at": "2026-10-18T08:35:17Z"
+        }
+      ],
+      "merge_evidence": {
+        "round_id": "2026-10-19-R7",
+        "date": "2026-10-19",
+        "event": "CLOSED_UPSTREAM_FIX_MERGED",
+        "outcome": "PR #777 merged; list_skills delegates to get_skills on the owned-agent route; dedicated route regression added. Source reviewed; upstream suite not rerun. No direct developer reply or causal credit established.",
+        "pr_url": "https://github.com/opena2a-org/agent-identity-management/pull/777",
+        "merge_commit_sha": "3c6917f3ae7ceacbc56078523b49844d4d72d159",
+        "merged_at": "2026-10-18T08:35:17Z"
+      }
     },
     {
       "url": "https://github.com/Danathar/tududi/issues/263",
-      "state": "open",
+      "state": "closed",
       "last_own_comment_id": 6246053246,
       "last_seen_comment_id": 6246053246,
       "last_seen_comment_at": "2026-10-18T05:21:48Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "PUBLISHED_AWAITING_RESPONSE",
-      "last_checked_date": "2026-10-18",
-      "last_checked_at": "2026-10-18T05:21:48Z",
-      "outcome": "Published after explicit user instruction; exact text and account verified. No developer response established."
+      "status": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
+      "outcome": "PR #291 merged: failed records can be retried; terminal records return duplicate. Retry path has no exclusive claim; concurrent retry/partial side-effect safety remains unverified. New integration regression covers failed-event replay, not exactly-once processing. Tests not rerun.",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "event": "STATE_CHANGED",
+          "from": "open",
+          "to": "closed",
+          "round_id": "2026-10-19-R7"
+        },
+        {
+          "round_id": "2026-10-19-R7",
+          "date": "2026-10-19",
+          "event": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+          "outcome": "PR #291 merged: failed records can be retried; terminal records return duplicate. Retry path has no exclusive claim; concurrent retry/partial side-effect safety remains unverified. New integration regression covers failed-event replay, not exactly-once processing. Tests not rerun.",
+          "pr_url": "https://github.com/Danathar/tududi/pull/291",
+          "merge_commit_sha": "e6f5cb6f52d59b2243a31a541ee167a51a5f3582",
+          "merged_at": "2026-10-18T07:23:00Z"
+        }
+      ],
+      "merge_evidence": {
+        "round_id": "2026-10-19-R7",
+        "date": "2026-10-19",
+        "event": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+        "outcome": "PR #291 merged: failed records can be retried; terminal records return duplicate. Retry path has no exclusive claim; concurrent retry/partial side-effect safety remains unverified. New integration regression covers failed-event replay, not exactly-once processing. Tests not rerun.",
+        "pr_url": "https://github.com/Danathar/tududi/pull/291",
+        "merge_commit_sha": "e6f5cb6f52d59b2243a31a541ee167a51a5f3582",
+        "merged_at": "2026-10-18T07:23:00Z"
+      }
+    },
+    {
+      "url": "https://github.com/ktysne/agent-cockpit/issues/564",
+      "state": "open",
+      "last_own_comment_id": null,
+      "last_seen_comment_id": null,
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "DRAFT_AWAITING_APPROVAL",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
+      "outcome": "No comments present at review. No third-party publication."
+    },
+    {
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34",
+      "state": "open",
+      "last_own_comment_id": null,
+      "last_seen_comment_id": null,
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "DRAFT_AWAITING_APPROVAL",
+      "last_checked_date": "2026-10-19",
+      "last_checked_at": "2026-10-19T05:05:07.626Z",
+      "outcome": "No comments present at review. No third-party publication."
     }
   ],
   "exclusions": [
@@ -1869,6 +2170,31 @@
       "round_id": "2026-10-18-R6",
       "url": "https://github.com/google/adk-python/issues/7589",
       "reason": "Reporter supplies detailed version/state matrix; final-artifact semantics need a maintainer decision. No distinct completed source investigation or proposed repair."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/BasedHardware/omi/issues/22377",
+      "reason": "Existing open PR #22378 already targets the reported pagination defect and describes a real-handler regression. Avoid duplicate advice; PR tests not independently run."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/tpsdev-ai/flair/issues/2688",
+      "reason": "Report already identifies unauthenticated catch-up and prescribes same-context event access. Real Harper runtime/auth-boundary validation unavailable; no distinct source-validated contribution completed."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/Glubiz/zirv-flow/issues/177",
+      "reason": "Reporter already specifies OpenAPI name-collision repair and regeneration; no additional validated contribution. Linked #178 is noted, not claimed as a fix for #177."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/luthersystems/shiroclient-sdk-go/issues/102",
+      "reason": "Exploratory source confirms json.Unmarshal into generic target and float64(blockNumber). Reporter already proposes UseNumber/RawMessage/integer repair. Go unavailable; no native test or distinct completed investigation."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/AmityCo/social-plus-docs/issues/422",
+      "reason": "Signature encoding requires authoritative provider confirmation; reporter already flags raw-body and encoding discrepancy. Do not guess hex versus Base64 or request real events/secrets."
     }
   ],
   "history_search": {

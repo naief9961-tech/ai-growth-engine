@@ -1,0 +1,294 @@
+{
+  "round_id": "2026-10-19-R7",
+  "checked_at": "2026-10-19T05:05:07.626Z",
+  "base_sha": "0674e3c9c8e54b2660fdb1d53ea95a839cd321e5",
+  "sources": [
+    {
+      "repository": "ktysne/agent-cockpit",
+      "path": "src/client/server-connection.js",
+      "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+      "blob_sha": "a84397f4b47db69c4b328256491c78df19af5818",
+      "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/src/client/server-connection.js"
+    },
+    {
+      "repository": "ktysne/agent-cockpit",
+      "path": "src/mcp/server.js",
+      "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+      "blob_sha": "94ec40193e8db4adcf926778747a79cd0f812109",
+      "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/src/mcp/server.js"
+    },
+    {
+      "repository": "ktysne/agent-cockpit",
+      "path": "test/server-connection.test.js",
+      "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+      "blob_sha": "0918101e5f324f205780b7a7bdb3757aa9c5ccdb",
+      "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/test/server-connection.test.js"
+    },
+    {
+      "repository": "bergbacher/hyde-mcp-gateway",
+      "path": "src/schema-store.ts",
+      "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+      "blob_sha": "e75b5bb175836a8a9bdfec38496338a056f08cba",
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/schema-store.ts"
+    },
+    {
+      "repository": "bergbacher/hyde-mcp-gateway",
+      "path": "src/boot.ts",
+      "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+      "blob_sha": "b5cc16f363834ba957ed0cf33094bd8e3c41c169",
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/boot.ts"
+    },
+    {
+      "repository": "bergbacher/hyde-mcp-gateway",
+      "path": "src/registry.ts",
+      "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+      "blob_sha": "d6a1edc24c4ec7c2de7b69340d27db830eb7df9f",
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/registry.ts"
+    },
+    {
+      "repository": "bergbacher/hyde-mcp-gateway",
+      "path": "test/boot.test.ts",
+      "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+      "blob_sha": "c987a4fff5ac5fdc9bade1545612ec6e0a0760d8",
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/test/boot.test.ts"
+    },
+    {
+      "repository": "bergbacher/hyde-mcp-gateway",
+      "path": "test/schema-store.test.ts",
+      "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+      "blob_sha": "e7bcc9524f5f70823efd306ffefa3dccce75434f",
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/test/schema-store.test.ts"
+    }
+  ],
+  "investigations": [
+    {
+      "round_id": "2026-10-19-R7",
+      "rank": 1,
+      "url": "https://github.com/ktysne/agent-cockpit/issues/564",
+      "repository": "ktysne/agent-cockpit",
+      "issue_number": 564,
+      "reporter": "ktysne",
+      "created_at": "2026-10-19T04:34:03Z",
+      "updated_at": "2026-10-19T04:34:03Z",
+      "discovered_date": "2026-10-19",
+      "checked_at": "2026-10-19T05:05:07.626Z",
+      "state_at_review": "open",
+      "diagnosis": "Ambiguous non-timeout failures enter the catch/retry loop despite retryAfterTimeout:false; the MCP result path lacks unknown-outcome propagation.",
+      "solution": "Opt MCP writes out of ambiguous retry, retain typed ECONNREFUSED/401 recovery, forward unknown outcome through all write wrappers and diagnostics.",
+      "confidence": "High for source-level retry mechanism; moderate for full repair, MCP propagation/persistence/runtime untested.",
+      "benefit": "Moderate: measured synthetic reproduction adds evidence to reporter's already detailed plan.",
+      "tests": "Source-extracted Node transport checks reproduced two simulated effects before and one after the candidate; refused/401/default-policy controls passed.",
+      "reply": "R7-01",
+      "approval": {
+        "status": "AWAITING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NO_OUTREACH_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "repository": "ktysne/agent-cockpit",
+          "path": "src/client/server-connection.js",
+          "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+          "blob_sha": "a84397f4b47db69c4b328256491c78df19af5818",
+          "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/src/client/server-connection.js"
+        },
+        {
+          "repository": "ktysne/agent-cockpit",
+          "path": "src/mcp/server.js",
+          "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+          "blob_sha": "94ec40193e8db4adcf926778747a79cd0f812109",
+          "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/src/mcp/server.js"
+        },
+        {
+          "repository": "ktysne/agent-cockpit",
+          "path": "test/server-connection.test.js",
+          "commit": "fee87c64df55fddee0a666ac7a22bb8371991fde",
+          "blob_sha": "0918101e5f324f205780b7a7bdb3757aa9c5ccdb",
+          "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/test/server-connection.test.js"
+        }
+      ],
+      "pr_check": "#368 merged only to old codex/feature-codex-support; current main source still has retry. #569 documentation only; open PR list and issue-referencing search reviewed."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "rank": 2,
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34",
+      "repository": "bergbacher/hyde-mcp-gateway",
+      "issue_number": 34,
+      "reporter": "darivs",
+      "created_at": "2026-10-19T04:44:45Z",
+      "updated_at": "2026-10-19T04:44:45Z",
+      "discovered_date": "2026-10-19",
+      "checked_at": "2026-10-19T05:05:07.626Z",
+      "state_at_review": "open",
+      "diagnosis": "Concurrent schema loads insert live Map entries in completion order; boot copies that order into an order-sensitive redacted report.",
+      "solution": "Project loaded schema names through registry order with has filtering; preserve concurrent loads/live maps. Review adjacent log-map assertion separately.",
+      "confidence": "High for report-order cause and projection; full boot/Vitest/typecheck untested.",
+      "benefit": "High: deterministic no-sleep reproduction, missing/last-good boundaries, adjacent order-dependent assertion.",
+      "tests": "Source-extracted SchemaStore with gated synthetic reader/parser stubs reproduces reverse order; candidate report order, missing entries, and last-good preservation passed.",
+      "reply": "R7-02",
+      "approval": {
+        "status": "AWAITING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_ONLY",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NO_OUTREACH_THIS_ROUND",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "sources": [
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "src/schema-store.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "e75b5bb175836a8a9bdfec38496338a056f08cba",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/schema-store.ts"
+        },
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "src/boot.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "b5cc16f363834ba957ed0cf33094bd8e3c41c169",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/boot.ts"
+        },
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "src/registry.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "d6a1edc24c4ec7c2de7b69340d27db830eb7df9f",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/src/registry.ts"
+        },
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "test/boot.test.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "c987a4fff5ac5fdc9bade1545612ec6e0a0760d8",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/test/boot.test.ts"
+        },
+        {
+          "repository": "bergbacher/hyde-mcp-gateway",
+          "path": "test/schema-store.test.ts",
+          "commit": "3a518f59106ad6597ff27896880b1819ded64ca2",
+          "blob_sha": "e7bcc9524f5f70823efd306ffefa3dccce75434f",
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/test/schema-store.test.ts"
+        }
+      ],
+      "pr_check": "#33 merged TLS fix into reviewed head, unrelated to schema ordering; open #32 unrelated, no PR matching #34 found."
+    }
+  ],
+  "followup_changes": [
+    {
+      "url": "https://github.com/api-evangelist/roadmap/issues/938",
+      "round_id": "2026-10-19-R7",
+      "date": "2026-10-19",
+      "event": "MAINTAINER_REPORTED_LIVE_OAUTH_FLOW_FIX",
+      "outcome": "Maintainer kinlane reports live one-flow-per-OAuth-scheme verification on 2026-10-18; closed. A2A 1.0 serialization migration remains open. Not independently tested.",
+      "comment_id": 6252888731,
+      "comment_url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6252888731"
+    },
+    {
+      "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
+      "round_id": "2026-10-19-R7",
+      "date": "2026-10-19",
+      "event": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+      "outcome": "PR #19 merged: Retry-After parsing and taxonomy pagination. Source still caps requested waits with min(seconds,cap); long Retry-After can be shortened. Upstream tests not rerun; no blanket correctness or causal credit claimed.",
+      "pr_url": "https://github.com/reeenatamc/wp-content-agent/pull/19",
+      "merge_commit_sha": "176f91ad1b75c17efa474bb1073649f7044441ef",
+      "merged_at": "2026-10-18T05:46:24Z"
+    },
+    {
+      "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
+      "round_id": "2026-10-19-R7",
+      "date": "2026-10-19",
+      "event": "CLOSED_UPSTREAM_FIX_MERGED",
+      "outcome": "PR #777 merged; list_skills delegates to get_skills on the owned-agent route; dedicated route regression added. Source reviewed; upstream suite not rerun. No direct developer reply or causal credit established.",
+      "pr_url": "https://github.com/opena2a-org/agent-identity-management/pull/777",
+      "merge_commit_sha": "3c6917f3ae7ceacbc56078523b49844d4d72d159",
+      "merged_at": "2026-10-18T08:35:17Z"
+    },
+    {
+      "url": "https://github.com/Danathar/tududi/issues/263",
+      "round_id": "2026-10-19-R7",
+      "date": "2026-10-19",
+      "event": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
+      "outcome": "PR #291 merged: failed records can be retried; terminal records return duplicate. Retry path has no exclusive claim; concurrent retry/partial side-effect safety remains unverified. New integration regression covers failed-event replay, not exactly-once processing. Tests not rerun.",
+      "pr_url": "https://github.com/Danathar/tududi/pull/291",
+      "merge_commit_sha": "e6f5cb6f52d59b2243a31a541ee167a51a5f3582",
+      "merged_at": "2026-10-18T07:23:00Z"
+    }
+  ],
+  "exclusions": [
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/BasedHardware/omi/issues/22377",
+      "reason": "Existing open PR #22378 already targets the reported pagination defect and describes a real-handler regression. Avoid duplicate advice; PR tests not independently run."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/tpsdev-ai/flair/issues/2688",
+      "reason": "Report already identifies unauthenticated catch-up and prescribes same-context event access. Real Harper runtime/auth-boundary validation unavailable; no distinct source-validated contribution completed."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/Glubiz/zirv-flow/issues/177",
+      "reason": "Reporter already specifies OpenAPI name-collision repair and regeneration; no additional validated contribution. Linked #178 is noted, not claimed as a fix for #177."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/luthersystems/shiroclient-sdk-go/issues/102",
+      "reason": "Exploratory source confirms json.Unmarshal into generic target and float64(blockNumber). Reporter already proposes UseNumber/RawMessage/integer repair. Go unavailable; no native test or distinct completed investigation."
+    },
+    {
+      "round_id": "2026-10-19-R7",
+      "url": "https://github.com/AmityCo/social-plus-docs/issues/422",
+      "reason": "Signature encoding requires authoritative provider confirmation; reporter already flags raw-body and encoding discrepancy. Do not guess hex versus Base64 or request real events/secrets."
+    }
+  ],
+  "workflow_review": [
+    {
+      "path": ".github/workflows/agent-discovery-broadcast.yml",
+      "blob_sha": "ccf2af606f06de1c7cba5d468c10f2688d21c6a6",
+      "trigger_excerpt": "name: NAIF Gravity Agent Discovery Broadcast\n\non:\n  push:\n    branches: [main]\n    paths:\n      - server.json\n      - .github/workflows/agent-discovery-broadcast.yml\n  workflow_dispatch:\n\npermissions:\n  contents: read\n  id-token: write\n\nconcurrency:\n  group: naif-gravity-mcp-registry-publish\n  cancel-in-progress: false\n"
+    },
+    {
+      "path": ".github/workflows/agent-evaluator.yml",
+      "blob_sha": "04d321ef4b5df4bf1f16dddf165ba5c4158629f1",
+      "trigger_excerpt": "name: Agent PR Evaluator\n\non:\n  pull_request:\n    types: [opened, synchronize, reopened]\n"
+    },
+    {
+      "path": ".github/workflows/auto-issue-generator.yml",
+      "blob_sha": "76c9aaab7e9c17f03fb46dfdb03344c587c3ecea",
+      "trigger_excerpt": "name: Auto Issue Generator\n\non:\n  schedule:\n    - cron: '0 */6 * * *'  # Every 6 hours\n  workflow_dispatch:\n"
+    },
+    {
+      "path": ".github/workflows/bounty-validator.yml",
+      "blob_sha": "5484112588d3dc6cbbc6a56fde5b91978da6be6c",
+      "trigger_excerpt": "name: Autonomous Bounty Validator\n\non:\n  pull_request:\n    types: [opened, synchronize, reopened]\n  pull_request_review:\n    types: [submitted]\n"
+    },
+    {
+      "path": ".github/workflows/notify-supabase.yml",
+      "blob_sha": "8b4fbea5ef8d4666c1ba8c21a511152790bbc025",
+      "trigger_excerpt": "name: Notify Supabase Webhook\n\non:\n  pull_request:\n    types: [opened, closed, reopened, synchronize]\n  pull_request_review:\n    types: [submitted]\n  issue_comment:\n    types: [created, edited]\n  pull_request_review_comment:\n    types: [created, edited]\n"
+    },
+    {
+      "path": ".github/workflows/publish-naif-fixgraph-mcp.yml",
+      "blob_sha": "37093a16e24eaf309fa8e3db54b6938760299cf9",
+      "trigger_excerpt": "name: Publish NAIF FixGraph to MCP Registry\n\non:\n  workflow_dispatch:\n  push:\n    branches: [main]\n    paths:\n      - server.json\n\npermissions:\n  contents: read\n  id-token: write\n"
+    },
+    {
+      "path": ".github/workflows/registry-broadcast.yml",
+      "blob_sha": "6840701bdc9d555c1f8ba5e62d120fe473b73854",
+      "trigger_excerpt": "name: NAIF Gravity Discovery Health\n\non:\n  schedule:\n    - cron: '0 9 * * 1'\n  push:\n    branches: [main]\n    paths:\n      - '.well-known/agent.json'\n      - 'server.json'\n      - '.github/workflows/registry-broadcast.yml'\n  pull_request:\n    paths:\n      - '.well-known/agent.json'\n      - 'server.json'\n      - '.github/workflows/registry-broadcast.yml'\n  workflow_dispatch:\n\npermissions:\n  contents: read\n"
+    },
+    {
+      "path": ".github/workflows/viral-bounty-loop.yml",
+      "blob_sha": "b597d77c1fcb2af0f3b8c49c7fec1c065a31348b",
+      "trigger_excerpt": "name: Viral Bounty Loop\n\non:\n  pull_request:\n    types: [closed]\n"
+    }
+  ],
+  "limitations": "No upstream full tests or live repairs; not commercial leads."
+}
