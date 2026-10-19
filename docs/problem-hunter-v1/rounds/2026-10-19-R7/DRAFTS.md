@@ -1,6 +1,6 @@
 # R7 — English replies for review (2026-10-19)
 
-Status update 2026-10-19: **R7-01 HELD — DO NOT POST**. New [PR #573](https://github.com/ktysne/agent-cockpit/pull/573) already covers its recommendations. R7-02 remains **AWAITING_USER_APPROVAL — NOT POSTED**. These are new drafts; prior approvals do not approve them. Re-read each issue and linked PRs before any later publication. Do not repost if equivalent evidence appears.
+Status update 2026-10-19: **R7-01 HELD — DO NOT POST**. New [PR #573](https://github.com/ktysne/agent-cockpit/pull/573) already covers its recommendations. R7-02 was **MANUALLY PUBLISHED BY USER — VERIFIED**, [comment 6260256914](https://github.com/bergbacher/hyde-mcp-gateway/issues/34#issuecomment-6260256914). Do not post again. These are new drafts; prior approvals do not approve them. Re-read each issue and linked PRs before any later publication. Do not repost if equivalent evidence appears.
 
 ## R7-01 — agent-cockpit #564 — historical draft, DO NOT POST
 
@@ -20,11 +20,11 @@ This confirms the retry control flow only. The simulated effects are counters, n
 
 ---
 
-## R7-02 — hyde-mcp-gateway #34
+## R7-02 — hyde-mcp-gateway #34 — published, DO NOT REPOST
 
 Destination: https://github.com/bergbacher/hyde-mcp-gateway/issues/34
 
-Copy only the following English reply after review and approval:
+Historical draft retained for audit. The user posted the same technical content with file links rendered as inline paths; see PUBLICATION.md.
 
 At `3a518f59106ad6597ff27896880b1819ded64ca2`, the report reads `[...schemas.redactedSchemas.keys()]`, while the store inserts each app as its asynchronous read finishes. I reproduced the reversed order deterministically with the extracted SchemaStore: start both apps, release crm's reads first, then shop's. The live map was `["crm", "shop"]`.
 
@@ -44,4 +44,4 @@ For the boot regression, control completion with deferred promises instead of re
 
 ---
 
-لا يوجد رد ثالث في هذه الجولة؛ لم نجد إضافة ثالثة مكتملة التحقق تستحق النشر. يلزم اعتمادك للنص المقصود قبل النشر الخارجي.
+لا يوجد رد ثالث. النص الأول موقوف بسبب إصلاح قائم، والثاني نشره المستخدم وتحققنا منه؛ لا تعِد نشر أي منهما.

@@ -151,7 +151,13 @@
       "upstream_full_suites_run": 0,
       "reply_drafts": 2,
       "third_party_comments_posted": 0,
-      "commercial_requests_verified": 0
+      "commercial_requests_verified": 0,
+      "manual_followup_publication": {
+        "date": "2026-10-19",
+        "comments": 1,
+        "verified": true,
+        "comment_url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34#issuecomment-6260256914"
+      }
     }
   ],
   "automation": {
@@ -1347,12 +1353,14 @@
       "tests": "Source-extracted SchemaStore with gated synthetic reader/parser stubs reproduces reverse order; candidate report order, missing entries, and last-good preservation passed.",
       "reply": "R7-02",
       "approval": {
-        "status": "AWAITING_USER_APPROVAL"
+        "status": "USER_MANUALLY_PUBLISHED",
+        "instruction": "تم",
+        "date": "2026-10-19"
       },
-      "publication_status": "DRAFT_ONLY",
-      "published_comment_url": null,
-      "last_seen_comment_id": null,
-      "developer_response": "NO_OUTREACH_THIS_ROUND",
+      "publication_status": "PUBLISHED_VERIFIED",
+      "published_comment_url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34#issuecomment-6260256914",
+      "last_seen_comment_id": 6260256914,
+      "developer_response": "AWAITING_RESPONSE",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "sources": [
@@ -1392,7 +1400,17 @@
           "url": "https://github.com/bergbacher/hyde-mcp-gateway/blob/3a518f59106ad6597ff27896880b1819ded64ca2/test/schema-store.test.ts"
         }
       ],
-      "pr_check": "#33 merged TLS fix into reviewed head, unrelated to schema ordering; open #32 unrelated, no PR matching #34 found."
+      "pr_check": "#33 merged TLS fix into reviewed head, unrelated to schema ordering; open #32 unrelated, no PR matching #34 found.",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "event": "USER_MANUALLY_PUBLISHED_VERIFIED",
+          "comment_id": 6260256914,
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34#issuecomment-6260256914",
+          "created_at": "2026-10-19T05:19:23Z",
+          "account": "naief9961-tech"
+        }
+      ]
     }
   ],
   "followups": [
@@ -2007,14 +2025,26 @@
     {
       "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34",
       "state": "open",
-      "last_own_comment_id": null,
-      "last_seen_comment_id": null,
+      "last_own_comment_id": 6260256914,
+      "last_seen_comment_id": 6260256914,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_AWAITING_APPROVAL",
+      "status": "PUBLISHED_AWAITING_RESPONSE",
       "last_checked_date": "2026-10-19",
-      "last_checked_at": "2026-10-19T05:05:07.626Z",
-      "outcome": "No comments present at review. No third-party publication."
+      "last_checked_at": "2026-10-19T05:20:31.397Z",
+      "outcome": "User manually posted R7-02; account and full text verified. No subsequent developer reply present.",
+      "last_own_comment_at": "2026-10-19T05:19:23Z",
+      "last_seen_comment_at": "2026-10-19T05:19:23Z",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "event": "USER_MANUALLY_PUBLISHED_VERIFIED",
+          "comment_id": 6260256914,
+          "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34#issuecomment-6260256914",
+          "created_at": "2026-10-19T05:19:23Z",
+          "account": "naief9961-tech"
+        }
+      ]
     }
   ],
   "exclusions": [
