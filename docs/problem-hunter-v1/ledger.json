@@ -1276,7 +1276,7 @@
       "created_at": "2026-10-19T04:34:03Z",
       "updated_at": "2026-10-19T04:34:03Z",
       "discovered_date": "2026-10-19",
-      "checked_at": "2026-10-19T05:05:07.626Z",
+      "checked_at": "2026-10-19T05:12:48.324Z",
       "state_at_review": "open",
       "diagnosis": "Ambiguous non-timeout failures enter the catch/retry loop despite retryAfterTimeout:false; the MCP result path lacks unknown-outcome propagation.",
       "solution": "Opt MCP writes out of ambiguous retry, retain typed ECONNREFUSED/401 recovery, forward unknown outcome through all write wrappers and diagnostics.",
@@ -1285,9 +1285,9 @@
       "tests": "Source-extracted Node transport checks reproduced two simulated effects before and one after the candidate; refused/401/default-policy controls passed.",
       "reply": "R7-01",
       "approval": {
-        "status": "AWAITING_USER_APPROVAL"
+        "status": "NOT_REQUESTED_DRAFT_SUPERSEDED"
       },
-      "publication_status": "DRAFT_ONLY",
+      "publication_status": "HELD_UPSTREAM_FIX_PR",
       "published_comment_url": null,
       "last_seen_comment_id": null,
       "developer_response": "NO_OUTREACH_THIS_ROUND",
@@ -1316,7 +1316,17 @@
           "url": "https://github.com/ktysne/agent-cockpit/blob/fee87c64df55fddee0a666ac7a22bb8371991fde/test/server-connection.test.js"
         }
       ],
-      "pr_check": "#368 merged only to old codex/feature-codex-support; current main source still has retry. #569 documentation only; open PR list and issue-referencing search reviewed."
+      "pr_check": "New open PR #573 already implements retry policy, all MCP result wrappers, unknown diagnostic classification and regressions. Patch read; native tests not rerun. Original R7-01 draft is redundant and must not be posted. No external comment.",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "checked_at": "2026-10-19T05:12:48.324Z",
+          "event": "DRAFT_HELD_UPSTREAM_FIX_PR",
+          "pr_url": "https://github.com/ktysne/agent-cockpit/pull/573",
+          "head_sha": "00efdbdc418acd68c5be0df3224c48b06e2de264",
+          "outcome": "New open PR #573 already implements retry policy, all MCP result wrappers, unknown diagnostic classification and regressions. Patch read; native tests not rerun. Original R7-01 draft is redundant and must not be posted. No external comment."
+        }
+      ]
     },
     {
       "round_id": "2026-10-19-R7",
@@ -1979,10 +1989,20 @@
       "last_seen_comment_id": null,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_AWAITING_APPROVAL",
+      "status": "HELD_UPSTREAM_FIX_PR",
       "last_checked_date": "2026-10-19",
-      "last_checked_at": "2026-10-19T05:05:07.626Z",
-      "outcome": "No comments present at review. No third-party publication."
+      "last_checked_at": "2026-10-19T05:12:48.324Z",
+      "outcome": "New open PR #573 already implements retry policy, all MCP result wrappers, unknown diagnostic classification and regressions. Patch read; native tests not rerun. Original R7-01 draft is redundant and must not be posted. No external comment.",
+      "history": [
+        {
+          "date": "2026-10-19",
+          "checked_at": "2026-10-19T05:12:48.324Z",
+          "event": "DRAFT_HELD_UPSTREAM_FIX_PR",
+          "pr_url": "https://github.com/ktysne/agent-cockpit/pull/573",
+          "head_sha": "00efdbdc418acd68c5be0df3224c48b06e2de264",
+          "outcome": "New open PR #573 already implements retry policy, all MCP result wrappers, unknown diagnostic classification and regressions. Patch read; native tests not rerun. Original R7-01 draft is redundant and must not be posted. No external comment."
+        }
+      ]
     },
     {
       "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34",

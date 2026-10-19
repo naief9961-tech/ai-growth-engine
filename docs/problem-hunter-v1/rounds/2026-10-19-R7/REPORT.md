@@ -54,3 +54,8 @@ Only this round's documentation/evidence, the README and ledger under `docs/prob
 Publication uses a fresh-head compare-and-swap update, preserving all previous records and approvals. R6's report remains a historical snapshot; its three later publications are recorded in R6/PUBLICATION.md and the ledger. R7 approval is separate and pending.
 
 **المطلوب منك فقط:** مراجعة النصين الكاملين في DRAFTS.md والموافقة الصريحة على أي نص ترغب في نشره لاحقًا. لم يُنشر أي رد خارجي في هذه الجولة.
+
+
+## Pre-publication follow-up — 2026-10-19T05:12:48.324Z
+
+New [agent-cockpit PR #573](https://github.com/ktysne/agent-cockpit/pull/573), head `00efdbdc418acd68c5be0df3224c48b06e2de264`, is open and already implements the recommendations in R7-01, including all MCP wrappers and unknown-outcome diagnostics. Its patch and regression additions were read; reported native tests were not independently rerun. **R7-01 is held and must not be posted.** No claim it is merged or proven in production. Hyde #34 remains open with no comments or linked/matching PR at this check; R7-02 is the sole active draft. No external comment sent.

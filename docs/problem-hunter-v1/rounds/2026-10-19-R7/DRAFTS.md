@@ -1,12 +1,12 @@
 # R7 — English replies for review (2026-10-19)
 
-Status: **AWAITING_USER_APPROVAL — NOT POSTED**. These are new drafts; prior approvals do not approve them. Re-read each issue and linked PRs before any later publication. Do not repost if equivalent evidence appears.
+Status update 2026-10-19: **R7-01 HELD — DO NOT POST**. New [PR #573](https://github.com/ktysne/agent-cockpit/pull/573) already covers its recommendations. R7-02 remains **AWAITING_USER_APPROVAL — NOT POSTED**. These are new drafts; prior approvals do not approve them. Re-read each issue and linked PRs before any later publication. Do not repost if equivalent evidence appears.
 
-## R7-01 — agent-cockpit #564
+## R7-01 — agent-cockpit #564 — historical draft, DO NOT POST
 
 Destination: https://github.com/ktysne/agent-cockpit/issues/564
 
-Copy only the following English reply after review and approval:
+Historical text retained for audit only; superseded by PR #573:
 
 I checked the current main at `fee87c64df55fddee0a666ac7a22bb8371991fde` and exercised the extracted `postToServer` / `fetchWithDeadline` functions with an injected synthetic transport. Both a truncated successful-response JSON body and a connection reset after a simulated write caused two POST attempts and two simulated effects, even with `retryAfterTimeout: false`.
 
