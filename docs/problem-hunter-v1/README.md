@@ -2,9 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-18 R6](rounds/2026-10-18-R6/REPORT.md)
-- [R6: three English review drafts](rounds/2026-10-18-R6/DRAFTS.md)
-- [R6 isolated checks and limits](rounds/2026-10-18-R6/TESTS.md)
+- [Latest report — 2026-10-20 R8](rounds/2026-10-20-R8/REPORT.md)
+- [R8: one English draft awaiting approval](rounds/2026-10-20-R8/DRAFTS.md)
+- [R8 isolated checks and limits](rounds/2026-10-20-R8/TESTS.md)
+- [Previous report — 2026-10-19 R7](rounds/2026-10-19-R7/REPORT.md)
+- [Previous report — 2026-10-18 R6](rounds/2026-10-18-R6/REPORT.md)
 
 - [Previous follow-up — 2026-10-17: Tianshu withdrawal and Noir candidate](rounds/2026-10-17-R5/FOLLOWUP-2026-10-17.md)
 - [Noir #3078 patch and 28 unexecuted native regression cases](rounds/2026-10-17-R5/NOIR-3078-CANDIDATE.md)
@@ -93,3 +95,10 @@ Noir's existing PR invitation was followed with a local eight-file inline candid
 199 unique URLs screened, seven candidate threads read, two completed source investigations, eight isolated groups passed. Twenty-one previous threads checked: one new maintainer comment and three newly verified merged PRs; four issues closed. Merge and maintainer reports are distinguished from independent acceptance tests. Remaining Retry-After/concurrent-retry limits are recorded; no causal credit or commercial request claimed. Comment cursors advanced only for new evidence. No external publication in R7.
 
 R6's three drafts were subsequently approved and published; see [R6 publication evidence](rounds/2026-10-18-R6/PUBLICATION.md). Do not post them again. R7 drafts need their own explicit approval.
+
+
+## R8 update — 2026-10-20
+
+155 unique URLs screened, six candidate threads read, one completed investigation and two exploratory source reads. One Woodhouse #29 review draft; eight isolated checks passed; no upstream integration suite or external publication. Twenty-three tracked threads checked: one new technical update on A2A #1341 (PR #1354 includes REST SSE) and Cockpit #564 closed after PR #573 merged. No duplicate comment and no commercial request. Cursor/history preserved. [R8 report](rounds/2026-10-20-R8/REPORT.md).
+
+R7-01 is superseded by merged PR #573; R7-02 was manually published and verified. **Do not repost either R7 draft.** R8-01 requires its own review/approval.
