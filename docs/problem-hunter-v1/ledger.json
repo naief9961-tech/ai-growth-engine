@@ -1582,13 +1582,14 @@
       "tests": "6 isolated groups PASS with pinned source assertions and extracted methods/transport stubs. No live MCP/OAuth/ChatGPT/media/deployment test.",
       "reply": "R9-01",
       "approval": {
-        "status": "AWAITING_USER_APPROVAL",
-        "source": "New review draft; no automatic publication and no inherited authorization."
+        "status": "USER_MANUAL_PUBLICATION",
+        "date": "2026-10-21",
+        "source": "User confirmed posting; live GitHub comment 6308625082 by naief9961-tech verified. Not authorization for another comment."
       },
-      "publication_status": "DRAFT_NOT_POSTED",
-      "published_comment_url": null,
-      "last_seen_comment_id": null,
-      "developer_response": "NOT_CONTACTED",
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/gitroomhq/postiz-app/issues/2300#issuecomment-6308625082",
+      "last_seen_comment_id": 6308625082,
+      "developer_response": "NO_REPLY_AFTER_OWN_COMMENT",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "pr_check": "88 open PRs and 20 recent PR entries screened; merged #2281 feature and #2296 metadata diffs read. No linked repair in final issue timeline.",
@@ -1628,7 +1629,8 @@
           "blob_sha": "117306736eef7aa7f293955326b6c21cc3336529",
           "url": "https://github.com/gitroomhq/postiz-app/blob/91c91f633a0175fb3914dba64c932928c514b72a/libraries/nestjs-libraries/src/chat/tools/tool.list.ts"
         }
-      ]
+      ],
+      "last_own_comment_id": 6308625082
     },
     {
       "round_id": "2026-10-21-R9",
@@ -2358,14 +2360,14 @@
     {
       "url": "https://github.com/gitroomhq/postiz-app/issues/2300",
       "state": "open",
-      "last_own_comment_id": null,
-      "last_own_comment_at": null,
-      "last_seen_comment_id": null,
-      "last_seen_comment_at": null,
+      "last_own_comment_id": 6308625082,
+      "last_own_comment_at": "2026-10-21T05:14:50Z",
+      "last_seen_comment_id": 6308625082,
+      "last_seen_comment_at": "2026-10-21T05:14:50Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_NOT_POSTED_R9",
-      "outcome": "Awaiting review; no external publication.",
+      "status": "POSTED_MANUALLY_VERIFIED",
+      "outcome": "Shortened R9-01 manually posted and verified. No developer reply at verification. Do not repost.",
       "last_checked_date": "2026-10-21",
       "last_checked_at": "2026-10-21T05:08:41Z"
     },

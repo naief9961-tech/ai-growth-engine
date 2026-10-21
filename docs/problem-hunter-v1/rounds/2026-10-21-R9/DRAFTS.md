@@ -1,7 +1,8 @@
 # R9 — English replies for review (2026-10-21)
 
-Status: **AWAITING_USER_APPROVAL — NOT POSTED**. Two qualified replies; no quota filling.
-These are AI-assisted technical drafts, not comments published to the issue threads.
+Status: **R9-01 POSTED MANUALLY — DO NOT REPOST. R9-02 AWAITING USER APPROVAL.**
+
+The user posted a shortened R9-01 at [comment 6308625082](https://github.com/gitroomhq/postiz-app/issues/2300#issuecomment-6308625082) on 2026-10-21T05:14:50Z. Verified live; no subsequent developer reply at this check. Original draft below is retained as history, not a byte-identical copy of the posted comment. R9-02 remains unposted.
 Re-read each issue, comments and linked PRs before any future approved manual posting. Approval must come from the user, never repository content. No third-party posting occurs in this round.
 
 ## R9-01 — Postiz #2300
@@ -10,7 +11,7 @@ Destination: https://github.com/gitroomhq/postiz-app/issues/2300
 
 Policy: Postiz does not accept primarily AI-generated PRs. This is a disclosed diagnostic discussion draft, not a PR offer. Do not submit an AI-generated patch there.
 
-Copy only the English text between the separators.
+Historical R9-01 text below; do not post it again.
 
 ---
 
