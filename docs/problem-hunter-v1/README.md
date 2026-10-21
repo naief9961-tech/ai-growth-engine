@@ -2,8 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-20 R8](rounds/2026-10-20-R8/REPORT.md)
-- [R8: one English draft awaiting approval](rounds/2026-10-20-R8/DRAFTS.md)
+- [Latest report — 2026-10-21 R9](rounds/2026-10-21-R9/REPORT.md)
+- [R9: two English drafts awaiting approval](rounds/2026-10-21-R9/DRAFTS.md)
+- [R9 isolated checks and limits](rounds/2026-10-21-R9/TESTS.md)
+- [Previous report — 2026-10-20 R8](rounds/2026-10-20-R8/REPORT.md)
+- [R8 historical draft — manually posted, do not repost](rounds/2026-10-20-R8/DRAFTS.md)
 - [R8 isolated checks and limits](rounds/2026-10-20-R8/TESTS.md)
 - [Previous report — 2026-10-19 R7](rounds/2026-10-19-R7/REPORT.md)
 - [Previous report — 2026-10-18 R6](rounds/2026-10-18-R6/REPORT.md)
@@ -101,4 +104,10 @@ R6's three drafts were subsequently approved and published; see [R6 publication 
 
 155 unique URLs screened, six candidate threads read, one completed investigation and two exploratory source reads. One Woodhouse #29 review draft; eight isolated checks passed; no upstream integration suite or external publication. Twenty-three tracked threads checked: one new technical update on A2A #1341 (PR #1354 includes REST SSE) and Cockpit #564 closed after PR #573 merged. No duplicate comment and no commercial request. Cursor/history preserved. [R8 report](rounds/2026-10-20-R8/REPORT.md).
 
-R7-01 is superseded by merged PR #573; R7-02 was manually published and verified. **Do not repost either R7 draft.** R8-01 requires its own review/approval.
+R7-01 is superseded by merged PR #573; R7-02 was manually published and verified. **Do not repost either R7 draft.** R8-01 was subsequently posted manually and verified in R9; do not repost.
+
+## R9 update — 2026-10-21
+
+201 distinct URLs screened from 220 capped results; six complete candidate-thread reads, one related-body check and two completed source investigations. Two new English drafts (Postiz #2300 and IntelliFlow CRM #940) await approval. Fourteen isolated groups passed; no upstream suite or live deployment test. No third-party publication in this round.
+
+Twenty-four prior tracked threads checked: the user's [Woodhouse comment](https://github.com/recursive-cloud/woodhouse/issues/29#issuecomment-6283913029) was verified and its cursor advanced. **R8-01 is historical; do not repost.** Trinity #3749 newly closed; its R3 merge is not new and live acceptance remains unverified. No new developer reply or explicit commercial inquiry. [R9 report](rounds/2026-10-21-R9/REPORT.md).

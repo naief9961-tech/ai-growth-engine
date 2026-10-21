@@ -1,0 +1,78 @@
+{
+  "node": "v24.19.0",
+  "run_at": "2026-10-21T05:04:52.642Z",
+  "groups_passed": 14,
+  "results": [
+    {
+      "name": "Stripe: both original verifiers accept correctly signed t=abc",
+      "type": "source-extracted baseline",
+      "status": "PASS"
+    },
+    {
+      "name": "Stripe: finite-only candidate still accepts a signed numeric prefix with junk",
+      "type": "candidate counterexample",
+      "status": "PASS"
+    },
+    {
+      "name": "Stripe: full grammar rejects malformed signed timestamps in both copies",
+      "type": "source-extracted candidate",
+      "status": "PASS"
+    },
+    {
+      "name": "Stripe: valid signatures and original timestamp bytes preserved",
+      "type": "source-extracted candidate",
+      "status": "PASS"
+    },
+    {
+      "name": "Stripe: inclusive tolerance boundaries remain unchanged",
+      "type": "source-extracted candidate",
+      "status": "PASS"
+    },
+    {
+      "name": "Stripe: unsafe and out-of-window integers rejected",
+      "type": "source-extracted candidate",
+      "status": "PASS"
+    },
+    {
+      "name": "Stripe: wrong key and mutated raw body rejected",
+      "type": "source-extracted candidate",
+      "status": "PASS"
+    },
+    {
+      "name": "Stripe: missing timestamp or signature rejected",
+      "type": "source-extracted candidate",
+      "status": "PASS"
+    },
+    {
+      "name": "Postiz: release catalog lacks MediaStatusTool; main registers it without optional flag",
+      "type": "pinned source assertions",
+      "status": "PASS"
+    },
+    {
+      "name": "Postiz: current extracted gate rejects missing mediaStatusTool with the reported message",
+      "type": "source-extracted baseline with stubs",
+      "status": "PASS"
+    },
+    {
+      "name": "Postiz: candidate optional metadata permits baseline connection",
+      "type": "source-extracted gate; candidate metadata",
+      "status": "PASS"
+    },
+    {
+      "name": "Postiz: baseline identity tools remain mandatory",
+      "type": "source-extracted gate; candidate metadata",
+      "status": "PASS"
+    },
+    {
+      "name": "Postiz: current catalog passes the original gate",
+      "type": "source-extracted baseline with stubs",
+      "status": "PASS"
+    },
+    {
+      "name": "Postiz: absent optional tool still returns explicit call failure",
+      "type": "source-extracted callTool with stubs",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Reviewed source extracts and synthetic stubs only. No upstream suite, OAuth, live MCP, deployed image, media processing, database or payment test."
+}

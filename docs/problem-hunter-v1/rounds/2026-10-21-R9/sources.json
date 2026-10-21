@@ -1,0 +1,30 @@
+{
+  "framework.ts": {
+    "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/blob/729ce393fdd43ae91f6e63efc30acb4c9d5c1f5d/packages/webhooks/src/framework.ts",
+    "blob_sha": "5808f5a073c1f2d46b36f12f7769ca3a371a1a16"
+  },
+  "handler.ts": {
+    "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/blob/729ce393fdd43ae91f6e63efc30acb4c9d5c1f5d/apps/api/src/webhooks/handler.ts",
+    "blob_sha": "3b609c410a0974d15458a2ae7b16e2fbe22e80b0"
+  },
+  "load.tools.service.ts": {
+    "url": "https://github.com/gitroomhq/postiz-app/blob/a41e35f6adf5baf0ec8df4f2fbbcd69e7ae4fcd3/libraries/nestjs-libraries/src/chat/load.tools.service.ts",
+    "blob_sha": "4496aeaf7d18d0ab34b04f4649f17a18873a061d"
+  },
+  "mcp.relay.service.ts": {
+    "url": "https://github.com/gitroomhq/postiz-app/blob/a41e35f6adf5baf0ec8df4f2fbbcd69e7ae4fcd3/libraries/nestjs-libraries/src/chat/mcp.relay.service.ts",
+    "blob_sha": "e7d76b00116e567da37597390f64e7fb12ce8337"
+  },
+  "media.status.tool.ts": {
+    "url": "https://github.com/gitroomhq/postiz-app/blob/a41e35f6adf5baf0ec8df4f2fbbcd69e7ae4fcd3/libraries/nestjs-libraries/src/chat/tools/media.status.tool.ts",
+    "blob_sha": "f79e6e2b5e01603563202ba922f22e0f76c8a46b"
+  },
+  "main-tool.list.ts": {
+    "url": "https://github.com/gitroomhq/postiz-app/blob/a41e35f6adf5baf0ec8df4f2fbbcd69e7ae4fcd3/libraries/nestjs-libraries/src/chat/tools/tool.list.ts",
+    "blob_sha": "0254fbac95016f766ae5484851d3ef92d413b819"
+  },
+  "release-tool.list.ts": {
+    "url": "https://github.com/gitroomhq/postiz-app/blob/91c91f633a0175fb3914dba64c932928c514b72a/libraries/nestjs-libraries/src/chat/tools/tool.list.ts",
+    "blob_sha": "117306736eef7aa7f293955326b6c21cc3336529"
+  }
+}

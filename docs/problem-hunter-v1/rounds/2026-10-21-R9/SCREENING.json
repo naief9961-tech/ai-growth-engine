@@ -1,0 +1,1734 @@
+{
+  "round": "2026-10-21-R9",
+  "checked_at": "2026-10-21T05:08:41Z",
+  "counts": {
+    "raw": 220,
+    "unique": 201,
+    "previous": 0
+  },
+  "limits": "Search result filters and normalized dates are not treated as live status verification; selected issues were checked via raw issue/comments/timeline API. Some PR search results were noisy; raw PR-list APIs were used for definitive open/recent PR review.",
+  "queries": [
+    {
+      "query": "is:issue is:open created:>=2026-10-20 MCP in:title",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-19 A2A in:title",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-19 x402 in:title",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-20 webhook in:title",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-20 schema in:title",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-20 JSON-RPC",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-20 authentication API",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-20 \"GitHub Actions\" failure",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-20 MCP (bug OR error OR fails OR timeout) -label:enhancement",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-20 (\"JSON-RPC\" OR \"tools/list\") in:title",
+      "returned": 20,
+      "cap": 20
+    },
+    {
+      "query": "is:issue is:open created:>=2026-10-20 (\"webhook\" OR \"schema\") label:bug",
+      "returned": 20,
+      "cap": 20
+    }
+  ],
+  "prior_screening_urls_compared": 1437,
+  "prior_screening_overlap": 0,
+  "candidate_decisions": [
+    {
+      "url": "https://github.com/gitroomhq/postiz-app/issues/2300",
+      "decision": "COMPLETED_INVESTIGATION_DRAFT",
+      "reason": "Current relay requires mediaStatusTool through coreToolNames, but published v2.25.1 tool list omits it. Source release skew confirmed; actual reporter/cloud builds unknown."
+    },
+    {
+      "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940",
+      "decision": "COMPLETED_INVESTIGATION_DRAFT",
+      "reason": "Both verifiers permit correctly signed nonnumeric timestamps via NaN; finite-only proposed repair still accepts numeric-prefix junk. Synthetic counterexample verified, no secret-free forgery claim."
+    },
+    {
+      "url": "https://github.com/kagent-dev/kagent/issues/3295",
+      "decision": "EXCLUDED_AFTER_FULL_THREAD_READ",
+      "reason": "Existing open PR #3296 already addresses malformed ask_user and continuation boundaries. No duplicate reply or independent test claim."
+    },
+    {
+      "url": "https://github.com/microsoft/agent-framework/issues/9566",
+      "decision": "EXCLUDED_AFTER_FULL_THREAD_READ",
+      "reason": "Reporter and existing bot response already provide reproduction and mapping diagnosis; no additional verified contribution."
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/issues/57643",
+      "decision": "EXCLUDED_AFTER_FULL_THREAD_READ",
+      "reason": "Existing bot reproduces whole-list rejection and top-level-object workaround; no additional contribution; degradation remains upstream decision."
+    },
+    {
+      "url": "https://github.com/goharbor/harbor/issues/24186",
+      "decision": "EXCLUDED_AFTER_FULL_THREAD_READ",
+      "reason": "Report already includes source analysis, reproduction and repair boundaries; no additive independently tested result and no heavy environment run."
+    }
+  ],
+  "related_body_read": {
+    "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/issues/960",
+    "decision": "Related hardening list; not the same timestamp fix. Not a complete candidate investigation."
+  },
+  "rows": [
+    {
+      "url": "https://github.com/RapidRoom/rapidroom/issues/409",
+      "title": "MCP: generate the Relight normal map (and Fog depth map) so assistants can start Relight from scratch",
+      "query_indices": [
+        1,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/brave/bravebot/issues/2910",
+      "title": "Add the policy a local server would be confined under to `bravebot mcp get`, so its reads, writes and network can be checked before it starts",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/champi-ai/champi-tts/issues/94",
+      "title": "[DOCS]: Add docs/mcp-integration.md and MCP setup to README",
+      "query_indices": [
+        1,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/champi-ai/champi-tts/issues/93",
+      "title": "[TEST]: Add MCP stdio handshake and tool-schema contract tests",
+      "query_indices": [
+        1,
+        5,
+        6,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/champi-ai/champi-tts/issues/92",
+      "title": "[TEST]: Add tests/test_mcp unit tests (cli, server, tools, speaker_tools)",
+      "query_indices": [
+        1,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/champi-ai/champi-tts/issues/91",
+      "title": "[BE]: Add `champi-tts mcp serve` CLI command group",
+      "query_indices": [
+        1,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/champi-ai/champi-tts/issues/90",
+      "title": "[BE]: Add src/champi_tts/mcp/speaker_tools.py (twin of champi_stt.mcp.mic_tools)",
+      "query_indices": [
+        1,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/champi-ai/champi-tts/issues/89",
+      "title": "[BE]: Create src/champi_tts/mcp package with FastMCP server (twin of champi_stt.mcp.server)",
+      "query_indices": [
+        1,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/champi-ai/champi-tts/issues/88",
+      "title": "[INFRA]: Add mcp optional extra and champi-tts-mcp script entry point",
+      "query_indices": [
+        1,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/neiljaywarner/refuge/issues/219",
+      "title": "docs(agents): document Maestro MCP server tools and establish Maestro device automation skill and rules",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/OpenHands/extensions/issues/806",
+      "title": "Add MuscleMemory local MCP integration to the catalog",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/heddles/agent-orca/issues/58",
+      "title": "Require authentication on hindsight API/MCP (router API-key support + tenant auth)",
+      "query_indices": [
+        1,
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/ArtificialRay/CPU-Kernel-Baseline/issues/114",
+      "title": "Reject or serialize concurrent evaluate() calls on the MCP server",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/fernandotunas6-bot/onsoft-replica-dev/issues/202",
+      "title": "security(ci): corrigir avisos high em MCP server e launch-editor sem desligar audit",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/roymejia2217/JameDesktopCommander/issues/150",
+      "title": "feat(linux): ship reviewed Linux MCP runtime and secure remote tunnel lifecycle",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Oichkatzelesfrettschen/gororoba-quantum/issues/332",
+      "title": "qd_mcp_server: expose record completeness, a read-only plan and per-job billing",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-test/issues/24264",
+      "title": "GitHub remote MCP passed",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/kagura-ai/memory-cloud/issues/2222",
+      "title": "feat(auth): accept Gemini custom MCP clients through DCR",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/champi-ai/champi-tts/issues/73",
+      "title": "[TOOLING]: Remove legacy agent-skills MCP server entries with dead script paths and outdated model pins",
+      "query_indices": [
+        1
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/gitroomhq/postiz-app/issues/2300",
+      "title": "MCP issue on latest release",
+      "query_indices": [
+        1
+      ],
+      "decision": "SELECTED"
+    },
+    {
+      "url": "https://github.com/natnew/awesome-agentops/issues/83",
+      "title": "Add Governance Gaps in Agent Interoperability Protocols — what MCP, A2A and ACP cannot express",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/natnew/awesome-agentops/issues/44",
+      "title": "Add A2A (Agent2Agent) Protocol — inter-agent communication standard with Signed Agent Cards",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/jinwon-int/ccc-node/issues/2435",
+      "title": "epic(skill-promotion): 사람 판정 지점 6종을 A2A arbiter 레인으로 대체 — reject·라운드 상한·대체 소진·핸들러 실패·drop 권고·identity hit (오너 결정 2026-10-21)",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/FabioLeitao/zero-bridge/issues/80",
+      "title": "[P1][audit] The audit trail records authentication only: permission allow/deny, prompts, session creation and the A2A and OpenAI ingress leave no audit line",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-tck/issues/261",
+      "title": "[Bug]: a2a-js 1.3.0 accepts a2a-card-sign-v01 S4-REJECT-005",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/intrafind/ihub-apps/issues/2913",
+      "title": "Integrations P1: protocol adapters behind one contract (MCP, OpenAPI, native, A2A, storage, web search)",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/zeuzere/TheDeck/issues/1",
+      "title": "[Idea][TheDeck] Option A2A",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/open-telemetry/semantic-conventions-genai/issues/612",
+      "title": "Make A2A protocol binding visible in telemetry",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/enrichmeai/penstock/issues/192",
+      "title": "Agent-to-agent over A2A, with Cistern grants as the trust layer (parked)",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/kagent-dev/kagent/issues/3295",
+      "title": "[BUG] Python ask_user aborts the A2A turn on malformed question arguments",
+      "query_indices": [
+        2
+      ],
+      "decision": "EXCLUDED_AFTER_FULL_READ"
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3761",
+      "title": "A2A receivers cannot see the host's sender verdict: tools and wake show only the claimed signing DID, and the prompt says it is unsigned",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/microsoft/agent-framework/issues/9566",
+      "title": "Python: [Bug]: A2AExecutor drops image, file and data parts of incoming A2A messages",
+      "query_indices": [
+        2
+      ],
+      "decision": "EXCLUDED_AFTER_FULL_READ"
+    },
+    {
+      "url": "https://github.com/a2aproject/A2A/issues/2374",
+      "title": "[Bug]: v1.0 spec examples send A2A-Version: 0.3, which v1.0 servers reject",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/hybridlabor-api/aos/issues/174",
+      "title": "[Windows][5.3] Codex sandbox blocks the A2A reply; installer should add a writable root",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/hybridlabor-api/aos/issues/173",
+      "title": "[Windows][5.3] A2A to Codex fails with `spawn codex ENOENT`",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/hybridlabor-api/aos/issues/172",
+      "title": "[Windows][5.3] Codex kills the A2A sidecar when the SessionStart hook returns",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/hybridlabor-api/aos/issues/171",
+      "title": "[Windows][5.3] A2A sidecar exits seconds after SessionStart (parent pid is the shell wrapper)",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3757",
+      "title": "a2a_repair_dispatch records repairs as dispatched but sends nothing",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3756",
+      "title": "A2A responders can only return text: respond_to_a2a_task / attach_artifact_to_a2a_task have no structured-data result",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3755",
+      "title": "a2a.task_complete wakes the recipient that completed the task, not the sender that spawned it; prompt, guide and tool description say the opposite",
+      "query_indices": [
+        2
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/aihlp/itinai/issues/164",
+      "title": "Agent health check failed: agent-svg-registry, aicomglobal, autonoma, chain-metadata, hexnest-machine-reasoning-network-344a6b80, infergonka, kaderos-revenue-router, lexicon-comparison-intelligence-engine, microquery, mobility-quote-agent-uz, mobility-quote-agent, partstable-intelligence, sandbox-contractor-agent, synthora-open-interest-oracle, synthora-x402-registry-watch, token-safety-market-bundle, torify-japanese-locale-apis-for-ai-agents, tx-intent-classifier, viseon-ai-router",
+      "query_indices": [
+        3,
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/fozagtx/StellarBox/issues/7",
+      "title": "Marketplace for pay-per-call x402 endpoints and MCP tools",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8465",
+      "title": "self-improve: model-flagged: x402_sell is fail-closed because no signing k",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/nublai/payments/issues/118",
+      "title": "x402 client: erc7710 first, EIP-3009 float otherwise",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/nublai/payments/issues/117",
+      "title": "Session daemon: phrase-less x402 payments and float refills",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/nublai/payments/issues/115",
+      "title": "End-to-end x402 erc7710 payment on Base Sepolia",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/nublai/payments/issues/113",
+      "title": "Add an ERC-7710 delegation manager for x402 erc7710 payments",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/haloralabs/halora/issues/55",
+      "title": "docs(sdk): runnable example agent that pays an x402 API",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Merit-Systems/x402scan/issues/1298",
+      "title": "Manual listing request: On-chain Forensics API (verified x402 resources on Base)",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/ahmad-codex/purser/issues/8",
+      "title": "Pay x402 endpoints within the budget",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/UltraStarz/tollkit-wallet/issues/3",
+      "title": "Optional pre-swap token safety check for tollkit-wallet swaps (x402)",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/FX-Factor/autonomous-ict-trading-bot/issues/2",
+      "title": "Pre-trade honeypot/liquidity check before your bot enters (x402, per call)",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/tang-vu/keryx/issues/617",
+      "title": "Cheap OpenAI-compatible LLM lane for Keryx BUY/SKIP/CACHE decisions (x402)",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Echolonius/the-penniless-agent/issues/6",
+      "title": "Free real-output trial endpoints for a $0 agent (x402 seller offer)",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/lopushok9/Agent-Layer/issues/36",
+      "title": "Pre-swap token safety check for Agent-Layer swaps (x402, per-call, no key)",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/nirholas/universal-crypto-mcp/issues/42",
+      "title": "Extra LLM provider option: OpenAI-compatible Llama 3.3 70B over x402, $0.002/call",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/cogni-dao/cogni/issues/2823",
+      "title": "Extra LLM provider option: OpenAI-compatible Llama 3.3 70B over x402, $0.002/call",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Ikalus1988/MisakaNet/issues/3595",
+      "title": "Extra LLM provider option: OpenAI-compatible Llama 3.3 70B over x402, $0.002/call",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/selimaytac/hashspan/issues/494",
+      "title": "Extra LLM provider option: OpenAI-compatible Llama 3.3 70B over x402, $0.002/call",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/madebyshun/blue-agent/issues/489",
+      "title": "Extra LLM provider option: OpenAI-compatible Llama 3.3 70B over x402, $0.002/call",
+      "query_indices": [
+        3
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/1355",
+      "title": "[intake 输入] dsh-message-gateway 0.1.35：`/gateway/webhook/in` 未配签名密钥时整道闸跳过，跨站可把任意文本以 user 身份注入 agent 并同步读回回复",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Kyutech-C3/toybox-back/issues/220",
+      "title": "WebhookでDisplayNameではなくNameを返している",
+      "query_indices": [
+        4,
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/snapotter-hq/SnapOtter/issues/3237",
+      "title": "fix(api): require string authHeader before masking as *** in webhooks and SIEM GET routes",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/techmefr/HeryJs/issues/116",
+      "title": "Triggers for exposed actions: cron and signed webhook",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/techmefr/HeryJs/issues/114",
+      "title": "More scaffolding: make:policy, seeder, driver, notification, webhook-handler and hery routes",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/goharbor/harbor/issues/24186",
+      "title": "Webhook notification is silently lost when the job service is unavailable; the execution stays \"Running\" with no task and nothing retries it",
+      "query_indices": [
+        4
+      ],
+      "decision": "EXCLUDED_AFTER_FULL_READ"
+    },
+    {
+      "url": "https://github.com/Goldberry-Playground/grove-sites/issues/1129",
+      "title": "Provision newsletter env for Train #4: hub ODOO_API_KEY, CAPTURE_ALERT_WEBHOOK_URL, retire GHOST_NEWSLETTER_INSTANCES (GOL-3456)",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Alejo-Basile/doc-service/issues/45",
+      "title": "[S5-P2-04] Timeline incompleta: faltan actores minio-webhook/worker/reconciler",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Alejo-Basile/doc-service/issues/44",
+      "title": "[S3-P2-08] Sin test del webhook con objeto ya borrado",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Alejo-Basile/doc-service/issues/43",
+      "title": "[S3-P2-06] Webhook sin validación de timestamp (anti-replay)",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/combsmith/software-factory/issues/254",
+      "title": "Trial P-31: the Controller App's webhook reaches the relay's host for every repo, and the relay nudges with no credential over the Factory",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/danbri/factoidal/issues/898",
+      "title": "Solid server: no Solid Notifications channel (WebSocket, webhook)",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/issues/960",
+      "title": "PG-208 follow-ups: minor a11y and webhook hardening items from the reviews",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/EffortlessMetrics/shipper-swarm/issues/407",
+      "title": "feat(webhook): make best-effort delivery bounded, drained, and observable",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/EffortlessMetrics/shipper-swarm/issues/404",
+      "title": "fix(webhook): prevent transport errors from disclosing endpoint secrets and response bodies",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/cameri/nostream/issues/919",
+      "title": "[Admin Console] : trust & automation (audit, webhooks, OTel, diagnostics)",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/vjpixel/diaria-studio/issues/10648",
+      "title": "Kit: registrar eventos por assinante com timestamp (webhooks unsubscribe/click)",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Munyon-Canyon/monaco/issues/5867",
+      "title": "Wire the Privy webhook verifier or delete it",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/issues/941",
+      "title": "security(api): webhook dead-letter procedures are open to any authenticated user (no admin check)",
+      "query_indices": [
+        4
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940",
+      "title": "security(webhooks): Stripe signature verifiers accept a non-numeric t= timestamp (NaN passes the tolerance check)",
+      "query_indices": [
+        4
+      ],
+      "decision": "SELECTED"
+    },
+    {
+      "url": "https://github.com/keanji-x/neige-calm/issues/2990",
+      "title": "test(objectives): cover the loop mode in the objective block schema parity sweep",
+      "query_indices": [
+        5,
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/ford442/weeks_on_fire/issues/130",
+      "title": "Timeline schema v2: bind each scene to catalog ids, with a localStorage migration",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/fernandotunas6-bot/onsoft-replica-dev/issues/203",
+      "title": "architecture(school-sites): harmonizar #200 e #201 antes do merge (schema e RLS)",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/rizkyr99/sagamart/issues/5",
+      "title": "Accept Inventory contract: SetStockLevel, error details, event schemas",
+      "query_indices": [
+        5,
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Buckitup-chat/chat/issues/727",
+      "title": "[chat] add: review_write_tokens migration + schema + Electric shape",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Balreddy07/Bank-Management-System-/issues/56",
+      "title": "User Story 37 — Manage Database Schema Changes",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/sarthax/FFXI-Mission-Toolkit/issues/1259",
+      "title": "P0: Versioned BDD scenario schema, step assertions and legacy compatibility",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/weareit-app/weareit/issues/147",
+      "title": "Where do schemas and types live?",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/weareit-app/weareit/issues/141",
+      "title": "Inventory of current schemas, types, and package dependencies",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/on-par/software-factory/issues/3400",
+      "title": "Define the steer event schema and append-only store",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/issues/57643",
+      "title": "MCP: outputSchema anyOf/oneOf rejected — valid JSON Schema combinators cause entire server to fail",
+      "query_indices": [
+        5
+      ],
+      "decision": "EXCLUDED_AFTER_FULL_READ"
+    },
+    {
+      "url": "https://github.com/cyanheads/canada-parliament-mcp-server/issues/13",
+      "title": "feat(canparl_get_bill): cut the 24.7 KB output schema that dominates the tool catalog",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Gentleman-Programming/gentle-shell/issues/2433",
+      "title": "bug(agents): foreign-schema orchestrator presence files exhaust the transport activation cap",
+      "query_indices": [
+        5,
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/mwdearing/health-nutrition/issues/746",
+      "title": "Recipes in the journal export: plan for schema v9 (after #734)",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/psaab/xpf/issues/16099",
+      "title": "docs: add #15998 section to docs/config-schema.md default-policy gate family",
+      "query_indices": [
+        5,
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/SwiftChainn/SwiftChain_Frontend/issues/989",
+      "title": "[Feature] Improve form validation by moving to reusable schema-based validation with Zod",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/nek0byte/cooking-roulette/issues/10",
+      "title": "Schema Foreign Key Relation on RouletteSpin",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/berntpopp/gene-curator/issues/327",
+      "title": "Backend should emit labelled enumOptions in the curation JSON schema",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/hayagrivai-labs/phantom/issues/21",
+      "title": "inspect --json: add a schema name and version",
+      "query_indices": [
+        5
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/saadshahd/roundup/issues/3140",
+      "title": "Retain known idle and startup evidence for Workstream time accounting",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/MustacheXb/ReviewAgent-pi/issues/21",
+      "title": "stdio JSONL 长驻模式：ADR-0012 协议 spec（S0——协议/错误码/取消/退出语义收口）",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/anhnvcoder/short-video-platform/issues/2",
+      "title": "Dependency Dashboard",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/openairymax/agentrt/issues/1463",
+      "title": "ci-debug windows build (run 39545749419)",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/derrickhayashi/vpnmodo/issues/2",
+      "title": "Add IKEv2 backend with EAP-MSCHAPv2 and configurable proposals",
+      "query_indices": [
+        6,
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/ChiJiun/verified-human-attention-market/issues/91",
+      "title": "[M2][P2][Security] Unexpected errors return internal messages (SQL text) to clients",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/code-yeongyu/senpi/issues/3867",
+      "title": "Keyless API-key slots can be saved, and tests can write into the real agent dir",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Yiyue345/fuckclassroom/issues/89",
+      "title": "feat(auth): 抽取通用 WebVPN 会话服务与插件接口（内网浏览器前置）",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/keyframesfound/matchmaxhk/issues/415",
+      "title": "[Feature / Phase 1.5] Extracurriculars Expansion: Hybrid Tags, Portfolio Gallery & Unified Ecosystem",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Lingbou/Ikaros/issues/76",
+      "title": "feat(memory): refine durable memories from settled runs in the background",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/stablyai/orca/issues/31403",
+      "title": "[Feature]: orca worktree create --pr can check out the PR head branch, like the app's PR flow",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/guillermomolina/protos/issues/939",
+      "title": "BUG024 — TOOL010 fails on end-of-line comments after blank lines",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Hal0ai/hal0/issues/2850",
+      "title": "hermes: persona activate never reaches a running Hermes, and a restart does not apply it either",
+      "query_indices": [
+        6,
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/ifBars/S1DedicatedServers/issues/76",
+      "title": "[BUG] Dealer \"recommended\" state never reaches players who join later, so recommended dealers can't be recruited (Dodgy Dealing / Benji)",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/issues/10781",
+      "title": "[Bug]: Windows: pending-input journal fsync always fails (EPERM on read-only handle), stuck input replays on every reopen and burns the whole model fallback chain",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/issues/57638",
+      "title": "opencode serve crashes every hour or two with ERR_STREAM_DESTROYED",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/YinFengWindy/Shiori-Agent/issues/863",
+      "title": "feat(grok-bot): 按角色绑定单个 Bot 的双向私聊渠道",
+      "query_indices": [
+        6
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/dantelrharrell-debug/Nija/issues/3272",
+      "title": "JustCall production launch: consent provenance, DNC qualification and verified human transfer",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/hhdg1515/fullstack-capstone-project/issues/10",
+      "title": "Deploy backend and frontend",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Balreddy07/Bank-Management-System-/issues/63",
+      "title": "Backlog 20 — Backend API and Service Validation",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/pyrycode/pyrycode/issues/3720",
+      "title": "refactor(relay): require negotiated threads for app sessions",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/gopernicus/gopernicus/issues/105",
+      "title": "authentication: bundled invitation POST routes lack the double-submit CSRF gate",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/b3amkawi/BC-LocalAI/issues/42",
+      "title": "[QA-003] Validate Chat History Workflows",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/rplalala/Reliable-Trip-Plan-Agent/issues/198",
+      "title": "Dayloom Product: unified r7 frontend and backend lifecycle specification",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Systems-mersal/WELM-App/issues/51",
+      "title": "9️⃣ اختبار شامل للإشعارات على iOS وAndroid",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/The-weyland-yutani-corporation/dark-factory-demo/issues/42",
+      "title": "[Goal]: Build the read-only Factory Observatory radial canvas",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Vaibhavkaremgar/Pontis_Eve_Main/issues/1",
+      "title": "Prevent Google OAuth account takeover via email-only candidate lookup",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11798",
+      "title": "vmagent: EndpointSlice discovery overwrites namespace with referenced Pod's namespace",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/12errh/zen-proxy/issues/20",
+      "title": "Tool calls missing with free GLM/DeepSeek models (streaming and non-streaming); direct and New API paths affected",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/GuitarAlchemist/ix/issues/420",
+      "title": "Decide the named actuator contract, atomic budgets and authority boundary",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/duxlabs-dev/dux-shell/issues/3833",
+      "title": "Hover-opened island calendar does not acquire keyboard focus when clicking the task input",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/QFREEE/spacecaveman/issues/3",
+      "title": "Add owner login",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/GuitarAlchemist/ix/issues/417",
+      "title": "[Epic][IX][P2] General-purpose multi-paradigm workflows and named capabilities",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/leadscroll/leadscroll/issues/135",
+      "title": "Add opaque intake token identity to lead intake spans",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/ottermq/ottermq/issues/286",
+      "title": "Add an opt-in pprof endpoint for profiling a running broker",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/patroni/patroni/issues/3760",
+      "title": "PostgreSQL 19: Patroni's default max_locks_per_transaction=64 gives half the lock table of a stock 19 server",
+      "query_indices": [
+        7
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/70782",
+      "title": "[WIP] Daily Documentation Diagram: work in progress",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/plenoai/pleno-dlp/issues/677",
+      "title": "[self-heal] healing-factory-performance failed",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/wakairo/NewLang_Compiler/issues/690",
+      "title": "[Track R / R690] Independent first-pass C17 scalar export ABI, cross-TU result and refusal audit",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/margince/margince/issues/8202",
+      "title": "main is red: `ci` failed on the tree merged by #8191",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/stella/folio/issues/2027",
+      "title": "Fuzz failure [34a5ebc13a2324c7]: consumer flow public-corpus:00b0985b9cddd514115c19e8c720e2781003dab45d7c3426f51219974b7ac72a / suggested: Markdown contains more text blocks than the source reader",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/stella/folio/issues/2026",
+      "title": "Fuzz failure [956c41a5c7c115f3]: consumer flow public-corpus:0105b38ce76181cdb1512f343336637c2eb04f07a802dd2da9e8ea67457220b1 / suggested: Markdown contains more text blocks than the source reader",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/70781",
+      "title": "[aw] The Great Escapi: had a request rejected",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/radius-project/ai-extensions/issues/1053",
+      "title": "Cloud E2E scheduled failure",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/jeong-sik/masc/issues/44694",
+      "title": "Native tool dispatch suite: 9 browser binding failures before navigation",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/hans1177/jaewoon-games/issues/8783",
+      "title": "[총괄 사후검증] GitHub Pages 게임 배포 오류 89dd37365930",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/with-hide/hide/issues/1482",
+      "title": "Flaky test: hided::it remote_delivery::connected_remote_panes_receive_once_and_disconnect_keeps_the_same_letter_pending",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/70780",
+      "title": "[Firewall Test] Escape test failed",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/kunwarshivam/mandate/issues/2059",
+      "title": "ci on main failed at a6e2dcf012405554c9e79f25cfee5722120d1c24",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/dulnasavin/logger-runner/issues/505",
+      "title": "Crypto Logger: Crypto Logger | Main | #15441 failure (run 15441)",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/HikaruEgashira/copilot-boost-mode/issues/95",
+      "title": "[hikaevi] Issue #93: ci: repair invalid Bun reporter config and Zod export mismatch",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/gregwebs/skills-sdlc/issues/14",
+      "title": "Replace curl/REST GitHub scripts with the gh CLI",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/ericson-j-santos/reqsys-v2-enterprise-real/issues/3014",
+      "title": "[Teams] Falha na notificação de commits",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/mobinpda-lab/NIRA/issues/614",
+      "title": "[AUTO-FIX] NIRA Factory Conformance failed at 3a2dd843849f",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/dulnasavin/logger-runner/issues/504",
+      "title": "Crypto Logger: Crypto Logger | Main | #15440 failure (run 15440)",
+      "query_indices": [
+        8
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/70783",
+      "title": "[github-docs-seo] Baseline AW recommendation report and minimal Docs SEO update plan",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/developing-today/opencode/issues/215",
+      "title": "docs: ROADMAP Done table omits the #212 completion (PR #213)",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/hadron-memory/hadron-server/issues/2195",
+      "title": "Agents: clone across organisations, and subscribe to non-public Agents (R139)",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/sqlew-io/sqlew/issues/127",
+      "title": "Raise env var priority for project name and cloud mode (Cursor Secrets)",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/sqlew-io/sqlew/issues/126",
+      "title": "Support cloud coding agents (Cursor Cloud, GrokBot, etc.)",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/yunaremaia/driftcheck/issues/518",
+      "title": "docs: root FUNDING.yml is ignored by GitHub and 'solana:' is not a supported key",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/yunaremaia/mcp-guard/issues/117",
+      "title": "bug: version drift — pyproject 0.3.2 but __version__ is 0.3.1 (regression from #114)",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/NegoPilot/NegoPilot/issues/53",
+      "title": "[Feat] 로그인·회원가입·관리자 화면과 ISO 14001 검색 조건",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/rodrigoGerez5/skills-expand-your-team-with-copilot/issues/1",
+      "title": "Exercise: Expand your team with Copilot cloud agent",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/pyrycode/pyrycode-desktop/issues/2217",
+      "title": "refactor(protocol): remove legacy content decoding and fixture adapters",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/agent-up-oss/agent-up/issues/519",
+      "title": "The reference agent-up.json cannot start on a clean non-Nix host: no capability install path",
+      "query_indices": [
+        9
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/bruceamoser/OpenBaD/issues/758",
+      "title": "Bundle tools into domain list/run facades",
+      "query_indices": [
+        10
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Lingbou/Ikaros/issues/75",
+      "title": "feat(tools): 新增 thread_list 与 thread_read 跨会话只读工具",
+      "query_indices": [
+        10
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/AdventureGoldDao/tiktikluck-agents/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/fettlesh/monitoring-mcp/issues/3",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/MoltyCel/moltrust-mcp-server/issues/29",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/jub0t/Concat/issues/471",
+      "title": "Expose GUI features (bitrate/SRT/caption styles, template text slots) to the JSON-RPC API, and reject unknown fields",
+      "query_indices": [
+        10
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/maxdhs/terminal-tax-mcp-server/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/TakoData/tako-mcp/issues/344",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/Yukaii/garbage/issues/11",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/littlemosquito123/reportgem-global-research/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/JunHwan-Kwon/deepbom/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/zyli5313/dochost-mcp/issues/4",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/mcauduro0/deepstack-mcp/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/codeblockssk/sosflights/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/stackthedeal/stackthedeal-mcp/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/paul-salviani/trust-switchboard/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/VanguardiaAI/motionprompts-mcp/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/CommonlandsAbbe/commonlands-mcp/issues/54",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/455287876-design/medicine-data-mcp/issues/1",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/sarojkjha/aaj-marketing-skills/issues/40",
+      "title": "Free private tools/list baseline for your agent-facing endpoint",
+      "query_indices": [
+        10
+      ],
+      "decision": "EXCLUDED_PROMOTIONAL_TEMPLATE"
+    },
+    {
+      "url": "https://github.com/antosubash/smpy_modules/issues/158",
+      "title": "pagebuilder: schedule API accepts integer timestamps; reject API accepts a whitespace-only note",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/simonoppowa/OpenNutriTracker/issues/1417",
+      "title": "[Bug]: Editing a custom meal's barcode or name orphans its past diary entries",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/electricsheephq/lcm-x/issues/1718",
+      "title": "Media previews: nested typed-part fields, dict reprs and untyped-dict leaves (follow-up to #1710)",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/arcanumruna/rune/issues/432",
+      "title": "A Client whose transport fails to start aborts the process (std::system_error from ~Subscription during unwinding)",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/petarnenov/ultra-factory/issues/456",
+      "title": "[Bug]: Project settings → Coordinators shows 'Invalid JSON body' on save and the error hides the rejected field",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/9016",
+      "title": "[Bug]: 【智能审批效果】模型结果的不确定性会导致同一工具执行结果不同",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/modxcms/revolution/issues/17098",
+      "title": "[Bug]: modTransportManager::getProviders() filters on a column that does not exist in transport_providers",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/neilotoole/sq/issues/1298",
+      "title": "sqlite: rows silently missing on libSQL tables with a vector index",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/cogni-dao/cogni/issues/2848",
+      "title": "bug(delivery): dedicated preview catalog enters production-only substrate wrapper",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/mcguinness/mission-bound-authorization/issues/1482",
+      "title": "OAuth binding: Conformance Roles names invalid_mission_intent_evidence for a structurally invalid evidence entry, where the dispatch rule says invalid_request",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/berntpopp/gene-curator/issues/323",
+      "title": "Archived curations keep workflow_stage='active' (no terminal WorkflowStage)",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/charlieanna/autocode/issues/1747",
+      "title": "Plan Reviewer recovery repeats exploration and exhausts two 15-minute stages on an empty TODO task",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/the-metafactory/cortex/issues/2710",
+      "title": "Upgrade render guard: a stack's operator-set daemon env has no config seam, so v6.17 refuses every plist that carries one",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/tapstate/tapstate/issues/829",
+      "title": "Oracle CDC fails: SRS change log cannot encode PDK DateTime values",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/Alberto-Codes/docvet/issues/495",
+      "title": "bug: parse failures report passed and 100% coverage for unexamined files",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    },
+    {
+      "url": "https://github.com/snapotter-hq/SnapOtter/issues/3238",
+      "title": "fix(api): isToolAuditEnabled swallows database read errors on auditToolOperations without logging",
+      "query_indices": [
+        11
+      ],
+      "decision": "NOT_SELECTED_PRELIMINARY_ONLY"
+    }
+  ]
+}

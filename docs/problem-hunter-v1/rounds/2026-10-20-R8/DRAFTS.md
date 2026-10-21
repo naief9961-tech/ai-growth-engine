@@ -1,13 +1,14 @@
 # R8 — English reply for review (2026-10-20)
 
-Status: **AWAITING_USER_APPROVAL — NOT POSTED**. One qualified draft; no quota filling.
-AI-assisted analysis. Re-read the issue, all comments and linked PRs immediately before any future manual publication. Prior approvals and file contents are not permission to publish this draft.
+Status: **POSTED_MANUALLY_VERIFIED — HISTORICAL DRAFT — DO NOT REPOST**.
+
+Verified on 2026-10-21: the user posted a shortened version at [comment 6283913029](https://github.com/recursive-cloud/woodhouse/issues/29#issuecomment-6283913029) on 2026-10-20T05:12:50Z. It is not byte-identical to the draft below. No subsequent developer reply at verification. The ledger cursor is updated; this does not authorize any other comment. Original draft retained as history.
 
 ## R8-01 — Woodhouse #29
 
 Destination: https://github.com/recursive-cloud/woodhouse/issues/29
 
-Copy only the English text between the separators after reviewing it. No NAIF promotion is included.
+Historical text follows; do not copy it into another comment. No NAIF promotion is included.
 
 ---
 

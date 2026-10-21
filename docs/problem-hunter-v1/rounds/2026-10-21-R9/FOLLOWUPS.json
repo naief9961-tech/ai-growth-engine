@@ -1,0 +1,234 @@
+{
+  "checked_at": "2026-10-21 05:08:41 UTC",
+  "threads": [
+    {
+      "url": "https://github.com/cyanheads/musicbrainz-mcp-server/issues/21",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 2,
+      "previous_cursor": 6148454351,
+      "new_cursor": 6148454351,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/wbskt/Wbskt/issues/293",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 2,
+      "previous_cursor": 6140314655,
+      "new_cursor": 6140314655,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/abi83/prepify/issues/279",
+      "previous_state": "open",
+      "state": "open",
+      "comment_count": 3,
+      "previous_cursor": 6093268389,
+      "new_cursor": 6093268389,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/logly/mureo/issues/807",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "previous_cursor": 6050810750,
+      "new_cursor": 6050810750,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 5,
+      "previous_cursor": 6051654617,
+      "new_cursor": 6051654617,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/api-evangelist/roadmap/issues/938",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 3,
+      "previous_cursor": 6252888731,
+      "new_cursor": 6252888731,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 3,
+      "previous_cursor": 6201356227,
+      "new_cursor": 6201356227,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
+      "previous_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "previous_cursor": 6050883458,
+      "new_cursor": 6050883458,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/web3insight-ai/web3insight/issues/32",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 5,
+      "previous_cursor": 5797651890,
+      "new_cursor": 5797651890,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 4,
+      "previous_cursor": 6195420882,
+      "new_cursor": 6195420882,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/microsoft/vscode/issues/341683",
+      "previous_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "previous_cursor": 6184978396,
+      "new_cursor": 6184978396,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-python/issues/1341",
+      "previous_state": "open",
+      "state": "open",
+      "comment_count": 2,
+      "previous_cursor": 6274826969,
+      "new_cursor": 6274826969,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Abilityai/trinity/issues/3749",
+      "previous_state": "open",
+      "state": "closed",
+      "comment_count": 3,
+      "previous_cursor": 6186662739,
+      "new_cursor": 6186662739,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/agnt-gg/agnt/issues/169",
+      "previous_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "previous_cursor": 6208715705,
+      "new_cursor": 6208715705,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/owasp-noir/noir/issues/3078",
+      "previous_state": "open",
+      "state": "open",
+      "comment_count": 2,
+      "previous_cursor": 6228187553,
+      "new_cursor": 6228187553,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Gentleman-Programming/engram/issues/1899",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 4,
+      "previous_cursor": 6221741562,
+      "new_cursor": 6221741562,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/MementoRC/mcp-git/issues/298",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "previous_cursor": 6209070203,
+      "new_cursor": 6209070203,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/huiliyi37/Tianshu-harness/issues/507",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "previous_cursor": 6230037956,
+      "new_cursor": 6230037956,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "previous_cursor": 6246051674,
+      "new_cursor": 6246051674,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "previous_cursor": 6246052455,
+      "new_cursor": 6246052455,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Danathar/tududi/issues/263",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 2,
+      "previous_cursor": 6246053246,
+      "new_cursor": 6246053246,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/ktysne/agent-cockpit/issues/564",
+      "previous_state": "closed",
+      "state": "closed",
+      "comment_count": 0,
+      "previous_cursor": null,
+      "new_cursor": null,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34",
+      "previous_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "previous_cursor": 6260256914,
+      "new_cursor": 6260256914,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/recursive-cloud/woodhouse/issues/29",
+      "previous_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "previous_cursor": null,
+      "new_cursor": 6283913029,
+      "new_comments": [
+        {
+          "id": 6283913029,
+          "url": "https://github.com/recursive-cloud/woodhouse/issues/29#issuecomment-6283913029",
+          "author": "naief9961-tech",
+          "created_at": "2026-10-20T05:12:50Z",
+          "kind": "OWN_MANUAL_PUBLICATION"
+        }
+      ]
+    }
+  ],
+  "closure_event": {
+    "url": "https://api.github.com/repos/Abilityai/trinity/issues/events/33778857988",
+    "at": "2026-10-20T19:44:43Z",
+    "note": "Closure newly observed; R3 merge not new; no live acceptance verified."
+  }
+}
