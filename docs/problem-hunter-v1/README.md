@@ -3,7 +3,7 @@
 Evidence-based help with user approval before posting to third-party repositories.
 
 - [Latest report — 2026-10-22 R10](rounds/2026-10-22-R10/REPORT.md)
-- [R10: two English replies awaiting review](rounds/2026-10-22-R10/DRAFTS.md)
+- [R10: approved replies — posting blocked by GitHub 403](rounds/2026-10-22-R10/DRAFTS.md)
 - [R10 isolated tests and limits](rounds/2026-10-22-R10/TESTS.md)
 
 - [Previous report — 2026-10-21 R9](rounds/2026-10-21-R9/REPORT.md)
@@ -121,3 +121,7 @@ Twenty-four prior tracked threads checked: the user's [Woodhouse comment](https:
 154 distinct URLs screened from 160 capped results; seven complete candidate threads, two completed source investigations and three exploratory source reads. Two review drafts: Northplan #100 (16 isolated complete-schema check groups passed) and Casdoor #5957 (static source evidence; no Go runtime tests). No third-party publication.
 
 Twenty-six tracked threads checked. IntelliFlow [manual comment 6308670609](https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940#issuecomment-6308670609) verified; both R9 replies are historical. A2A [PR #1354](https://github.com/a2aproject/a2a-python/pull/1354) newly verified merged and #1341 closed; final diff includes REST SSE. No test rerun, deployed-release verification, causal credit or commercial request. No new developer comments after saved cursors. [Full R10 review](rounds/2026-10-22-R10/REPORT.md).
+
+## R10 publication attempt — 2026-10-22
+
+The user approved both replies. GitHub rejected comment creation on Northplan #100 and Casdoor #5957 with `403 Resource not accessible by integration`. Neither was posted. Approval and failed attempts are recorded in the ledger; no permission workaround was attempted. [Approved texts and original destinations](rounds/2026-10-22-R10/DRAFTS.md).

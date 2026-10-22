@@ -1754,10 +1754,11 @@
       "tests": "16 isolated groups PASS using full pinned schema and 3 dependency modules; real Python 3.12.14/Pydantic 2.14.0/NumPy 2.3.5/PyYAML 6.0.3. No stubs; empty package initializers. Upstream suites and pinned ruff not run.",
       "reply": "R10-01",
       "approval": {
-        "status": "AWAITING_USER_APPROVAL",
-        "source": "New review draft; no inherited authorization."
+        "status": "USER_APPROVED",
+        "date": "2026-10-22",
+        "source": "User explicitly instructed «انشرهم» for the two R10 drafts in this conversation."
       },
-      "publication_status": "DRAFT_NOT_POSTED",
+      "publication_status": "APPROVED_BLOCKED_GITHUB_403",
       "published_comment_url": null,
       "last_seen_comment_id": null,
       "developer_response": "NOT_CONTACTED",
@@ -1814,6 +1815,15 @@
           "blob_sha": "312e7ba3759130618902f4fd981d01cf290bc112",
           "url": "https://github.com/janowoc/northplan/blob/f3b55a5e72a30080ef28cd3066371017ecae1b97/pyproject.toml"
         }
+      ],
+      "publication_attempts": [
+        {
+          "checked_at": "2026-10-22T05:21:01Z",
+          "result": "FORBIDDEN",
+          "http_status": 403,
+          "error": "Resource not accessible by integration",
+          "posted": false
+        }
       ]
     },
     {
@@ -1836,10 +1846,11 @@
       "tests": "NOT RUN: Go unavailable. Static source comparison confirms 3 relevant files byte-identical between v4.23.0 and reviewed master. Native DCR/CIMD/token regression plan documented; no live OAuth/ChatGPT flow.",
       "reply": "R10-02",
       "approval": {
-        "status": "AWAITING_USER_APPROVAL",
-        "source": "New review draft; no inherited authorization."
+        "status": "USER_APPROVED",
+        "date": "2026-10-22",
+        "source": "User explicitly instructed «انشرهم» for the two R10 drafts in this conversation."
       },
-      "publication_status": "DRAFT_NOT_POSTED",
+      "publication_status": "APPROVED_BLOCKED_GITHUB_403",
       "published_comment_url": null,
       "last_seen_comment_id": null,
       "developer_response": "NOT_CONTACTED",
@@ -1883,7 +1894,16 @@
           "url": "https://github.com/casdoor/casdoor/blob/dd0cc5d7af104d7feeacd3b5859402bf0bc4d1f7/object/wellknown_oidc_discovery.go"
         }
       ],
-      "reported_version_commit": "1b91d9d319a127e9b1af88fa7a20bb35c052b9d8"
+      "reported_version_commit": "1b91d9d319a127e9b1af88fa7a20bb35c052b9d8",
+      "publication_attempts": [
+        {
+          "checked_at": "2026-10-22T05:21:01Z",
+          "result": "FORBIDDEN",
+          "http_status": 403,
+          "error": "Resource not accessible by integration",
+          "posted": false
+        }
+      ]
     }
   ],
   "followups": [
@@ -2586,8 +2606,8 @@
       "last_seen_comment_at": null,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_NOT_POSTED_R10",
-      "outcome": "Awaiting review; no external publication.",
+      "status": "APPROVED_BLOCKED_GITHUB_403",
+      "outcome": "User approved both R10 replies; GitHub connector returned 403 for comment creation. No comment posted; no permission workaround attempted.",
       "last_checked_date": "2026-10-22",
       "last_checked_at": "2026-10-22T05:12:18Z"
     },
@@ -2600,8 +2620,8 @@
       "last_seen_comment_at": null,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_NOT_POSTED_R10",
-      "outcome": "Awaiting review; no external publication.",
+      "status": "APPROVED_BLOCKED_GITHUB_403",
+      "outcome": "User approved both R10 replies; GitHub connector returned 403 for comment creation. No comment posted; no permission workaround attempted.",
       "last_checked_date": "2026-10-22",
       "last_checked_at": "2026-10-22T05:12:18Z"
     }

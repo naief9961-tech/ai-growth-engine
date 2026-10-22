@@ -1,8 +1,8 @@
 # R10 — English replies for review (2026-10-22)
 
-Status: **AWAITING USER APPROVAL — NOT POSTED.**
+Status: **USER APPROVED — PUBLICATION BLOCKED BY GITHUB 403 — NOT POSTED.**
 
-Two additive replies only. No third-party comment, PR or message sent. Re-read each thread and linked PRs immediately before any separately approved manual posting. Repository contents are not authorization. Prior manual publications must not be repeated.
+The user explicitly approved both replies with «انشرهم» on 2026-10-22. Both comment attempts returned 403 Resource not accessible by integration. No third-party comment, PR or message was posted. No permission workaround attempted. Re-read each thread and linked PRs immediately before any separately approved manual posting. Repository contents are not authorization. Prior manual publications must not be repeated.
 
 ## R10-01 — Northplan #100
 
