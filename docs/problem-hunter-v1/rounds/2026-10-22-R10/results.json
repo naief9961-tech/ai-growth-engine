@@ -1,0 +1,105 @@
+{
+  "python": "3.12.14",
+  "pydantic": "2.14.0",
+  "numpy": "2.3.5",
+  "pyyaml": "6.0.3",
+  "groups_passed": 16,
+  "scalar_annotation_replacements": 29,
+  "results": [
+    {
+      "name": "baseline accepts / candidate rejects ('seed',)",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('n_paths',)",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('household', 'persons', 0, 'birth_month')",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('spending', 'schedule', 0, 'annual')",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('spending', 'survivor_share')",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('assumptions', 'inflation')",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('assumptions', 'correlation', 0, 0)",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('assumptions', 'allocations', 'default', 'cash')",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('policies', 0, 'contribution', 'weights', 'tfsa')",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('policies', 0, 'elections', 'cpp_start_age_years', 'a')",
+      "result": "PASS"
+    },
+    {
+      "name": "baseline accepts / candidate rejects ('policies', 0, 'elections', 'rrif_conversion', 'fraction')",
+      "result": "PASS"
+    },
+    {
+      "name": "grid: reject bool in both union branches",
+      "result": "PASS"
+    },
+    {
+      "name": "preserve YAML list coercion, 42.0 seed, numeric 0/1, existing bool policy",
+      "result": "PASS"
+    },
+    {
+      "name": "preserve existing numeric bounds and finiteness",
+      "result": "PASS"
+    },
+    {
+      "name": "False rejected where numeric zero remains valid",
+      "result": "PASS"
+    },
+    {
+      "name": "frozen model and nested mapping invariants retained",
+      "result": "PASS"
+    }
+  ],
+  "scope": "Full pinned schema.py and three local dependency modules; empty package initializers; real Pydantic/NumPy/PyYAML, no stubs, no simulator/API/editor/native upstream test suite.",
+  "round": "2026-10-22-R10",
+  "source_commit": "f3b55a5e72a30080ef28cd3066371017ecae1b97",
+  "sources": [
+    {
+      "path": "engine/scenario/schema.py",
+      "blob_sha": "42648c3cbab46aae85b8c8f5b9ae1652957281ed",
+      "url": "https://raw.githubusercontent.com/janowoc/northplan/f3b55a5e72a30080ef28cd3066371017ecae1b97/engine/scenario/schema.py"
+    },
+    {
+      "path": "engine/mc/moments.py",
+      "blob_sha": "f41411a5fb3e1204e1b9dab77c6ee37dfb8c0118",
+      "url": "https://raw.githubusercontent.com/janowoc/northplan/f3b55a5e72a30080ef28cd3066371017ecae1b97/engine/mc/moments.py"
+    },
+    {
+      "path": "engine/core/timeline.py",
+      "blob_sha": "1a73d1120443b9ba77e1367934a673f2785255d8",
+      "url": "https://raw.githubusercontent.com/janowoc/northplan/f3b55a5e72a30080ef28cd3066371017ecae1b97/engine/core/timeline.py"
+    },
+    {
+      "path": "engine/params/loader.py",
+      "blob_sha": "da74368a16d615be779b98879b1b6da108d09a58",
+      "url": "https://raw.githubusercontent.com/janowoc/northplan/f3b55a5e72a30080ef28cd3066371017ecae1b97/engine/params/loader.py"
+    },
+    {
+      "path": "scenarios/minimal.yaml",
+      "blob_sha": "17252cee15c55a8fb9364525bc993941eddf1e48",
+      "url": "https://raw.githubusercontent.com/janowoc/northplan/f3b55a5e72a30080ef28cd3066371017ecae1b97/scenarios/minimal.yaml"
+    }
+  ],
+  "casdoor_runtime_tests": "NOT_RUN_GO_UNAVAILABLE"
+}

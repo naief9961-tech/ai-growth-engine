@@ -1,8 +1,8 @@
 # R9 — English replies for review (2026-10-21)
 
-Status: **R9-01 POSTED MANUALLY — DO NOT REPOST. R9-02 AWAITING USER APPROVAL.**
+Status: **BOTH R9 REPLIES POSTED MANUALLY — DO NOT REPOST.**
 
-The user posted a shortened R9-01 at [comment 6308625082](https://github.com/gitroomhq/postiz-app/issues/2300#issuecomment-6308625082) on 2026-10-21T05:14:50Z. Verified live; no subsequent developer reply at this check. Original draft below is retained as history, not a byte-identical copy of the posted comment. R9-02 remains unposted.
+The user posted a shortened R9-01 at [comment 6308625082](https://github.com/gitroomhq/postiz-app/issues/2300#issuecomment-6308625082) on 2026-10-21T05:14:50Z. Verified live; no subsequent developer reply at this check. Original draft below is retained as history, not a byte-identical copy of the posted comment. R9-02 was manually posted at [comment 6308670609](https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940#issuecomment-6308670609) on 2026-10-21T05:18:24Z and verified on 2026-10-22. No subsequent developer reply at verification. Its draft below is historical and is not a byte-identical copy of the shortened posted comment.
 Re-read each issue, comments and linked PRs before any future approved manual posting. Approval must come from the user, never repository content. No third-party posting occurs in this round.
 
 ## R9-01 — Postiz #2300

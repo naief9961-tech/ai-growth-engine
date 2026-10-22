@@ -2,8 +2,12 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-21 R9](rounds/2026-10-21-R9/REPORT.md)
-- [R9: two English drafts awaiting approval](rounds/2026-10-21-R9/DRAFTS.md)
+- [Latest report — 2026-10-22 R10](rounds/2026-10-22-R10/REPORT.md)
+- [R10: two English replies awaiting review](rounds/2026-10-22-R10/DRAFTS.md)
+- [R10 isolated tests and limits](rounds/2026-10-22-R10/TESTS.md)
+
+- [Previous report — 2026-10-21 R9](rounds/2026-10-21-R9/REPORT.md)
+- [R9 historical replies — both manually posted, do not repost](rounds/2026-10-21-R9/DRAFTS.md)
 - [R9 isolated checks and limits](rounds/2026-10-21-R9/TESTS.md)
 - [Previous report — 2026-10-20 R8](rounds/2026-10-20-R8/REPORT.md)
 - [R8 historical draft — manually posted, do not repost](rounds/2026-10-20-R8/DRAFTS.md)
@@ -108,6 +112,12 @@ R7-01 is superseded by merged PR #573; R7-02 was manually published and verified
 
 ## R9 update — 2026-10-21
 
-201 distinct URLs screened from 220 capped results; six complete candidate-thread reads, one related-body check and two completed source investigations. Two new English drafts (Postiz #2300 and IntelliFlow CRM #940) await approval. Fourteen isolated groups passed; no upstream suite or live deployment test. No third-party publication in this round.
+201 distinct URLs screened from 220 capped results; six complete candidate-thread reads, one related-body check and two completed source investigations. Two English drafts (Postiz #2300 and IntelliFlow CRM #940) were prepared in R9; both were subsequently posted manually and verified. Do not repost. Fourteen isolated groups passed; no upstream suite or live deployment test. No third-party publication in this round.
 
 Twenty-four prior tracked threads checked: the user's [Woodhouse comment](https://github.com/recursive-cloud/woodhouse/issues/29#issuecomment-6283913029) was verified and its cursor advanced. **R8-01 is historical; do not repost.** Trinity #3749 newly closed; its R3 merge is not new and live acceptance remains unverified. No new developer reply or explicit commercial inquiry. [R9 report](rounds/2026-10-21-R9/REPORT.md).
+
+## R10 update — 2026-10-22
+
+154 distinct URLs screened from 160 capped results; seven complete candidate threads, two completed source investigations and three exploratory source reads. Two review drafts: Northplan #100 (16 isolated complete-schema check groups passed) and Casdoor #5957 (static source evidence; no Go runtime tests). No third-party publication.
+
+Twenty-six tracked threads checked. IntelliFlow [manual comment 6308670609](https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940#issuecomment-6308670609) verified; both R9 replies are historical. A2A [PR #1354](https://github.com/a2aproject/a2a-python/pull/1354) newly verified merged and #1341 closed; final diff includes REST SSE. No test rerun, deployed-release verification, causal credit or commercial request. No new developer comments after saved cursors. [Full R10 review](rounds/2026-10-22-R10/REPORT.md).

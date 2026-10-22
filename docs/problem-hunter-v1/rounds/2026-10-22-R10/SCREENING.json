@@ -1,0 +1,1721 @@
+{
+  "round": "2026-10-22-R10",
+  "checked_at": "2026-10-22T05:12:18Z",
+  "queries": [
+    "is:issue is:open created:>=2026-10-21 MCP in:title",
+    "is:issue is:open created:>=2026-10-20 A2A in:title",
+    "is:issue is:open created:>=2026-10-20 x402 in:title",
+    "is:issue is:open created:>=2026-10-21 webhook in:title",
+    "is:issue is:open created:>=2026-10-21 schema in:title",
+    "is:issue is:open created:>=2026-10-21 JSON-RPC",
+    "is:issue is:open created:>=2026-10-21 authentication API",
+    "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+  ],
+  "raw_result_count": 160,
+  "unique_issue_count": 154,
+  "query_limit": 20,
+  "prior_overlap": [],
+  "limits": "Capped search results; not an exhaustive GitHub census. Search dates may be absent in normalized results; selected candidates verified through raw issue API. Unselected issues have not all had comments/PR/source checked.",
+  "issues": [
+    {
+      "url": "https://github.com/misaalanshori/lca/issues/454",
+      "title": "ToolAnnotations drops camelCase hints silently (MCP/guest spelling)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "FULL_THREAD_AND_PR_SCREEN",
+      "disposition": "NO_DRAFT",
+      "reason": "Reporter already provides measured decode failure, fix/alias option and exact regression; related PR #453 active. No additive independently tested result."
+    },
+    {
+      "url": "https://github.com/saworbit/hammerforge/issues/1626",
+      "title": "[CI] Keep the MCP vibe sweep off the real preferences file",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/rockcarver/frodo-lib/issues/760",
+      "title": "Facade: expose terminal, managed-object schema and MCP helpers through frodo.* (additive)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title",
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/genlayerlabs/genlayer-docs/issues/721",
+      "title": "Docs MCP production canary is failing",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title",
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/EJRyan89/coding-agent-skills/issues/1516",
+      "title": "audit-ai-config mcp: report a .mcp.json server with a url but no type, which Claude Code skips\r",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/HarishbabuSR/skills-integrate-mcp-with-copilot/issues/1",
+      "title": "Exercise: Integrate MCP with Copilot",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title",
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/lingkaix/openkit/issues/427",
+      "title": "[testing] Worker, MCP, Mode entry and LLM gateway route tests",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/MayDay-wpf/snow-app/issues/246",
+      "title": "[Feature/RFC] 子代理显式配置的工具应豁免项目级 MCP 启停：让子代理真正拥有差异化工具集",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/agentic-ai-java/argi-extensions/issues/31",
+      "title": "[Clear Room][CR-05] 统一 MCP 注册职责与 registry、registrar、registration 命名",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/n624-dev/latex-renderer/issues/238",
+      "title": "enhancement(local-mcp): get_render_statusで総ページ数previewPageCountを返せない",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/n624-dev/latex-renderer/issues/235",
+      "title": "fix(setup): 編集されたCodex MCP登録を部分文字列一致で所有物と誤認し削除する",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/104195",
+      "title": "OSC 7501: root reports state=done while run_in_background Bash / Monitor / MCP tasks (its own or a background subagent's) are still running",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/n624-dev/latex-renderer/issues/233",
+      "title": "fix(remote-mcp): inlineSourceが設定されたSource展開サイズ上限を回避し、後段で失敗Jobを作る",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/casdoor/casdoor/issues/5957",
+      "title": "Discovery advertises `private_key_jwt` in TokenEndpointAuthMethodsSupported but it is not implemented — breaks OAuth with ChatGPT MCP connectors",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title",
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "COMPLETE_SOURCE_INVESTIGATION",
+      "disposition": "REVIEW_DRAFT",
+      "reason": "Additive verified source evidence; limits and tests documented."
+    },
+    {
+      "url": "https://github.com/google/osv.dev/issues/6213",
+      "title": "New data source: Still OS — MCP/agent-ecosystem advisories, with ecosystem blast-radius",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/issues/180308",
+      "title": "[Bug]: MCP CLI list/show print live credentials during routine inspection",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title",
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vjpixel/diaria-studio/issues/10803",
+      "title": "sync-env: preservar chaves machine-local (GOOGLE_APPLICATION_CREDENTIALS, DOPPLER_MCP_TOKEN) em vez de abortar",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/WingedGuardian/GENesis-AGI/issues/3544",
+      "title": "outreach_send: schedule identically in-process and via MCP, and resolve natural-language preferred_timing to a UTC timestamp (reject unparseable)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/ScriptedAlchemy/tracedecay/issues/4438",
+      "title": "simplify(mcp): replace the shadow refresh writer with direct code-index admission",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/railwayapp/cli/issues/1312",
+      "title": "fix(mcp): preserve UTF-8 keys and values when reading JSONC config",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 MCP in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "EXPLORATORY_SOURCE_READ",
+      "disposition": "NO_DRAFT",
+      "reason": "Exploratory source confirms byte-to-char JSONC corruption; reporter already supplies mechanism/workaround. Rust unavailable, additional scanner-boundary ideas unverified; held without draft."
+    },
+    {
+      "url": "https://github.com/herox215/ouroboros/issues/55",
+      "title": "a2a: Abbruchüberwachung endet vor dem Lesen des 200-Antwort-Bodys",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "EXPLORATORY_SOURCE_READ",
+      "disposition": "NO_DRAFT",
+      "reason": "Exploratory source confirms cancellation watcher stopped before 200 body read. Reporter already identifies timing; Go unavailable to validate safe 101 handoff/callback race handling. No untested fix presented as proven."
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/3718",
+      "title": "🔴 main is broken: A2A Module Tests",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/openJiuwen-ai/agent-core/issues/2135",
+      "title": "[Bug]: 汇总跟踪 session、VCS、A2A、流式输出及 CLI 的 16 项边界缺陷修复",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit/issues/2419",
+      "title": "A2A client returns the Message repr for failed tasks and drops the question for input-required tasks",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "FULL_THREAD_AND_PR_SCREEN",
+      "disposition": "NO_DRAFT",
+      "reason": "Open PR #2420 explicitly closes the issue and covers failure/follow-up text; no duplicate solution drafted. Author's tests not rerun."
+    },
+    {
+      "url": "https://github.com/agentic-community/mcp-gateway-registry/issues/1921",
+      "title": "A2A agent scans report a false HIGH finding for null fields the registry adds to the scanned card",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/jinwon-int/a2a-nexus/issues/2422",
+      "title": "Claude analysis bridge loads the worker account's ~/.claude/CLAUDE.md into every A2A session (no user-context isolation) — measured on gongmyoung",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/205",
+      "title": "Write A2A 10: Second opinion from Codex",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/204",
+      "title": "Write A2A 9: Docs that can't lie",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/203",
+      "title": "Write A2A 8: Mission Control operator run",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/202",
+      "title": "Write A2A 7: Broadcast coordination",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/201",
+      "title": "Write A2A 6: Long jobs: fire, then poll",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/200",
+      "title": "Write A2A 5: Fan-out / fan-in",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/199",
+      "title": "Write A2A 4: Review gate before commit",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/198",
+      "title": "Write A2A 3: Hands-off TDD relay",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/197",
+      "title": "Write A2A 2: Contract-first handoff",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/196",
+      "title": "Write A2A 1: Hello, A2A",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/seanrobertwright/Quay-2/issues/185",
+      "title": "Write: Swarm and A2A tutorials",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit/issues/2415",
+      "title": "nat a2a client commands exit 0 when they fail",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/awslabs/open-agentic-platform/issues/87",
+      "title": "Retention for A2A tasks kept by agents",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/panyam/mcpkit/issues/1577",
+      "title": "ext/a2a: publish an AgentCard and answer A2A requests (outward bridge)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 A2A in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/red-cup-engineering/paid-data-endpoint-service/issues/4",
+      "title": "Receive actual China macro inventory and first external x402 paid-read delivery",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/aihlp/itinai/issues/165",
+      "title": "Agent health check failed: agent-svg-registry, aicomglobal, autonoma, chain-metadata, hexnest-machine-reasoning-network-344a6b80, infergonka, kaderos-revenue-router, korean-public-data-agent, lexicon-comparison-intelligence-engine, microquery, mobility-quote-agent-uz, mobility-quote-agent, partstable-intelligence, sandbox-contractor-agent, synthora-open-interest-oracle, synthora-x402-registry-watch, token-safety-market-bundle, torify-japanese-locale-apis-for-ai-agents, tx-intent-classifier, viseon-ai-router",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title",
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/tsubasakong/awesome-agent-payments-protocol/issues/127",
+      "title": "[Add] x402check — free web checker for x402 endpoints",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/mrpkk/soma-protocol/issues/1",
+      "title": "Does an x402 claim_token plus signed Rider JWT split fit the Soma envelope?",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/BackTrackCo/tenjin-agent/issues/498",
+      "title": "Reference agent for an x402 claim_token plus Rider flow: where does it break for your setup?",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/gibrancorbin11-hub/wayleave/issues/1",
+      "title": "Indexing wayleave x402 endpoints + V1/V2 zero-loss verification badge",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/profullstack/x402-gateway/issues/19",
+      "title": "Indexing x402-gateway x402 endpoints + V1/V2 zero-loss verification badge",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Andyxcg/agentshop/issues/1",
+      "title": "Edge case in agent-outreach.js: preventing lost USDC on upstream 5xx / soft-paywalls / LLM refusals during x402 calls",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/nirium-protocol/nirium/issues/174",
+      "title": "Docs (ES): Spanish version of the x402 quickstart",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/nirium-protocol/nirium/issues/170",
+      "title": "Translate examples/go-x402/README.md to Spanish",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/JonasFuchss/x402-trust-mcp/issues/2",
+      "title": "Indexing x402-trust-mcp x402 endpoints + V1/V2 zero-loss verification badge",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/withgrokbot/x402-spotcheck/issues/8",
+      "title": "Edge case in index.js: preventing lost USDC on upstream 5xx / soft-paywalls / LLM refusals during x402 calls",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/ToolSnap-app/toolsnap-mcp/issues/108",
+      "title": "Edge case in send-test-payment.ts: preventing lost USDC on upstream 5xx / soft-paywalls / LLM refusals during x402 calls",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI/issues/8382",
+      "title": "New tool: Mekong x402 pay-per-call API family",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/neilkpatel/whatagentsbuy/issues/11",
+      "title": "Seller submission: aiskills402.com, 402registry.com, 402cron.com, 402post.com (x402 v2 on Base, USDC)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/x402-foundation/x402/issues/3866",
+      "title": "[Bug]: @x402/fetch client signs and submits a payment for ANY amount the server declares in the 402 requirements — ×10 overcharge captured, spend limit is the only guard",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/BlockRunAI/blockrun-mcp/issues/193",
+      "title": "[Proposal] External spend authority for x402 agents - signed verdicts + offline-auditable receipts",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/neilkpatel/whatagentsbuy/issues/10",
+      "title": "Seller submission: trench-lessons.vercel.app (2 x402 v2 routes on Solana mainnet via PayAI, USDC 0.005-0.01)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/mollybeach/pearpay/issues/33",
+      "title": "x402 legacy verifier: bind proofs to price and resource, add nonce/expiry",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vAPI-Network/vapi-network/issues/11",
+      "title": "Wildberries product price endpoint (x402, Base) – candidate for agents",
+      "queries": [
+        "is:issue is:open created:>=2026-10-20 x402 in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Tajaddin/finops-integration-hub/issues/26",
+      "title": "run-sync webhook returned the e-mail node's output when a sync dead-lettered deals",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/issues/2129",
+      "title": "wake-on-assign follow-ups from the #2118 gates (duplicates after crash, concurrent unread, webhook, naming, lease predicate, audit, reconnect)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Cratis/Chronicle/issues/5255",
+      "title": "Stored webhooks are quarantined in Enforce mode when DNS resolution fails temporarily at subscribe",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/GGHostDotGames/ggCON-docs/issues/265",
+      "title": "Discord webhook for online player count",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vamsii777/razorpay-kit/issues/24",
+      "title": "Typed Route/partner: Transfers, Accounts, Stakeholders, Products, Webhooks, Virtual Accounts, Settlements + multipart uploads",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vamsii777/razorpay-kit/issues/12",
+      "title": "Constant-time signature verification (webhook, payment, subscription, payment link)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vamsii777/razorpay-kit/issues/11",
+      "title": "Fix query encoding and Webhook.edit path",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/getentergram/entergram/issues/66",
+      "title": "Tier-3 customer connector contract (webhook + JSON schema + SDK) not built",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/MemberJunction/bizapps-orders/issues/945",
+      "title": "Orders whose webhook stamp or delivery row was lost before #940 still lack them",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/MemberJunction/bizapps-orders/issues/944",
+      "title": "Payment webhook: the stamp, settlement and refund writes still run inside other requests' transactions on the shared provider",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/MemberJunction/bizapps-orders/issues/943",
+      "title": "Checkout: the page and the webhook still overwrite each other's PaymentIntent writes, and a gateway read can move a settled status back",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Glubiz/zirv-flow/issues/223",
+      "title": "email: provider destinations from manifests, with feedback webhooks and automatic suppression",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Glubiz/zirv-flow/issues/216",
+      "title": "destinations: move action.webhook onto the destination runtime, with templated payloads",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Glubiz/zirv-flow/issues/213",
+      "title": "templates: pure zirv-flow-templates renderer for code-mode email and webhook content",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/codercops/discord-bot/issues/70",
+      "title": "Merged PR shoutout counts PRs merged after it when the webhook arrives late",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vjpixel/diaria-studio/issues/10788",
+      "title": "kit-events: ingestão dos webhooks sai 0 em silêncio sem KIT_EVENTS_* depois do canal ligado",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/MidfieldMafia/cfb-pickem/issues/453",
+      "title": "Reminder texts: STOP and START by webhook, no STOP line",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/krokedil/dibs-easy-for-woocommerce/issues/367",
+      "title": "Webhook job: one failed GET /v1/payments/{id} drops the payment — a Swish order whose buyer did not return is cancelled while charged",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/krizaka/yomizaka/issues/134",
+      "title": "feat(screening): asynchronous provider results by webhook; keep a report reference and short summary, purge on the vault policy, share by expiring grant",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/mmmphyun/aleph-project/issues/209",
+      "title": "feat(cloud-b): 2차 심층 분석 Slack Webhook 전송 함수 및 예외 격리 단위 테스트 구축",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 webhook in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/utkarsh199708/piperoom/issues/803",
+      "title": "[bug] devctl: break/fix mutate whatever CONNECT_URL, KAFKA_BROKERS and SCHEMA_REGISTRY_URL name; a quickstart shell's env points them at the real cluster (retention cut, connector paused, subjects deleted)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/qq550723504/data-product-platform/issues/346",
+      "title": "[Governance V2 / P1] 源端 schema 漂移只读汇总与精确观察导航",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/EJRyan89/coding-agent-skills/issues/1529",
+      "title": "code-review-core tests: keep the run and batch schema-version refusals in one suite\r",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/EJRyan89/coding-agent-skills/issues/1515",
+      "title": "review-adapter.schema.json accepts heads, blank strings, and unsafe paths that validate_adapter_result refuses, and test_format_contract compares only types, required fields, and enums\r",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Akagilnc/ak-pi-workflow-roles/issues/1234",
+      "title": "claude: 给事中改造收尾——材料加《设计法》、交卷 schema 与符宝郎分开",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/optical-lift/noel-core-db/issues/1953",
+      "title": "Production schema validation request: Atlas 20261022044958",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/kinramirez/volunteer-scheduler/issues/4",
+      "title": "Write the first Prisma schema",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/ylab-hi/ScanNeo2/issues/251",
+      "title": "Tracked integration expected-output files are behind the current schema",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/sytizen/sytizen/issues/3",
+      "title": "add @sytizen/schema package",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/xerj-org/xerj/issues/2146",
+      "title": "Agent field report (API): GPT-6 — Located pattern category rendering, styling, schema, and authored Renshu content before adding context-specific Japanese particle labels",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/EffortlessMetrics/adze-swarm/issues/1061",
+      "title": "schema: converge generated CST and node-types on shared field cardinality and origin facts",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/janowoc/northplan/issues/100",
+      "title": "Scenario schema accepts `true` and `false` as numbers, and a number as a flag",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "COMPLETE_SOURCE_INVESTIGATION",
+      "disposition": "REVIEW_DRAFT",
+      "reason": "Additive verified source evidence; limits and tests documented."
+    },
+    {
+      "url": "https://github.com/zheref/nen/issues/474",
+      "title": "schema check: model the contract precedence key and refuse a drifted restatement (Hatsu HR-1)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/OpenAIMP/cfagent/issues/959",
+      "title": "[screening-consolidation · S1] One validated criteria/payload schema per screening kind, shared by REST, NLQ and schedule creation",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/SurveyMonkey/eslint-plugin-claude/issues/498",
+      "title": "fix(sandbox): accept allowNestedUserNamespaces in sandbox-schema",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/ScriptedAlchemy/tracedecay/issues/4431",
+      "title": "simplify(automation): give fact proposals one schema instead of three divergent response grammars",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/mtiews/tendworks/issues/60",
+      "title": "Versioned schema migrations per domain",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/ArcadeData/arcadedb/issues/10575",
+      "title": "schema:graphAnalyticalViews reports READY with zero counts after a reopen until the first query that uses the view",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/opena2a-standards/atx-spec/issues/107",
+      "title": "v1.1 schema rejects the behavioralProfile null that core.md rule 1 calls absent",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 schema in:title"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Sidiora-Labs/Paxeer-X-Network/issues/701",
+      "title": "[P2] Render native settlement rungs on the normal transaction Overview",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/TGYD-helige/pi/issues/262",
+      "title": "pi-task-scheduler: the extension entry fails to load on pi 1.3.0 (import cycle in dist/index.js)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/thebreakdowndaily/thebreakdown-os/issues/120",
+      "title": "P1: Persist Verification OS workflow state and audit history",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/buchenberg/yaah/issues/536",
+      "title": "ACP v1 Tier 2: session/request_permission, plan updates, usage_update",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/cratestack/cratestack/issues/1204",
+      "title": "[Ticket]: Dart client over a pluggable HTTP transport, plus a fespalier preset",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/code-yeongyu/senpi/issues/3956",
+      "title": "rpc monitor observer attaches to every watched host, so shard task hosts never idle-exit",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/0xsend/recall/issues/148",
+      "title": "test: test_rpc_server_runs_fts_sidecar_sync_on_startup intermittently misses its startup observation (pre-existing)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/FootprintAI/Containarium/issues/2931",
+      "title": "Agent skill runs hide in-box failures: the artifact.json error is dropped and RunAgentSkill reports success",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/alexec/Agents/issues/2165",
+      "title": "Count which features are used, on the user's own machines, and show it in Reports",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/issues/10851",
+      "title": "Long-lived multi-session RPC host never releases shard connections, so every session tree leaves its shard task host running",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/brekkylab/backlot/issues/940",
+      "title": "google: a Sheets fields mask naming a field the Spreadsheet resource declares but Backlot does not build is refused, where real answers it without the field",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vnovick/itervox/issues/216",
+      "title": "itervox mcp: a local MCP server for the board and memory",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/datnguyenquy94/news-radar/issues/851",
+      "title": "🦞 OpenClaw Ecosystem Digest 2026-10-22",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/beeper/desktop-api-js/issues/48",
+      "title": "Built-in MCP `search_messages` schema drops the `limit` range, so clients get `400 Invalid input`",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "EXPLORATORY_SOURCE_READ",
+      "disposition": "NO_DRAFT",
+      "reason": "Accessible SDK MCP server is not proven to be Desktop's built-in /v0/mcp schema generator. Affected source boundary unavailable; do not patch the wrong server."
+    },
+    {
+      "url": "https://github.com/openairymax/agentrt/issues/1563",
+      "title": "ci-debug windows build (run 39719539827)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14278",
+      "title": "Direct: Investigate homogenizing CompareGreenfieldSpec and CompareSpecifiedSpec / CompareBrownfieldSpec",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/meawoppl/rust-code-agent-sdks/issues/496",
+      "title": "codex AsyncClient::request deadlocks on a server request that must be answered first",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/marcusrbrown/tokentoilet/issues/1636",
+      "title": "Daily Autohealing Report — 2026-10-22 (UTC)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/NatLee/telepy/issues/93",
+      "title": "AI access: OpenAPI/Swagger, API tokens + OAuth 2.1, and an MCP server with auto-expiring SSH sessions",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 JSON-RPC"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/autobutler-org/quark/issues/3706",
+      "title": "design: how native autofill opens the vault",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Livezen-Technologies/worksuite-desktop/issues/408",
+      "title": "Fix server connection and login failure on Zorin OS",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/quebulm/homebridge-rituals-apiv2/issues/17",
+      "title": "Authentication failures with Rituals Genie Homebridge Plugin v2.1.0",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/openai/codex/issues/56080",
+      "title": "Cross-user incident synthesis: false completion, missing final responses, and divergent turn state",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/githubnext/gh-cao/issues/19452",
+      "title": "[eu-cra-compliance:scope-classifier] github/gh-aw-mcpg CRA scope evidence",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/purushottam0827/cptg/issues/1",
+      "title": "CPTG-Coding Process Tracker and Guider",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/baxodirabdugafforov7newuu/music-lab/issues/6",
+      "title": "API Configuration",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/jndbekswj875-jpg/app-collaboration-/issues/7",
+      "title": "[Realtime] Build shared group messaging and message persistence (C-03)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/jndbekswj875-jpg/app-collaboration-/issues/6",
+      "title": "[Backend] Implement authentication and private group membership (C-02)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/romalopes/wine_words_api/issues/191",
+      "title": "User Detail, Producer Membership Types & Following",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/denkz0ne/blockfront_ha_integration/issues/7",
+      "title": "Configure the private statistics API in Home Assistant",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/AChWorks/achrix/issues/100",
+      "title": "Assess evidence-backed AChRix architecture improvement candidates (owner-gated)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/nearai/inference-proxy/issues/312",
+      "title": "E2EE: bind the response public key to encrypted requests",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/plaplanche/yt-digest-a1-r3/issues/19",
+      "title": "Node tokens, heartbeat, job queue and claims with leases",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/cssgunc/internal-tool/issues/14",
+      "title": "Better Auth + sessions",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/okou-ai/cdp-viewer/issues/61",
+      "title": "test: evaluate executor handover and interactive parity",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/openfoodfacts/openfoodfacts-python/issues/531",
+      "title": "download_image aborts when the S3 cache probe fails",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 authentication API"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/boardsesh/boardsesh/issues/6640",
+      "title": "LR-07: Deploy pipeline — Compose + roll script over Tailscale",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/hivecommons/hotshot/issues/265",
+      "title": "[quality] ClipboardWatcher.pngData JPEG rung is never executed; testPNGDataConvertsJPEGToPNG passes through the TIFF rung",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/anzarsajid91/ICM_Graphing_Tool/issues/97",
+      "title": "Live Pages regression",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/githubnext/gh-cao/issues/19456",
+      "title": "[eu-cra-compliance:security-requirements-auditor] github/gh-aw-threat-detection CRA security requirements audit",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/hans1177/jaewoon-games/issues/9114",
+      "title": "[총괄 사후검증] GitHub Pages 게임 배포 오류 84e01e136d87",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/melodic-software/claude-code-plugins/issues/9032",
+      "title": "Main red: lint-repo fails on main",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/71041",
+      "title": "[github-docs-seo] Baseline Copilot evaluation: improve GitHub Agentic Workflows discoverability",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/71040",
+      "title": "[WIP] Daily Documentation Diagram: work in progress",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/rockcarver/frodo-lib/issues/762",
+      "title": "Guard the single-facade policy with a test and contributor docs",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vaexio/vaex/issues/2495",
+      "title": "[BUG-REPORT] Test-suite failures with current dependency versions (numpy>=2.5 hash/groupby TypeError, matplotlib>=3.9 cm.get_cmap removed, pyarrow>=26 sample/one-hot breakage)",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/Hafezalhoot/medical-meq-bank/issues/57",
+      "title": "Investigate Cloudflare Workers Build failure / delayed build for backup safety PR",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vaexio/vaex/issues/2494",
+      "title": "[BUG-REPORT] macOS CI legs fail: Homebrew root refusal during pcre install and vendored boost MPL compile error with newer clang",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/vaexio/vaex/issues/2493",
+      "title": "[BUG-REPORT] Windows CI jobs all fail because ci/actions/windll hardcodes a VS2022 Enterprise path that current runners don't have",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/XLCYun/cangyun-papers-tracker/issues/4",
+      "title": "Publish JSON to OSS and schedule daily GitHub Actions",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/XLCYun/cangyun-papers-tracker/issues/1",
+      "title": "Launch the CY Lab research site and daily arXiv pipeline",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/ilmc/telltales/issues/2",
+      "title": "Establish the default AI engineering workflow with issue-linked PRs and review",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/71039",
+      "title": "[aw] The Great Escapi: had a request rejected",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/71038",
+      "title": "[Firewall Test] Escape test failed",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    },
+    {
+      "url": "https://github.com/hans1177/jaewoon-games/issues/9110",
+      "title": "[총괄 사후검증] GitHub Pages 게임 배포 오류 27fc8549f001",
+      "queries": [
+        "is:issue is:open created:>=2026-10-21 \"GitHub Actions\" failure"
+      ],
+      "previously_recorded": false,
+      "review_depth": "INITIAL_SCREEN_ONLY",
+      "disposition": "NOT_SELECTED",
+      "reason": "Initial title/body search-result screen only; not advanced for this bounded round. No claim that this report is invalid, resolved, duplicate, or fully investigated."
+    }
+  ]
+}
