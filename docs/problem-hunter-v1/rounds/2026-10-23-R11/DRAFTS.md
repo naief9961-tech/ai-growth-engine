@@ -1,14 +1,16 @@
 # R11 — English reply for review (2026-10-23)
 
-Status: **USER APPROVED — NOT POSTED: GITHUB 403**.
+Status: **POSTED MANUALLY — VERIFIED — DO NOT REPOST**.
 
-Publication attempt outside the scheduled run, 2026-10-23T06:59:23Z: the user instructed «نفذ» for this sole R11 draft. The issue remained open and unlocked, with no comments or linked repair found at the fresh check. GitHub rejected comment creation with `403 Resource not accessible by integration`. A follow-up read confirmed zero comments. No retry through another channel or permission workaround was attempted. The reply text is preserved below for manual publication after a fresh duplicate check. Approval is recorded; do not request it again for this unchanged draft.
+[Published comment](https://github.com/volcengine/OpenViking/issues/6471#issuecomment-6359420473) by `naief9961-tech`, 2026-10-23T07:02:19Z; verified 2026-10-23T07:03:15Z. No subsequent developer reply at verification. The earlier connector denial below is historical; manual publication succeeded.
+
+Publication attempt outside the scheduled run, 2026-10-23T06:59:23Z: the user instructed «نفذ» for this sole R11 draft. The issue remained open and unlocked, with no comments or linked repair found at the fresh check. GitHub rejected comment creation with `403 Resource not accessible by integration`. A follow-up read confirmed zero comments. No retry through another channel or permission workaround was attempted. The reply text is preserved below as a historical draft. Manual publication was subsequently verified above; do not publish it again.
 
 ## R11-01 — OpenViking #6471
 
 Target: https://github.com/volcengine/OpenViking/issues/6471
 
-Copy only the text between the markers below, after approval and a fresh duplicate check.
+Historical draft only. The manually posted version has equivalent content with simplified formatting; see the verified comment above.
 
 <!-- BEGIN REPLY -->
 An additional regression boundary is the failure path for **client error responses**, as well as the empty-202 case.
