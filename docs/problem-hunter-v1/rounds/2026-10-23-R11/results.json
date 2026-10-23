@@ -1,0 +1,183 @@
+{
+  "node": "v24.19.0",
+  "groups_passed": 21,
+  "full_core_executions": 42,
+  "baseline_response_failures_reproduced": 16,
+  "upstream_full_suite_run": false,
+  "real_network_requests": 0,
+  "rows": [
+    {
+      "id": 0,
+      "kind": "result",
+      "transport": "202",
+      "baseline_spurious_code": -32003,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": 0,
+      "kind": "result",
+      "transport": "403",
+      "baseline_spurious_code": -32001,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": 0,
+      "kind": "result",
+      "transport": "500",
+      "baseline_spurious_code": -32002,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": 0,
+      "kind": "result",
+      "transport": "abort",
+      "baseline_spurious_code": -32004,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": 0,
+      "kind": "error",
+      "transport": "202",
+      "baseline_spurious_code": -32003,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": 0,
+      "kind": "error",
+      "transport": "403",
+      "baseline_spurious_code": -32001,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": 0,
+      "kind": "error",
+      "transport": "500",
+      "baseline_spurious_code": -32002,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": 0,
+      "kind": "error",
+      "transport": "abort",
+      "baseline_spurious_code": -32004,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "server-ping",
+      "kind": "result",
+      "transport": "202",
+      "baseline_spurious_code": -32003,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "server-ping",
+      "kind": "result",
+      "transport": "403",
+      "baseline_spurious_code": -32001,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "server-ping",
+      "kind": "result",
+      "transport": "500",
+      "baseline_spurious_code": -32002,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "server-ping",
+      "kind": "result",
+      "transport": "abort",
+      "baseline_spurious_code": -32004,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "server-ping",
+      "kind": "error",
+      "transport": "202",
+      "baseline_spurious_code": -32003,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "server-ping",
+      "kind": "error",
+      "transport": "403",
+      "baseline_spurious_code": -32001,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "server-ping",
+      "kind": "error",
+      "transport": "500",
+      "baseline_spurious_code": -32002,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "server-ping",
+      "kind": "error",
+      "transport": "abort",
+      "baseline_spurious_code": -32004,
+      "candidate_stdout": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "request-id-zero-control",
+      "transport": "json",
+      "status": "PASS"
+    },
+    {
+      "kind": "request-id-zero-control",
+      "transport": "202",
+      "status": "PASS"
+    },
+    {
+      "kind": "request-id-zero-control",
+      "transport": "500",
+      "status": "PASS"
+    },
+    {
+      "kind": "notification-control",
+      "transport": "202",
+      "status": "PASS"
+    },
+    {
+      "kind": "notification-control",
+      "transport": "500",
+      "status": "PASS"
+    }
+  ],
+  "checked_at": "2026-10-23T05:07:40Z",
+  "source_commit": "0d546854b4be4b24a277c1b3ca7cf06c02d61a14",
+  "source_blobs_verified": [
+    {
+      "path": "examples/memory-plugin-shared/lib/mcp-proxy-core.mjs",
+      "sha": "5891599e68dfea801aca2f3e542a7b4b25601d46"
+    },
+    {
+      "path": "examples/memory-plugin-shared/lib/ov-http.mjs",
+      "sha": "b359783916df8832ede27dc7346f641bf307829c"
+    },
+    {
+      "path": "examples/memory-plugin-shared/lib/mcp-proxy-config.mjs",
+      "sha": "74573ff78fbf5acb40bcb82cf5d9577cba0fb570"
+    },
+    {
+      "path": "examples/memory-plugin-shared/lib/credentials.mjs",
+      "sha": "d47a448ff5b19268cf9236884163627b8f3385e9"
+    }
+  ]
+}

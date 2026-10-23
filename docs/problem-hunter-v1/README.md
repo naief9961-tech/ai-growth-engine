@@ -2,7 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-22 R10](rounds/2026-10-22-R10/REPORT.md)
+- [Latest report — 2026-10-23 R11](rounds/2026-10-23-R11/REPORT.md)
+- [R11: one new reply awaiting review](rounds/2026-10-23-R11/DRAFTS.md)
+- [R11: 21 isolated before/after assertion groups](rounds/2026-10-23-R11/TESTS.md)
+
+- [Previous report — 2026-10-22 R10](rounds/2026-10-22-R10/REPORT.md)
 - [R10: approved replies — posting blocked by GitHub 403](rounds/2026-10-22-R10/DRAFTS.md)
 - [R10 isolated tests and limits](rounds/2026-10-22-R10/TESTS.md)
 
