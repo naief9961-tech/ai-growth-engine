@@ -1949,9 +1949,11 @@
       "tests": "21 before/after assertion groups passed (42 full-core handleMessage executions); 16 baseline spurious-response cases and 5 controls. Exact source/dependency Git blob hashes verified. Injected fetch only; no upstream suite, live transport, session recovery, elapsed-time timeout or packaging tests.",
       "reply": "R11-01",
       "approval": {
-        "status": "PENDING_USER_APPROVAL"
+        "status": "USER_APPROVED",
+        "date": "2026-10-23",
+        "source": "User explicitly instructed «نفذ» after the R11 report offered publication of its sole draft, R11-01, in this conversation."
       },
-      "publication_status": "DRAFT_NOT_POSTED",
+      "publication_status": "APPROVED_BLOCKED_GITHUB_403",
       "published_comment_url": null,
       "last_seen_comment_id": null,
       "developer_response": "NOT_CONTACTED",
@@ -2000,6 +2002,15 @@
           "commit": "0d546854b4be4b24a277c1b3ca7cf06c02d61a14",
           "blob_sha": "180bb738e8ee82cd203e45ce73560fc820df0a10",
           "url": "https://github.com/volcengine/OpenViking/blob/0d546854b4be4b24a277c1b3ca7cf06c02d61a14/examples/memory-plugin-shared/sync.mjs"
+        }
+      ],
+      "publication_attempts": [
+        {
+          "checked_at": "2026-10-23T06:59:23Z",
+          "result": "FORBIDDEN",
+          "http_status": 403,
+          "error": "Resource not accessible by integration",
+          "posted": false
         }
       ]
     }
@@ -2743,10 +2754,10 @@
       "last_seen_comment_at": null,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_NOT_POSTED",
-      "outcome": "One additive draft awaiting user review. No external publication attempted.",
+      "status": "APPROVED_BLOCKED_GITHUB_403",
+      "outcome": "User approved R11-01; GitHub connector returned 403 for comment creation. Follow-up read confirmed zero comments. No comment posted and no permission workaround attempted.",
       "last_checked_date": "2026-10-23",
-      "last_checked_at": "2026-10-23T05:07:40Z"
+      "last_checked_at": "2026-10-23T06:59:23Z"
     }
   ],
   "exclusions": [

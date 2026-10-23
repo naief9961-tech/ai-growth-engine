@@ -1,6 +1,8 @@
 # R11 — English reply for review (2026-10-23)
 
-Status: **PENDING_USER_APPROVAL — NOT POSTED**. This is one new reply, not approval to reuse earlier drafts. Re-read the issue, comments and linked PRs before any later approved publication. No third-party publication is permitted during the scheduled run.
+Status: **USER APPROVED — NOT POSTED: GITHUB 403**.
+
+Publication attempt outside the scheduled run, 2026-10-23T06:59:23Z: the user instructed «نفذ» for this sole R11 draft. The issue remained open and unlocked, with no comments or linked repair found at the fresh check. GitHub rejected comment creation with `403 Resource not accessible by integration`. A follow-up read confirmed zero comments. No retry through another channel or permission workaround was attempted. The reply text is preserved below for manual publication after a fresh duplicate check. Approval is recorded; do not request it again for this unchanged draft.
 
 ## R11-01 — OpenViking #6471
 
