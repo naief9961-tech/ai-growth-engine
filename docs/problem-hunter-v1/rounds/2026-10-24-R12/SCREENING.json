@@ -1,0 +1,1509 @@
+{
+  "round_id": "2026-10-24-R12",
+  "checked_at": "2026-10-24T05:02:53Z",
+  "retrieved_results": 120,
+  "unique_issue_urls": 118,
+  "query_limit_each": 15,
+  "queries": [
+    "is:issue is:open created:>=2026-10-22 MCP in:title",
+    "is:issue is:open created:>=2026-10-22 A2A in:title",
+    "is:issue is:open created:>=2026-10-22 x402 in:title",
+    "is:issue is:open created:>=2026-10-22 webhook in:title",
+    "is:issue is:open created:>=2026-10-22 schema in:title",
+    "is:issue is:open created:>=2026-10-22 JSON-RPC in:title",
+    "is:issue is:open created:>=2026-10-22 API authentication",
+    "is:issue is:open created:>=2026-10-22 \"GitHub Actions\" failure"
+  ],
+  "limits": "Newest 15 per query, not exhaustive. Initial title/metadata screening is not an engineering investigation. Four threads fully read; zero new source investigations/tests/drafts. Previous-round full screening and ledger/radar checked; older screening-only history was not exhaustively replayed. Four chosen threads were created after the prior round check.",
+  "candidate_decisions": [
+    {
+      "repo": "crewAIInc/crewAI",
+      "number": 8475,
+      "reason": "Existing repair and regression coverage are already in open PR #8476. No independent additional contribution established.",
+      "status": "EXCLUDED_EXISTING_PR",
+      "pr": "https://github.com/crewAIInc/crewAI/pull/8476",
+      "reviewed_pr_head": "00ac5b9a826b824d3fe34023420b775e09096cc4",
+      "url": "https://github.com/crewAIInc/crewAI/issues/8475",
+      "title": "[BUG] A2A wildcard negotiation drops compatible MIME types after the first match",
+      "reporter": "Kiko0301",
+      "created_at": "2026-10-23T17:45:01Z",
+      "comments_read": 0,
+      "issue_and_timeline_read": true,
+      "source_investigation_completed": false,
+      "local_tests_run": 0,
+      "confidence": "High in duplication/hold decision; diagnosis not independently established in this round.",
+      "publication_status": "NO_DRAFT_NO_EXTERNAL_POST"
+    },
+    {
+      "repo": "bellman-sh/bellman",
+      "number": 352,
+      "reason": "Reporter already identifies the default /mcp argument, exact /a2a route correction and 401 regression boundary. PR #355 introduces A2A and explicitly defers #352; it is not a fix for #352. No additional source-tested finding established.",
+      "status": "HELD_NO_ADDITIONAL_VALUE",
+      "pr": "https://github.com/bellman-sh/bellman/pull/355",
+      "url": "https://github.com/bellman-sh/bellman/issues/352",
+      "title": "A 401 from /a2a/<room> points at /mcp's protected-resource metadata",
+      "reporter": "mcfearsome",
+      "created_at": "2026-10-24T03:16:41Z",
+      "comments_read": 0,
+      "issue_and_timeline_read": true,
+      "source_investigation_completed": false,
+      "local_tests_run": 0,
+      "confidence": "High in duplication/hold decision; diagnosis not independently established in this round.",
+      "publication_status": "NO_DRAFT_NO_EXTERNAL_POST"
+    },
+    {
+      "repo": "Vigil-SOC/vigil",
+      "number": 3097,
+      "reason": "Reporter already supplies byte/string root cause, candidate correction and four router/header test cases. Their test results were not independently rerun; no extra finding established.",
+      "status": "HELD_NO_ADDITIONAL_VALUE",
+      "url": "https://github.com/Vigil-SOC/vigil/issues/3097",
+      "title": "Return 401, not 500, when a webhook signature header holds non-ASCII",
+      "reporter": "G-r-ay",
+      "created_at": "2026-10-24T03:57:31Z",
+      "comments_read": 0,
+      "issue_and_timeline_read": true,
+      "source_investigation_completed": false,
+      "local_tests_run": 0,
+      "confidence": "High in duplication/hold decision; diagnosis not independently established in this round.",
+      "publication_status": "NO_DRAFT_NO_EXTERNAL_POST"
+    },
+    {
+      "repo": "workos/oagen",
+      "number": 404,
+      "reason": "Reporter already provides pinned source, expected behavior, operations comparison and affected existing test. Linked PR #340 is antecedent implementation, not a claimed fix for #404. No independently verified addition.",
+      "status": "HELD_NO_ADDITIONAL_VALUE",
+      "pr": "https://github.com/workos/oagen/pull/340",
+      "reporter_source_sha": "d919010edef13906dd9e39b1d971e69342d7ecc1",
+      "url": "https://github.com/workos/oagen/issues/404",
+      "title": "A webhook payload appearing or disappearing also reports a required flip, though the docs say `payload added` / `payload removed` alone",
+      "reporter": "MichaelDeBoey",
+      "created_at": "2026-10-24T04:12:00Z",
+      "comments_read": 0,
+      "issue_and_timeline_read": true,
+      "source_investigation_completed": false,
+      "local_tests_run": 0,
+      "confidence": "High in duplication/hold decision; diagnosis not independently established in this round.",
+      "publication_status": "NO_DRAFT_NO_EXTERNAL_POST"
+    }
+  ],
+  "items": [
+    {
+      "url": "https://github.com/kaixinbaba/dshub1024-submissions/issues/19",
+      "title": "[Plugin]: paper-search-mcp-dsh",
+      "created_at": "2026-10-24T04:55:52Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/peopleforrester/Unleash_an_Agent_Watch_It_Burn/issues/465",
+      "title": "Stale routing comments: workshop-mcp is reached through agentgateway, not directly",
+      "created_at": "2026-10-24T04:55:46Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/peopleforrester/Unleash_an_Agent_Watch_It_Burn/issues/463",
+      "title": "run_shell returns a non-zero exit as text, not as an MCP error, despite its comment",
+      "created_at": "2026-10-24T04:55:44Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/les-cabochons/ajour/issues/396",
+      "title": "Agent tasks get only their declared MCP tools",
+      "created_at": "2026-10-24T04:55:40Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/covia-ai/covia/issues/608",
+      "title": "MCP relay: let public venues expose a private venue's MCP endpoint to remote assistants",
+      "created_at": "2026-10-24T04:55:19Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Chain-Love/chain-love/issues/4800",
+      "title": "[DBIP] Preserve x402 settlement route, network and asset for MCP server offers",
+      "created_at": "2026-10-24T04:52:50Z",
+      "queries": [
+        "MCP",
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/patinaproject/factory/issues/328",
+      "title": "Declare a token variable for each third-party MCP service the runbook supports",
+      "created_at": "2026-10-24T04:51:19Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/aws-solutions-library-samples/guidance-for-claude-code-with-amazon-bedrock/issues/836",
+      "title": "guidance on enabling mcp server for google workspace?",
+      "created_at": "2026-10-24T04:49:41Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gwokhou/deepseek-web-retrieval/issues/2",
+      "title": "mcp-compatibility.md attributes Claude Code's 2026-07-28 default negotiation to the wrong version",
+      "created_at": "2026-10-24T04:49:35Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gwokhou/deepseek-web-retrieval/issues/1",
+      "title": "Pi global mcp.json lacks shared-file ownership protection (cross-configHome claim possible)",
+      "created_at": "2026-10-24T04:49:21Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/smoens/knowledge-cabinet/issues/83",
+      "title": "[content-watch] 📰 Hosted OneLake MCP server marked public preview (+8 more today)",
+      "created_at": "2026-10-24T04:48:22Z",
+      "queries": [
+        "MCP",
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Kohnnn/vnibb/issues/154",
+      "title": "fix: distinguish explicit financial withholding in MCP acceptance",
+      "created_at": "2026-10-24T04:48:13Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/bferanmi806-sketch/energy-agent-tools/issues/1",
+      "title": "Suggestion: DC Hub as a reviewed remote MCP server for grid and data-center siting data",
+      "created_at": "2026-10-24T04:46:17Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/kontourai/station/issues/4101",
+      "title": "OAuth MCP refresh: test that a re-sign-in bypasses the transient-failure cooldown",
+      "created_at": "2026-10-24T04:45:14Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/coder/xum/issues/7390",
+      "title": "🤖 security: MCP OAuth scope discovery follows cross-origin redirects",
+      "created_at": "2026-10-24T04:39:04Z",
+      "queries": [
+        "MCP"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3812",
+      "title": "A2A: finish Agent Card cache and HTTP error media-type recommendations",
+      "created_at": "2026-10-24T03:49:55Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/bellman-sh/bellman/issues/354",
+      "title": "`request.signal` never aborts on Workers, so /a2a waits hold until the cap",
+      "created_at": "2026-10-24T03:16:43Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/bellman-sh/bellman/issues/352",
+      "title": "A 401 from /a2a/<room> points at /mcp's protected-resource metadata",
+      "created_at": "2026-10-24T03:16:41Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "HELD_NO_ADDITIONAL_VALUE"
+    },
+    {
+      "url": "https://github.com/aywengo/mercury/issues/1058",
+      "title": "A2A A4: Fleet — A2A served from Fleet, task ids that survive their host",
+      "created_at": "2026-10-23T23:35:14Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/aywengo/mercury/issues/1057",
+      "title": "A2A A3: client adapter — the a2a remote-agent kind over REST",
+      "created_at": "2026-10-23T23:09:09Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/aywengo/mercury/issues/1056",
+      "title": "A2A A2: streaming and listing — SendStreamingMessage, SubscribeToTask, ListTasks",
+      "created_at": "2026-10-23T22:52:10Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign-sdk/issues/91",
+      "title": "Validate protocol version metadata in the optional vendored A2A gRPC server",
+      "created_at": "2026-10-23T22:23:53Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/aywengo/mercury/issues/1055",
+      "title": "A2A A1: minimal server — SendMessage, GetTask, CancelTask, INPUT_REQUIRED over REST",
+      "created_at": "2026-10-23T22:20:20Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ali-ulu/huqan/issues/4248",
+      "title": "[security] A2A delege-aksiyon firewall'ı (AB5) çağıranın bildirdiği araç adıyla atlatılıyor (CWE-863)",
+      "created_at": "2026-10-23T20:51:42Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ali-ulu/huqan/issues/4242",
+      "title": "[security] A2A registry admission, kimliği herhangi bir aktif trust root'a bağlıyor (CWE-290)",
+      "created_at": "2026-10-23T20:51:29Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/OpenAIMP/cfagent/issues/1209",
+      "title": "[#1173 R7] Delivery truth: A2A Slack drops files, completed-notify impersonates delivery, missing PDFs invisible (badge/attachments)",
+      "created_at": "2026-10-23T19:27:40Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/3900",
+      "title": "🎲 flaky check: A2A Module Tests: TestSubscribeHeldLeavesTheConsumerAsTheOperatorMadeIt",
+      "created_at": "2026-10-23T19:22:30Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/3885",
+      "title": "feat(a2a): the Slack message shortcut admits a guest the allowlist names as T…:U…",
+      "created_at": "2026-10-23T18:29:52Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/OpenAIMP/cfagent/issues/1190",
+      "title": "[QA self-heal] A2A agent card",
+      "created_at": "2026-10-23T18:03:47Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI/issues/8475",
+      "title": "[BUG] A2A wildcard negotiation drops compatible MIME types after the first match",
+      "created_at": "2026-10-23T17:45:01Z",
+      "queries": [
+        "A2A"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "EXCLUDED_EXISTING_PR"
+    },
+    {
+      "url": "https://github.com/YagLab0/nomai/issues/14",
+      "title": "POST /listings/:slug/book con x402: precio y payTo dinámicos + payments",
+      "created_at": "2026-10-24T03:03:35Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/christianazinn/moove/issues/7",
+      "title": "Live spending log (x402)",
+      "created_at": "2026-10-24T02:59:30Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/BlockRunAI/blockrun-mcp/issues/195",
+      "title": "x402 tool output and receipt binding — open to a review?",
+      "created_at": "2026-10-24T00:44:40Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Goncafer47/Stablecoin-Payment-Gateway/issues/3",
+      "title": "x402 invoice flow: do you verify a tx hash before crediting?",
+      "created_at": "2026-10-24T00:39:39Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/coinbase/agentkit/issues/1595",
+      "title": "[Showcase / Integration] Algernon x402 Oracle: B2B Compliance & Security Verification on Base",
+      "created_at": "2026-10-24T00:22:14Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8800",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "created_at": "2026-10-23T23:38:27Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/wrightpt/open-market-research-lab/issues/14",
+      "title": "Phase 2: authenticated tenant and x402 payment-verification sandbox (zero live funds)",
+      "created_at": "2026-10-23T23:04:16Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/x402-foundation/x402/issues/3914",
+      "title": "`@x402/core` pins `zod ^3.24.2`, so GHSA-mrhx-c7xc-m3w5 (high) has no fix path downstream",
+      "created_at": "2026-10-23T22:47:01Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/commonworld-one/commonworld/issues/84",
+      "title": "Atlas intake: Agentic Market (x402 services by Coinbase)",
+      "created_at": "2026-10-23T22:27:26Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/x402-index/x402-discovery-index/issues/77",
+      "title": "Add hedera-micropayments-api (Hedera x402 API)",
+      "created_at": "2026-10-23T22:03:43Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Calhooon/bsv-wallet-cli/issues/110",
+      "title": "Oracle: the dependents check for the wire's consumers (LOW, the stack's witness wallet, the x402 skill, the MCP clients, dolphinmilk, the apps' payers)",
+      "created_at": "2026-10-23T21:31:57Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/MiroShark/x402aff/issues/58",
+      "title": "Would you try a testnet pilot of a draft x402 extension (`solidarity`)?",
+      "created_at": "2026-10-23T21:20:24Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/mogami-tech/x402-facilitator/issues/170",
+      "title": "Would you try a testnet pilot of a draft x402 extension (`solidarity`)?",
+      "created_at": "2026-10-23T21:20:23Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/agno-agi/agno/issues/11281",
+      "title": "[Feature Request] Add BotsRatedTools: check an x402 seller before the agent pays it",
+      "created_at": "2026-10-23T21:05:59Z",
+      "queries": [
+        "x402"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/selvakn/gsm-sip-bridge/issues/155",
+      "title": "Webhook enhancement for SMS",
+      "created_at": "2026-10-24T04:48:26Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/nguyenhuy158/webhook-tester/issues/5",
+      "title": "E2E: kiểm chứng nhận webhook thử và xem lại payload đúng quyền",
+      "created_at": "2026-10-24T04:33:59Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ezequiel-flores-schmelensky/sredzap/issues/11",
+      "title": "Fix admin permissions in webhook",
+      "created_at": "2026-10-24T04:29:00Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/lost-in-the/woods/issues/814",
+      "title": "Woods Map data: external systems the application calls (HTTP clients, SDK gems, webhooks)",
+      "created_at": "2026-10-24T04:23:05Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/gaius-codius/ostrakon/issues/65",
+      "title": "Hub: send note events to a webhook URL",
+      "created_at": "2026-10-24T04:21:51Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/whyeric/calhacks13/issues/91",
+      "title": "Inbound SMS webhook: YES/NO approval replies with signature verification",
+      "created_at": "2026-10-24T04:18:48Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ezequiel-flores-schmelensky/sredzap/issues/9",
+      "title": "Improving UX and webhook",
+      "created_at": "2026-10-24T04:16:06Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ahliweb/awcms/issues/1161",
+      "title": "security(email): Mailketing webhook authenticity, bounce/unsubscribe suppression and status projection",
+      "created_at": "2026-10-24T04:15:12Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/vietkeynet/next-saas-starter/issues/11",
+      "title": "[FND-011] Email, notifications, API keys, outgoing webhooks and jobs",
+      "created_at": "2026-10-24T04:13:25Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/workos/oagen/issues/404",
+      "title": "A webhook payload appearing or disappearing also reports a required flip, though the docs say `payload added` / `payload removed` alone",
+      "created_at": "2026-10-24T04:12:00Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "HELD_NO_ADDITIONAL_VALUE"
+    },
+    {
+      "url": "https://github.com/Vigil-SOC/vigil/issues/3099",
+      "title": "Share one HMAC webhook receiver between the Darktrace and Cloudy routers",
+      "created_at": "2026-10-24T03:57:36Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Vigil-SOC/vigil/issues/3097",
+      "title": "Return 401, not 500, when a webhook signature header holds non-ASCII",
+      "created_at": "2026-10-24T03:57:31Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "HELD_NO_ADDITIONAL_VALUE"
+    },
+    {
+      "url": "https://github.com/Vigil-SOC/vigil/issues/3095",
+      "title": "Make the Darktrace \"Enable webhook receiver\" toggle actually gate the receiver",
+      "created_at": "2026-10-24T03:57:27Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/nguyenhuy158/webhook-tester/issues/4",
+      "title": "MVP: Webhook inspector",
+      "created_at": "2026-10-24T03:55:54Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ahliweb/awcms/issues/1156",
+      "title": "feat(telegram-engagement): tenant-scoped multi-bot accounts, verified webhooks and customer conversation boundary",
+      "created_at": "2026-10-24T03:45:34Z",
+      "queries": [
+        "webhook"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/jackChallis/stoicheia/issues/403",
+      "title": "Wording and a dead fallback after #380: 'a step' in STYLE and SCHEMA; render.and_list([]) raises",
+      "created_at": "2026-10-24T04:54:39Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/micahtid/calhacks/issues/1",
+      "title": "docs: define shared listing schema and coordinator, Bitdeer and Gate schemas",
+      "created_at": "2026-10-24T04:51:33Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/datvuong/weather_forecast/issues/10",
+      "title": "[Bug] Phase 4: Silver timestamps, dedup on ingestion time, schema",
+      "created_at": "2026-10-24T04:46:49Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Nithinkumaru777/gitpulse-activity/issues/746",
+      "title": "GitPulse: docs(telemetry): update integration guide and metrics schema",
+      "created_at": "2026-10-24T04:44:37Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/TabularisDB/tabularis/issues/1277",
+      "title": "[Bug]: Column Length/Size Not Displayed in Table Schema View",
+      "created_at": "2026-10-24T04:40:43Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-aws-genai-db-modernizer/issues/1448",
+      "title": "[Feature] Protect the checked-in assess() JSON Schemas from hand edits",
+      "created_at": "2026-10-24T04:40:08Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/pongbiphang/pbps/issues/2329",
+      "title": "feat(mssql): manage schema-bound views and functions (indexed views)",
+      "created_at": "2026-10-24T04:37:43Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/googleapis/google-cloud-python/issues/18837",
+      "title": "[sqlalchemy-spanner]: implement get_multi_unique_constraints() to avoid N+1 INFORMATION_SCHEMA queries during reflection",
+      "created_at": "2026-10-24T04:36:37Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/fastpresspages/launchgrade/issues/10",
+      "title": "Publish a JSON Schema for report.json",
+      "created_at": "2026-10-24T04:34:42Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/k-kinzal/ztd-query-php/issues/863",
+      "title": "[sql-semantics fuzz] pg-schema: e16008cbd8f8",
+      "created_at": "2026-10-24T04:34:26Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/tuna-os/tuna-desktop/issues/805",
+      "title": "[architect] separate generic IPC framing from the Tuna shell message schema",
+      "created_at": "2026-10-24T04:31:05Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/WeningerII/CodexMusica/issues/597",
+      "title": "Library reader emits two contradictory method_result records for one id when a whole-figure schema is refused",
+      "created_at": "2026-10-24T04:27:09Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/UnifyCN/mobile-app/issues/338",
+      "title": "Province targeting: checklist schema, query, cache, and content",
+      "created_at": "2026-10-24T04:25:21Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-per-model-bedrock/issues/477",
+      "title": "gpt/03: a refused structured-output request arrives as schema-valid JSON, and the notebook never says so",
+      "created_at": "2026-10-24T04:24:21Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-cao/issues/19670",
+      "title": "[aw] SelfCare / Dashboard Data Schema: failed before agent execution started",
+      "created_at": "2026-10-24T04:24:07Z",
+      "queries": [
+        "schema"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/qiniu/xhub/issues/145",
+      "title": "Bug: 通用目录被 JSON-RPC 和 token 路径绕过实际操作",
+      "created_at": "2026-10-24T04:41:46Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/walnutgeek/cointoss/issues/27",
+      "title": "Dataset API: list datasets and read them as tables over JSON-RPC",
+      "created_at": "2026-10-24T04:41:03Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/MustacheXb/ReviewAgent-pi/issues/28",
+      "title": "HTTP server 线 ③/⑥：P2a HTTP JSON-RPC 核心面 + Bearer 鉴权 + 幂等 + ReviewHttpClient + demo",
+      "created_at": "2026-10-24T03:48:21Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/MustacheXb/ReviewAgent-pi/issues/25",
+      "title": "HTTP/JSON-RPC server 线：协议 spec（P1–P3 全量 + stdio v2 统一——契约/状态机/鉴权/持久化/部署收口）",
+      "created_at": "2026-10-24T03:40:56Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/daiki-beppu/nyaucast/issues/891",
+      "title": "package-smoke の contract テストが、高負荷の手元の pre-push で JSON-RPC の応答待ち（25 秒）の時間切れになる",
+      "created_at": "2026-10-24T02:51:36Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/issues/17409",
+      "title": "paperclip_runner: same-run recovery turn's paperclip_finish is silently dropped (callId reuses JSON-RPC id), run settles incomplete and company gets quarantined",
+      "created_at": "2026-10-24T02:28:00Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/dgwartney/mcphee/issues/12",
+      "title": "#payload should show real JSON-RPC wire messages (handshake, list calls, ids, notifications)",
+      "created_at": "2026-10-24T01:38:17Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Calhooon/bsv-wallet-infra-cloudflare/issues/19",
+      "title": "The storage door on D1: the JSON-RPC door's batch per request, the BEEF-at-rest binding's read path, the writer discipline on D1",
+      "created_at": "2026-10-23T21:38:31Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/crypto-org-chain/cronos/issues/2236",
+      "title": "Public keyless CometBFT RPC (tx index on) or a JSON route for the transaction totals",
+      "created_at": "2026-10-23T19:33:15Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/serverpod/serverpod/issues/5903",
+      "title": "Migrate endpoint calls and streaming to JSON-RPC 2.0",
+      "created_at": "2026-10-23T17:38:16Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/bisite/cyberchain-smart-contract-wrapper/issues/2",
+      "title": "Validate JSON-RPC response IDs in the HTTP provider",
+      "created_at": "2026-10-23T12:17:19Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/manaflow-ai/cmux/issues/24537",
+      "title": "Agent transcript: show images from nested, JSON-RPC and running-call tool envelopes in the image strip",
+      "created_at": "2026-10-23T11:56:34Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/doublemover/PairOfCleats/issues/1621",
+      "title": "[P3] Fence JSON-RPC writer replacement until the prior frame settles",
+      "created_at": "2026-10-23T11:56:10Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/SoraForge/ForgeCheck/issues/27",
+      "title": "[Standalone][RPC] Validate offline JSON-RPC 2.0 envelope fixtures",
+      "created_at": "2026-10-23T11:08:31Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/GopherSecurity/gopher-mcp/issues/334",
+      "title": "Streamable HTTP: four JSON-RPC and version-negotiation errors differ from the MCP 2026-07-28 specification",
+      "created_at": "2026-10-23T04:57:11Z",
+      "queries": [
+        "JSON-RPC"
+      ],
+      "previously_tracked": true,
+      "previous_round_screened": true,
+      "prior_radar": false,
+      "decision": "SKIP_PREVIOUSLY_REVIEWED_NO_NEW_EVIDENCE"
+    },
+    {
+      "url": "https://github.com/siteboon/claudecodeui/issues/1651",
+      "title": "Server-only Claude config dir override (keep CLAUDE_CONFIG_DIR out of the Shell tab) and watcher support for a symlinked projects root",
+      "created_at": "2026-10-24T04:58:46Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Meloong-Git/PCL/issues/9535",
+      "title": "0",
+      "created_at": "2026-10-24T04:53:19Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/dexterBEN/blacksmith/issues/42",
+      "title": "Implement the 3D Editor Workspace Layout and Resource Sidebar",
+      "created_at": "2026-10-24T04:50:55Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/Sensation777/Scan/issues/107",
+      "title": "Job-Room scan result 40063637022",
+      "created_at": "2026-10-24T04:50:36Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/FlossWare/claude-ensemble/issues/2",
+      "title": "[Claude] Independent architecture and contract review: 11 blocking findings before implementation",
+      "created_at": "2026-10-24T04:49:14Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/JustGoinPostal/Clippingtool/issues/3",
+      "title": "Postal Creator OS v1: fully automated creator stack + Postal Brain",
+      "created_at": "2026-10-24T04:48:33Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/OpenHands/software-agent-sdk/issues/6181",
+      "title": "[Bug]: TypeScript file downloads can return stale browser-cached bytes after a file update",
+      "created_at": "2026-10-24T04:48:30Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/woowacourse-teams/2026-Mapmory/issues/448",
+      "title": "[Feature] : 탈퇴·버려진 게스트의 남은 access token은 404 대신 401로 응답",
+      "created_at": "2026-10-24T04:47:46Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/avaargsh/gpupanel/issues/186",
+      "title": "VM Workbench: secure Cockpit/libvirt integration and browser lifecycle UX",
+      "created_at": "2026-10-24T04:47:18Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/sumanswaraj/KitabERP-Android/issues/20",
+      "title": "Human-workflow audit: wrong-case notes, request races, mobile PDF/data-loss and accessibility defects",
+      "created_at": "2026-10-24T04:46:58Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/cehfdrmdsakibmollah/MdSakibMollah/issues/42",
+      "title": "Verify Google OAuth two-account private chat and actual Resend Gmail delivery",
+      "created_at": "2026-10-24T04:46:55Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ataka309/grubify/issues/1",
+      "title": "Incident: HTTP 5xx due to OutOfMemoryException in Cart API (Grubify Container App)",
+      "created_at": "2026-10-24T04:43:38Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/bestagentkits/agentkit-support/issues/482",
+      "title": "AgentKit feedback: ak update failed: engineer",
+      "created_at": "2026-10-24T04:40:38Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/SajalCodeHub/Anchor-recovery-app/issues/2",
+      "title": "Role 2 - Streak Engine & Core Daily Logs",
+      "created_at": "2026-10-24T04:38:52Z",
+      "queries": [
+        "API authentication"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ahrefs/ocannl/issues/1589",
+      "title": "CI red on master@eed84c7: ci (schedule) — after 5620a20 (≥26 merges since 2026-10-18; failure ties to lukstafi/ocannl-staging#1357)",
+      "created_at": "2026-10-24T04:56:50Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/71560",
+      "title": "[github-docs-seo] Baseline AW recommendation analysis and minimal Docs update plan",
+      "created_at": "2026-10-24T04:56:26Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/71559",
+      "title": "[WIP] Daily Documentation Diagram: work in progress",
+      "created_at": "2026-10-24T04:56:02Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/mitcherrman/mogsy/issues/146",
+      "title": "Notifications 2.0: diagnose production loading failures and surface actionable RPC errors",
+      "created_at": "2026-10-24T04:55:58Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/wonmin82/primal-zone/issues/76",
+      "title": "feat(dev): Codex 비동기 로컬 테스트·CI 감시기 구현 (Windows/Linux/macOS)",
+      "created_at": "2026-10-24T04:55:00Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/stella/folio/issues/2113",
+      "title": "Fuzz checks: public corpus fixture public-corpus:0046e12f3a66e48dc3d27a2a534ae5cce848aa4497e…: Parsed DOCX produced an invalid document model",
+      "created_at": "2026-10-24T04:53:50Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/71558",
+      "title": "[aw] The Great Escapi: had a request rejected",
+      "created_at": "2026-10-24T04:52:40Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/ThomasMichon/copilot-extensions/issues/8474",
+      "title": "CI failure: Require exact source-unit reuse at the immutable candidate",
+      "created_at": "2026-10-24T04:51:52Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw/issues/71556",
+      "title": "[Firewall Test] Escape test failed",
+      "created_at": "2026-10-24T04:51:19Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/github/gh-aw-threat-detection/issues/1342",
+      "title": "Smoke Test: Copilot Standalone - 40063730024",
+      "created_at": "2026-10-24T04:50:58Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/wakairo/NewLang_Compiler/issues/837",
+      "title": "[Track R / v0-M8a][C RELEASED CALIBRATED NEW COHORT] Public callee-IF/RETURN unit Copy proof",
+      "created_at": "2026-10-24T04:50:54Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/rusty4444/hermes-android/issues/185",
+      "title": "CI publisher rejects valid V2 Signer apksigner output",
+      "created_at": "2026-10-24T04:48:40Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/sarj-ai/code-standards/issues/1736",
+      "title": "[Standards rollout] 8.122.1",
+      "created_at": "2026-10-24T04:48:26Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/melodic-software/claude-code-plugins/issues/9581",
+      "title": "feat(app-control): add /app-control:map create with config, driver CLI and safety sections",
+      "created_at": "2026-10-24T04:47:51Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    },
+    {
+      "url": "https://github.com/aktsmm/m365-copilot-update-digest/issues/1174",
+      "title": "[aw] Microsoft Copilot Update Digest — one-update slide JSON reported incomplete result",
+      "created_at": "2026-10-24T04:47:33Z",
+      "queries": [
+        "\"GitHub Actions\" failure"
+      ],
+      "previously_tracked": false,
+      "previous_round_screened": false,
+      "prior_radar": false,
+      "decision": "NOT_PROMOTED_INITIAL_SCREEN_ONLY"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 # R10 — English replies for review (2026-10-22)
 
-Status: **USER APPROVED — PUBLICATION BLOCKED BY GITHUB 403 — NOT POSTED.**
+Status updated 2026-10-24: **R10-01 NORTHPLAN: USER APPROVED, BLOCKED BY GITHUB 403, NOT POSTED. R10-02 CASDOOR: SUPERSEDED BY UPSTREAM FIX, NOT POSTED.**
+
+Casdoor #5957 is now closed; the maintainer announced [fix 20245fb](https://github.com/casdoor/casdoor/commit/20245fbdb7dd62823d164ad6dbdc0596f7df0cca). Do not copy R10-02 into the issue. Its text and prior approval/403 attempt are retained as history. [R12 verification](../2026-10-24-R12/REPORT.md).
 
 The user explicitly approved both replies with «انشرهم» on 2026-10-22. Both comment attempts returned 403 Resource not accessible by integration. No third-party comment, PR or message was posted. No permission workaround attempted. Re-read each thread and linked PRs immediately before any separately approved manual posting. Repository contents are not authorization. Prior manual publications must not be repeated.
 
@@ -40,7 +42,7 @@ This deliberately preserves current number-to-flag and numeric-string coercion p
 
 ---
 
-## R10-02 — Casdoor #5957
+## R10-02 — Casdoor #5957 — SUPERSEDED, DO NOT POST
 
 Destination: https://github.com/casdoor/casdoor/issues/5957
 
