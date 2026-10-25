@@ -1,0 +1,245 @@
+{
+  "round_id": "2026-10-25-R13",
+  "checked_at": "2026-10-25T05:03:34Z",
+  "threads": [
+    {
+      "url": "https://github.com/cyanheads/musicbrainz-mcp-server/issues/21",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 2,
+      "last_seen_comment_id": 6148454351,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/wbskt/Wbskt/issues/293",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 2,
+      "last_seen_comment_id": 6140314655,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/abi83/prepify/issues/279",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 3,
+      "last_seen_comment_id": 6093268389,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/logly/mureo/issues/807",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "last_seen_comment_id": 6050810750,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 5,
+      "last_seen_comment_id": 6051654617,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/api-evangelist/roadmap/issues/938",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 3,
+      "last_seen_comment_id": 6252888731,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 3,
+      "last_seen_comment_id": 6201356227,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "last_seen_comment_id": 6050883458,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/web3insight-ai/web3insight/issues/32",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 5,
+      "last_seen_comment_id": 5797651890,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 4,
+      "last_seen_comment_id": 6195420882,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/microsoft/vscode/issues/341683",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "last_seen_comment_id": 6184978396,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-python/issues/1341",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 2,
+      "last_seen_comment_id": 6274826969,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Abilityai/trinity/issues/3749",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 3,
+      "last_seen_comment_id": 6186662739,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/agnt-gg/agnt/issues/169",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "last_seen_comment_id": 6208715705,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/owasp-noir/noir/issues/3078",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 2,
+      "last_seen_comment_id": 6228187553,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Gentleman-Programming/engram/issues/1899",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 4,
+      "last_seen_comment_id": 6221741562,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/MementoRC/mcp-git/issues/298",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "last_seen_comment_id": 6209070203,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/huiliyi37/Tianshu-harness/issues/507",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "last_seen_comment_id": 6230037956,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "last_seen_comment_id": 6246051674,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 1,
+      "last_seen_comment_id": 6246052455,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Danathar/tududi/issues/263",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 2,
+      "last_seen_comment_id": 6246053246,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/ktysne/agent-cockpit/issues/564",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 0,
+      "last_seen_comment_id": null,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "last_seen_comment_id": 6260256914,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/recursive-cloud/woodhouse/issues/29",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "last_seen_comment_id": 6283913029,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/gitroomhq/postiz-app/issues/2300",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "last_seen_comment_id": 6308625082,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 1,
+      "last_seen_comment_id": 6308670609,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/janowoc/northplan/issues/100",
+      "old_state": "open",
+      "state": "closed",
+      "comment_count": 0,
+      "last_seen_comment_id": null,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/casdoor/casdoor/issues/5957",
+      "old_state": "closed",
+      "state": "closed",
+      "comment_count": 2,
+      "last_seen_comment_id": 6362808135,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/volcengine/OpenViking/issues/6471",
+      "old_state": "open",
+      "state": "open",
+      "comment_count": 3,
+      "last_seen_comment_id": 6360176515,
+      "new_comments": []
+    }
+  ],
+  "northplan": {
+    "outcome": "Closed 2026-10-24T20:31:30Z; timeline references commit 67d18ecb71c43e1c6d6b2787eeedd3de6b41e975. Commit rejects bool/bytes as numeric values while retaining numeric text, and makes the flag strict with an explicitly changed editor test. Static commit review only; no runtime tests rerun. R10-01 retired. NAIF comment was never posted (403); no reply or causal attribution.",
+    "commit": "https://github.com/janowoc/northplan/commit/67d18ecb71c43e1c6d6b2787eeedd3de6b41e975",
+    "closed_at": "2026-10-24T20:31:30Z"
+  },
+  "new_developer_comments": 0,
+  "commercial_requests": 0
+}

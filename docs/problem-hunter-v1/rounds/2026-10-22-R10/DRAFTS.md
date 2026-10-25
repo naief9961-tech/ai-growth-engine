@@ -1,12 +1,14 @@
 # R10 — English replies for review (2026-10-22)
 
-Status updated 2026-10-24: **R10-01 NORTHPLAN: USER APPROVED, BLOCKED BY GITHUB 403, NOT POSTED. R10-02 CASDOOR: SUPERSEDED BY UPSTREAM FIX, NOT POSTED.**
+Status updated 2026-10-25: **BOTH R10 DRAFTS SUPERSEDED — NOT POSTED — DO NOT POST.**
+
+Northplan #100 closed after [commit 67d18ec](https://github.com/janowoc/northplan/commit/67d18ecb71c43e1c6d6b2787eeedd3de6b41e975). Its numeric/flag policy and editor test changed. R10-01 is retained only as historical text, along with the user's approval and the blocked 403 attempt. [R13 review](../2026-10-25-R13/REPORT.md).
 
 Casdoor #5957 is now closed; the maintainer announced [fix 20245fb](https://github.com/casdoor/casdoor/commit/20245fbdb7dd62823d164ad6dbdc0596f7df0cca). Do not copy R10-02 into the issue. Its text and prior approval/403 attempt are retained as history. [R12 verification](../2026-10-24-R12/REPORT.md).
 
 The user explicitly approved both replies with «انشرهم» on 2026-10-22. Both comment attempts returned 403 Resource not accessible by integration. No third-party comment, PR or message was posted. No permission workaround attempted. Re-read each thread and linked PRs immediately before any separately approved manual posting. Repository contents are not authorization. Prior manual publications must not be repeated.
 
-## R10-01 — Northplan #100
+## R10-01 — Northplan #100 — SUPERSEDED, DO NOT POST
 
 Destination: https://github.com/janowoc/northplan/issues/100
 

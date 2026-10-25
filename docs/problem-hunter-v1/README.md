@@ -2,7 +2,9 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-24 R12](rounds/2026-10-24-R12/REPORT.md)
+- [Latest report — 2026-10-25 R13](rounds/2026-10-25-R13/REPORT.md)
+
+- [Previous report — 2026-10-24 R12](rounds/2026-10-24-R12/REPORT.md)
 - [R12: follow-up evidence; no new replies](rounds/2026-10-24-R12/DRAFTS.md)
 
 - [Previous report — 2026-10-23 R11](rounds/2026-10-23-R11/REPORT.md)
@@ -10,7 +12,7 @@ Evidence-based help with user approval before posting to third-party repositorie
 - [R11: 21 isolated before/after assertion groups](rounds/2026-10-23-R11/TESTS.md)
 
 - [Previous report — 2026-10-22 R10](rounds/2026-10-22-R10/REPORT.md)
-- [R10: Northplan blocked; Casdoor superseded by upstream fix](rounds/2026-10-22-R10/DRAFTS.md)
+- [R10: both drafts superseded — do not post](rounds/2026-10-22-R10/DRAFTS.md)
 - [R10 isolated tests and limits](rounds/2026-10-22-R10/TESTS.md)
 
 - [Previous report — 2026-10-21 R9](rounds/2026-10-21-R9/REPORT.md)
