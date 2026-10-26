@@ -1,0 +1,211 @@
+{
+  "round_id": "2026-10-26-R14",
+  "checked_at": "2026-10-26T05:07:18Z",
+  "threads": [
+    {
+      "url": "https://github.com/cyanheads/musicbrainz-mcp-server/issues/21",
+      "state": "closed",
+      "last_seen_comment_id": 6148454351,
+      "comment_count": 2,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/wbskt/Wbskt/issues/293",
+      "state": "closed",
+      "last_seen_comment_id": 6140314655,
+      "comment_count": 2,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/abi83/prepify/issues/279",
+      "state": "open",
+      "last_seen_comment_id": 6093268389,
+      "comment_count": 3,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/logly/mureo/issues/807",
+      "state": "closed",
+      "last_seen_comment_id": 6050810750,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
+      "state": "closed",
+      "last_seen_comment_id": 6051654617,
+      "comment_count": 5,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/api-evangelist/roadmap/issues/938",
+      "state": "closed",
+      "last_seen_comment_id": 6252888731,
+      "comment_count": 3,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/parisbs/codex-subagent-mcp/issues/143",
+      "state": "closed",
+      "last_seen_comment_id": 6201356227,
+      "comment_count": 3,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
+      "state": "closed",
+      "last_seen_comment_id": 6050883458,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/web3insight-ai/web3insight/issues/32",
+      "state": "closed",
+      "last_seen_comment_id": 5797651890,
+      "comment_count": 5,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
+      "state": "closed",
+      "last_seen_comment_id": 6195420882,
+      "comment_count": 4,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/microsoft/vscode/issues/341683",
+      "state": "open",
+      "last_seen_comment_id": 6184978396,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/a2aproject/a2a-python/issues/1341",
+      "state": "closed",
+      "last_seen_comment_id": 6274826969,
+      "comment_count": 2,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Abilityai/trinity/issues/3749",
+      "state": "closed",
+      "last_seen_comment_id": 6186662739,
+      "comment_count": 3,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/agnt-gg/agnt/issues/169",
+      "state": "open",
+      "last_seen_comment_id": 6208715705,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/owasp-noir/noir/issues/3078",
+      "state": "open",
+      "last_seen_comment_id": 6228187553,
+      "comment_count": 2,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Gentleman-Programming/engram/issues/1899",
+      "state": "closed",
+      "last_seen_comment_id": 6221741562,
+      "comment_count": 4,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/MementoRC/mcp-git/issues/298",
+      "state": "closed",
+      "last_seen_comment_id": 6209070203,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/huiliyi37/Tianshu-harness/issues/507",
+      "state": "closed",
+      "last_seen_comment_id": 6230037956,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/reeenatamc/wp-content-agent/issues/6",
+      "state": "closed",
+      "last_seen_comment_id": 6246051674,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/opena2a-org/agent-identity-management/issues/772",
+      "state": "closed",
+      "last_seen_comment_id": 6246052455,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/Danathar/tududi/issues/263",
+      "state": "closed",
+      "last_seen_comment_id": 6246053246,
+      "comment_count": 2,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/ktysne/agent-cockpit/issues/564",
+      "state": "closed",
+      "last_seen_comment_id": null,
+      "comment_count": 0,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/bergbacher/hyde-mcp-gateway/issues/34",
+      "state": "open",
+      "last_seen_comment_id": 6260256914,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/recursive-cloud/woodhouse/issues/29",
+      "state": "open",
+      "last_seen_comment_id": 6283913029,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/gitroomhq/postiz-app/issues/2300",
+      "state": "open",
+      "last_seen_comment_id": 6308625082,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940",
+      "state": "open",
+      "last_seen_comment_id": 6308670609,
+      "comment_count": 1,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/janowoc/northplan/issues/100",
+      "state": "closed",
+      "last_seen_comment_id": null,
+      "comment_count": 0,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/casdoor/casdoor/issues/5957",
+      "state": "closed",
+      "last_seen_comment_id": 6362808135,
+      "comment_count": 2,
+      "new_comments": []
+    },
+    {
+      "url": "https://github.com/volcengine/OpenViking/issues/6471",
+      "state": "open",
+      "last_seen_comment_id": 6360176515,
+      "comment_count": 3,
+      "new_comments": []
+    }
+  ],
+  "new_comments": 0,
+  "commercial_requests": 0
+}

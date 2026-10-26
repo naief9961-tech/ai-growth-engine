@@ -1,0 +1,56 @@
+{
+  "passed_groups": 10,
+  "function_executions": 20,
+  "results": [
+    {
+      "case": "404_method_not_found",
+      "baseline": "RuntimeError",
+      "candidate": "_LegacyProtocolError"
+    },
+    {
+      "case": "200_method_not_found",
+      "baseline": "_LegacyProtocolError",
+      "candidate": "_LegacyProtocolError"
+    },
+    {
+      "case": "400_method_not_found",
+      "baseline": "_LegacyProtocolError",
+      "candidate": "_LegacyProtocolError"
+    },
+    {
+      "case": "404_header_mismatch",
+      "baseline": "RuntimeError",
+      "candidate": "RuntimeError"
+    },
+    {
+      "case": "404_missing_capability",
+      "baseline": "RuntimeError",
+      "candidate": "RuntimeError"
+    },
+    {
+      "case": "unsupported_modern",
+      "baseline": "RuntimeError",
+      "candidate": "RuntimeError"
+    },
+    {
+      "case": "unsupported_legacy",
+      "baseline": "_LegacyProtocolError",
+      "candidate": "_LegacyProtocolError"
+    },
+    {
+      "case": "discover_modern",
+      "baseline": "ok",
+      "candidate": "ok"
+    },
+    {
+      "case": "discover_legacy",
+      "baseline": "_LegacyProtocolError",
+      "candidate": "_LegacyProtocolError"
+    },
+    {
+      "case": "malformed_discover",
+      "baseline": "RuntimeError",
+      "candidate": "RuntimeError"
+    }
+  ]
+}
