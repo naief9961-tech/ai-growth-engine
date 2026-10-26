@@ -3,7 +3,7 @@
 Evidence-based help with user approval before posting to third-party repositories.
 
 - [Latest report — 2026-10-26 R15](rounds/2026-10-26-R15/REPORT.md)
-- [R15: SDRangel source review awaiting approval; runtime untested](rounds/2026-10-26-R15/DRAFTS.md)
+- [R15: manually posted and verified — do not repost; runtime untested](rounds/2026-10-26-R15/DRAFTS.md)
 
 - [Previous report — 2026-10-26 R14](rounds/2026-10-26-R14/REPORT.md)
 - [R14: manually posted and verified — do not repost](rounds/2026-10-26-R14/DRAFTS.md)

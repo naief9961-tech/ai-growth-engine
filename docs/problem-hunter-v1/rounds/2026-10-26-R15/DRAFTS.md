@@ -1,8 +1,11 @@
 # R15-01 — SDRangel #3039
 
-Status: **AWAITING USER APPROVAL — NOT POSTED**.
+Status: **POSTED MANUALLY AND VERIFIED — DO NOT REPOST**.
+Published by naief9961-tech at 2026-10-26T05:33:35Z; verified at 2026-10-26T05:37:19Z.
+Comment: https://github.com/f4exb/sdrangel/issues/3039#issuecomment-6409005409
+No subsequent developer reply at verification.
 Destination: https://github.com/f4exb/sdrangel/issues/3039
-Static review only; no native/client/hardware validation. Re-read the issue and linked PRs before any separately approved publication.
+Static review only; no native/client/hardware validation. Historical text retained below; this publication does not authorize future comments.
 
 ---
 
