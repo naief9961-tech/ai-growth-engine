@@ -1,0 +1,1116 @@
+{
+  "round_id": "2026-10-26-R15",
+  "checked_at": "2026-10-26T05:26:30Z",
+  "raw": 180,
+  "unique": 179,
+  "new_urls_vs_r14": 104,
+  "queries": [
+    "is:issue is:open created:>=2026-10-23 MCP in:title",
+    "is:issue is:open created:>=2026-10-23 A2A in:title",
+    "is:issue is:open created:>=2026-10-23 webhook in:title",
+    "is:issue is:open created:>=2026-10-23 schema validation in:title",
+    "is:issue is:open created:>=2026-10-23 JSON-RPC in:title",
+    "is:issue is:open created:>=2026-10-23 x402 in:title"
+  ],
+  "query_limit": 30,
+  "limits": "Capped title/body triage, not an exhaustive GitHub search. Four full issue/comment/timeline reads. Previous tracked/excluded cases not re-investigated.",
+  "exclusions": [
+    {
+      "round_id": "2026-10-26-R15",
+      "url": "https://github.com/Code-Hex/graphql-codegen-typescript-validation-schema/issues/1622",
+      "reason": "Full body is a developer-community invitation with a shortened external link, not a technical defect.",
+      "status": "EXCLUDED_PROMOTION"
+    },
+    {
+      "round_id": "2026-10-26-R15",
+      "url": "https://github.com/bisite/cyberchain-smart-contract-wrapper/issues/2",
+      "reason": "Existing comment 6366334204 already supplies local HTTP reproduction, source revision and success/error-ID regression matrix. No additional independently established contribution.",
+      "status": "EXCLUDED_EXISTING_SOLUTION",
+      "comment": "https://github.com/bisite/cyberchain-smart-contract-wrapper/issues/2#issuecomment-6366334204"
+    },
+    {
+      "round_id": "2026-10-26-R15",
+      "url": "https://github.com/yroussev/camber/issues/300",
+      "reason": "Open CI-only integration PR #305 already contains id:null helper fix, duplicate-key handling and updated transcript/regression tests. PR is not a merged/released repair; no test rerun or duplicate draft.",
+      "status": "EXCLUDED_EXISTING_IMPLEMENTATION",
+      "pr": "https://github.com/yroussev/camber/pull/305",
+      "reviewed_pr_head": "e913b22488b29a8ed2700d01aaab836f1c211b80"
+    }
+  ],
+  "items": [
+    {
+      "url": "https://github.com/yetone/magpie/issues/3683",
+      "title": "资料库，MCP OAuth登录，无法填写回调地址",
+      "created_at": "2026-10-26T05:20:56Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/ashlrai/ashlr-md/issues/193",
+      "title": "mdopener-mcp offline_e2e: inject default server list instead of probing live 11434/8000",
+      "created_at": "2026-10-26T05:19:22Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/chatmcp/mcpso/issues/6133",
+      "title": "Submit Remote MCP Server: Email Validation",
+      "created_at": "2026-10-26T05:17:56Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Wike-CHI/aer/issues/8",
+      "title": "本地 mcp 2.x 与 pyproject 锁定（mcp>=1.30,<2）错配，aer/mcp.py 本地不可验证",
+      "created_at": "2026-10-26T05:17:27Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/skevetter/paseo-bots/issues/301",
+      "title": "Run artifacts store MCP bearer keys in plain text",
+      "created_at": "2026-10-26T05:17:03Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/SRN0129/Agenttrust/issues/25",
+      "title": "[Good First Issue] Add Anthropic Model Context Protocol (MCP) Zero-Trust Interceptor Middleware",
+      "created_at": "2026-10-26T05:15:32Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/LeXwDeX/Tribunal/issues/70",
+      "title": "fix: MCP 批量导入在一个事务内完成",
+      "created_at": "2026-10-26T05:13:46Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/sylvesterworks/nostalgia-ui/issues/39",
+      "title": "MCP get_component serves the structured doc, with a section parameter",
+      "created_at": "2026-10-26T05:10:46Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/jorgesolerrr/kinby/issues/941",
+      "title": "Toolset: MCP servers on an instance's turns",
+      "created_at": "2026-10-26T05:10:42Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/jorgesolerrr/kinby/issues/937",
+      "title": "Toolset: MCP servers in the hub library",
+      "created_at": "2026-10-26T05:10:24Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/uberblick-ai/uberblick-2/issues/2358",
+      "title": "MCP: render a block or a page to an image",
+      "created_at": "2026-10-26T05:09:21Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/OwlHugo/enquadra/issues/7",
+      "title": "MCP: derivar o z.enum de origem de uma constante ORIGINS em products.ts",
+      "created_at": "2026-10-26T05:08:29Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/atlanai/ai-registry/issues/180",
+      "title": "Roadmap: more artifact kinds, starting with MCP servers",
+      "created_at": "2026-10-26T05:07:31Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/piotrkantorowicz/home-system/issues/683",
+      "title": "fix(mcp): upgrade mcp sdk to 2.3.0 to stop deferred-flush 499s",
+      "created_at": "2026-10-26T05:07:01Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/ucan-lab/scrum-guild/issues/282",
+      "title": "クラウドのセッションで gh が無いとき、PR のスキルを GitHub の MCP ツールで進められるようにする",
+      "created_at": "2026-10-26T05:03:43Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/mrgoonie/multix-cli/issues/296",
+      "title": "feat(speech): unified TTS CLI/MCP experience with explicit provider and model routing",
+      "created_at": "2026-10-26T05:03:19Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/haitao5867gg-cpu/ai-enterprise-platform/issues/6",
+      "title": "M2：PostgreSQL 只读 MCP 连接器（含本地示例库）",
+      "created_at": "2026-10-26T05:01:46Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/f1shyfang/fastlane-proj/issues/21",
+      "title": "[P2] MCP for External Agents",
+      "created_at": "2026-10-26T04:58:58Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/ThinkFlowLab/FlyBot/issues/1234",
+      "title": "Group rooms mount 51 MCP tools nobody uses there: decide the per-room tool set (~17.3k tokens/call) (#796)",
+      "created_at": "2026-10-26T04:58:29Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Manta-Epitech-Academy/jump/issues/448",
+      "title": "feat(badges): badges defined as data and authored over MCP",
+      "created_at": "2026-10-26T04:57:59Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/social-harness/moltzap/issues/1478",
+      "title": "Claude Code and Codex: MCP client compatibility with sharnessd is unverified and they have no receive path",
+      "created_at": "2026-10-26T04:54:07Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/social-harness/moltzap/issues/1476",
+      "title": "One-prompt setup: registering an agent takes a raw MCP call on every host",
+      "created_at": "2026-10-26T04:54:05Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/mrgoonie/multix-cli/issues/293",
+      "title": "feat(models): truthful, task-aware capability registry for CLI and MCP agents",
+      "created_at": "2026-10-26T04:53:29Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/superset-sh/superset/issues/8893",
+      "title": "superset mcp still needs SUPERSET_CLI_AUDIENCE=internal",
+      "created_at": "2026-10-26T04:52:21Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/skevetter/paseo-bots/issues/292",
+      "title": "Control MCP cannot set a playbook output contract, so doctor D5 cannot be fixed through control",
+      "created_at": "2026-10-26T04:52:00Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/phyzess/pappra/issues/10",
+      "title": "Add a per-tool success-path and refusal-path test matrix for the MCP server",
+      "created_at": "2026-10-26T04:51:54Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/alex09x/prod-code/issues/1476",
+      "title": "MCP Kotlin root detection still mistakes a Java Kotlin-stdlib dependency for a plugin",
+      "created_at": "2026-10-26T04:50:14Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/fitchmultz/pi-mcp-adapter/issues/103",
+      "title": "Stop the MCP UI heartbeat on terminal session-complete",
+      "created_at": "2026-10-26T04:49:44Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/fitchmultz/pi-mcp-adapter/issues/102",
+      "title": "Batch MCP metadata flushes to avoid N-fold whole-cache I/O",
+      "created_at": "2026-10-26T04:49:35Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/jscott3201/rusty-bacnet/issues/2116",
+      "title": "mcp: page bacnet://devices beyond the device page size",
+      "created_at": "2026-10-26T04:48:06Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/david-engelmann/maidan/issues/1639",
+      "title": "A2A PayerStamp: apply the allowance cutoff to usage reports once #1630 lands",
+      "created_at": "2026-10-26T03:06:28Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/shikanime-labs/manifests/issues/3144",
+      "title": "A2A mesh is dark: every peer rejects automata (401/403 'not trusted'), nishir A2A hostname does not resolve",
+      "created_at": "2026-10-26T01:59:45Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/3947",
+      "title": "docs(site): align overview, architecture, and UI guides with default spec.mode next, a2a-console, and a2a-mcp",
+      "created_at": "2026-10-25T23:18:56Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/issues/183904",
+      "title": "[Bug]: A2A replies still complete the oldest pending task on stable 2026.10.5–2026.10.7 (#170469 not backported)",
+      "created_at": "2026-10-25T22:29:51Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/covia-ai/covia/issues/619",
+      "title": "A2A: a2a.caps admits public requests but does not bound the run; public task calls reach any owner job",
+      "created_at": "2026-10-25T18:40:16Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/rossoctl/cortex/issues/1503",
+      "title": "Turn the MCP, A2A and inference parsers into libraries, with saved real-traffic test cases",
+      "created_at": "2026-10-25T18:40:03Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/ThomasHendrickx/aeolus-fleet/issues/1292",
+      "title": "Flaky: gateway integration tests on main (a2a-out-follow, person-waiters, fleet server sign-in)",
+      "created_at": "2026-10-25T18:32:42Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3834",
+      "title": "migrate-a2a: 27 legacy outbound rows and 2 expired questions have receiver-proven outcomes but no way into the cutover",
+      "created_at": "2026-10-25T18:21:30Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/KestrelSovereignAI/kestrel-sovereign/issues/3832",
+      "title": "kestrel update / update_then_restart should refuse an incoming release that requires an offline migration (native A2A cutover took the fleet down 31h)",
+      "created_at": "2026-10-25T17:45:12Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/yroussev/camber/issues/282",
+      "title": "MCP acceptance test before A2A: aggressive UAT of 0.110.0",
+      "created_at": "2026-10-25T17:07:25Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/CSOAI-ORG/agent-x402-paywall-mcp/issues/8",
+      "title": "Registry remote api.meok.ai/v1/a2a/agent-x402-paywall answers 404",
+      "created_at": "2026-10-25T16:14:54Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/nibiru-labs/openbot/issues/19",
+      "title": "【nick需求】接入nibiru的A2A网络与其他Agent协同",
+      "created_at": "2026-10-25T16:11:36Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/vivekanjana76/costsentinel/issues/113",
+      "title": "A2A interop: an official binding, per-specialist cards, Foundry, and consuming other agents",
+      "created_at": "2026-10-25T14:38:30Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/vivekanjana76/costsentinel/issues/112",
+      "title": "docs: record the interlock, the honest approver, the A2A lifecycle and JWS; release v0.12.0",
+      "created_at": "2026-10-25T14:38:27Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/vivekanjana76/costsentinel/issues/111",
+      "title": "test(a2a): re-assert the twenty-two-verb mutation guard against the fuller surface",
+      "created_at": "2026-10-25T14:38:24Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/vivekanjana76/costsentinel/issues/110",
+      "title": "feat(a2a): a typed task lifecycle with cancellation",
+      "created_at": "2026-10-25T14:38:22Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/vivekanjana76/costsentinel/issues/109",
+      "title": "feat(a2a): JWS Agent Card signing per A2A v1, with a labelled HMAC fallback",
+      "created_at": "2026-10-25T14:38:20Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/vivekanjana76/costsentinel/issues/108",
+      "title": "feat(a2a): the Agent Card in the A2A v1 wire shape",
+      "created_at": "2026-10-25T14:38:16Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/vivekanjana76/costsentinel/issues/104",
+      "title": "docs(roadmap): set Phase 12 to the interlock and the A2A lifecycle",
+      "created_at": "2026-10-25T14:38:02Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/a2aproject/A2A/issues/2388",
+      "title": "Partners page: add Odile Labs (OdileM2M, A2A network reaching businesses by phone number)",
+      "created_at": "2026-10-25T14:37:22Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/trungtaottn/cf-agent-hub/issues/78",
+      "title": "[R4-T05] Implement atomic A2A peer correlation and truthful native task projection",
+      "created_at": "2026-10-25T08:30:13Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/trungtaottn/cf-agent-hub/issues/70",
+      "title": "[R4-T01-A2A] Freeze the bounded A2A binding, peer correlation and native projection contract",
+      "created_at": "2026-10-25T08:29:37Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/YunC-GCT/MindTrace/issues/231",
+      "title": "feat(a2a): 回执「本次整理 N 条」，数字来自落盘而非模型",
+      "created_at": "2026-10-25T07:48:31Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/werkrbee/ai-hive/issues/118",
+      "title": "feat(agents-hive): carry approvals over A2A",
+      "created_at": "2026-10-25T06:06:43Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/agentrust-io/ca2a/issues/286",
+      "title": "transport.a2a_adapter / a2a_sdk / hardware_acceptance: unvalidated message/metadata types, empty parent_record_hash, unsafe float-to-int coercion, and duplicate JSON keys",
+      "created_at": "2026-10-25T05:52:49Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/mohanraj00/koodam/issues/186",
+      "title": "Spike: agentgateway as the MCP and A2A gateway",
+      "created_at": "2026-10-25T05:29:10Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/agentidentitytrustprotocol/agentidentitytrustprotocol/issues/124",
+      "title": "MCP endpoint binding in the Manifest (counterpart of rfc-aitp-0014.a2a_interfaces)",
+      "created_at": "2026-10-25T03:26:51Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/agentic-ai-java/argi/issues/277",
+      "title": "[BUG][P1] A2A 流取消应中止阻塞的 HTTP 读取并释放连接与工作线程",
+      "created_at": "2026-10-25T01:41:54Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/dhruvsood12/CalHacks/issues/8",
+      "title": "A2a: LP-FT SigLIP 2 (default recipe)",
+      "created_at": "2026-10-25T01:41:38Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/agentidentitytrustprotocol/agentidentitytrustprotocol/issues/112",
+      "title": "GLOSSARY: disambiguate \"A2A\" from the Agent2Agent (A2A) protocol",
+      "created_at": "2026-10-25T01:27:14Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/philo-crm/philo/issues/55",
+      "title": "Support Authorization Bearer (or custom header) on outbound webhooks alongside HMAC",
+      "created_at": "2026-10-26T05:11:01Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/tomsjansons/beghu/issues/84",
+      "title": "Upkeep for dormant accounts: mirrors, migrations and webhooks",
+      "created_at": "2026-10-26T04:59:21Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/yongshengchen0615/memberwebsocket-dev-netlify/issues/144",
+      "title": "[P1][LINE][Webhook] 安全接收器、商家連線檢查與一般管理員自助設定",
+      "created_at": "2026-10-26T04:58:15Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/clearmeasure-aisf-sample-apps/cmdemo1-fworker/issues/350",
+      "title": "W8.2: alert ingress: the Azure Monitor webhook route; alert rules and the factory's out-of-band alert (applied by th",
+      "created_at": "2026-10-26T04:37:19Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/clearmeasure-aisf-sample-apps/cmdemo1-fworker/issues/319",
+      "title": "W4.0: integrator: ingress flag; a webhook secret per source (owner review); the recurring-job slots",
+      "created_at": "2026-10-26T04:35:04Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/williamacallahan/crawl4ai/issues/533",
+      "title": "[Detail Bug] Webhooks: transient DNS failures are treated as non-retryable and permanently drop events",
+      "created_at": "2026-10-26T04:34:47Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/clearmeasure-aisf-sample-apps/cmdemo1-fworker/issues/307",
+      "title": "W1.9: isolation scenarios with a second repository in the fake (webhook dropped, card ignored, Depends on other#N no",
+      "created_at": "2026-10-26T04:34:11Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/clearmeasure-aisf-sample-apps/cmdemo1-fworker/issues/284",
+      "title": "C7b: endpoint modules: runtime hosts, Copilot, transcripts, webhook, demo, item admin, worker admin",
+      "created_at": "2026-10-26T04:32:32Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/david-engelmann/maidan/issues/1643",
+      "title": "Outbound webhook deliveries and retries skip the allowance cutoff and are not metered",
+      "created_at": "2026-10-26T04:25:27Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/kodflow/forgejo-raft/issues/268",
+      "title": "cluster: correctif #103 incomplet, quand la relecture du curseur après un COMMIT à l'issue inconnue échoue (bascule Patroni en cours), le lot validé est jugé non validé et ses effets (synchro des PR, péremption des approbations, workflows, webhooks) sont perdus",
+      "created_at": "2026-10-26T04:25:24Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/agentboxd/n8n-nodes-agentboxd/issues/9",
+      "title": "Trigger: checkExists only checks the webhook ID exists (stale URL, disabled hook, test mode)",
+      "created_at": "2026-10-26T04:22:54Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/dahai80/fusion-agent-studio/issues/469",
+      "title": "P3: webhook 401 tests assert status code only — 'no_run' in the name is not asserted (zero-run side-effect check missing)",
+      "created_at": "2026-10-26T04:21:46Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/eshu-hq/eshu/issues/9146",
+      "title": "feat(cicd-run): GitHub App auth and durable workflow webhook ingestion",
+      "created_at": "2026-10-26T03:52:32Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/use-agent-os/agent-os/issues/3697",
+      "title": "feat(gateway): config file hot reload, lifecycle hooks and inbound webhooks",
+      "created_at": "2026-10-26T03:37:53Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/handarbeit/fabrik/issues/2475",
+      "title": "Shared App webhook receiver package for engine and Pruefer",
+      "created_at": "2026-10-26T03:34:51Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/thatskiff33/AlpineClubBookingsNZ/issues/4432",
+      "title": "Treasurer \"Sync from Xero now\" button, and a visible warning when Xero webhooks go silent",
+      "created_at": "2026-10-26T03:32:02Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/KKKKhazix/AIHOT/issues/271",
+      "title": "关于飞书系统告警使用应用机器人而非 Webhook 的疑问",
+      "created_at": "2026-10-26T03:24:35Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Gaku1205/agent-desk/issues/62",
+      "title": "GitHubのWebhookで、画面を即時に更新する",
+      "created_at": "2026-10-26T03:14:20Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/aaswin222/balance-schedule/issues/12",
+      "title": "2e. Process Plaid webhooks for new transactions",
+      "created_at": "2026-10-26T03:03:00Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Feralthedogg/test/issues/9",
+      "title": "Fixture webhook — synthetic only 20261026",
+      "created_at": "2026-10-26T03:01:07Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/hametuha/hamephone/issues/13",
+      "title": "Twilio webhook の署名（X-Twilio-Signature）を検証する",
+      "created_at": "2026-10-26T02:59:15Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Sky-Route/Sky-Route/issues/98",
+      "title": "[HU-059] Recibir avisos automáticos de terceros (webhooks)",
+      "created_at": "2026-10-26T02:59:12Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/delinoio/apps/issues/437",
+      "title": "lane: resolve repository aliases in webhook ownership and deletion",
+      "created_at": "2026-10-26T02:50:44Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/ccooker/learn-drone/issues/31",
+      "title": "A signed webhook sets Paid Member standing",
+      "created_at": "2026-10-26T02:45:41Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/delinoio/apps/issues/430",
+      "title": "lane: include the intake route in origin-based webhook endpoints",
+      "created_at": "2026-10-26T02:43:52Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/twinbird827/TBird.Library/issues/408",
+      "title": "app-trade-analyzer: 段階3c STEP2 — notify-today の Discord webhook 送信と日次チェーン組込み",
+      "created_at": "2026-10-26T02:39:21Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Josh-Archer/unified-ephemeral-runner-broker/issues/148",
+      "title": "End-to-end failure test: backend outage to fallback to quarantine webhook",
+      "created_at": "2026-10-26T02:38:28Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Josh-Archer/ntfy-pushover-forwarder/issues/42",
+      "title": "Generic per-topic multi-sink routing (Pushover, webhook, Grok Bot)",
+      "created_at": "2026-10-26T02:38:11Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Josh-Archer/ntfy-pushover-forwarder/issues/41",
+      "title": "Webhook sink: retries with backoff and dedupe on replay",
+      "created_at": "2026-10-26T02:38:06Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/mctlhq/mctl-api/issues/802",
+      "title": "feat(security): GitHub code_scanning_alert webhook receiver (#2103 P3)",
+      "created_at": "2026-10-26T02:36:30Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/skevetter/paseo-bots/issues/291",
+      "title": "M272b: sync Bridge fixture with paseo-memory #93; request schema validation in test",
+      "created_at": "2026-10-26T04:50:53Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Rahul-pamula/Open_Source_Scout/issues/590",
+      "title": "[MCP Phase 6] test(prompts): add unit tests for MCP Prompts schema and argument validation",
+      "created_at": "2026-10-26T04:15:37Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/XOIntern/Shiftly/issues/136",
+      "title": "MP requests: require positionId in the line validation schema",
+      "created_at": "2026-10-26T04:00:28Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/kho-ja/board/issues/12",
+      "title": "Polish: Schema type name field max-length validation",
+      "created_at": "2026-10-26T03:26:03Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/scscott12/Holiday/issues/33",
+      "title": "Add schema validation tests for scenes.json, personalities.json and prompts.json.example",
+      "created_at": "2026-10-26T03:12:57Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/yshewchuk/investment-validation/issues/1377",
+      "title": "Consider shared JSON Schema validation for operations status",
+      "created_at": "2026-10-26T03:08:38Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/daniel-fink/rangekeeper/issues/116",
+      "title": "Merge the duplicate validation helpers in `shared` and `schema`",
+      "created_at": "2026-10-26T02:11:43Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/lfgranja/horror-web-comic/issues/93",
+      "title": "T009b: **[RED PHASE - MECHANICAL GATE]** Mechanically verify and log that all 6 unit tests fail (RED PHASE) before implementation begins by running `node --test tests/unit/audit-report-schema.test.js tests/unit/axe-helper.test.js tests/unit/target-size-helper.test.js tests/unit/target-size-invariants.test.js tests/unit/contrast-invariants.test.js tests/unit/audit-attachment-helper.test.js` per Mandate 1, Finding T-TDD-1, GOV-001 [read-only validation gate, no commit]",
+      "created_at": "2026-10-26T02:02:50Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/lfgranja/horror-web-comic/issues/87",
+      "title": "T005: **[RED PHASE - BLOCKING]** Write schema validation unit tests in `tests/unit/audit-report-schema.test.js` using `import Ajv2020 from 'ajv/dist/2020.js'` (`ajv: 8.20.0`) to compile `specs/004-wcag-aaa-audit-pipeline/contracts/audit-report.schema.json` and `specs/004-wcag-aaa-audit-pipeline/contracts/failure-telemetry.schema.json` (Draft 2020-12) alongside each other, validating against explicit fixtures `tests/fixtures/audit/valid-audit-report.json`, `tests/fixtures/audit/invalid-audit-report.json`, `tests/fixtures/audit/valid-failure-telemetry.json`, and `tests/fixtures/audit/invalid-failure-telemetry.json`, verifying strict rejection of missing required fields, invalid ISO timestamps, unknown properties, and payload excesses, ensuring tests fail (RED) prior to helper implementation per FR-012, Finding S3 & A4, Finding H2, Contracts §6, §6.1.2 [`test(a11y): add audit report and failure telemetry schema ajv unit tests`]",
+      "created_at": "2026-10-26T02:02:32Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/CloudNationHQ/terraform-azure-pe/issues/77",
+      "title": "Generated schema validation",
+      "created_at": "2026-10-26T00:42:52Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/CloudNationHQ/terraform-azure-eg/issues/64",
+      "title": "Generated schema validation",
+      "created_at": "2026-10-26T00:28:41Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/CloudNationHQ/terraform-azure-agw/issues/92",
+      "title": "Generated schema validation",
+      "created_at": "2026-10-26T00:16:58Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/CloudNationHQ/terraform-azure-cog/issues/53",
+      "title": "Generated schema validation",
+      "created_at": "2026-10-26T00:16:04Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/CloudNationHQ/terraform-azure-vnet/issues/223",
+      "title": "Generated schema validation",
+      "created_at": "2026-10-26T00:10:32Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/AgentMulder404/ai-economics-evidence-kit/issues/1",
+      "title": "Phase 1: schemas, validation CLI, fixtures, and data contract",
+      "created_at": "2026-10-25T23:29:18Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/optical-lift/noel-core-db/issues/2243",
+      "title": "Production schema validation request: Shared 20261025223605",
+      "created_at": "2026-10-25T22:36:57Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/satwareAG/spec-kit/issues/167",
+      "title": "test: add metadata-schema/structural validation to the pre-pr gate chain (found in #166 review)",
+      "created_at": "2026-10-25T21:08:52Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/CubeB/RWE-B4/issues/829",
+      "title": "Map validation: schemas, player counts and start positions",
+      "created_at": "2026-10-25T20:59:12Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Seddryck/Packata/issues/597",
+      "title": "Compile schema constraints into executable dataset validation rules",
+      "created_at": "2026-10-25T20:45:23Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/KathiraveluLab/DREAMS/issues/317",
+      "title": ": schema validation crashes with a traceback when the --schema file is not a valid JSON Schema",
+      "created_at": "2026-10-25T20:00:13Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/f4exb/sdrangel/issues/3039",
+      "title": "SDRangel 8.0.0 MCP tool schema validation failure",
+      "created_at": "2026-10-25T19:44:17Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/pelikhan/rig/issues/230",
+      "title": "[rig-sampler] feat: include actual value in schema validation error messages",
+      "created_at": "2026-10-25T19:22:09Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Code-Hex/graphql-codegen-typescript-validation-schema/issues/1622",
+      "title": "An edge case in graphql-codegen-typescript-validation-schema",
+      "created_at": "2026-10-25T19:03:55Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Pardosito/oncall-training-infra/issues/96",
+      "title": "INF-096 · Injector FAULT message schema and target validation",
+      "created_at": "2026-10-25T18:02:06Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/optical-lift/noel-core-db/issues/2232",
+      "title": "Production schema validation request: Atlas 20261025175254",
+      "created_at": "2026-10-25T17:53:49Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/noneedinmagic/gh-identity-router/issues/32",
+      "title": "Evaluate a schema library (zod or lighter) for config validation",
+      "created_at": "2026-10-25T17:39:39Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/howardyang2009/PATH/issues/819",
+      "title": "i18n: Schema validation codes and zod issues",
+      "created_at": "2026-10-25T17:00:30Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/AiHub-Ecosystem/aihub-be/issues/1236",
+      "title": "Performance: evaluate pre-compiled standalone AJV validation functions to eliminate schema compilation overhead during boot",
+      "created_at": "2026-10-25T15:34:09Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/haikalthrq/RINGKAS/issues/10",
+      "title": "ENG-B04: Establish CI, API schema validation and observability",
+      "created_at": "2026-10-25T14:31:31Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/optical-lift/noel-core-db/issues/2226",
+      "title": "Production schema validation request: Shared 20261025141943",
+      "created_at": "2026-10-25T14:20:30Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/agentscope-ai/QwenPaw/issues/8424",
+      "title": "[Bug]: server/discover 返回 HTTP 404 + JSON-RPC -32601 被当现代协议硬失败，老协议 MCP 服务器无法回退 legacy 握手",
+      "created_at": "2026-10-26T03:38:00Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/zai-org/GLM-5/issues/175",
+      "title": "[Coding Plan] MCP endpoints (web_search_prime / web_reader / zread) reject JSON-RPC batch requests with raw HTTP 400 (Java stacktrace) — breaks Codex CLI and other batching clients",
+      "created_at": "2026-10-26T02:43:07Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/EffortlessMetrics/ripr-swarm/issues/10518",
+      "title": "ux(mcp): recoverable domain failures ride JSON-RPC -32603 InternalError, so clients read them as server-broken",
+      "created_at": "2026-10-26T00:55:36Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/jdunkerley/enso/issues/369",
+      "title": "JSON-RPC sessions over Yjs never end, so capabilities are never released",
+      "created_at": "2026-10-25T23:03:43Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/LorcanChinnock/seance/issues/8",
+      "title": "Add a local control socket with a JSON-RPC API for scripting panes",
+      "created_at": "2026-10-25T21:29:25Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/yroussev/camber/issues/301",
+      "title": "MCP: store and data errors surface as JSON-RPC internal errors, not tool errors",
+      "created_at": "2026-10-25T19:07:43Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/yroussev/camber/issues/300",
+      "title": "MCP JSON-RPC conformance: missing \"id\": null hangs the official SDK",
+      "created_at": "2026-10-25T19:07:41Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/trotsky1997/Rydantic/issues/111",
+      "title": "[dot · AI 助手] Add bounded JSON-RPC 2.0 model adapter",
+      "created_at": "2026-10-25T16:34:24Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/vercel/ai/issues/24029",
+      "title": "mcp: JSON-RPC message schemas reject valid `id: null` in error and response messages",
+      "created_at": "2026-10-25T16:23:38Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/dragoscirjan/redline/issues/179",
+      "title": "[Epic] Define a stable editor-facing JSON-RPC protocol",
+      "created_at": "2026-10-25T16:10:16Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/code-yeongyu/senpi/issues/4260",
+      "title": "Flaky: rpc-supervised-host drain-watch.json never appears (10 s), drain request ENOENT (supervisor-startup race)",
+      "created_at": "2026-10-25T15:45:41Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/BlockRunAI/blockrun-mcp/issues/196",
+      "title": "Partner API fit: Robinhood Chain JSON-RPC upstream",
+      "created_at": "2026-10-25T07:29:24Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Srizdebnath/zsol/issues/33",
+      "title": "[T-33] Streamable HTTP bind; remote client calls tools over JSON-RPC (FR-4.2)",
+      "created_at": "2026-10-25T07:11:19Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Srizdebnath/zsol/issues/32",
+      "title": "[T-32] stdio JSON-RPC 2.0 MCP: initialize/ping/tools/list/tools/call; agent-visible from Claude Code (FR-4.1)",
+      "created_at": "2026-10-25T07:11:11Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Srizdebnath/zsol/issues/18",
+      "title": "[T-18] JSON-RPC 1.0 client: 5s timeouts, idempotent retry, zero PII logging; fault-injection test (FR-2.2)",
+      "created_at": "2026-10-25T07:08:38Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Trinity-S-AI-DNA/t27/issues/12210",
+      "title": "LSP: JSON-RPC transport, framing, errors, cancellation (specs/lsp/transport.t27)",
+      "created_at": "2026-10-25T04:24:37Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/skamansam/acpilot/issues/185",
+      "title": "P3-9 · `acpilotd-helper`: a 300-line stdio JSON-RPC shim that the daemon drops into a remote/WSL host and reuses for...",
+      "created_at": "2026-10-25T00:24:14Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/goat-si/goat/issues/1476",
+      "title": "Computer use proxy: JSON-RPC batches bypass per-call checks, and a reused request id overwrites an outstanding call",
+      "created_at": "2026-10-24T19:42:49Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/infenia/yukta/issues/1110",
+      "title": "/mcp answers 500 for valid JSON that is not a valid JSON-RPC message (null body, unknown method, misspelled key)",
+      "created_at": "2026-10-24T12:54:12Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/jozobeer/jozo-harness/issues/343",
+      "title": "feat(acp): エディタから JSON-RPC でハーネスを駆動できるようにする",
+      "created_at": "2026-10-24T08:00:07Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/MustacheXb/ReviewAgent-pi/issues/25",
+      "title": "HTTP/JSON-RPC server 线：协议 spec（P1–P3 全量 + stdio v2 统一——契约/状态机/鉴权/持久化/部署收口）",
+      "created_at": "2026-10-24T03:40:56Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/daiki-beppu/nyaucast/issues/891",
+      "title": "package-smoke の contract テストが、高負荷の手元の pre-push で JSON-RPC の応答待ち（25 秒）の時間切れになる",
+      "created_at": "2026-10-24T02:51:36Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/issues/17409",
+      "title": "paperclip_runner: same-run recovery turn's paperclip_finish is silently dropped (callId reuses JSON-RPC id), run settles incomplete and company gets quarantined",
+      "created_at": "2026-10-24T02:28:00Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/dgwartney/mcphee/issues/12",
+      "title": "#payload should show real JSON-RPC wire messages (handshake, list calls, ids, notifications)",
+      "created_at": "2026-10-24T01:38:17Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Calhooon/bsv-wallet-infra-cloudflare/issues/19",
+      "title": "The storage door on D1: the JSON-RPC door's batch per request, the BEEF-at-rest binding's read path, the writer discipline on D1",
+      "created_at": "2026-10-23T21:38:31Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/crypto-org-chain/cronos/issues/2236",
+      "title": "Public keyless CometBFT RPC (tx index on) or a JSON route for the transaction totals",
+      "created_at": "2026-10-23T19:33:15Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/serverpod/serverpod/issues/5903",
+      "title": "Migrate endpoint calls and streaming to JSON-RPC 2.0",
+      "created_at": "2026-10-23T17:38:16Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/bisite/cyberchain-smart-contract-wrapper/issues/2",
+      "title": "Validate JSON-RPC response IDs in the HTTP provider",
+      "created_at": "2026-10-23T12:17:19Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/manaflow-ai/cmux/issues/24537",
+      "title": "Agent transcript: show images from nested, JSON-RPC and running-call tool envelopes in the image strip",
+      "created_at": "2026-10-23T11:56:34Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/GopherSecurity/gopher-mcp/issues/334",
+      "title": "Streamable HTTP: four JSON-RPC and version-negotiation errors differ from the MCP 2026-07-28 specification",
+      "created_at": "2026-10-23T04:57:11Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/jxsu404/quickchain/issues/3",
+      "title": "3. API de prueba x402 (api-demo)",
+      "created_at": "2026-10-26T02:22:00Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/josedanielm0202-droid/caja-tica-escudo/issues/25",
+      "title": "3: API de prueba que cobra con x402",
+      "created_at": "2026-10-26T02:12:19Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/nicolasguasca1/x402-stellar-ticket-gating/issues/6",
+      "title": "v2: Agents as first-class buyers: per-merchant budgets, x402 discovery and MPP",
+      "created_at": "2026-10-25T21:36:07Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/binance/binance-skills-hub/issues/385",
+      "title": "[BUG] baw x402-payment preview returns misleading unsupported-protocol-version error for empty-but-valid JSON payloads",
+      "created_at": "2026-10-25T18:18:38Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/bytesbrains/16ane/issues/148",
+      "title": "[adr][infra][security] Hosted x402 settlement on api.16ane.com so sellers need no ETH (cost-capped)",
+      "created_at": "2026-10-25T17:41:04Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Prashant-Mishra-12569/habeas/issues/3",
+      "title": "Would you like to be a Wasit tester? (x402 conformance on Stellar testnet)",
+      "created_at": "2026-10-25T16:54:53Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/DiegoPoveda01/local402/issues/2",
+      "title": "Would you like to be a Wasit tester? (x402 conformance on Stellar testnet)",
+      "created_at": "2026-10-25T16:54:51Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/phoenix-2203/acan/issues/2",
+      "title": "Would you like to be a Wasit tester? (x402 conformance on Stellar testnet)",
+      "created_at": "2026-10-25T16:47:41Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/akoita/resonate/issues/2440",
+      "title": "Exploration: Stripe stablecoin payments and machine payments (MPP / x402) — maturity, vision fit, staged plan",
+      "created_at": "2026-10-25T16:40:18Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/nirium-protocol/nirium/issues/214",
+      "title": "Tests for x402-guard-upstash.ts: createUpstashX402GuardStore has zero coverage",
+      "created_at": "2026-10-25T16:26:55Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/nexus-mcp-infra/new-x402-listings-feed/issues/1",
+      "title": "Both registry remotes (this feed and x402-receipt-verifier) answer 403 to an unauthenticated initialize",
+      "created_at": "2026-10-25T16:13:29Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/rplryan/x402-discovery-mcp/issues/17",
+      "title": "Registry remote x402-scout-relay.onrender.com/sse answers 503",
+      "created_at": "2026-10-25T16:13:08Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Masashi-Ono0611/rent-a-brain/issues/11",
+      "title": "Make x402 settlement and answer delivery durable and idempotent",
+      "created_at": "2026-10-25T14:36:26Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Masashi-Ono0611/rent-a-brain/issues/10",
+      "title": "Implement an x402 v2 Solana USDC paid-answer resource",
+      "created_at": "2026-10-25T14:36:20Z",
+      "previously_screened_r14": true
+    },
+    {
+      "url": "https://github.com/Masashi-Ono0611/rent-a-brain/issues/8",
+      "title": "Specify Solana USDC x402 interoperability and marketplace fee handling",
+      "created_at": "2026-10-25T14:36:05Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Convex-Dev/convex/issues/771",
+      "title": "Post-release: shared transaction-result lookup and X402 confirmation fallback",
+      "created_at": "2026-10-25T14:09:04Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Michella-stack/Stellar-Split/issues/11",
+      "title": "API: x402 settle endpoint",
+      "created_at": "2026-10-25T12:57:50Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/agentsvc/agentsvc/issues/3",
+      "title": "Add an XNO (Nano) settlement leg beside USDC in the x402 manifest",
+      "created_at": "2026-10-25T12:36:39Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/aidatatools-dev/astro-agents-mcp/issues/1",
+      "title": "Add a nano:mainnet settlement option beside USDC in the x402 manifest",
+      "created_at": "2026-10-25T12:35:16Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/shveik-dev/facilitator-watch/issues/1",
+      "title": "Add the live Nano (XNO) x402 facilitator to the watchlist — its /supported now advertises scheme:exact network:nano:mainnet",
+      "created_at": "2026-10-25T10:27:24Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/api-jarvisclaw/jarvisclaw-mcp/issues/4",
+      "title": "Federation peer request: api.clawfetch.ai (9 x402 routes, Base USDC, CDP facilitator)",
+      "created_at": "2026-10-25T09:56:18Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8942",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "created_at": "2026-10-25T04:25:23Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/christianazinn/moove/issues/348",
+      "title": "Commerce UI: Visa sandbox labels on purchase card / receipts, x402 refusal rule, Guardian line (iOS review)",
+      "created_at": "2026-10-25T00:44:51Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Daisuke134/life-manager/issues/8923",
+      "title": "x402 service: web-research brief for $0.02 USDC",
+      "created_at": "2026-10-24T23:47:41Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/vs-githjk/fish-market-nothing-fishy/issues/347",
+      "title": "You run the real agent payment to Apify (x402 on Coinbase), $5-10, step by step",
+      "created_at": "2026-10-24T22:55:02Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Merit-Systems/x402scan/issues/1309",
+      "title": "Vetting request: genexxis.com (7 origins, 11 paid x402 v2 routes on Base, ownership verified)",
+      "created_at": "2026-10-24T19:50:34Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Merit-Systems/x402scan/issues/1308",
+      "title": "Vetting request: genexxis.com (7 origins, 11 paid x402 v2 routes on Base, ownership verified)",
+      "created_at": "2026-10-24T19:35:07Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/Merit-Systems/x402scan/issues/1307",
+      "title": "Vetting request: genexxis.com (7 origins, 11 paid x402 v2 routes on Base, ownership verified)",
+      "created_at": "2026-10-24T19:29:49Z",
+      "previously_screened_r14": false
+    },
+    {
+      "url": "https://github.com/aibtcdev/cloudflare-agents-x402/issues/2",
+      "title": "x402 client: charged amount isn't checked against the advertised tool price, and the cap has no running total",
+      "created_at": "2026-10-24T16:00:05Z",
+      "previously_screened_r14": false
+    }
+  ]
+}

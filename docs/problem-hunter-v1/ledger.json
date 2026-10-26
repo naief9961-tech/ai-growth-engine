@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-10-26-R14",
+  "last_round": "2026-10-26-R15",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -322,6 +322,27 @@
           "verified_at": "2026-10-26T05:15:53Z"
         }
       ]
+    },
+    {
+      "id": "2026-10-26-R15",
+      "kind": "USER_REQUESTED_DISCOVERY_EXTENSION",
+      "checked_at": "2026-10-26T05:26:30Z",
+      "discovery_unique": 179,
+      "retrieved_results": 180,
+      "new_urls_vs_previous_round_screening": 104,
+      "search_queries": 6,
+      "search_result_limit_each": 30,
+      "full_issue_candidate_reads": 4,
+      "source_investigations": 1,
+      "source_investigation_kind": "STATIC_ONLY_NO_RUNTIME_TEST",
+      "exploratory_source_reads": 1,
+      "followup_threads_read": 0,
+      "local_test_groups_passed": 0,
+      "upstream_full_suites_run": 0,
+      "reply_drafts": 1,
+      "third_party_comments_posted": 0,
+      "commercial_requests_verified": 0,
+      "notes": "Not a new full follow-up sweep. QwenPaw manual-publication history/cursor preserved. Camber held after finding existing integration PR #305. No native Qt build or synthetic implementation-mirroring test."
     }
   ],
   "automation": {
@@ -2182,6 +2203,58 @@
           "verified_at": "2026-10-26T05:15:53Z"
         }
       ]
+    },
+    {
+      "round_id": "2026-10-26-R15",
+      "rank": 1,
+      "url": "https://github.com/f4exb/sdrangel/issues/3039",
+      "repository": "f4exb/sdrangel",
+      "issue_number": 3039,
+      "reporter": "melanders-utv",
+      "created_at": "2026-10-25T19:44:17Z",
+      "discovered_date": "2026-10-26",
+      "checked_at": "2026-10-26T05:26:30Z",
+      "state_at_review": "open",
+      "latest_state": "open",
+      "diagnosis": "tune_gain.values uses prop(array), which emits type/description only; listTools forwards it unchanged. The reported Copilot client requires items. This is a client-compatibility omission, not invalid generic JSON Schema.",
+      "solution": "Reuse the nearby scan array-property pattern to add items.type=number, preserving description/optional values. Regenerate bundled server/tools.json from the same source.",
+      "confidence": "High for static source origin and bundle-generation path; runtime/Copilot acceptance unverified.",
+      "benefit": "Concrete source patch location plus the additional packaged/offline tools-list regression boundary and distinction from generic JSON Schema validity.",
+      "tests": "NOT RUN: no Qt development environment/pkg-config available. Proposed regression plan only; no native build, tools-dump execution, live tools/list, Copilot, hardware or upstream suite.",
+      "reply": "R15-01",
+      "approval": {
+        "status": "AWAITING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_NOT_POSTED",
+      "published_comment_url": null,
+      "last_seen_comment_id": null,
+      "developer_response": "NOT_CONTACTED",
+      "commercial_interest": "NONE_OBSERVED",
+      "purchase_evidence": null,
+      "pr_check": "Full issue/comments/timeline read (0 comments/events). MCP keyword PR search returned 6 entries; issue-number and tune_gain PR searches returned 0. No matching repair found within these searches; not exhaustive.",
+      "sources": [
+        {
+          "repository": "f4exb/sdrangel",
+          "path": "plugins/feature/mcpserver/mcptools.cpp",
+          "commit": "24ac61389837c63dedd61fed762d74d5860c3430",
+          "blob_sha": "4b7992bbac4d7e6e5e71a7a923c3fd74c99ed702",
+          "url": "https://github.com/f4exb/sdrangel/blob/24ac61389837c63dedd61fed762d74d5860c3430/plugins/feature/mcpserver/mcptools.cpp"
+        },
+        {
+          "repository": "f4exb/sdrangel",
+          "path": "plugins/feature/mcpserver/toolsdump.cpp",
+          "commit": "24ac61389837c63dedd61fed762d74d5860c3430",
+          "blob_sha": "5e5c886e8bae89bdd963cdb9813d4d8697157ebf",
+          "url": "https://github.com/f4exb/sdrangel/blob/24ac61389837c63dedd61fed762d74d5860c3430/plugins/feature/mcpserver/toolsdump.cpp"
+        },
+        {
+          "repository": "f4exb/sdrangel",
+          "path": "plugins/feature/mcpserver/bridge/CMakeLists.txt",
+          "commit": "24ac61389837c63dedd61fed762d74d5860c3430",
+          "blob_sha": "10b89c41a876d944c4010e2a77572fd62dfed8f4",
+          "url": "https://github.com/f4exb/sdrangel/blob/24ac61389837c63dedd61fed762d74d5860c3430/plugins/feature/mcpserver/bridge/CMakeLists.txt"
+        }
+      ]
     }
   ],
   "followups": [
@@ -3038,6 +3111,20 @@
           "comment_id": 6408777173
         }
       ]
+    },
+    {
+      "url": "https://github.com/f4exb/sdrangel/issues/3039",
+      "state": "open",
+      "last_own_comment_id": null,
+      "last_own_comment_at": null,
+      "last_seen_comment_id": null,
+      "last_seen_comment_at": null,
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "DRAFT_NOT_POSTED",
+      "outcome": "R15-01 source-grounded draft; native and client validation not run.",
+      "last_checked_date": "2026-10-26",
+      "last_checked_at": "2026-10-26T05:26:30Z"
     }
   ],
   "exclusions": [
@@ -3404,6 +3491,27 @@
       "reason": "Existing open repair PR; no independently established additional contribution in this round. Upstream tests not rerun.",
       "pr": "https://github.com/vercel/ai/pull/24030",
       "reviewed_pr_head": "cce073bca6d9795833471366f4d737ea4630f107"
+    },
+    {
+      "round_id": "2026-10-26-R15",
+      "url": "https://github.com/Code-Hex/graphql-codegen-typescript-validation-schema/issues/1622",
+      "reason": "Full body is a developer-community invitation with a shortened external link, not a technical defect.",
+      "status": "EXCLUDED_PROMOTION"
+    },
+    {
+      "round_id": "2026-10-26-R15",
+      "url": "https://github.com/bisite/cyberchain-smart-contract-wrapper/issues/2",
+      "reason": "Existing comment 6366334204 already supplies local HTTP reproduction, source revision and success/error-ID regression matrix. No additional independently established contribution.",
+      "status": "EXCLUDED_EXISTING_SOLUTION",
+      "comment": "https://github.com/bisite/cyberchain-smart-contract-wrapper/issues/2#issuecomment-6366334204"
+    },
+    {
+      "round_id": "2026-10-26-R15",
+      "url": "https://github.com/yroussev/camber/issues/300",
+      "reason": "Open CI-only integration PR #305 already contains id:null helper fix, duplicate-key handling and updated transcript/regression tests. PR is not a merged/released repair; no test rerun or duplicate draft.",
+      "status": "EXCLUDED_EXISTING_IMPLEMENTATION",
+      "pr": "https://github.com/yroussev/camber/pull/305",
+      "reviewed_pr_head": "e913b22488b29a8ed2700d01aaab836f1c211b80"
     }
   ],
   "history_search": {
