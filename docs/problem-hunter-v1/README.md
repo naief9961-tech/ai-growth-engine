@@ -3,7 +3,7 @@
 Evidence-based help with user approval before posting to third-party repositories.
 
 - [Latest report — 2026-10-26 R14](rounds/2026-10-26-R14/REPORT.md)
-- [R14: one reply awaiting approval](rounds/2026-10-26-R14/DRAFTS.md)
+- [R14: manually posted and verified — do not repost](rounds/2026-10-26-R14/DRAFTS.md)
 
 - [Previous report — 2026-10-25 R13](rounds/2026-10-25-R13/REPORT.md)
 

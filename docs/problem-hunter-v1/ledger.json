@@ -312,7 +312,16 @@
       "upstream_full_suites_run": 0,
       "reply_drafts": 1,
       "third_party_comments_posted": 0,
-      "commercial_requests_verified": 0
+      "commercial_requests_verified": 0,
+      "manual_publication_verifications": [
+        {
+          "type": "MANUAL_PUBLICATION_VERIFIED",
+          "comment_id": 6408777173,
+          "url": "https://github.com/agentscope-ai/QwenPaw/issues/8424#issuecomment-6408777173",
+          "created_at": "2026-10-26T05:14:55Z",
+          "verified_at": "2026-10-26T05:15:53Z"
+        }
+      ]
     }
   ],
   "automation": {
@@ -2130,12 +2139,14 @@
       "tests": "10 paired assertion groups passed, 20 extracted _negotiate executions. Injected RPC and HTTPStatusError type placeholder; no transport, actual legacy handshake, OAuth, cleanup, policy, server or upstream suite test.",
       "reply": "R14-01",
       "approval": {
-        "status": "AWAITING_USER_APPROVAL"
+        "status": "USER_POSTED_MANUALLY",
+        "date": "2026-10-26",
+        "source": "User said «تم» after receiving the full R14-01 text; matching comment by naief9961-tech verified in GitHub. This records that publication only and does not authorize future comments."
       },
-      "publication_status": "DRAFT_NOT_POSTED",
-      "published_comment_url": null,
-      "last_seen_comment_id": 6407669079,
-      "developer_response": "NOT_CONTACTED",
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "published_comment_url": "https://github.com/agentscope-ai/QwenPaw/issues/8424#issuecomment-6408777173",
+      "last_seen_comment_id": 6408777173,
+      "developer_response": "AWAITING_REPLY",
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "pr_check": "Full comments/timeline read; no linked PR and issue-number PR search returned 0. Not exhaustive repository-wide PR review.",
@@ -2146,6 +2157,29 @@
           "commit": "b501aca97f8e13c730669fa1c6365f4f053895b6",
           "blob_sha": "184c594799f0b733b12c69b52e8fb5b6e85e733c",
           "url": "https://github.com/agentscope-ai/QwenPaw/blob/b501aca97f8e13c730669fa1c6365f4f053895b6/src/qwenpaw/drivers/handlers/mcp_streamable_http.py"
+        }
+      ],
+      "publication_history": [
+        {
+          "type": "MANUAL_PUBLICATION_VERIFIED",
+          "comment_id": 6408777173,
+          "url": "https://github.com/agentscope-ai/QwenPaw/issues/8424#issuecomment-6408777173",
+          "created_at": "2026-10-26T05:14:55Z",
+          "verified_at": "2026-10-26T05:15:53Z",
+          "previous_publication_status": "DRAFT_NOT_POSTED",
+          "previous_approval": {
+            "status": "AWAITING_USER_APPROVAL"
+          }
+        }
+      ],
+      "published_comment_id": 6408777173,
+      "publication_events": [
+        {
+          "type": "MANUAL_PUBLICATION_VERIFIED",
+          "comment_id": 6408777173,
+          "url": "https://github.com/agentscope-ai/QwenPaw/issues/8424#issuecomment-6408777173",
+          "created_at": "2026-10-26T05:14:55Z",
+          "verified_at": "2026-10-26T05:15:53Z"
         }
       ]
     }
@@ -2985,16 +3019,25 @@
     {
       "url": "https://github.com/agentscope-ai/QwenPaw/issues/8424",
       "state": "open",
-      "last_own_comment_id": null,
-      "last_own_comment_at": null,
-      "last_seen_comment_id": 6407669079,
-      "last_seen_comment_at": "2026-10-26T03:38:10Z",
+      "last_own_comment_id": 6408777173,
+      "last_own_comment_at": "2026-10-26T05:14:55Z",
+      "last_seen_comment_id": 6408777173,
+      "last_seen_comment_at": "2026-10-26T05:14:55Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_NOT_POSTED",
-      "outcome": "R14-01 ready for review; existing welcome-bot comment baselined, not a reply to NAIF.",
+      "status": "POSTED_MANUALLY_VERIFIED",
+      "outcome": "R14-01 manually posted by naief9961-tech and verified. No subsequent developer reply. Do not repost.",
       "last_checked_date": "2026-10-26",
-      "last_checked_at": "2026-10-26T05:07:18Z"
+      "last_checked_at": "2026-10-26T05:15:53Z",
+      "history": [
+        {
+          "checked_at": "2026-10-26T05:15:53Z",
+          "previous_status": "DRAFT_NOT_POSTED",
+          "previous_outcome": "R14-01 ready for review; existing welcome-bot comment baselined, not a reply to NAIF.",
+          "status": "POSTED_MANUALLY_VERIFIED",
+          "comment_id": 6408777173
+        }
+      ]
     }
   ],
   "exclusions": [

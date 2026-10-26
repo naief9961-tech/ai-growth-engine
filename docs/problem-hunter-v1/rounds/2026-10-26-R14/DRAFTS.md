@@ -1,8 +1,10 @@
 # R14-01 — QwenPaw #8424
 
-Status: **AWAITING USER APPROVAL — NOT POSTED**.
+Status: **POSTED MANUALLY AND VERIFIED — DO NOT REPOST**.
+Published by naief9961-tech at 2026-10-26T05:14:55Z.
+Verified comment: https://github.com/agentscope-ai/QwenPaw/issues/8424#issuecomment-6408777173
 Destination: https://github.com/agentscope-ai/QwenPaw/issues/8424
-Re-read the issue, linked PRs and contribution policy before any separately approved publication.
+Historical copy of the user's published comment. Future follow-ups require new evidence and separate user approval.
 
 ---
 
