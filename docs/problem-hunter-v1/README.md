@@ -2,7 +2,10 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-26 R15](rounds/2026-10-26-R15/REPORT.md)
+- [Latest report — 2026-10-27 R16](rounds/2026-10-27-R16/REPORT.md)
+- [R16: one mppx reply awaiting review](rounds/2026-10-27-R16/DRAFTS.md)
+
+- [Previous report — 2026-10-26 R15](rounds/2026-10-26-R15/REPORT.md)
 - [R15: manually posted and verified — do not repost; runtime untested](rounds/2026-10-26-R15/DRAFTS.md)
 
 - [Previous report — 2026-10-26 R14](rounds/2026-10-26-R14/REPORT.md)

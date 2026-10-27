@@ -1,0 +1,492 @@
+{
+  "checked_at": "2026-10-27T05:04:28Z",
+  "queries": [
+    "is:issue is:open MCP in:title created:>=2026-10-24",
+    "is:issue is:open A2A in:title created:>=2026-10-24",
+    "is:issue is:open x402 in:title created:>=2026-10-24",
+    "is:issue is:open webhook in:title created:>=2026-10-24",
+    "is:issue is:open schema in:title created:>=2026-10-24",
+    "is:issue is:open \"GitHub Actions\" in:title created:>=2026-10-24"
+  ],
+  "limit_each": 20,
+  "raw_results": 120,
+  "unique": 119,
+  "items": [
+    {
+      "url": "https://github.com/githubnext/gh-aw-test/issues/25978",
+      "title": "GitHub remote MCP passed"
+    },
+    {
+      "url": "https://github.com/tu11aa/squadrant/issues/1067",
+      "title": "mcp: thread/side sessions are listed crew_signal_* tools (role 'other' falls back to the crew list)"
+    },
+    {
+      "url": "https://github.com/vjpixel/diaria-studio/issues/11251",
+      "title": "Clarice MCP devolve 401 no 300 (REST funciona)"
+    },
+    {
+      "url": "https://github.com/taptap/instant-games-open-mcp/issues/841",
+      "title": "[Maker MCP] Generated landscape publication template blocks first portrait mobile-test setup"
+    },
+    {
+      "url": "https://github.com/milind-soni/OpenMausBot/issues/3599",
+      "title": "Grok MCP setup is interrupted by a redundant session/set_model"
+    },
+    {
+      "url": "https://github.com/AaronFeledy/core4/issues/1835",
+      "title": "Harden MCP lifecycle ownership and track upstream Effect compatibility"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-test/issues/25962",
+      "title": "Large MCP JSON payload passed"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/issues/5303",
+      "title": "mcp-server-fetch: HTML extraction crashes with UnicodeEncodeError on Windows for non-cp1252 pages (readabilipy 0.2.0)"
+    },
+    {
+      "url": "https://github.com/santoshshinde2012/holdmap/issues/117",
+      "title": "Trim old version tags from the MCP tools table"
+    },
+    {
+      "url": "https://github.com/carlosjmunoz78/fenix-capital-inmo-map/issues/951",
+      "title": "P0/S+ TECH_SCOUT — OSWorld-MCP tool-vs-GUI routing benchmark for Computer Use"
+    },
+    {
+      "url": "https://github.com/UWMD-OSP/UW-Markdown/issues/583",
+      "title": "Newcomer docs: make current-source authoring and MCP prerequisites explicit"
+    },
+    {
+      "url": "https://github.com/blend-ed/frontend-app-ai-course-creator/issues/6",
+      "title": "[v5 P50] Make AI, MCP and copy writers library-first"
+    },
+    {
+      "url": "https://github.com/suprsend/documentation/issues/294",
+      "title": "Docs-gap agent ledger — MCP docs_search (do not close)"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4659",
+      "title": "Report broken MCP entry: paulmicahsalas/since"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4658",
+      "title": "Report broken MCP entry: paulmicahsalas/pound"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4657",
+      "title": "Report broken MCP entry: paulmicahsalas/load"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4656",
+      "title": "Report broken MCP entry: notarybob/powder"
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4655",
+      "title": "Report broken MCP entry: everbove/remote-mcp-server-test"
+    },
+    {
+      "url": "https://github.com/kitamura-tetsuo/outliner/issues/5806",
+      "title": "[Kanban MCP] Complete the remote-definition browser regression required by #5760/REQ-014"
+    },
+    {
+      "url": "https://github.com/elizaOS/eliza/issues/37879",
+      "title": "Add Aurifex MCP for Macro/Commodities data (x402)"
+    },
+    {
+      "url": "https://github.com/wso2/agent-manager/issues/2153",
+      "title": "[Bug]: Tracing overview tab is blocked for External A2A agent that created from the samples"
+    },
+    {
+      "url": "https://github.com/wso2/agent-manager/issues/2152",
+      "title": "[Bug]: `amctl` Does not support creation of external A2A agents"
+    },
+    {
+      "url": "https://github.com/protoLabsAI/protoAgent/issues/4535",
+      "title": "A2A delegated tasks stall on shell-command approval; no bypass for trusted callers (+ /api/health 401 forces shell probing)"
+    },
+    {
+      "url": "https://github.com/krizaka/orazaka/issues/429",
+      "title": "incubation: an open-source Apache-2.0 « Loi 25 redaction » connector over MCP and A2A (ADR-092)"
+    },
+    {
+      "url": "https://github.com/krizaka/orazaka/issues/428",
+      "title": "incubation: expose capabilities over A2A (AgentCards) (ADR-092)"
+    },
+    {
+      "url": "https://github.com/Alien6-Studio/hankoshell-operator/issues/172",
+      "title": "[Agent authority] Add installed real A2A→MCP qualification matrix"
+    },
+    {
+      "url": "https://github.com/Alien6-Studio/hankoshell-operator/issues/167",
+      "title": "[Agent authority] Declare distinct protected A2A and MCP resource audiences"
+    },
+    {
+      "url": "https://github.com/Alien6-Studio/hankoshell-operator/issues/165",
+      "title": "[RFC] Agent-to-agent exchanges with bounded authority (A2A/MCP)"
+    },
+    {
+      "url": "https://github.com/googleapis/python-aiplatform/issues/7246",
+      "title": "agentplatform: a2a_tasks and a2a_task_events reference types missing from agentplatform._genai.types"
+    },
+    {
+      "url": "https://github.com/adcontextprotocol/adcp-client-python/issues/1637",
+      "title": "AdCP 3.3: A2A operation-resolution hardening is MUST; advertise request_signing.operation_sources"
+    },
+    {
+      "url": "https://github.com/agentidentitytrustprotocol/agentidentitytrustprotocol/issues/152",
+      "title": "A2A1.1: A2A Experimental-extension proposal (draft)"
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/4026",
+      "title": "🎲 flaky check: A2A Module Tests: TestSendMessageAnswersFromTheTurnsOwnTask"
+    },
+    {
+      "url": "https://github.com/izzywdev/FuzeInfra/issues/1486",
+      "title": "[watchdog] stuck-containercreating: fuzehub/a2a-fuzehub"
+    },
+    {
+      "url": "https://github.com/rriggs/hermes-agent-a2a-async-plugin/issues/12",
+      "title": "Abandoned outbound A2A tasks stay SUBMITTED forever: no reconciliation, no staleness signal, never trimmed"
+    },
+    {
+      "url": "https://github.com/mctlhq/.github/issues/243",
+      "title": "design: tenant support agent reachable over A2A (mctl-support)"
+    },
+    {
+      "url": "https://github.com/rrahimi-uci/caliber-suite/issues/911",
+      "title": "[D14] M19.5a · Expose the pinned A2A v0.3.0 JSON-RPC adapter and agent-card discovery path prescribed by that vendored specif"
+    },
+    {
+      "url": "https://github.com/rrahimi-uci/caliber-suite/issues/903",
+      "title": "[D14] M19.1 · Pin A2A v0.3.0 JSON-RPC transport and vendor its official schema/license with resolved tag commit"
+    },
+    {
+      "url": "https://github.com/Donkey-Development-Kit/donkey-development-kit-demos/issues/55",
+      "title": "Demonstrate A2A serving and governed inbound tasks"
+    },
+    {
+      "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit/issues/2475",
+      "title": "[BUG]: mcp_service_account returns a naive token_expires_at, so is_expired() raises and A2A clients send no credentials"
+    },
+    {
+      "url": "https://github.com/kagent-dev/kagent/issues/3369",
+      "title": "[DOCS] Define the public A2A metadata and extension contracts"
+    },
+    {
+      "url": "https://github.com/piteropilot168-dot/agent-product-normalizer/issues/66",
+      "title": "Unblock x402 discovery: x402dash 400 (accepts / GET 404), Bazaar Cloudflare challenge"
+    },
+    {
+      "url": "https://github.com/hummingbot/condor/issues/298",
+      "title": "Add Aurifex MCP for Macro/Commodities data (x402)"
+    },
+    {
+      "url": "https://github.com/coinbase/agentkit/issues/1603",
+      "title": "[Action Provider Proposal] Lordevo: $0.01 pre-flight web checks (robots.txt gate, link check, DNS, email) via x402"
+    },
+    {
+      "url": "https://github.com/pursekeeper/skill/issues/10",
+      "title": "inference-proxy loses recovery token after an x402 hand-back"
+    },
+    {
+      "url": "https://github.com/wasit-dev/Wasit/issues/21",
+      "title": "User feedback: AgentPey, x402 on Stellar testnet"
+    },
+    {
+      "url": "https://github.com/wevm/mppx/issues/1113",
+      "title": "Client throws \"No Payment schemes found.\" on a 402 whose WWW-Authenticate has no Payment challenge, so x402 fallback never runs"
+    },
+    {
+      "url": "https://github.com/automaton-revenue/x402-health/issues/4",
+      "title": "[krnl-x402 / KRNL-Labs] poc.platform.lat/x402 serves plain-text 404 for /.well-known/x402 and /openapi.json"
+    },
+    {
+      "url": "https://github.com/automaton-revenue/x402-health/issues/3",
+      "title": "[amiko-x402 / HCF-STUDIOS] trustless.heyamiko.com serves HTML 404 for /openapi.json and /.well-known/x402"
+    },
+    {
+      "url": "https://github.com/automaton-revenue/x402-health/issues/2",
+      "title": "[XActions / nirholas] x402 endpoint dead: api.xactions.io does not resolve (NXDOMAIN on /.well-known/x402)"
+    },
+    {
+      "url": "https://github.com/automaton-revenue/x402-health/issues/1",
+      "title": "[heurist-agent-framework] x402 endpoint dead: x402.heurist.xyz does not resolve (NXDOMAIN on /.well-known/x402)"
+    },
+    {
+      "url": "https://github.com/x402-foundation/x402/issues/3972",
+      "title": "[Bug]: @x402/next bazaar validation import fails in bundled Next.js builds even when the extension is pre-registered (regression of #982)"
+    },
+    {
+      "url": "https://github.com/celo-org/docs/issues/2413",
+      "title": "docs(x402): put the API key before the code example and end \"check that it works\" with a paid Sepolia settlement"
+    },
+    {
+      "url": "https://github.com/wasit-dev/Wasit/issues/20",
+      "title": "Feedback: SOW 2 — MCP security vetting of @wasit-dev/server (no live x402 run)"
+    },
+    {
+      "url": "https://github.com/ql4b/terraform-aws-x402-edge/issues/9",
+      "title": "chore: bring x402-edge up to the module delivery-lifecycle standard"
+    },
+    {
+      "url": "https://github.com/PayAINetwork/docs/issues/112",
+      "title": "Docs: seller integration example for an x402 Base service (discovery, 402 requirements, delivery evidence, unresolved settlement)"
+    },
+    {
+      "url": "https://github.com/x402-foundation/x402/issues/3961",
+      "title": "[Spec question] Implementation experience: replay at the verify/serve layer in x402 v2 (resource-server ledger + replay_detected)"
+    },
+    {
+      "url": "https://github.com/PostOakLabs/ainumbers/issues/2671",
+      "title": "chain proposal: x402-v2-migration-deferred-handshake-check"
+    },
+    {
+      "url": "https://github.com/red-cup-engineering/shop.561.group/issues/27",
+      "title": "Generate the Shop's offer families by services section, toward 10,000 then 100,000 x402 offers"
+    },
+    {
+      "url": "https://github.com/OpenAIMP/cfagent/issues/1771",
+      "title": "[#1717] Unenabled orchestrations: portfolio rebalancing, x402 P2P, spread repair, arbitrage, swarm, volatility monitor, social feed wiring"
+    },
+    {
+      "url": "https://github.com/suprsend/documentation/issues/299",
+      "title": "Document how to verify the authenticity of SuprSend outbound webhooks"
+    },
+    {
+      "url": "https://github.com/suprsend/documentation/issues/295",
+      "title": "Document the workflow Webhook (HTTP) node: success statuses, retries, and branching on response"
+    },
+    {
+      "url": "https://github.com/chatwoot/chatwoot/issues/16415",
+      "title": "API inbox: a webhook answered after the timeout turns a reply already marked delivered into failed"
+    },
+    {
+      "url": "https://github.com/HariantoAtWork/dns01-proxy/issues/1",
+      "title": "Add post-renew webhook so consumers can reload shared Let’s Encrypt certs"
+    },
+    {
+      "url": "https://github.com/Sincpro-SRL/sincpro_framework/issues/209",
+      "title": "feat(event-driven): webhooks out and in (Standard Webhooks)"
+    },
+    {
+      "url": "https://github.com/developing-today/code/issues/1252",
+      "title": "design(pm-stack): event-driven freshness — replace the 5-minute polling feed with push (webhooks + SSE/WebSocket), polling as reconciliation only"
+    },
+    {
+      "url": "https://github.com/luanvvk/bacama/issues/109",
+      "title": "[Security] Clerk webhook: deleting a user leaks seats and every error looks like a bad signature"
+    },
+    {
+      "url": "https://github.com/luanvvk/bacama/issues/104",
+      "title": "[E2E] Cover the money flow: COD checkout, order tracking, webhook replay"
+    },
+    {
+      "url": "https://github.com/luanvvk/bacama/issues/95",
+      "title": "[Security] Late paid webhook after the expiry sweep is dropped; non-COD orders can oversell"
+    },
+    {
+      "url": "https://github.com/luanvvk/bacama/issues/94",
+      "title": "[Security] Payment webhook can never match an order: providerRef is never saved"
+    },
+    {
+      "url": "https://github.com/vivek-vpc/erpnext-ai-agents/issues/8",
+      "title": "WhatsApp: a webhook with an unexpected shape must not crash the route (HTTP 500)"
+    },
+    {
+      "url": "https://github.com/FreshRSS/Extensions/issues/560",
+      "title": "[Webhook] {content} placeholder turns escaped text into HTML markup"
+    },
+    {
+      "url": "https://github.com/rayalva407/Fragrances/issues/51",
+      "title": "T-4.3.4 Stripe webhook / success handler -> create order"
+    },
+    {
+      "url": "https://github.com/Elythia-Network/elythia/issues/3859",
+      "title": "引数の検証を本家のparamDefから (3-26): admin/*のうちロール・通報・Webhook・captchaの26件を本家のparamDefで検証し、判定が分かれる引数を本家と同じ400にする"
+    },
+    {
+      "url": "https://github.com/vivek-vpc/erpnext-ai-agents/issues/3",
+      "title": "API: the webhook route gives GET and POST the same OpenAPI operation id (FastAPI warning)"
+    },
+    {
+      "url": "https://github.com/vinayakss007/nucrm-bigplan-by-vm-enterprise-v2/issues/3316",
+      "title": "HIGH: the Telegram bot webhook resolves users on the bare pool, so every linked account is told to link its account — and the operator branch fabricates an unattributed super admin"
+    },
+    {
+      "url": "https://github.com/ezazulhaq/auditagent/issues/18",
+      "title": "Add GitHub Issue Webhook Support"
+    },
+    {
+      "url": "https://github.com/liverty-music/cloud-provisioning/issues/704",
+      "title": "Infra: alert when the payment provider webhook keeps failing"
+    },
+    {
+      "url": "https://github.com/chatwoot/chatwoot/issues/16413",
+      "title": "API inbox: a webhook_url failing with alternating errors (502/504) makes Chatwoot re-send message_updated in a loop"
+    },
+    {
+      "url": "https://github.com/florianfinn/docklet-next/issues/257",
+      "title": "Refuse retired webhook actions at creation"
+    },
+    {
+      "url": "https://github.com/gbourgeat/ddd-ts-kit/issues/453",
+      "title": "A worker cannot add a column for a new state field: prisma/schema.prisma is a shared file, and a schema commit on the trunk breaks the mapper of the worker's context"
+    },
+    {
+      "url": "https://github.com/yutna/software-delivery-assurance/issues/29",
+      "title": "feat(project): add project schemas and domain types"
+    },
+    {
+      "url": "https://github.com/yutna/software-delivery-assurance/issues/20",
+      "title": "feat(mapping): add crosswalk schema, parser, and first mapping"
+    },
+    {
+      "url": "https://github.com/ai-pipestream/grpc-ebcdic/issues/10",
+      "title": "Compile REDEFINES record variants into selectable schemas instead of rejecting the copybook"
+    },
+    {
+      "url": "https://github.com/randlee/beads/issues/30",
+      "title": "bd list fails on a fresh Dolt clone: ignored per-host tables (leases, wisps, …) are never created because ignored_schema_migrations is itself an ignored table"
+    },
+    {
+      "url": "https://github.com/yutna/software-delivery-assurance/issues/4",
+      "title": "feat(schema): add requirement, module, and overlay schemas"
+    },
+    {
+      "url": "https://github.com/mauriciabad/Sukrara/issues/86",
+      "title": "Settings schema gaps (mirrorExcept in gen.py, unused/missing keys, exhaustive Mac test)"
+    },
+    {
+      "url": "https://github.com/chaitanya3306/Fundamental_intelligence/issues/32",
+      "title": "[P1][Phase 3] Audit database models, Alembic migrations, and live schema"
+    },
+    {
+      "url": "https://github.com/mindsocket/structured-context/issues/177",
+      "title": "Export a schema listing from the API (listSchemas) and add sctx schemas --json"
+    },
+    {
+      "url": "https://github.com/chaitanya3306/Fundamental_intelligence/issues/12",
+      "title": "[P1][Phase 3] Audit database models, Alembic migrations, and live schema"
+    },
+    {
+      "url": "https://github.com/commune-dxos/commune-dxos/issues/102",
+      "title": "Công bố bộ JSON Schema thủ tục hành chính cấp xã dạng dữ liệu mở (CC-BY-4.0)"
+    },
+    {
+      "url": "https://github.com/Frank-Reichenbach/python-fastjsonschema/issues/7",
+      "title": "$ref under a relative $id such as schemas/item.json resolves to schemas/schemas/item.json"
+    },
+    {
+      "url": "https://github.com/CupThread/CupThreadAgenticCoding/issues/321",
+      "title": "API sync: response schema corrections from CupThread/SaaS#1474 (upload session mirror fields, FeatureRequest additions, feedback 200/201/202)"
+    },
+    {
+      "url": "https://github.com/CupThread/CupThreadAndroidSDK/issues/110",
+      "title": "API sync: response schema corrections from CupThread/SaaS#1474 (upload session mirror fields, FeatureRequest additions, feedback 200/201/202)"
+    },
+    {
+      "url": "https://github.com/CupThread/CupThreadSwiftSDK/issues/628",
+      "title": "API sync: response schema corrections from CupThread/SaaS#1474 (upload session mirror fields, FeatureRequest additions, feedback 200/201/202)"
+    },
+    {
+      "url": "https://github.com/pboachie/zrotext/issues/1729",
+      "title": "Preserve migration 108 checks after a schema 107 logical restore"
+    },
+    {
+      "url": "https://github.com/ChiefGyk3D/scrum-around-and-find-out/issues/184",
+      "title": "schema: cap the number of fields and bound legacy error echoes (quadratic duplicate scan)"
+    },
+    {
+      "url": "https://github.com/INTENTIUS/chant/issues/4536",
+      "title": "Adoption file schema in chant core, and chant adoption into CloudFormation (IMPORT then UPDATE)"
+    },
+    {
+      "url": "https://github.com/Sincpro-SRL/sincpro_framework/issues/206",
+      "title": "refine(event-driven): event schema evolution (upcasting)"
+    },
+    {
+      "url": "https://github.com/Nikhil-Vzo/Othrhalff/issues/24",
+      "title": "[SEO-09] Create a guest-readable FAQ page with visible Q&A (no fake schema)"
+    },
+    {
+      "url": "https://github.com/mauriciabad/Sukrara/issues/35",
+      "title": "CI: pin GitHub Actions to commit SHAs and re-check release secrets after the rename"
+    },
+    {
+      "url": "https://github.com/taco3064/nibfin/issues/190",
+      "title": "N02: Wire authentic GitHub Actions and local execution identities into the host"
+    },
+    {
+      "url": "https://github.com/pukrvi/vibe-tv/issues/23",
+      "title": "[Infrastructure] GitHub Actions starts no runs for the fork"
+    },
+    {
+      "url": "https://github.com/developing-today/code/issues/1261",
+      "title": "design(aggregator): one activity river — a unified, filterable audit timeline across GitHub, Kaneo, sessions, and dashboard actions"
+    },
+    {
+      "url": "https://github.com/famousmft/skills-hello-github-actions/issues/1",
+      "title": "Exercise: Hello GitHub Actions"
+    },
+    {
+      "url": "https://github.com/Brigada-Binaria/Huffman_Coding/issues/3",
+      "title": "Configurar GitHub Actions para ejecutar tests con pytest y desplegar automáticamente en Netlify"
+    },
+    {
+      "url": "https://github.com/RyanCaudill04/minecraft-server/issues/9",
+      "title": "Keep pinned GitHub Actions up to date with Dependabot"
+    },
+    {
+      "url": "https://github.com/santthosh/yams/issues/26",
+      "title": "[0.0.1] Implement GitHub Actions PR and default-branch validation"
+    },
+    {
+      "url": "https://github.com/JM132005/Pepa-de-Oro/issues/3",
+      "title": "Pipeline de CI en GitHub Actions"
+    },
+    {
+      "url": "https://github.com/HiroyukiFuruno/katana-ui-core/issues/118",
+      "title": "GitHub ActionsとRust依存関係を更新してv0.5.1を公開する"
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-workshop/issues/5030",
+      "title": "[curriculum-eval] 04-github-actions-intro.md: active_learning — concept-heavy intro with few hands-on activities"
+    },
+    {
+      "url": "https://github.com/iafiqahismail/skills-test-github-action/issues/1",
+      "title": "Exercise: Hello GitHub Actions"
+    },
+    {
+      "url": "https://github.com/Student-Record-System-Team-4/Student-Record-System/issues/3",
+      "title": "Set up GitHub Actions for automated builds and tests"
+    },
+    {
+      "url": "https://github.com/troupe-run/infrastructure/issues/189",
+      "title": "Update actions/create-github-app-token from 3.2.0 to 3.3.0"
+    },
+    {
+      "url": "https://github.com/cristhyanc/InventoryApp/issues/929",
+      "title": "[Planning] GitHub Actions supplier schedules and run monitoring"
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23330",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.2 to 0.93.3"
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23328",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.2 to 0.93.3"
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23329",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.2 to 0.93.3"
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23327",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.2 to 0.93.3"
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23326",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.2 to 0.93.3"
+    }
+  ]
+}
