@@ -1,0 +1,859 @@
+{
+  "round_id": "2026-10-28-R17",
+  "checked_at": "2026-10-28T05:04:52Z",
+  "queries": [
+    "is:issue is:open MCP in:title created:>=2026-10-25",
+    "is:issue is:open A2A in:title created:>=2026-10-25",
+    "is:issue is:open x402 in:title created:>=2026-10-25",
+    "is:issue is:open webhook in:title created:>=2026-10-25",
+    "is:issue is:open schema in:title created:>=2026-10-25",
+    "is:issue is:open \"GitHub Actions\" in:title created:>=2026-10-25"
+  ],
+  "result_limit_each": 20,
+  "raw_count": 120,
+  "unique_count": 120,
+  "full_thread_reads": 5,
+  "completed_source_investigations": 1,
+  "entries": [
+    {
+      "url": "https://github.com/reason-machines/reason-network/issues/167",
+      "title": "Hosted MCP: moving a manually named recipient from Mac to Windows while preserving its address",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/unarbos/arbos/issues/2158",
+      "title": "Outside agents follow-up: the Arbos MCP server for connected agents (arbos.messages.*, arbos.approval.request, arbos.secrets.use …), scoped by the agent key",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ima-jin/imajin-ai/issues/3168",
+      "title": "feat(connectors): app-hosted MCP service calls an external API on behalf of a member, with kernel credential injection",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ima-jin/imajin-ai/issues/3166",
+      "title": "feat(connectors): member-held external MCP connection + kernel passthrough with credential injection (Postman first)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/jangtrinh/design-os-studio/issues/1307",
+      "title": "designos-mcp renders component instances from a .fig without their content",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/jtaylorcpp/specsesh-agent/issues/18",
+      "title": "claude-code provider: serve a step's tools to Claude Code over MCP",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/morkeleb/pbcp/issues/21",
+      "title": "Hermes skills can't learn to_person: @pbcp/mcp has no describe tool",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/morkeleb/pbcp/issues/20",
+      "title": "Setup docs use npx @pbcp/mcp and n8n-nodes-pbcp, which are not on npm",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/RohanMuppa/Brightspace-API/issues/90",
+      "title": "port: feat: add a sign_in tool so an AI app can start a sign-in itself (from RohanMuppa/brightspace-mcp-server#379)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/bx-shef/currency/issues/5",
+      "title": "REST и инструменты MCP: курсы валют портала для AI-помощника (вместо поиска в интернете)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-test/issues/26196",
+      "title": "GitHub remote MCP passed",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/theurian/theurian/issues/1030",
+      "title": "Foreground daemon's console logs every MCP session id and each tool failure's caller ids at INFO; T-9's level covers uvicorn only",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/michelbr84/GarraRUST/issues/1734",
+      "title": "[P3][observabilidade][agents] 14 linhas WARN por turno para tools MCP escondidas no modo restrito dominam o log",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/hexide-io/HexIDE/issues/2510",
+      "title": "Every MCP gap entry lives in one of two shared files, so any two PRs that record or close a gap conflict",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/zsx3896926/EasyCirq/issues/89",
+      "title": "[task-launcher][IC-12] mcp.json 的 command 不应硬编码 \"python\"，应用可解析的解释器",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/paoloamato2/fortinet-mcp-server/issues/5",
+      "title": "[BUG] Generic tools reject JSON params when the MCP client sends them as objects",
+      "review_depth": "SOURCE_INVESTIGATION",
+      "decision": "DRAFT_AWAITING_APPROVAL",
+      "reason": "Decoded-shape regression evidence and existing PR coordination."
+    },
+    {
+      "url": "https://github.com/theurian/theurian/issues/1029",
+      "title": "Write-intent tool counts written before B5 still say two: roadmap, mcp-tools.md, two test files",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/stacklok/toolhive-catalog/issues/1805",
+      "title": "Add Buy-Box remote MCP server",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/TensorBlock/awesome-mcp-servers/issues/4765",
+      "title": "Add MCP server: Buy-Box",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/sansan0/TrendRadar/issues/1251",
+      "title": "依赖锁定版本含 9 条已知安全通告（mcp/litellm）；实测 fastmcp 3.4.11 升级矩阵零改动全清零",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/covia-ai/covia-sdk/issues/108",
+      "title": "`a2a.send` can't continue a conversation after a task completes: `A2AMessage` has no `contextId`",
+      "review_depth": "FULL_THREAD",
+      "decision": "EXCLUDED",
+      "reason": "PR #109 is already merged; reporter supplied fix/test plan. Merge verified through PR API, tests not rerun."
+    },
+    {
+      "url": "https://github.com/ptone/scion/issues/6466",
+      "title": "a2a-bridge: replicas can disagree on a task's final state after a send timeout",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/google/adk-java/issues/1718",
+      "title": "AgentExecutor ignores the A2A contextId when creating a session, so multi-turn conversations start over every turn",
+      "review_depth": "FULL_THREAD",
+      "decision": "EXCLUDED",
+      "reason": "Reporter already supplied root cause, patch, regression results and corrected concurrency observations in a comment. No independently established additive finding; source investigation not completed."
+    },
+    {
+      "url": "https://github.com/topcheer/ggcode/issues/4562",
+      "title": "[code-review] a2a registry detectWorkspaceMeta HasGit 要求 .git 是目录：worktree/submodule 下 .git 是文件 → HasGit 误报 false，git-ops skill 被拒 + agent card 元数据失真",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/OpenAIMP/cfagent/issues/2053",
+      "title": "[security] A2A token naming trap: deploy sets DASHBOARD_API_KEY_IS_A2A_TOKEN, inbound dispatch reads unset A2A_API_TOKEN (follow-up to #1754)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent/issues/145790",
+      "title": "A2A Agent Card: let operators declare skills (description, examples) and `documentationUrl` instead of one skill per toolset",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent/issues/145789",
+      "title": "A2A: a task that outlives `A2A_REPLY_TIMEOUT` is marked failed and its late reply is discarded (also via SendStreamingMessage)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/IBM/mcp-context-forge/issues/7349",
+      "title": "[API]: A2A skills are stored inside capabilities, not beside it",
+      "review_depth": "FULL_THREAD",
+      "decision": "EXCLUDED",
+      "reason": "Scoped migration/feature issue already supplies source locations, compatibility fallback and acceptance criteria. No independently established additive finding; source investigation not completed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/473",
+      "title": "Show A2A tasks and delegations to operators",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/470",
+      "title": "Run delegated A2A tasks and close RM8.4",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/469",
+      "title": "Use OAuth credentials for A2A agents",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/468",
+      "title": "Authenticate A2A callbacks with a task capability",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/467",
+      "title": "Cancel A2A tasks, enforce task bounds and add the kill switch",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/466",
+      "title": "Serve A2A 0.3.0 agents",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/465",
+      "title": "Stream and resubscribe to A2A tasks",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/464",
+      "title": "Send a message to an A2A 1.0.0 agent through the gateway",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/445",
+      "title": "RM8.4 A2A workflows",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Supremeai-bd/supremeai-open/issues/1703",
+      "title": "feat(interop): A2A Protocol v1.0.0 is live — publish an Agent Card for the federation + A2A-task adapter over the internal a2a_messaging_bus (parent Anchor Hub #753)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/obi-ai-bot/oby-sphere/issues/59",
+      "title": "A2A binding: reach a member over A2A 1.x",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/4093",
+      "title": "🎲 flaky check: A2A Module Tests: TestAReusedPodAsInitKillsWhatLeftTheGroup",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/aibtcdev/inference-marketplace/issues/36",
+      "title": "x402 follow-ups after #35: self-paid fallback has no pending-tx check or fee visibility; no tests; #33 scope correction",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Konfirm-xyz/konfirm-backend/issues/225",
+      "title": "AdminNotificationsService.settlementFailures 500s — x402_settlements has no error column",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/nirholas/agenti/issues/192",
+      "title": "Solana x402 verifier rejects payments made with version 1 transactions (maxSupportedTransactionVersion: 0)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/x402-foundation/x402/issues/4023",
+      "title": "[Feature]: @x402/extensions: let EVM-only clients import sign-in-with-x, or the package root, without the Solana code",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/operatoruplift/allowance/issues/18",
+      "title": "Additive nano:mainnet settlement rail beside the Solana USDC exact-x402 path",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/aryan2621/antidote/issues/479",
+      "title": "[triage] GitHub:rezearcher/x402-data-api@86f7a9d171ab79cbc773ead0ed54374b3c69eb01 (critical)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/nevermined-io/payments/issues/503",
+      "title": "x402 path: settlement and delivery decouple in five windows — lost-response retry double-charges on the default v2 token; any settle failure except BCK.X402.0059 delivers the resource unpaid (verified against published 1.13.0 dist)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tangle-network/blueprint/issues/1606",
+      "title": "x402: remove guessed EIP-712 token domains (follow-up to #1605)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Croomee/x402-markettwits-news/issues/1",
+      "title": "x402-markettwits-news.onrender.com priced per call, settled on the XRP Ledger",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Sidiora-Labs/paxeer-monorepo/issues/1025",
+      "title": "[P2] Use one payExact reference contract for x402 verification and settlement",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/bjcf-dev/xargos/issues/46",
+      "title": "F4.2 · Demo que cuenta el x402 y la protección del guard",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/d-hinders/Haven-AI/issues/4487",
+      "title": "Railway incident 2/5: rotate relayer, x402 binding and demo-merchant settlement keys; reconnect every agent",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/glim-sh/glim-mcp/issues/3",
+      "title": "Agent Safe integration with Glim x402 (tested) — list it?",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/YagLab0/nomai/issues/60",
+      "title": "Endpoint payment-auth: la API firma pagos x402 con la key del Traveler",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/PublicAgents/public-agents/issues/315",
+      "title": "census: the five machine-payable listings disagree about maxTimeoutSeconds (four serve a duration, 60 to 604900; allium serves an absolute unix second), and two of them disagree about where the x402 envelope lives",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/piteropilot168-dot/agent-product-normalizer/issues/66",
+      "title": "Unblock x402 discovery: x402dash 400 (accepts / GET 404), Bazaar Cloudflare challenge",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/elizaOS/eliza/issues/37879",
+      "title": "Add Aurifex MCP for Macro/Commodities data (x402)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/hummingbot/condor/issues/298",
+      "title": "Add Aurifex MCP for Macro/Commodities data (x402)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/pursekeeper/skill/issues/10",
+      "title": "inference-proxy loses recovery token after an x402 hand-back",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/wasit-dev/Wasit/issues/21",
+      "title": "User feedback: AgentPey, x402 on Stellar testnet",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/yubisuke/openmasu/issues/375",
+      "title": "[P1] Webhookの送信key・金額公開・名前対応を宛先policyで明示する",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tektoncd/pipelines-as-code/issues/3054",
+      "title": "GHE E2E tests use webhook PAT instead of GitHub App credentials",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/magda-io/magda-pdf-semantic-indexer/issues/7",
+      "title": "Indexer is OOM-killed by scanned PDFs: pdf2md decodes every page image, and the webhook is then stuck on that PDF",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/camunda/connectors/issues/9891",
+      "title": "Connectors runtime does not activate any connector job or webhook on SaaS 8.9-SNAPSHOT clusters (nightly 8.9)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/opencve/opencve/issues/800",
+      "title": "Add CVSS 4.0 and EPSS scores to webhook",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gfitzp/fitzflix/issues/449",
+      "title": "Plex webhook returns 500 on a list payload or a string Guid",
+      "review_depth": "FULL_THREAD",
+      "decision": "EXCLUDED",
+      "reason": "Report already supplies payload/Guid root cause, normalization plan and test-client reproduction claim. No independent additional finding; source investigation not completed."
+    },
+    {
+      "url": "https://github.com/gfitzp/fitzflix/issues/448",
+      "title": "Arr Download webhook returns 500 HTML on a body without the file block, quality or episodes",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/roshan-pandit1/To_Do_list/issues/1",
+      "title": " RepoPilot webhook verification - edited",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/open-webui/open-webui/issues/33294",
+      "title": "issue: A webhook carried over from v0.10 cannot be removed from Notification Targets",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/yubisuke/openmasu/issues/355",
+      "title": "[P2][OUT-04] 失敗済みWebhookを元digest一致の確認後に限定再送する",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/yubisuke/openmasu/issues/354",
+      "title": "[P1][OUT-03] Webhook送信済みsubjectの削除通知を同じ宛先参照で送る",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/yubisuke/openmasu/issues/353",
+      "title": "[P1][OUT-02] Webhookの参照IDを維持して署名鍵をローテーションする",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/oliverstreetcreative/osc-website/issues/392",
+      "title": "[RS-2] Two-way review sync: receive Review webhooks, reconcile poll, push app notes and approvals to Review",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/oliverstreetcreative/osc-website/issues/391",
+      "title": "Review (freeframe): signed webhooks to the super app on comment, approval and new version",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/AkaraChen/sex/issues/20",
+      "title": "[对比] 作业、队列、存储、Batch 与 Webhook：Firecrawl 是 Postgres/Redis/RabbitMQ 上的多进程分布式队列，sex 是单进程 bunqueue + SQLite + 计数器，可靠性模型更简单但缺 webhook 签名/重试、per-job 并发与公平调度",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ERCamilo/-Sistema-de-asistencia/issues/325",
+      "title": "[NFC 5/6] Enviar consultas y asociaciones al webhook con confirmación y reintentos seguros",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ERCamilo/-Sistema-de-asistencia/issues/321",
+      "title": "[NFC 1/6] Definir contrato del webhook y normalización del UID",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ERCamilo/-Sistema-de-asistencia/issues/320",
+      "title": "[NFC MVP] Asociar tarjetas a empleados desde SA y registrar mediante webhook",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/brettdavies/xurl-rs/issues/422",
+      "title": "calls scheduled, webhooks subscriptions: accept @handle or emit next_step on invalid-user-id",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/brettdavies/xurl-rs/issues/418",
+      "title": "webhooks replay: document --from-checkpoint JSON format in --help",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/simon-tanna/spec-to-pr/issues/8",
+      "title": "Publish the findings ledger as a schema with rubric check ids",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Aparnap2/ITSM-Self-Healing-Platform/issues/3",
+      "title": "feat: Phase 3 — PostgreSQL schema, migrations, inbox/outbox, repositories",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/kvu90/lms/issues/373",
+      "title": "Đổi tên package db-schema thành db và làm phẳng cấu trúc schema về src/",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ctoforaday/special-circumstances/issues/1615",
+      "title": "FEOV record: make the schema epoch a content hash, with migrations keyed by hash pairs",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/anitaguptaoffice/sanguo-slg/issues/1882",
+      "title": "[SPEC-MANUAL-SCHEMA-LITERAL-001] 手工入口拒绝 schema 名称折叠与截断重定向",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Mbensacq/aqfish/issues/292",
+      "title": "Pièce aux aquariums, lot 1/6 : état de la pièce et sauvegarde au schéma 2",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ctoforaday/special-circumstances/issues/1614",
+      "title": "FEOV record: trust the EventSchema epoch at open; every schema change, views included, bumps it",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/zsx3896926/EasyCirq/issues/92",
+      "title": "[task-launcher][IC-15] 任务书 §3.3 示例与严格 schema 不一致（snapshot 缺测未声明会被 422）",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/kadupulhq/kadupul/issues/1153",
+      "title": "db_table_create leaves text columns in the schema default charset",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/david-shortman/mon-county-community-hub/issues/74",
+      "title": "Needs register: schema and checks for content/needs/",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/david-shortman/mon-county-community-hub/issues/69",
+      "title": "Data layer: shared loader and JSON Schemas for all content (packages/data)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/TamuGeoInnovation/Tamu.GeoInnovation.js.monorepo/issues/2500",
+      "title": "fix(aggiemap-angular): Baseball draws nothing on production - its portal renderers key on the replaced schema",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/raunak-choudhary/tallyproof/issues/78",
+      "title": "Register event schemas with backward compatibility",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/raunak-choudhary/tallyproof/issues/66",
+      "title": "Add journal and reconciliation schema migrations",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/opentidehq/opentide/issues/678",
+      "title": "Parity tests: what validate reports on an object, the language server reports too, for every schema revision",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/opentidehq/opentide/issues/676",
+      "title": "LSP catalog: one entry per schema revision, and a module entry point for language-server",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/opentidehq/language-server/issues/98",
+      "title": "Check each Tide object against its own schema revision",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tyk-swe/olp/issues/498",
+      "title": "SCIM value-path filters discard the outer core schema qualifier",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/LanternOps/breeze/issues/10367",
+      "title": "W03: Record page context (shared schema, caller resolver, server prompt, web pages, Viewing now)",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/NextNode-Devs/NextNode/issues/20",
+      "title": "ER diagram of the Phase 1 schema",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/arshad62/exam-prep/issues/12",
+      "title": "Understanding Github Actions and CI triggers",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/rxv801/gta6-market-sentiment/issues/23",
+      "title": "[ING-7] Schedule collectors on GitHub Actions",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/juan-de-haro/skills-hello-github-actions/issues/1",
+      "title": "Exercise: Hello GitHub Actions",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/iannitram/filmcraft/issues/89",
+      "title": "CI: keep this fork's Actions usage low enough that GitHub does not pause it again",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ppab/knowledge-management/issues/3",
+      "title": "Add GitHub Actions for validation, build, and compiled-binary smoke tests",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/02bbits/Agendal/issues/5",
+      "title": "IM-04 CI on GitHub Actions",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/arise-xd/FitVision/issues/19",
+      "title": "Set up GitHub Actions CI",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23338",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.3 to 0.93.5",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23337",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.3 to 0.93.5",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23336",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.3 to 0.93.5",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23335",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.3 to 0.93.5",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23334",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.3 to 0.93.5",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/EdmondAkello/LandXML-Road-and-Terrain-GIS-Tools/issues/35",
+      "title": "Run QGIS Processing and GUI regression tests in GitHub Actions",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tiagofur/imalive/issues/14",
+      "title": "[fábrica] Desbloquear GitHub Actions: presupuesto de la cuenta bloquea la asignación de runners",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/sebvey/feyn/issues/137",
+      "title": "Run the /finish checks on each PR with GitHub Actions",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/yassinebrahem2/agentic-mlops-pipeline/issues/345",
+      "title": "[Task] stage-3 tracking 3: The GitHub Actions adapter",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/AtharvMitt/Electronics-Store-Management/issues/12",
+      "title": "Configure GitHub Actions for suitable checks",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/KristofferRisa/cfluence-cli/issues/12",
+      "title": "Dependabot-gruppen `minor-and-patch` for github-actions i slipway-malen mangler `update-types`, så major (checkout 4→7 …",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/CSCI-GA-2820-FA26-003/orders/issues/40",
+      "title": "Run unit tests, flake8 and pylint in GitHub Actions",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Lucas-Belucci-Bellini/Lucas-Belucci-Bellini/issues/36",
+      "title": "V2-09 — GitHub Actions, Pages e deploy",
+      "review_depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_INVESTIGATION",
+      "reason": "Bounded prioritization; no complete diagnosis or fix claimed."
+    }
+  ]
+}
