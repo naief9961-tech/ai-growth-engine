@@ -3,7 +3,7 @@
 Evidence-based help with user approval before posting to third-party repositories.
 
 - [Latest report — 2026-10-28 R17](rounds/2026-10-28-R17/REPORT.md)
-- [R17: one English reply awaiting approval](rounds/2026-10-28-R17/DRAFTS.md)
+- [R17: manually posted and verified — do not repost](rounds/2026-10-28-R17/DRAFTS.md)
 - [R17: 29 isolated check groups and limits](rounds/2026-10-28-R17/TESTS.md)
 
 - [Previous report — 2026-10-27 R16](rounds/2026-10-27-R16/REPORT.md)

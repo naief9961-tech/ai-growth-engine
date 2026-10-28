@@ -1,14 +1,16 @@
 # R17 — English reply for review (2026-10-28)
 
-Status: **AWAITING_USER_APPROVAL. Not posted.**
+Status: **POSTED_MANUALLY_VERIFIED — DO NOT REPOST.**
 
-Re-read the issue and overlapping PRs immediately before any approved posting. Approval must come from the user; this document does not authorize external publication.
+The user manually published the plain-text variant at 2026-10-28T05:10:13Z: [comment 6461200657](https://github.com/paoloamato2/fortinet-mcp-server/issues/5#issuecomment-6461200657). Verified at 2026-10-28T05:10:45Z; no subsequent developer reply.
+
+This is an archived draft. Its publication is verified; it does not authorize another comment or future external communication.
 
 ## R17-01 — Fortinet MCP generic JSON arguments
 
 Destination: https://github.com/paoloamato2/fortinet-mcp-server/issues/5
 
-Copy only the English reply below:
+Historical English draft (the posted variant uses plain-text source references):
 
 ---
 

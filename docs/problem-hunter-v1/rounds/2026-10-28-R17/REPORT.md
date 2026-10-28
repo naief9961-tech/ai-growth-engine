@@ -1,6 +1,8 @@
 # R17 — 28 October 2026
 
-Checked through 2026-10-28T05:04:52Z. One new review draft; no external publication.
+Initial review checked through 2026-10-28T05:04:52Z; no external publication by the agent.
+
+**Publication update — 2026-10-28T05:10:45Z:** The user manually posted R17-01 at 2026-10-28T05:10:13Z. [Verified comment](https://github.com/paoloamato2/fortinet-mcp-server/issues/5#issuecomment-6461200657) by naief9961-tech. Saved cursor 6461200657; no later developer reply or commercial request. Do not repost. The counts and findings below describe the initial review.
 
 ## Counts and scope
 
@@ -30,7 +32,7 @@ Proposed repair: required dict[str, Any] | str, optional forms add None; parse o
 
 **Validation:** 10 baseline and 19 candidate/type/helper groups passed on Python 3.12.14 / Pydantic 2.14.1. Original Git blob hashes were checked before extracting code. No FastMCP or httpx installed; no dependency installation attempted. No patched-handler dispatch, advertised MCP tools/list schema, tools/call, Claude Code, HTTP, device or complete project test ran. Isolated passing checks do not establish a complete repair. [Harness and limits](TESTS.md).
 
-[Full English reply R17-01](DRAFTS.md). Status: AWAITING_USER_APPROVAL.
+[Historical English reply R17-01](DRAFTS.md). Current status: POSTED_MANUALLY_VERIFIED; see publication update above.
 
 ## Other complete thread reads — not recommended for another comment
 
@@ -67,4 +69,4 @@ No production/payment/V5/server changes, external posting, spending, new project
 
 ## What the user needs to do
 
-Review R17-01 if a contribution is wanted. No external publication is authorized by this report. Re-read the issue and PR #2 before any later user-approved posting. No need to copy any old reply.
+Nothing further to copy: R17-01 is manually posted and verified. Await developer feedback; any future external communication needs its own user authorization.
