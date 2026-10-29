@@ -3,7 +3,7 @@
   "name": "io.github.naief9961-tech/naif-fixgraph",
   "title": "NAIF Gravity",
   "description": "Free MCP/API diagnostics. Micro Tools V2: free preview, $1 JSON check, $2 API shape, $3 normalize.",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "repository": {
     "url": "https://github.com/naief9961-tech/ai-growth-engine",
     "source": "github"
@@ -41,5 +41,14 @@
         "catalogUrl": "https://naifgravity.com/api/agent/catalog"
       }
     }
-  }
+  },
+  "icons": [
+    {
+      "src": "https://naifgravity.com/naif-gravity-logo.png?v=20261029",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ]
 }
