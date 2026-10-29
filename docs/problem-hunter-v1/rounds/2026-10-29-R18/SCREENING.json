@@ -1,0 +1,646 @@
+{
+  "round_id": "2026-10-29-R18",
+  "queries": [
+    "is:issue is:open MCP in:title created:>=2026-10-26",
+    "is:issue is:open A2A in:title created:>=2026-10-26",
+    "is:issue is:open x402 in:title created:>=2026-10-26",
+    "is:issue is:open webhook in:title created:>=2026-10-26",
+    "is:issue is:open schema in:title created:>=2026-10-26",
+    "is:issue is:open \"GitHub Actions\" in:title created:>=2026-10-26"
+  ],
+  "unique": 90,
+  "raw": 90,
+  "limit_each": 15,
+  "entries": [
+    {
+      "url": "https://github.com/open-mcp-ai/Termcp/issues/227",
+      "title": "带后台推送职责的 lazy MCP 扩展会被 idle 回收静默杀死（且无正当常驻入口）",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/oozoofrog/sticker/issues/83",
+      "title": "[테스트] MCP 설정 UI 초기화 실패 시 fixture 서버·DOM 정리 누락",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Ljferrer/WorkAuditRefine/issues/2507",
+      "title": "[WAR] memory-query-mcp-tool — Task 3.1: Version bump",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/2BingLing/dsh-market/issues/302",
+      "title": "[提交插件] dsh-mcp-workbench",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/stacklok/toolhive-catalog/issues/1832",
+      "title": "Add Brainattic — official remote knowledge-base MCP server",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/kpbred123/skills-integrate-mcp-with-copilot/issues/1",
+      "title": "Exercise: Integrate MCP with Copilot",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/tetsujisugimori-coder/memo/issues/387",
+      "title": "MCP検索: 5秒heartbeatを接続状態表示専用にし、タブ切替後の検索を復旧可能にする",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/VanillaIceCube/JudeAndrewAlabaInfrastructure/issues/62",
+      "title": "Document and validate owner-approved read-only YNAB MCP production onboarding",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/VanillaIceCube/JudeAndrewAlabaInfrastructure/issues/61",
+      "title": "Add isolated YNAB MCP CI, deployment/recovery tests and monitoring",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/VanillaIceCube/JudeAndrewAlabaInfrastructure/issues/60",
+      "title": "Integrate YNAB MCP with isolated Docker networking, Nginx, DNS and TLS",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/VanillaIceCube/JudeAndrewAlabaInfrastructure/issues/59",
+      "title": "Implement authenticated, session-safe Streamable HTTP access for YNAB MCP",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/VanillaIceCube/JudeAndrewAlabaInfrastructure/issues/58",
+      "title": "Deploy a pinned, isolated Oliver Ames YNAB MCP Docker runtime",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/VanillaIceCube/JudeAndrewAlabaInfrastructure/issues/57",
+      "title": "Select and threat-model a secure remote MCP gateway for Oliver Ames YNAB",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/VanillaIceCube/JudeAndrewAlabaInfrastructure/issues/56",
+      "title": "Integrate Oliver Ames YNAB MCP as an independently deployed DigitalOcean service",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/cubeplexai/cubeplex/issues/706",
+      "title": "Pin cubeloop to public MCP HTTP primitives",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/dvarahq/dvara-agentworks/issues/18",
+      "title": "[1.1] Add fault injection for MCP, A2A, sandbox, memory, artifact, context, and interaction dependencies",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/protoLabsAI/protoAgent/issues/4569",
+      "title": "Quiet local-default boot: no A2A token / A2A_ALLOWED_ORIGINS / optional-deps warnings on loopback; per-poll access-log lines at debug",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/inclusionAI/Avernet/issues/3253",
+      "title": "refactor(engine): split a2a transport router and test file past the 1000-line cap",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/4206",
+      "title": "design: run the A2A gateway with more than one replica",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/lybym/LumiThink/issues/121",
+      "title": "[P1-12][A2A] SSE 静默断开后终止重订阅生成器 — 上游流序守卫拒绝后续新流",
+      "depth": "FULL_THREAD",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Existing report already provides A/B/C stream reproduction, pinned SDK version, lifecycle repair candidate and guard-preserving acceptance criteria. No independent additive contribution established."
+    },
+    {
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/issues/91",
+      "title": "[路线图 P3] 文件分件走会话消息造成 A2A 风暴：文件传输须独立通道，过渡期单 task 分件 ≤16 + 可见拒收",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/4187",
+      "title": "feat(a2a): a learned Slack home channel reaches the agent with no agent-pod replacement",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/4173",
+      "title": "a2a: session queues on TASKS can still be pulled or rewritten by any principal with CONSUMER.CREATE there (profiles moved off in #4121)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/4169",
+      "title": "flake: a2a/gateway TestAWakeAfterAGatewayRestartStillCarriesTheRequester times out under load (required A2A Module Tests)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ThomasHendrickx/aeolus-fleet/issues/1355",
+      "title": "Gateway: outside A2A agents behind an OAuth sign-in",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gke-labs/kube-agents/issues/4155",
+      "title": "a2a: the gateway's .supervisor grant still reaches profile tasks, a second writer by grant",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Blandskron/agnara/issues/695",
+      "title": "test(a2a): exercise the ADR 0098 profile in an isolated adapter fixture (A2A-03)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/bacnh85/pi-extensions/issues/50",
+      "title": "pi-a2a: support \"!command\" secret references (e.g. macOS Keychain) for tokens in settings.json",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Blandskron/agnara/issues/687",
+      "title": "design(a2a): decide the complete-result projection ADR (A2A-02)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/mctlhq/.github/issues/270",
+      "title": "S2 pilot: tenant support agent over A2A with the karabu tenant's own agent",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/aryan2621/antidote/issues/764",
+      "title": "[triage] clawhub:ivaavimusic/x402-compute@1.34.5 (high)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/aryan2621/antidote/issues/757",
+      "title": "[triage] GitHub:rezearcher/x402-data-api@74d024cd95e7135697da86d6b9e653f42390ee3f (critical)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/x402-foundation/x402/issues/4045",
+      "title": "[GRANT APPLICATION] x402 seller toolkit + findability dataset — measured discovery data, a capped-buyer reference, and an independent repro of handler-before-settlement (live on Base mainnet)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/epistemedeus/x402-data-gateway-skills/issues/21",
+      "title": "A settle option where the block is the receipt: nano:mainnet beside x402 v2 / MPP on the same URLs",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/aryan2621/antidote/issues/718",
+      "title": "[triage] GitHub:rezearcher/x402-data-api@71aecc47f571854edc13bc4fede68c3e0957ae82 (critical)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Sidiora-Labs/paxeer-monorepo/issues/1180",
+      "title": "[P2] Carry committed proof from x402 seller to the buyer's new proof gate",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/halowerk/halowerk-mcp/issues/1",
+      "title": "Your x402 endpoints are returning 403 instead of 402 (flagged by a monitoring patrol, 2026-10-28)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gokite-ai/passport-skills/issues/127",
+      "title": "x402-execute: optional seller check before paying a non-catalog URL",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/MagneticSnake/agent-jobcenter/issues/4",
+      "title": "[listing] audit-alpha — static-HTML evidence audit API (x402, USDC on Base)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Merit-Systems/x402scan/issues/1318",
+      "title": "Offering: weekly per-host x402 health feed (727 hosts measured, defect ids + latency)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/xzntexe/yruz-x402/issues/3",
+      "title": "x402.yruz.one: live 402 with a machine-buyer defect (mcp_no_tools)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Wintyx57/x402-backend/issues/28",
+      "title": "Third-party provider candidate: Skavio USDC verification + seven x402 v2 Base APIs",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SaylorInnovations/open-x402-bazaar/issues/9",
+      "title": "Cloudflare 1010 blocks /submit for valid Skavio x402 v2 manifest — manual intake?",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/aryan2621/antidote/issues/667",
+      "title": "[triage] GitHub:rezearcher/x402-data-api@703804baed5bb21e94476770266a34776a1ce6e6 (critical)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/NE-Build-Track/livepeer-builder-core/issues/68",
+      "title": "Research: Decoupling the media plane from the payment plane via an x402 provider boundary",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/txn2/mcp-data-platform/issues/2353",
+      "title": "webhooks: a body_token source stores its secret in every event payload",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/cebertowicz/corsia/issues/1714",
+      "title": "Webhook router decides no_owner before routed rules run, unlike the platform event path",
+      "depth": "FULL_THREAD",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Existing follow-up already identifies ordering defect, linked prior review and targeted regression success condition. No independent additive contribution established."
+    },
+    {
+      "url": "https://github.com/coollabsio/coolify/issues/12373",
+      "title": "[Bug]: \"Watch paths\" field is hidden for \"Private Repository (with Deploy Key)\" applications, although webhooks and the API honor it",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/IA-P1-BCN/zapateria-paso-firme-g2/issues/160",
+      "title": "[Tarea] T-015-05 · Configurar la autenticación del webhook",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/IA-P1-BCN/zapateria-paso-firme-g2/issues/156",
+      "title": "[Tarea] T-015-01 · Escribir la spec transversal y decidir la autenticación del webhook",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Llamenos-Hotline/llamenos-platform/issues/2299",
+      "title": "Telnyx failover URL is the status webhook on the same origin, so failover can never help (B-D8-PROVIDERS)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/IvPalmer/Master-Trader/issues/213",
+      "title": "security: transitive starlette 0.41.3 (via fastapi 0.115.x) has 7 advisories Dependabot doesn't flag — dashboard, receivers, hl-gateway, trade-webhook",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/hivecommons/hive/issues/15291",
+      "title": "React to failed CI checks via webhook instead of waiting for the next sweep",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/zibyn/polaris/issues/136",
+      "title": "Application 收不到禁用、换号、Session 吊销等变更(Webhook 只有 user.deleted,没有 Back-Channel Logout)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ccplant/ccplant/issues/506",
+      "title": "Resuming a suspended runner-pool session from a schedule, webhook, or Slack bot hands the workload an unreachable parent endpoint",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/BGLuis/feeder/issues/33",
+      "title": "Webhooks: test delivery, delivery log and editing",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/nitsuah/fire/issues/348",
+      "title": "Stripe webhook endpoint with signature verification and replay safety (child 7 of #261)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/nitsuah/fire/issues/345",
+      "title": "OWNER-GATED: server-side storage for a restricted read-only Stripe key and webhook secret (child 4 of #261)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/EthosSustainabilityOrg/EthosDashboard/issues/1",
+      "title": "Fix OpenSign client and webhook against the real API",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/miracodeai/mira/issues/393",
+      "title": "Outbound webhook `review.failed` payload omits `number` (the Settings test sample includes it)",
+      "depth": "FULL_THREAD",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Reporter already provides exact missing key, one-key repair, sample/real payload comparison and regression suggestion. No independent additive contribution established."
+    },
+    {
+      "url": "https://github.com/HectorVeraO/initializer/issues/185",
+      "title": "Merge a selection file with flags through one schema registry",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/HectorVeraO/initializer/issues/183",
+      "title": "Record components in lock schema 2 and verify through the lock",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/rodelBeronilla/fantasyscout/issues/83",
+      "title": "Pipeline and schema pages: the end-to-end design and methods in the app",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/gpustack/gpustack/issues/6598",
+      "title": "Streaming tool calls end with {\"error\": \"unhashable type: 'list'\"} when a parameter's schema uses a type list ([\"string\",\"null\"])",
+      "depth": "FULL_THREAD",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Deferred: error source not proven. Current proxy route read at 9339347a53a04bd43e9b5b2be0ef0b4436f92d4f; it serializes bodies and relays worker stream, generic proxy failures use structured error objects. Need deployed GPUStack/backend/parser versions and sanitized traceback or controlled proxy-versus-backend reproduction. No repair/draft/test claimed."
+    },
+    {
+      "url": "https://github.com/pgadmin-org/pgadmin4/issues/10694",
+      "title": "pgTimeTable Chain... create menu is enabled on servers without the pg_timetable schema, and saving fails with a raw \"relation timetable.chain does not exist\" error",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/OpenReloading/Ballistics/issues/542",
+      "title": "A kept base record is used offline without a schema check",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/databricks-solutions/uc-declarative-abac/issues/24",
+      "title": "[Bug]: State fetch fails with INTERNAL_ERROR: any predicate on schema_name in system.information_schema.abac_policy_definitions fails on DBSQL 2026.43",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/agentmessaging/protocol/issues/22",
+      "title": "Define rtc:v1 capability discovery and signaling schema",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/p0poj1/Smart-Employee-Health-and-Task-Monitoring-System/issues/42",
+      "title": "2.1 Unified Database Schema Migrations & Seeders",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/daniel-fink/rangekeeper/issues/420",
+      "title": "Structure: Slot metadata is untyped, and `schema/runtime.py` repeats its codecs",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/p0poj1/Smart-Employee-Health-and-Task-Monitoring-System/issues/41",
+      "title": "2.1 Unified Database Schema Migrations & Seeders",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/router-for-me/CLIProxyAPI/issues/7096",
+      "title": "Tool-argument streaming deltas duplicate identity, misroute parallel tools, flush after finish; integer schemas reject valid numbers",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/santixit/agrovalle-connect/issues/54",
+      "title": "S2 — Completar UML, DER, schema y análisis de normalización",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/Weichwolf/outshine/issues/1690",
+      "title": "Recheck the asset schema after acquiring the migration lock",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/nathanjohnpayne/matchline/issues/656",
+      "title": "JD parsing: Haiku 5.5 medium gains +6.7 requirement-set accuracy at a fifth of the cost but fails rule 1 on first-attempt schema failures (56.5%); classify and fix before re-running",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/QuinnsCode/RustyBuns/issues/2670",
+      "title": "CI: Actions cache is over GitHub's 10 GB cap, so container layer caches get evicted (AGENT_SANDBOX 69 s warm vs 190 s cold)",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/KaleksananBarqi/maos-nfc-rfid-android/issues/6",
+      "title": "task: Build CI/CD GitHub Actions & Perilisan APK v1.0.1",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/hnkatze/baleadafit-api/issues/20",
+      "title": "Integración continua con GitHub Actions",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/cellml/libcellml/issues/1515",
+      "title": "GitHub Actions: fail on Linux",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/HayatoShimada/snoo_trucar/issues/12",
+      "title": "GitHub Actions でテストとシミュレーターを回す",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SortSense/SortSense-Misc/issues/1",
+      "title": "DevOps: Initialize Monorepo, GitHub Actions (Linting), & Kanban",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/mertrassa/uoft-free-rooms/issues/2",
+      "title": "Update GitHub Actions to versions that run on Node 24",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/ksenxxoen/JagaNet/issues/24",
+      "title": "ПК-клиент: CI в GitHub Actions — сборка Boop.exe, go vet, тесты и ui-checks на каждый PR",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/jdot-santos/personal-blog/issues/19",
+      "title": "Bump GitHub Actions off deprecated Node.js 20",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/githubnext/gh-aw-workshop/issues/5100",
+      "title": "[curriculum-eval] 04-github-actions-intro.md: cognitive_load — 28 new concepts in a \"5 minutes\" intro",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23355",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.5 to 1.0.0",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23349",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.5 to 1.0.0",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23348",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.5 to 1.0.0",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23347",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.5 to 1.0.0",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    },
+    {
+      "url": "https://github.com/SatelliteQE/robottelo/issues/23346",
+      "title": "[Failed-AutoCherryPick] - Bump github/gh-aw-actions/setup from 0.93.5 to 1.0.0",
+      "depth": "TITLE_SCREEN_ONLY",
+      "decision": "NOT_SELECTED_FOR_POSTING",
+      "reason": "Bounded prioritization; no diagnosis or fix claimed."
+    }
+  ]
+}
