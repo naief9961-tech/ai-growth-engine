@@ -1,3 +1,5 @@
+<p><img src="assets/naif-gravity-mark.svg" alt="NAIF Gravity" width="128" height="128"></p>
+
 # NAIF Gravity — MCP & Integration Diagnostics
 
 [![GitHub stars](https://img.shields.io/github/stars/naief9961-tech/ai-growth-engine?style=flat)](https://github.com/naief9961-tech/ai-growth-engine/stargazers)
