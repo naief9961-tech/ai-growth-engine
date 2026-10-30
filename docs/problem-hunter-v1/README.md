@@ -2,7 +2,10 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-29 R18: VS Code repair merged; no new reply drafts](rounds/2026-10-29-R18/REPORT.md)
+- [Latest report — 2026-10-30 R19: mppx merge and isolated follow-up finding](rounds/2026-10-30-R19/REPORT.md)
+- [R19: one follow-up draft awaiting approval](rounds/2026-10-30-R19/DRAFTS.md)
+- [R19: isolated classifier evidence and limits](rounds/2026-10-30-R19/TESTS.md)
+- [Previous report — 2026-10-29 R18](rounds/2026-10-29-R18/REPORT.md)
 
 - [Previous report — 2026-10-28 R17](rounds/2026-10-28-R17/REPORT.md)
 - [R17: manually posted and verified — do not repost](rounds/2026-10-28-R17/DRAFTS.md)

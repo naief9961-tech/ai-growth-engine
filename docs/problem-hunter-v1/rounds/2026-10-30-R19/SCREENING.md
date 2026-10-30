@@ -1,0 +1,194 @@
+# R19 discovery and cursor audit
+Queries: each `is:issue is:open created:>=2026-10-27 <term>`, newest first, topn 15.
+Terms: `MCP`, `A2A`, `x402`, `webhook`, `schema validation`, `"GitHub Actions"`, `MCP in:title bug`, `A2A in:title bug`, `webhook in:title bug`, `"JSON schema" in:title`, `"API" in:title bug`.
+155 results / 151 unique. No overlap with ledger issue/exclusion URLs at read time. Title-level screening is not a completed technical investigation. Seven full candidate threads are enumerated in REPORT.md; the remainder did not establish a sufficiently focused, additive investigation from the retrieved snippets (including features, plans, reports, ads, environment-only reports and out-of-scope items). No root-cause claim for those items.
+Related issue/PR queries during investigation are excluded from discovery counts.
+
+## Discovery URLs
+- [Define the authority boundary between governed operations and ordinary Agent tools](https://github.com/Akira-TL/forgerelay/issues/310)
+- [An agent-logged note names nobody: the History badge says only "Automated by an agent"](https://github.com/margince/margince/issues/9632)
+- [(workshop-sim) Workshop Simulation Report — 2026-10-30 (Run #133, 1000×Monte Carlo)](https://github.com/githubnext/gh-aw-workshop/issues/5151)
+- [transfer: one capability manifest and a check that names every capability a target lacks or no ticket carries](https://github.com/SamyakJhaveri/loam/issues/392)
+- [factory: worker and grader calls load no auto memory](https://github.com/SamyakJhaveri/loam/issues/380)
+- [fix(workspace): 승인이 필요한 작업이 한 단계씩만 진행되고, 반복한 '이어서 진행'은 무시된다](https://github.com/e7217/anygarden/issues/980)
+- [Create portable GitHub pull-request review skill](https://github.com/azwarners/Agentic-Recipes-For-Disaster/issues/4)
+- [Create portable GitHub issue-authoring skill](https://github.com/azwarners/Agentic-Recipes-For-Disaster/issues/3)
+- [Security hardening checklist from audit run-1 (no demonstrated boundary violation)](https://github.com/wazootech/wazoo-api/issues/151)
+- [ (Setup)(Windows) First-run install and `strata launch` die in a subprocess reader thread on non-UTF-8 Windows (GBK device name vs `PYTHONUTF8=1`)](https://github.com/Niko1221/Strata/issues/4675)
+- [(aw) First-pass issue triage: hit engine rate limit (HTTP 429)](https://github.com/Kineth-t/pytorch-triage-agent/issues/23)
+- [Hello from Copilot (No Sandbox)](https://github.com/githubnext/gh-aw-test/issues/26716)
+- [🎨 Generative UI Ecosystem Digest 2026-10-30](https://github.com/linqinghao/agents-radar/issues/220)
+- [🎨 生成式 UI 生态日报 2026-10-30](https://github.com/linqinghao/agents-radar/issues/219)
+- [Markdown file: links are written as literal text since the markdown-it switch (#1116)](https://github.com/khuisman/mcp-gee-sweet/issues/1291)
+- [chore(release): revisión Claude y canary Oracle ARM64](https://github.com/riquelmechile/Panter-ai/issues/4)
+- [chore(hermes): upgrade pinned runtime to Hermes v2026.9.14 (0.21.3) to track upstream](https://github.com/derekhsu/NemoClaw/issues/15)
+- [📊 AI CLI 工具社区动态日报 2026-10-30](https://github.com/rollysys/agents-radar/issues/1587)
+- [huaweicloud-devkit 卸载后重装时偶尔提示已安装，希望更顺](https://github.com/huaweicloud/huaweicloud-devkit/issues/1061)
+- [ci-debug windows build (run 41001250779)](https://github.com/openairymax/agentrt/issues/1839)
+- [GraphAgent: host an existing LangGraph graph with apx governance, beyond the Agent Bricks adapter](https://github.com/stuagano/apx-agent/issues/1037)
+- [(M5) Diagnostic agent](https://github.com/jixiedev/tpilot/issues/30)
+- [Homologar uma chamada de leitura a um agente externo por MCP](https://github.com/PHnsilva/sofiie-agents/issues/9)
+- [(F16) A2A Multi-Agent Composition](https://github.com/jixiedev/tpilot/issues/29)
+- [(Bug): supersede LLM 分类耗时过长 + 结果不确定 + 覆盖范围不足 — 复杂多轮知识更新后旧事实仍为 top1](https://github.com/openJiuwen-ai/agent-memory/issues/510)
+- [🦞 OpenClaw 生态日报 2026-10-30](https://github.com/leisure3318/agents-radar/issues/2961)
+- [Google Chat incident alerts never post on a today-mode install: hermes send has no credential-proxy relay](https://github.com/gke-labs/kube-agents/issues/4322)
+- [binding-agui-a2a: subagent events](https://github.com/aklivity/zilla/issues/2891)
+- [binding-agui-a2a: agent-declared history feature](https://github.com/aklivity/zilla/issues/2890)
+- [binding-agui-a2a: state, activity, reasoning, step and tool-call events](https://github.com/aklivity/zilla/issues/2889)
+- [Submit MCP Server: PayStage Preflight (xyz.paystage/preflight)](https://github.com/chatmcp/mcpso/issues/6420)
+- [(Enhancement) Agent Mesh S11: G3 — real x402 settlement for the paid NLQ leg](https://github.com/OpenAIMP/cfagent/issues/2396)
+- [MCP tools: metrics path 401, scaffold handler path mismatch, validate short-circuit](https://github.com/ds1/pincerpay/issues/166)
+- [Squads spending-limit check keys on fee payer, so it never matches x402 agents](https://github.com/ds1/pincerpay/issues/163)
+- [Submit Remote MCP Server: Crypto Link Check (io.github.devx-agent/crypto-link-check)](https://github.com/chatmcp/mcpso/issues/6419)
+- [Submit Remote MCP Server: 7702 Sweeper Check (io.github.devx-agent/7702-sweeper-check)](https://github.com/chatmcp/mcpso/issues/6418)
+- [(triage) GitHub:Hugo0/swarmmemo@d14a18239b41f0dfe6384e9b6840502ac2a98a52 (critical)](https://github.com/aryan2621/antidote/issues/956)
+- [Proposal: payment-reviews extension (links only), aligned with x402's reviews extension](https://github.com/tempoxyz/mpp-specs/issues/388)
+- [(Goal 1) All screeners follow the same payment path; paid screeners must be schedulable](https://github.com/OpenAIMP/cfagent/issues/2373)
+- [AX: add document.modelContext (WebMCP) to homepage — WebMCP Tool Quality 0/3](https://github.com/AINative-Studio/builder-ainative-studio/issues/1683)
+- [AX: add /.well-known/x402 payment discovery doc (discovery-only, no new payment rails) — 0/6](https://github.com/AINative-Studio/builder-ainative-studio/issues/1682)
+- [Question: per-charge receipt linking contract_charge_id to the resource paid for](https://github.com/fermah-xyz/fermah-pay-stellar/issues/87)
+- [Question: MegaETH (eip155:4326) payment option, EIP-3009 domain vs x402 SDK registry (Permit2)](https://github.com/agentc22/x402engine-mcp/issues/15)
+- [Algorand network id in PAYMENT-REQUIRED breaks the official x402 Python SDK (all payment options unusable for Python buyers)](https://github.com/rmartins1451/losbeto/issues/7)
+- [(Static Compliance Report) richarvey/OmniMem — Score 46/100 (Grade F) (audit-github-richarvey-omnimem-9fac27048b)](https://github.com/ak10082247-max/guard402-autonomous-engine/issues/24)
+- [Worker ALERT lines reach ALERT_WEBHOOK_URL, not only the log](https://github.com/DOS/Ludy/issues/1993)
+- [Add: MilindChatrabhuji/edgesaas-starter-kit](https://github.com/theoephraim/awesome-cloudflare-selfhosted/issues/59)
+- [scrub_text lets webhook URLs and Telegram bot tokens through](https://github.com/minhducvo04/kyra/issues/1)
+- [PRD: Phase 3 — step-up consent workflow](https://github.com/karthikraoofficial/agentpay-guard/issues/55)
+- [Billing: Founding can be paid yearly ($396) as well as quarterly ($99)](https://github.com/colliedesk/colliedesk/issues/341)
+- [Reduce 负责人经验写回：决定权、写范围、接管、收口冻结与已知坑（M1.5 reduce 复盘）](https://github.com/nemori-ai/omne-harness-lite/issues/945)
+- [Chore: upgrade the host to Cezar 0.17.0 and sync the PWA to it (77eead9)](https://github.com/cieyhomelab/cezar-pwa/issues/127)
+- [MVP-094B: Add a source-versioned DRC statutory payroll preview](https://github.com/AlainCizungu/DivalHR/issues/179)
+- [Restore GitLab webhook commit accounting without duplicate awards](https://github.com/AgentSpore/agentspore/issues/236)
+- [docs: 0.36.1 stable wording in SECURITY, ROADMAP, AGENTS and the CHANGELOG](https://github.com/littlebearapps/untether/issues/1210)
+- [🦞 OpenClaw 生态日报 2026-10-30](https://github.com/rollysys/agents-radar/issues/1588)
+- [Dispute reinstatement over-credits the builder when a partial refund preceded the dispute](https://github.com/RunbotRobot/higglehaven/issues/2901)
+- [public: improve the self-hosted service funnel in 21 PRs](https://github.com/lianihossam-eng/EezFunnels/issues/82)
+- [Identify the server in /api/health; setup marker and first-run mode; close the session on stop](https://github.com/jbhoorasingh/gt7-datalogger/issues/184)
+- [(EF02) Fix #124 — A12-04 worktree-only Antigravity headless permission-safe repair](https://github.com/trung-via/ai-commerce/issues/126)
+- [Channel tools: parallel channel, regression trend, flat top/bottom, disjoint channel](https://github.com/cbundy/Vost/issues/234)
+- [(J1/WS9) Integrar array Kline real e granularidade temporal sem regredir replay PAPER](https://github.com/leandrosilveiradepaula/crypto-intelligence-agent/issues/344)
+- [Persist and verify exact-team 18-pair PREP evaluations for safe no-call cache reuse](https://github.com/hatsu07/pokemon_champions_assistant/issues/135)
+- [fix: 修复联网大纲的类型反馈与标准模式生成](https://github.com/damascenosteven-oss/YULING-mini-app/issues/28)
+- [P0: high-information A-button, no-contact swing, and contact-control memory capture](https://github.com/Nate27624/Wii-AI-Golf/issues/390)
+- [(C v1192)(P1)(LOCAL HOLD) Bank saving-pocket read evidence, exact SHA gates and clean-DB schema drift](https://github.com/wtrdd1-hash/Woldeok-Moneyverse-Migration/issues/2001)
+- [Advance automated provenance checks for Methods text with parameter schemas](https://github.com/patasherry/hplc-figure-bench/issues/526)
+- [14b: Extract fields with schema validation](https://github.com/Torresfong/acounting-saas/issues/55)
+- [P6.2: Add plot resolution and tally materialization helpers](https://github.com/UBC-FRESH/nemora/issues/17)
+- [P6: Plot resolution and LiDAR observation interfaces](https://github.com/UBC-FRESH/nemora/issues/15)
+- [Hackathon execution tracker - owners, dependencies and G0-G5 gates](https://github.com/olartgabo/forma/issues/17)
+- [feat: per-function Lambda config passthrough from defineFunction (tenancy, durableConfig, fileSystemConfig, image, ...)](https://github.com/karmaniverous/smoz/issues/19)
+- [(US-1.3) Cross-Agent Manifests, GitHub Actions CI & Benchmark Documentation — Spec](https://github.com/P1e2003/Downshift/issues/6)
+- [(AutoPilot) Android APK failed — run 41006521631](https://github.com/Prav1525/Padippupal/issues/78)
+- [Exercise: Hello GitHub Actions](https://github.com/mrdcs92/skills-hello-github-actions/issues/1)
+- [(AutoPilot) Android APK failed — run 41006511050](https://github.com/Prav1525/Padippupal/issues/77)
+- [Automatic AI first-pass review for simple PRs (needs a funded API key)](https://github.com/mllam/neural-lam/issues/845)
+- [ubuntu 22.04 -> 24.04](https://github.com/mcandre/toys/issues/750)
+- [UX: add `homefield adopt --setup` that generates a PR with routing changes](https://github.com/i2Dev-com/homefield/issues/124)
+- [(workshop-sim) Improve: Chunk Step 4 (GitHub Actions in 5 Minutes) and add a verifiable checkpoint](https://github.com/githubnext/gh-aw-workshop/issues/5150)
+- [Testing First-Time Contributor Greeting](https://github.com/harsimran-01/DSA-25-Patterns/issues/1)
+- [(workshop-sim) Improve: Add checkpoint evidence and prediction practice to Step 5 (What Are Agentic Workflows?)](https://github.com/githubnext/gh-aw-workshop/issues/5149)
+- [CI failure: 2026-10-30T05:05Z @ a1d3817](https://github.com/Oxai666/RikkaHub-Agent-Ultra/issues/12)
+- [(workshop-sim) Repair: Make billing-path choice a verifiable part of Step 7 flow](https://github.com/githubnext/gh-aw-workshop/issues/5148)
+- [⛔ Morning health digest — 2026-10-30](https://github.com/ak125/nestjs-remix-monorepo/issues/1923)
+- [Phase 0: Safety net — lockfile, CI, unit test harness](https://github.com/Mantequilla-Soft/3speakencoder/issues/40)
+- [(BUG)(MCP) review_pending omits approval_id, preventing trustworthy tool-call correlation](https://github.com/open-mcp-ai/Termcp/issues/236)
+- [(Bug): auth.tenant.spec.js loads a local librechat.yaml, so login tests return 500 when it has an unresolved ${VAR} MCP URL](https://github.com/LibreChat-AI/LibreChat/issues/17641)
+- [(BUG) MCP HTML UI Tools Fail with "spawnSync bun ENOENT" on Vercel Serverless](https://github.com/belastrittmatter/Scylla/issues/16)
+- [(BUG) `claude mcp serve` does not exit when stdin is closed (orphans one server per session over SSH)](https://github.com/anthropics/claude-code/issues/106109)
+- [(BUG) MCP HTTPS: a trust anchor with an iPAddress name constraint fails with UNSUPPORTED_CONSTRAINT_TYPE (NODE_EXTRA_CA_CERTS is honoured)](https://github.com/anthropics/claude-code/issues/106100)
+- [(BUG) 启用 MCP 后，ok-script.log 在启动约 1 秒后停写](https://github.com/ok-oldking/ok-script/issues/116)
+- [(Bug) openai_agents: a callable tool_filter on a deprecated MCP provider's server makes tool listing retry forever](https://github.com/temporalio/ai-integrations/issues/290)
+- [(bug) 抓包全是无法连接，AI分析是MCP链接太多导致](https://github.com/reqable/reqable-app/issues/3014)
+- [(Bug) Publicar composição MCP compatível com integração LinkedIn e common atual](https://github.com/ControleOnline/api-platform-mcp/issues/65)
+- [(BUG) Plugin can't recover its own MCP server after a startup failure: $.mcp.connect doesn't retry, failure cache then blocks new sessions](https://github.com/anthropics/claude-code/issues/106087)
+- [(Bug): MCP test-run accepts per-story globals but never applies them](https://github.com/storybookjs/storybook/issues/37091)
+- [(Bug): MCP test-run silently skips stories from a story file added after startup when it is outside the project root](https://github.com/storybookjs/storybook/issues/37090)
+- [(BUG): Serialize Kanban MCP SQL row values without truncation](https://github.com/kitamura-tetsuo/outliner/issues/5834)
+- [(bug) CLI-mode MCP pool lookup ignores pool_mcps/exclude_mcps: a config attaches to another config's pooled MCP (and used a dead /tmp socket path before v1.16.33)](https://github.com/asheshgoplani/agent-deck/issues/2952)
+- [(TestAgent)(Nightly)(ubuntu-agent-memory) bug: plugin retires a live MCP client on every register() — all memory tools return 'agent-memory client is disposed'](https://github.com/agentic-os-org/ANOLISA/issues/9306)
+- [(BUG): A2A agents registered with OAuth 2.0 are invoked without credentials](https://github.com/IBM/mcp-context-forge/issues/7382)
+- [(P0)(缺陷(Bug)) A2A 入口限流双重不生效：服务默认未上线且 Redis 缺失/异常时 fail-open](https://github.com/openJiuwen-ai/agent-runtime/issues/356)
+- [(BUG) a2a.utils.task.list_tasks raises TypeError when task timestamps mix aware and missing values](https://github.com/crewAIInc/crewAI/issues/8735)
+- [(BUG): A2A invocation records every HTTP 200 as a success](https://github.com/IBM/mcp-context-forge/issues/7348)
+- [(Bug): Tracing overview tab is blocked for External A2A agent that created from the samples](https://github.com/wso2/agent-manager/issues/2153)
+- [(bug) Autoscan webhook rate limit refuses real Sonarr deliveries, and Sonarr doesn't retry them](https://github.com/Silo-Server/silo-server/issues/3264)
+- [bug: 声の webhook の register が、読み損ねた一覧を「空」とみなして書き戻し、他の c-lord の id を消す](https://github.com/yousan/c-lord/issues/1109)
+- [bug: 声の webhook 一覧が壊れたままだと、webhook の投稿のたびに WARNING がトレースバックつきで出続ける（#1091 の回帰）](https://github.com/yousan/c-lord/issues/1108)
+- [(Bug): The bot webhook drops later events that reuse a payload `id`](https://github.com/elie222/rakazo/issues/2729)
+- [(BUG) Webhook registration doesn't validate that the target URL isn't an internal address](https://github.com/trustflow-protocol/trustflow-backend/issues/859)
+- [(BUG) Webhook retry logic has no backoff and hammers a failing endpoint every second](https://github.com/trustflow-protocol/trustflow-backend/issues/857)
+- [(Bug/Feature) 纳管全集群日志哨兵 log_alert：打通 Ingest 消费、告警流呈现与统一通知出口 (F9 Webhook)](https://github.com/x-dc-coder/monitor-panel/issues/10)
+- [(BUG): webhook.ValidateSignature WithTolerance rejects 10-digit second timestamps from Payments API](https://github.com/mercadopago/sdk-go/issues/155)
+- [(BUG) Jellyfin webhook returns 500 on payloads containing raw control characters (JSONDecodeError)](https://github.com/FuzzyGrim/Yamtrack/issues/1779)
+- [(Bug): Webhook recovery starves healthy merchants behind invalid endpoints](https://github.com/youpi-pg/YouPI-PG/issues/120)
+- [(Bug):  iPhone gets no push notifications from a self-hosted server (routine and webhook routine runs)](https://github.com/nightly-labs/openbot/issues/3633)
+- [(bug): prime-cli compose sets WEBHOOK_ALLOWED_HOSTS from an undefined ${WEB_URL}, so the GitHub integration's Connect does nothing](https://github.com/makeplane/plane/issues/10133)
+- [(Bug): FUNCTION webhook with no URL crashes MessageWorker when saving the webhook log](https://github.com/glific/glific/issues/6072)
+- [(BUG) UnitedDeployment validating webhook returns incorrect field path for advancedStatefulSetTemplate and duplicate error for subset tolerations update](https://github.com/openkruise/kruise/issues/2638)
+- [(BUG-031) Order status webhook delivery not retried on failure](https://github.com/StellarPOS-App/backend/issues/122)
+- [Cross-dialect translation gaps found with real models (stream usage, JSON schema to Claude, Responses event fields, logprobs)](https://github.com/metrum-ai/router/issues/539)
+- [`data/` folder with JSON schema validation in CI](https://github.com/isaquefontinele/pitada/issues/3)
+- [client/src-tauri/gen/schemas/*.json repeatedly appear as modified with an empty diff on Windows (CRLF/LF stat cache mismatch)](https://github.com/catgirl3d/SayIt/issues/95)
+- [Schema v3: publish.json property model in the schema + pull tool](https://github.com/andrewdhorowitz/fleet-kit/issues/2)
+- [tsconfig.json's schema flags option values in upper case (NODE16, BUNDLER) that TypeScript takes](https://github.com/Zaneris/passenger/issues/913)
+- [package.json's schema flags custom export conditions with a digit or dot (node20, foo.bar)](https://github.com/Zaneris/passenger/issues/910)
+- [appsettings.json's schema flags Serilog keys in another case (minimumlevel) that Serilog reads](https://github.com/Zaneris/passenger/issues/908)
+- [MCP server fails with generic "Failed to get tools" when a tool inputSchema contains a boolean JSON Schema](https://github.com/anomalyco/opencode/issues/60432)
+- [R-01 Contracts v0.1: JSON Schemas for every contract in 03, scripts/gen_contracts.py](https://github.com/DuhItzAniket/Veyltrace/issues/4)
+- [(docs): notes on conqr.schema.json](https://github.com/bohdan-shulha/conqr/issues/27)
+- [G2 2.1-3a2: the events and schema/live-events.schema.json](https://github.com/aray4702/auto_research/issues/432)
+- [(Feature): Validate JSON files in the editor against their "$schema" (and known schemas)](https://github.com/stablyai/orca/issues/36186)
+- [Publish a JSON Schema for GET /discovery](https://github.com/livepeer/node/issues/22)
+- [Feature: json-schema-support](https://github.com/amritk/nish/issues/1048)
+- [Contrato canônico de evento v1.0 (JSON Schema → Pydantic e TS)](https://github.com/JayV-Coder/jayv-doctor/issues/8)
+- [(Bug) 工具 schema 属性内使用 required: true，导致 DeepSeek API 拒绝所有请求（v0.1.0）](https://github.com/Aegink/dsh-channel-qq/issues/6)
+- [(API bug) POST /challenge/verify documents a phantom `solution` field as required and omits the functional `proxy_host_id` field](https://github.com/svrforum/NginxProxyGuard/issues/352)
+- [(Bug): "Copy API key" button doesn't work](https://github.com/xiao-villamor/PrintStash/issues/590)
+- [(bug) Installer one-liner times out connecting to api.darkbloom.dev:443](https://github.com/Layr-Labs/d-inference/issues/1679)
+- [(Bug) Anthropic API Error: Content filtered by Claude Sonnet 5.5 safeguards](https://github.com/anthropics/claude-code/issues/106115)
+- [(Bug) GET /api/git/log answers 500 and logs the error twice when the compared branch no longer exists](https://github.com/openchamber/openchamber/issues/5953)
+- [(Bug) livetalk: GET /api/lifecycle の単体テスト 2 件が、毎日 00:00 からの 1 分間だけ失敗する](https://github.com/nagiyu/nagiyu-platform/issues/4473)
+- [bug: gc mail check prints the length of the first API page (100) as the unread count](https://github.com/gastownhall/gascity/issues/8521)
+- [(BUG) reasoning_effort is silently dropped on the OpenAI Responses API path (o-series / gpt-5 default non-streaming calls)](https://github.com/MervinPraison/PraisonAI/issues/6130)
+- [Bug: sitemap crashes with KeyError: ns against the live API (namespace/ns key mismatch)](https://github.com/boldblackai/corkboard-plugin/issues/3)
+- [bug: API check skips a method that a subclass starts overriding](https://github.com/mkdocstrings/griffe/issues/510)
+- [BUG-TC-API-04](https://github.com/FrankMaldo/GrupoF-GestionDeProyectos/issues/56)
+- [bug: 未设置 API Key 时配置 Claude Code 模型直接返回菜单，错误提示被清屏覆盖](https://github.com/qiniu/coding-helper/issues/88)
+- [(Bug): Codex主进程使用官方登录的情况下，多开进程无法使用供应商api](https://github.com/BigPizzaV3/CodexPlusPlus/issues/2794)
+- [bug: 利用上限や API エラーで終わったターンのあと再起動すると、救出（#215）が前の途中経過や英語のエラー文を「答え」としてもう一度出す](https://github.com/yousan/c-lord/issues/1143)
+
+## Tracked threads
+No new issue comments after stored cursors; all cursors retained. mppx state changed only; merged-fix outcome recorded separately. A missing old comment is not a reason to reset a cursor (Woodhouse currently returns zero comments).
+- https://github.com/cyanheads/musicbrainz-mcp-server/issues/21 — state closed; comments read 2; retained cursor 6148454351.
+- https://github.com/wbskt/Wbskt/issues/293 — state closed; comments read 2; retained cursor 6140314655.
+- https://github.com/abi83/prepify/issues/279 — state open; comments read 3; retained cursor 6093268389.
+- https://github.com/logly/mureo/issues/807 — state closed; comments read 1; retained cursor 6050810750.
+- https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68 — state closed; comments read 5; retained cursor 6051654617.
+- https://github.com/api-evangelist/roadmap/issues/938 — state closed; comments read 3; retained cursor 6252888731.
+- https://github.com/parisbs/codex-subagent-mcp/issues/143 — state closed; comments read 3; retained cursor 6201356227.
+- https://github.com/HuginnIndustries/CodeCartographer/issues/463 — state closed; comments read 1; retained cursor 6050883458.
+- https://github.com/web3insight-ai/web3insight/issues/32 — state closed; comments read 5; retained cursor 5797651890.
+- https://github.com/LumenRoute/lumenbazaar-frontend/issues/8 — state closed; comments read 4; retained cursor 6195420882.
+- https://github.com/microsoft/vscode/issues/341683 — state closed; comments read 1; retained cursor 6184978396.
+- https://github.com/a2aproject/a2a-python/issues/1341 — state closed; comments read 2; retained cursor 6274826969.
+- https://github.com/Abilityai/trinity/issues/3749 — state closed; comments read 3; retained cursor 6186662739.
+- https://github.com/agnt-gg/agnt/issues/169 — state open; comments read 1; retained cursor 6208715705.
+- https://github.com/owasp-noir/noir/issues/3078 — state open; comments read 2; retained cursor 6228187553.
+- https://github.com/Gentleman-Programming/engram/issues/1899 — state closed; comments read 4; retained cursor 6221741562.
+- https://github.com/MementoRC/mcp-git/issues/298 — state closed; comments read 1; retained cursor 6209070203.
+- https://github.com/huiliyi37/Tianshu-harness/issues/507 — state closed; comments read 1; retained cursor 6230037956.
+- https://github.com/reeenatamc/wp-content-agent/issues/6 — state closed; comments read 1; retained cursor 6246051674.
+- https://github.com/opena2a-org/agent-identity-management/issues/772 — state closed; comments read 1; retained cursor 6246052455.
+- https://github.com/Danathar/tududi/issues/263 — state closed; comments read 2; retained cursor 6246053246.
+- https://github.com/ktysne/agent-cockpit/issues/564 — state closed; comments read 0; retained cursor null.
+- https://github.com/bergbacher/hyde-mcp-gateway/issues/34 — state open; comments read 1; retained cursor 6260256914.
+- https://github.com/recursive-cloud/woodhouse/issues/29 — state open; comments read 0; retained cursor 6283913029.
+- https://github.com/gitroomhq/postiz-app/issues/2300 — state open; comments read 1; retained cursor 6308625082.
+- https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940 — state open; comments read 1; retained cursor 6308670609.
+- https://github.com/janowoc/northplan/issues/100 — state closed; comments read 0; retained cursor null.
+- https://github.com/casdoor/casdoor/issues/5957 — state closed; comments read 2; retained cursor 6362808135.
+- https://github.com/volcengine/OpenViking/issues/6471 — state open; comments read 3; retained cursor 6360176515.
+- https://github.com/agentscope-ai/QwenPaw/issues/8424 — state open; comments read 3; retained cursor 6416245387.
+- https://github.com/f4exb/sdrangel/issues/3039 — state closed; comments read 2; retained cursor 6427656486.
+- https://github.com/wevm/mppx/issues/1113 — state closed; comments read 1; retained cursor 6434639013.
+- https://github.com/paoloamato2/fortinet-mcp-server/issues/5 — state open; comments read 1; retained cursor 6461200657.
