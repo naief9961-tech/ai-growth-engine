@@ -2,6 +2,16 @@
 
 # NAIF Gravity — MCP & Integration Diagnostics
 
+<!-- naif-storefront-refresh-20261030 -->
+## New look at NAIF Gravity — 30 October 2026
+
+The NAIF Gravity storefront has a refreshed visual identity: midnight navy, copper accents and a glass-inspired homepage experience, with Arabic and English controls. Explore the updated [storefront](https://naifgravity.com) and [service catalog](https://naifgravity.com/services).
+
+**مظهر جديد لمتجر NAIF Gravity:** هوية كحلية ونحاسية وتجربة زجاجية في الصفحة الرئيسية، مع خيارات العربية والإنجليزية. [شاهد المتجر](https://naifgravity.com).
+
+This announcement covers the storefront design. Service scope, availability and current prices are stated on the relevant live service pages; the redesign does not establish new product readiness.
+<!-- /naif-storefront-refresh-20261030 -->
+
 [![GitHub stars](https://img.shields.io/github/stars/naief9961-tech/ai-growth-engine?style=flat)](https://github.com/naief9961-tech/ai-growth-engine/stargazers)
 [![Diagnostic requests](https://img.shields.io/github/issues/naief9961-tech/ai-growth-engine)](https://github.com/naief9961-tech/ai-growth-engine/issues)
 [![Listed on mcpHQ](https://img.shields.io/badge/Listed%20on-mcpHQ-8A2BE2)](https://github.com/mcpHQ/awesome-mcp-servers)
@@ -65,7 +75,9 @@ This repository's [MCP metadata](server.json) is broadcast to the official MCP R
 
 ## Launch offer — one-time technical services (October 12–26, 2026)
 
-**Live automatic discount, no coupon or manual agent approval.** The launch prices below apply to newly created eligible quotes through **2026-10-26 05:40 UTC (08:40 Saudi time)** **or the first 10 verified purchases of campaign products**, whichever happens first. Existing quotes and past payments retain their original terms. These are prices for **bounded technical-service jobs**, not per-call x402 tools.
+**Expired promotion — historical prices below.** This offer ended no later than 26 October 2026 at 05:40 UTC. Use the [live service catalog](https://naifgravity.com/services) and accepted quote for current prices.
+
+**Historical offer terms:** The launch prices below applied to newly created eligible quotes through **2026-10-26 05:40 UTC (08:40 Saudi time)** **or the first 10 verified purchases of campaign products**, whichever happens first. Existing quotes and past payments retain their original terms. These are prices for **bounded technical-service jobs**, not per-call x402 tools.
 
 | Bounded technical service | Regular USD | Launch USD |
 | --- | ---: | ---: |
