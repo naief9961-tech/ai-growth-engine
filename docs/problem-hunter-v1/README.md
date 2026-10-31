@@ -2,7 +2,8 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — 2026-10-30 R19: mppx merge and isolated follow-up finding](rounds/2026-10-30-R19/REPORT.md)
+- [Latest report — R20: Discord webhook retry; one review draft](rounds/2026-10-31-R20/REPORT.md)
+- [Previous report — 2026-10-30 R19: mppx merge and isolated follow-up finding](rounds/2026-10-30-R19/REPORT.md)
 - [R19: one follow-up draft awaiting approval](rounds/2026-10-30-R19/DRAFTS.md)
 - [R19: isolated classifier evidence and limits](rounds/2026-10-30-R19/TESTS.md)
 - [Previous report — 2026-10-29 R18](rounds/2026-10-29-R18/REPORT.md)

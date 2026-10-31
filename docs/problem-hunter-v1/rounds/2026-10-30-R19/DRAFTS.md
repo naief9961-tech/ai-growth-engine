@@ -1,3 +1,5 @@
+**Publication verified 2026-10-31: [posted comment](https://github.com/wevm/mppx/pull/1133#issuecomment-6515624633). Historical text below; do not repost.**
+
 # R19 — one follow-up for review
 
 Status: AWAITING_USER_APPROVAL. Not posted. Destination: https://github.com/wevm/mppx/pull/1133 (merged). Original issue: https://github.com/wevm/mppx/issues/1113 (closed).
