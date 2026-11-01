@@ -1,3 +1,5 @@
+**Superseded 1 November: #118 is closed after PR #119 merged. R20-01 was not posted; do not post it.**
+
 # R20 • 31 October 2026
 
 2026-10-31T05:03:29Z. 7 capped title searches (MCP/A2A/x402/webhook/schema/API/GitHub Actions, open issues created since Oct 28, bug, newest first). 41 results, 41 distinct URLs; 6 candidate threads fetched including comments/timeline; one completed source investigation.
