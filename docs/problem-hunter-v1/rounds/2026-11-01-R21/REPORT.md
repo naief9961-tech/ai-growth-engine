@@ -1,3 +1,5 @@
+**R21-01 already posted: [verified account comment](https://github.com/mikeknight85/PriceStalker/pull/269#issuecomment-6553838250). Do not repost.**
+
 # R21 — 1 November 2026
 
 Checked 2026-11-01T05:05:00Z. 54 unique open issues screened, 6 threads read (body, all comments and timeline), 1 completed source investigation. Seven newest-first searches capped at ten each: MCP, A2A, x402, webhook, schema, API and GitHub Actions in title with bug, created since 29 October. Compared to prior radar/ledger; this is a sample, not exhaustive.
