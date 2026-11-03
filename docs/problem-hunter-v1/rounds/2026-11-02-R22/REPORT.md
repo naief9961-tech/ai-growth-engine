@@ -1,3 +1,5 @@
+**R22-01 posted and verified: [account comment](https://github.com/WeatherXM/wg1200-firmware/issues/2#issuecomment-6569936002). Do not repost.**
+
 # R22 — 2 November 2026
 
 Checked 2026-11-02T04:59:36Z. 43 results / 42 unique issue URLs from seven searches: open issues created since Oct 30; MCP, A2A, x402, webhook, schema, API and GitHub Actions in title with bug, latest eight each. Six candidate threads (descriptions, comments, timelines); two source investigations, one public-comment draft. No external publication.
