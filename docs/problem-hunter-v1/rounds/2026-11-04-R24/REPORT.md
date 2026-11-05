@@ -1,5 +1,7 @@
 # R24 — BanyanDB MCP startup | 2026-11-04
 
+> Update 2026-11-05: R24-01 was manually posted and the author addressed the finding. **Do not repost.** See [R25 outcome](../2026-11-05-R25/REPORT.md). The pending-approval text below is historical.
+
 42 distinct open issue results screened (seven capped title searches, created since 2026-11-01). Six full issue discussions inspected; one completed source investigation. Checked 40 prior threads against saved comment IDs and checked reviews/inline comments on the three tracked PRs. No newly observed developer reply, change in tracked issue/PR state, or explicit commercial request. IntelliFlow #940 was readable again. Previous cursors retained; two new tracking records initialized. Nothing sent externally.
 
 ## Candidate retained

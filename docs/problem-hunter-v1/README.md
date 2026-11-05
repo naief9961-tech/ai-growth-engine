@@ -2,7 +2,8 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R24: BanyanDB MCP env-file initialization](rounds/2026-11-04-R24/REPORT.md)
+- [Latest report — R25: verified BanyanDB response; no new draft](rounds/2026-11-05-R25/REPORT.md)
+- [Previous report — R24: BanyanDB MCP env-file initialization](rounds/2026-11-04-R24/REPORT.md)
 - [Previous report — R23: Langfuse Unicode boundary and verified PriceStalker fix](rounds/2026-11-03-R23/REPORT.md)
 - [Previous report — R22: WeatherXM extraction and Kaneo webhook ordering](rounds/2026-11-02-R22/REPORT.md)
 - [Previous report — R21: webhook media-type regression; one draft](rounds/2026-11-01-R21/REPORT.md)
