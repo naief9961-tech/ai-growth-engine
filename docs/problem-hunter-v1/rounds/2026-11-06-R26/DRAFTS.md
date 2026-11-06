@@ -1,6 +1,6 @@
 # R26 — English reply for review
 
-Status: AWAITING_USER_APPROVAL. Nothing posted externally. Re-read the issue before any publication. This is a diagnostic contribution, not a verified fix.
+Status: POSTED_VERIFIED after explicit user approval on 2026-11-06. [Published comment](https://github.com/MrLesk/Backlog.md/issues/1179#issuecomment-6677434895). Do not repost. This is a diagnostic contribution, not a verified fix.
 
 ## R26-01 — Backlog.md #1179
 

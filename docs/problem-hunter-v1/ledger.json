@@ -544,7 +544,12 @@
       "commercial_requests_verified": 0,
       "limitations": "Backlog draft is a diagnostic next step, not a proven fix. Hatchet tested fix suppressed because already proposed.",
       "hatchet_test_groups": 7,
-      "backlog_test_groups": 5
+      "backlog_test_groups": 5,
+      "post_round_approved_publication": {
+        "comment_url": "https://github.com/MrLesk/Backlog.md/issues/1179#issuecomment-6677434895",
+        "created_at": "2026-11-06T05:06:42Z",
+        "verified": true
+      }
     }
   ],
   "automation": {
@@ -3110,10 +3115,20 @@
       "destination": "https://github.com/MrLesk/Backlog.md/issues/1179",
       "reply": "R26-01",
       "approval": {
-        "status": "AWAITING_USER_APPROVAL"
+        "status": "APPROVED",
+        "authorization": "Explicit user reply: اوك موافق",
+        "approved_date": "2026-11-06"
       },
-      "publication_status": "DRAFT_NOT_POSTED",
-      "commercial_interest": "NONE_OBSERVED"
+      "publication_status": "POSTED_VERIFIED",
+      "commercial_interest": "NONE_OBSERVED",
+      "post_url": "https://github.com/MrLesk/Backlog.md/issues/1179#issuecomment-6677434895",
+      "history": [
+        {
+          "event": "APPROVED_COMMENT_POSTED_AND_READ_BACK",
+          "comment_id": 6677434895,
+          "at": "2026-11-06T05:06:42Z"
+        }
+      ]
     }
   ],
   "followups": [
@@ -4386,12 +4401,19 @@
       "state": "open",
       "last_checked_at": "2026-11-06T05:01:53Z",
       "last_checked_date": "2026-11-06",
-      "last_seen_comment_id": null,
-      "last_seen_comment_at": null,
-      "last_own_comment_id": null,
+      "last_seen_comment_id": 6677434895,
+      "last_seen_comment_at": "2026-11-06T05:06:42Z",
+      "last_own_comment_id": 6677434895,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_NOT_POSTED"
+      "status": "POSTED_VERIFIED",
+      "last_own_comment_at": "2026-11-06T05:06:42Z",
+      "history": [
+        {
+          "event": "APPROVED_COMMENT_POSTED",
+          "url": "https://github.com/MrLesk/Backlog.md/issues/1179#issuecomment-6677434895"
+        }
+      ]
     }
   ],
   "exclusions": [
