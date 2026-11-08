@@ -2,7 +2,8 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R27: author validated Backlog diagnosis; no duplicate drafts](rounds/2026-11-07-R27/REPORT.md)
+- [Latest report — R28: fresh screening; existing fixes suppressed](rounds/2026-11-08-R28/REPORT.md)
+- [Previous report — R27: author validated Backlog diagnosis; no duplicate drafts](rounds/2026-11-07-R27/REPORT.md)
 - [Previous report — R26: Backlog validator evidence; one diagnostic review draft](rounds/2026-11-06-R26/REPORT.md)
 - [R26: approved reply posted and verified — do not repost](rounds/2026-11-06-R26/DRAFTS.md)
 - [Previous report — R25: verified BanyanDB response; no new draft](rounds/2026-11-05-R25/REPORT.md)
