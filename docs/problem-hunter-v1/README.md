@@ -2,7 +2,9 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R28: fresh screening; existing fixes suppressed](rounds/2026-11-08-R28/REPORT.md)
+- [Latest report — R29: one bounded confirmation-deadline draft](rounds/2026-11-09-R29/REPORT.md)
+- [R29 full English draft — awaiting approval](rounds/2026-11-09-R29/DRAFTS.md)
+- [Previous report — R28: fresh screening; existing fixes suppressed](rounds/2026-11-08-R28/REPORT.md)
 - [Previous report — R27: author validated Backlog diagnosis; no duplicate drafts](rounds/2026-11-07-R27/REPORT.md)
 - [Previous report — R26: Backlog validator evidence; one diagnostic review draft](rounds/2026-11-06-R26/REPORT.md)
 - [R26: approved reply posted and verified — do not repost](rounds/2026-11-06-R26/DRAFTS.md)
