@@ -1,6 +1,10 @@
 # R29 — English reply for review
 
-Status: **PENDING_USER_APPROVAL — NOT POSTED**.
+Status: **SUPERSEDED_BY_UPSTREAM_FIX — DO NOT POST**.
+
+> **Update 2026-11-10: SUPERSEDED — DO NOT POST R29-01.** Upstream PR100 merged and issue80 closed. This is historical evidence only; see [R30](../2026-11-10-R30/REPORT.md). No R29 comment was posted.
+
+
 
 ## R29-01
 

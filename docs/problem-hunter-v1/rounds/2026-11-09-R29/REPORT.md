@@ -1,3 +1,5 @@
+> **Update 2026-11-10: SUPERSEDED — DO NOT POST R29-01.** Upstream PR100 merged and issue80 closed. This is historical evidence only; see [R30](../2026-11-10-R30/REPORT.md). No R29 comment was posted.
+
 # R29 — 2026-11-09: post-write confirmation deadline
 
 Reviewed at 2026-11-09T05:03:33Z (08:03 Saudi Arabia). Base main: `6548bd33a7ccaba1018d25e62e3f8cd3df125440`.
