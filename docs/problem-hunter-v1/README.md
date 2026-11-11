@@ -2,7 +2,9 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R30: upstream merges verified; stale draft retired](rounds/2026-11-10-R30/REPORT.md)
+- [Latest report — R31: Withings confidence regression; one review draft](rounds/2026-11-11-R31/REPORT.md)
+- [R31 English draft — awaiting approval](rounds/2026-11-11-R31/DRAFTS.md)
+- [Previous report — R30: upstream merges verified; stale draft retired](rounds/2026-11-10-R30/REPORT.md)
 - [Previous report — R29: one bounded confirmation-deadline draft](rounds/2026-11-09-R29/REPORT.md)
 - [R29 historical draft — superseded, DO NOT POST](rounds/2026-11-09-R29/DRAFTS.md)
 - [Previous report — R28: fresh screening; existing fixes suppressed](rounds/2026-11-08-R28/REPORT.md)
