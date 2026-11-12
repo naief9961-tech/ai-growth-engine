@@ -2,7 +2,9 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R31: Withings confidence regression; one review draft](rounds/2026-11-11-R31/REPORT.md)
+- [Latest report — R32: tool-error request boundary; one review draft](rounds/2026-11-12-R32/REPORT.md)
+- [R32 English draft — awaiting approval](rounds/2026-11-12-R32/DRAFTS.md)
+- [Previous report — R31: Withings confidence regression; one review draft](rounds/2026-11-11-R31/REPORT.md)
 - [R31 English draft — awaiting approval](rounds/2026-11-11-R31/DRAFTS.md)
 - [Previous report — R30: upstream merges verified; stale draft retired](rounds/2026-11-10-R30/REPORT.md)
 - [Previous report — R29: one bounded confirmation-deadline draft](rounds/2026-11-09-R29/REPORT.md)
