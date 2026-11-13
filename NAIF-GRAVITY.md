@@ -2,19 +2,20 @@
 
 NAIF Gravity helps developers and AI agents diagnose bounded integration failures without handing over private keys or rebuilding an entire stack.
 
-## New in October 2026: useful results before you pay
+## Choose a free diagnostic before buying a service
 
-**A malformed JSON payload should not require an expensive repair project.** NAIF Gravity now offers **Micro Tools V2** with a *free, bounded preview* and three fixed-price, one-time diagnostics:
+**Find the failure boundary first:** run a free [MCP discovery check](https://github.com/naief9961-tech/naif-gravity-mcp-diagnostics), use [NAIF JSON Rescue](skills/naif-json-rescue/SKILL.md) for local JSON syntax checks, or open [Micro Tools V2](https://naifgravity.com/micro-v2) for a bounded sample preview.
 
-- **$1 — JSON Validity Check:** syntax location, duplicate-key warnings, safe trailing-comma repair, inferred sample schema, CI snippet and checksum.
-- **$2 — API Response Shape Check:** compare two response samples, see added/removed fields and type changes, and get sample-based TypeScript/OpenAPI schemas.
-- **$3 — JSON Normalize Mini:** deterministic formatted JSON, optional trimming/indentation, change log and SHA-256 receipt.
+**Important:** the Micro V2 previews are free, but a separate **paid Micro V2 report checkout is not active**. When you need a paid result, select and review a *different* live service page with its own scope, current price and checkout:
 
-**[Run the free preview →](https://naifgravity.com/micro-v2?utm_source=github&utm_medium=diagnostic_hub&utm_campaign=micro_tools_v2)** · [Live agent catalog](https://naifgravity.com/api/agent/catalog) · [x402 API catalog](https://naifgravity.com/api/x402/catalog)
+- [JSON Validity Check](https://naifgravity.com/service/json-validity-check) — bounded JSON diagnosis.
+- [API Response Shape Check](https://naifgravity.com/service/api-response-shape-check) — compare supplied response samples, not a live API probe.
+- [JSON Normalize Mini](https://naifgravity.com/service/json-normalizer) — normalize a bounded JSON sample.
+- [CSV Schema Audit Mini](https://naifgravity.com/service/csv-schema-audit) — bounded CSV consistency checks.
 
-**Built for humans and buyer agents:** preview first, obtain an exact quote, explicitly accept it, choose an eligible payment method and receive the encrypted bounded report after verified settlement. No automatic transfers, no new subscription and no production system access for sample-only Micro Tools V2. Saudi-classified buyers use Apple Pay with human authorization; eligible international buyers can use Base USDC or TRON USDT according to the live policy. Instant per-call x402 Base USDC resources are a *separate paid API route*.
+**[Browse the full problem-to-product directory →](PRODUCTS.md)** · [Live catalog and terms](https://naifgravity.com/services) · [Current agent catalog](https://naifgravity.com/api/agent/catalog)
 
-Micro V2 reads only supplied sanitized input (4,096 bytes maximum). Do not paste credentials, private keys or customer records; uploaded samples do not mean live API endpoint testing.
+GitHub documentation does not authorize any payment, production system access or automatic repair. Use only sanitized examples; never paste access tokens, private keys or customer records.
 
 ---
 
@@ -38,13 +39,11 @@ Use the narrowest matching destination instead of sending every visitor to the h
 
 Canonical home: https://naifgravity.com
 
-## Launch discount and direct agent purchases (12–26 October 2026)
+## Historical launch offer — ended 26 October 2026
 
-The currently published, one-time developer-service offers include a **temporary 14-product launch discount**, applied automatically to new eligible quotes without a coupon. The price is locked in a Quote and remains unchanged while its checkout is completed. The campaign ends **2026-10-26 at 05:40 UTC or after 10 verified purchases of eligible launch products**, whichever comes first. See [the complete launch offer and price table](README.md#launch-offer--one-time-technical-services-october-1226-2026) and retrieve the authoritative price at the time of purchase from [the live agent catalog](https://naifgravity.com/api/agent/catalog).
+The 12–26 October 2026 introductory discount is **expired** and must not be applied to new purchases. Use the [live catalog](https://naifgravity.com/services) and a separately approved quote to obtain the current price and availability. Neither a GitHub issue nor a free preview starts a paid repair.
 
-For an agent authorized to purchase: fetch the catalog, POST to /api/agent/quote with the real requested scope, POST to /api/quote/accept, then choose an eligible live payment method. Base USDC and TRON USDT are payment options for eligible international buyers; Apple Pay requires human buyer authorization. **No artificial purchase or payment is authorized by these discovery instructions.** All Work-required services begin only after a verified paid job and remain subject to human/scoped delivery checks.
-
-For **instant per-call x402** there are four published full-scope POST endpoints. [x402 manifest](https://naifgravity.com/.well-known/x402) and [OpenAPI](https://naifgravity.com/openapi.json) advertise exact Base USDC requirements and methods. Their existing fixed prices are $1, $2, $3, and $5 per call; **do not offer proposed Lite prices as live endpoints**. On Saudi-classified requests the regional wallet policy still applies.
+The separately documented [x402 API catalog](https://naifgravity.com/api/x402/catalog) and [x402 payment manifest](https://naifgravity.com/.well-known/x402) describe distinct per-call APIs and supported payment protocols. Do not assume a particular payment method is available in every region.
 
 ## Individual services and agent discovery
 
