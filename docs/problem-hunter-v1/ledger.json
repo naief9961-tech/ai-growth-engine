@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-11-12-R32",
+  "last_round": "2026-11-13-R33",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -680,6 +680,30 @@
       "third_party_comments_posted": 0,
       "commercial_requests_verified": 0,
       "limitations": "Python3.14 target unavailable; Python3.12 future-annotation compatibility used for isolated modules. No complete issue repair claim; four candidates withheld."
+    },
+    {
+      "id": "2026-11-13-R33",
+      "checked_at": "2026-11-13T04:59:46Z",
+      "retrieved_results": 70,
+      "discovery_unique": 69,
+      "search_queries": 7,
+      "full_issue_candidate_reads": 5,
+      "source_investigations": 0,
+      "exploratory_source_reads": 3,
+      "existing_fix_prs_reviewed": 1,
+      "followup_threads_read": 48,
+      "tracked_pr_reviews_read": 4,
+      "new_developer_replies": 1,
+      "new_upstream_comments_on_unposted_drafts": 2,
+      "local_test_cases_paired": 0,
+      "upstream_full_suites_run": 0,
+      "reply_drafts": 0,
+      "retired_drafts": [
+        "R32-01"
+      ],
+      "third_party_comments_posted": 0,
+      "commercial_requests_verified": 0,
+      "limitations": "Search capped at ten results per query. Five complete issue/comment/timeline reads, three exploratory source reviews; no completed new repair investigation. PR108 author tests not rerun; open PR is not an integrated fix."
     }
   ],
   "automation": {
@@ -3409,7 +3433,7 @@
       "reporter": "ellen-goc",
       "created_at": "2026-11-12T04:51:04Z",
       "discovered_date": "2026-11-12",
-      "checked_at": "2026-11-12T05:04:26Z",
+      "checked_at": "2026-11-13T04:59:46Z",
       "state_at_review": "open",
       "diagnosis": "Registry error output is empty; additive boundary: live loop uses LLMMessage (no is_error), not ToolResultMessage; Anthropic conversion also omits is_error. Fixing only the unused error carrier cannot reach provider request.",
       "solution": "Normalize ToolResult once in planned shared loop (#82), combine nonempty partial output and error with fallback, use ToolStatus.ERROR, propagate is_error through actual conversation message and Anthropic serializer; cover callable and direct exception routes. Bounded two-file illustrative candidate only; other provider/nonzero exec criteria remain.",
@@ -3460,9 +3484,18 @@
       "approval": {
         "status": "PENDING_USER_APPROVAL"
       },
-      "publication_status": "DRAFT_NOT_POSTED",
+      "publication_status": "SUPERSEDED_BY_UPSTREAM_PR_DO_NOT_POST",
       "commercial_interest": "NONE_OBSERVED",
-      "post_url": null
+      "post_url": null,
+      "history": [
+        {
+          "round_id": "2026-11-13-R33",
+          "event": "DRAFT_RETIRED",
+          "date": "2026-11-13",
+          "reason": "PR108 is open, not merged. Reviewed source and test diff covers R32 message-carrier/Anthropic boundary; historical draft retired. No NAIF comment was posted, so these are upstream updates, not replies to us.",
+          "pr_url": "https://github.com/weyucou/wyc6k-task-runner/pull/108"
+        }
+      ]
     }
   ],
   "followups": [
@@ -3485,8 +3518,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-13: maintainer announced v0.2.0 including normalization before cache/fetch; not independently retested here.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/wbskt/Wbskt/issues/293",
@@ -3507,8 +3540,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "2026-10-13: maintainer explicitly thanked @naief9961-tech for crash-window regression finding; no purchase request.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/abi83/prepify/issues/279",
@@ -3521,8 +3554,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/logly/mureo/issues/807",
@@ -3535,8 +3568,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/scaffold-studio-hq/scaffold-studio-mcp/issues/68",
@@ -3578,16 +3611,16 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Other contributors posted offers/patches; not direct replies or leads for NAIF.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/api-evangelist/roadmap/issues/938",
       "state": "closed",
       "last_own_comment_id": 6028257699,
       "last_own_comment_at": "2026-10-07T00:39:24Z",
-      "last_seen_comment_id": 6252888731,
-      "last_seen_comment_at": "2026-10-18T17:25:45Z",
+      "last_seen_comment_id": 6834033166,
+      "last_seen_comment_at": "2026-11-12T19:40:43Z",
       "replies_after_last_own": [
         {
           "id": 6060311321,
@@ -3603,13 +3636,21 @@
           "url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6252888731",
           "summary": "**Verified live 2026-10-18**: the served card declares one flow per OAuth scheme (oauth2-code, oauth2-client). The 1.0 serialization migration stays noted on /blueprint/ as open. Closing; reopen if `a2a card get` still refuses it.",
           "classification": "TECHNICAL_FIX_CONFIRMATION_NOT_COMMERCIAL"
+        },
+        {
+          "id": 6834033166,
+          "author": "kinlane",
+          "created_at": "2026-11-12T19:40:43Z",
+          "url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6834033166",
+          "summary": "Maintainer posts changelog describing separate authorization-code/client-credentials OAuth schemes; protocol version remains 0.3. No independently repeated live validation.",
+          "classification": "TECHNICAL_CHANGELOG_NOT_COMMERCIAL"
         }
       ],
       "business_interest": "NONE_OBSERVED",
       "status": "MAINTAINER_REPORTED_LIVE_OAUTH_FLOW_FIX",
       "outcome": "Maintainer kinlane reports live one-flow-per-OAuth-scheme verification on 2026-10-18; closed. A2A 1.0 serialization migration remains open. Not independently tested.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "date": "2026-10-19",
@@ -3625,6 +3666,14 @@
           "outcome": "Maintainer kinlane reports live one-flow-per-OAuth-scheme verification on 2026-10-18; closed. A2A 1.0 serialization migration remains open. Not independently tested.",
           "comment_id": 6252888731,
           "comment_url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6252888731"
+        },
+        {
+          "round_id": "2026-11-13-R33",
+          "date": "2026-11-13",
+          "event": "NEW_MAINTAINER_CHANGELOG",
+          "comment_id": 6834033166,
+          "comment_url": "https://github.com/api-evangelist/roadmap/issues/938#issuecomment-6834033166",
+          "outcome": "Changelog documented; not a new fix attribution or commercial request."
         }
       ]
     },
@@ -3654,9 +3703,9 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Maintainer explicitly thanked our review and carried configuration consistency and isolation criteria to replacement issue #180. Technical acknowledgement, not commercial interest.",
-      "last_checked_date": "2026-11-12",
+      "last_checked_date": "2026-11-13",
       "successor_url": "https://github.com/parisbs/codex-subagent-mcp/issues/180",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/HuginnIndustries/CodeCartographer/issues/463",
@@ -3669,8 +3718,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "CLOSED_UPSTREAM_PR_MERGED",
       "outcome": "Issue closed and linked PR #465 merged at 2026-10-23T21:27:44Z (19dbb5d06ba88c4d15b92c242d8b7b44dfe42af7). No new comment. Author-reported tests not rerun. No causal attribution to NAIF or commercial request.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "round_id": "2026-10-24-R12",
@@ -3693,8 +3742,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "No newer comment after our last contribution in the inspected thread.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/LumenRoute/lumenbazaar-frontend/issues/8",
@@ -3729,8 +3778,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "BASELINED_IN_R1",
       "outcome": "Assigned to and completed by chief197. Program bot activity, not a reply or payment to NAIF.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/microsoft/vscode/issues/341683",
@@ -3743,8 +3792,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "PR #344873 merged 2026-10-29T01:00:41Z; #341683 closed completed one second later. Diff adds validated same-path slash retry, keeps redirects disabled and failed probe membership undetermined. No tests rerun, release/client acceptance or causal credit. No new comment/commercial request.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "checked_at": "2026-10-29T05:06:04Z",
@@ -3776,8 +3825,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "UPSTREAM_MERGED_CLOSED_R10",
       "outcome": "PR #1354 merged 2026-10-21T10:46:00Z at 91929cda989caba089584ceafa7796583f25bec4; issue closed at 10:46:02Z. Final five-file diff reviewed: shared parse_lenient includes REST SSE and tests. Tests not rerun, release/deployment unverified; no causal attribution or commercial interest.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/Abilityai/trinity/issues/3749",
@@ -3805,8 +3854,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_R3",
       "outcome": "Issue closed 2026-10-20T19:44:43Z. PR #3750 dev merge was already reported in R3. No new comment or independent live acceptance verification.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "outcome_history": [
         {
           "round": "2026-10-21-R9",
@@ -3836,8 +3885,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "VERIFIED_MANUAL_PUBLICATION",
       "outcome": "User manually published R3-01 after scheduled round; no developer response observed.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "round_id": "2026-11-10-R30",
@@ -3870,8 +3919,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "TECHNICAL_ACKNOWLEDGEMENT",
       "outcome": "fix(oas): skip readOnly properties in request body params (#3395)\n\nreadOnly properties are response-only in OAS 2 and 3, so they should not\nbe reported as request parameters. Skip properties whose schema has an\nexplicit boolean readOnly: true in all four body collectors (oas2/oas3,\nJSON/YAML), for both JSON and form bodies. readOnly: false, missing\nannotations and writeOnly properties are kept, and the shared schema is\nnot mutated.\n\nCloses #3078",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "round_id": "2026-10-17-R5",
@@ -3933,8 +3982,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "UPSTREAM_FIX_MERGED",
       "outcome": "PR #1915 independently verified merged at 2026-10-16T18:20:58Z, commit 403ad71cb23a1d9ecff4ec00a2b5333207dbc826. Contributor-reported tests not rerun. No attribution of causality or deployed release.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "upstream_pr": "https://github.com/Gentleman-Programming/engram/pull/1915",
       "history": [
         {
@@ -3962,8 +4011,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "UPSTREAM_FIX_MERGED",
       "outcome": "PR #304 independently verified merged at 2026-10-16T18:58:26Z, commit 221e6b03cf86c393d3301ae3b43f5a4a0d24aa25. Source diff read; maintainer tests not rerun. No direct reply or commercial interest; no deployment claim.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "upstream_pr": "https://github.com/MementoRC/mcp-git/pull/304",
       "history": [
         {
@@ -3986,8 +4035,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "WITHDRAWN_CLOSED_NOT_PLANNED",
       "outcome": "Maintainer confirmed reported mechanism but declined fix. No NAIF contact; draft withdrawn. Not fixed.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "date": "2026-10-17",
@@ -4006,8 +4055,8 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "outcome": "PR #19 merged: Retry-After parsing and taxonomy pagination. Source still caps requested waits with min(seconds,cap); long Retry-After can be shortened. Upstream tests not rerun; no blanket correctness or causal credit claimed.",
       "history": [
         {
@@ -4047,8 +4096,8 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "CLOSED_UPSTREAM_FIX_MERGED",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "outcome": "PR #777 merged; list_skills delegates to get_skills on the owned-agent route; dedicated route regression added. Source reviewed; upstream suite not rerun. No direct developer reply or causal credit established.",
       "history": [
         {
@@ -4088,8 +4137,8 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "CLOSED_UPSTREAM_FIX_MERGED_WITH_LIMITS",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "outcome": "PR #291 merged: failed records can be retried; terminal records return duplicate. Retry path has no exclusive claim; concurrent retry/partial side-effect safety remains unverified. New integration regression covers failed-event replay, not exactly-once processing. Tests not rerun.",
       "history": [
         {
@@ -4128,8 +4177,8 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "CLOSED_UPSTREAM_FIX_MERGED_R8",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "outcome": "PR #573 merged 2026-10-19T06:06:56Z; issue closed. Draft was already held and never posted. No NAIF causal credit; full tests/deployment not independently verified.",
       "history": [
         {
@@ -4150,8 +4199,8 @@
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
       "status": "PUBLISHED_AWAITING_RESPONSE",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "outcome": "User manually posted R7-02; account and full text verified. No subsequent developer reply present.",
       "last_own_comment_at": "2026-10-19T05:19:23Z",
       "last_seen_comment_at": "2026-10-19T05:19:23Z",
@@ -4177,8 +4226,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "POSTED_MANUALLY_VERIFIED_R9",
       "outcome": "User's shortened R8 reply verified live; no subsequent developer reply. Do not repost.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "checked_at": "2026-11-05T05:01:10Z",
@@ -4199,8 +4248,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "POSTED_MANUALLY_VERIFIED",
       "outcome": "Shortened R9-01 manually posted and verified. No developer reply at verification. Do not repost.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z"
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z"
     },
     {
       "url": "https://github.com/talyssonoliver/IntelliFlow-CRM/issues/940",
@@ -4213,8 +4262,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "POSTED_MANUALLY_VERIFIED",
       "outcome": "Shortened R9-02 manually posted and verified; no subsequent developer reply. Do not repost.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "checked_at": "2026-11-03T05:06:11Z",
@@ -4234,8 +4283,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "SUPERSEDED_UPSTREAM_CHANGE_NOT_POSTED",
       "outcome": "Closed 2026-10-24T20:31:30Z; timeline references commit 67d18ecb71c43e1c6d6b2787eeedd3de6b41e975. Commit rejects bool/bytes as numeric values while retaining numeric text, and makes the flag strict with an explicitly changed editor test. Static commit review only; no runtime tests rerun. R10-01 retired. NAIF comment was never posted (403); no reply or causal attribution.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "round_id": "2026-10-25-R13",
@@ -4258,8 +4307,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "SUPERSEDED_UPSTREAM_FIX_NOT_POSTED",
       "outcome": "Issue closed. Maintainer hsluoyz reports a fix in 20245fbdb7dd62823d164ad6dbdc0596f7df0cca; commit existence and three changed source files verified. No runtime tests run here. NAIF's approved R10 comment was blocked by 403 and never posted; this is not a reply to NAIF or attributable to our outreach. R10-02 retired.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "observations": [
         {
           "round_id": "2026-10-23-R11",
@@ -4321,8 +4370,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "TECHNICAL_ACKNOWLEDGMENT_AUTHOR_PLANS_FIX",
       "outcome": "Issue author ktz03 thanks NAIF, plans to preserve credit for additional regression findings and wants to carry the fix to a PR to avoid parallel work. Ethereal49 offered implementation but explicitly had not independently reproduced it. No completed repair or independent verification established; no commercial request.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "observations": [
         {
           "round_id": "2026-10-24-R12",
@@ -4387,8 +4436,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "POSTED_MANUALLY_VERIFIED",
       "outcome": "Independent deployment reproduction reported; contributor asked reproducer to try open PR #8445. No successful branch retest reported in this thread.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "checked_at": "2026-10-26T05:15:53Z",
@@ -4439,8 +4488,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "POSTED_MANUALLY_VERIFIED",
       "outcome": "Maintainer referenced PR #3043; verified merged fdcca2675a05002dc3e854f5d9cfc20dc9530011, diff adds numeric items. No native build/client/bundle acceptance independently verified; no causal credit or commercial inquiry.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "checked_at": "2026-10-26T05:37:19Z",
@@ -4471,8 +4520,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "POSTED_MANUALLY_VERIFIED",
       "outcome": "PR #1133 merged; original issue closed. New quote-split classifier false positive reproduced in isolated helpers; R19-01 follow-up draft awaits approval. No new issue comment or commercial inquiry; no upstream/full transport test.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "checked_at": "2026-10-27T05:36:14Z",
@@ -4505,8 +4554,8 @@
       "business_interest": "NONE_OBSERVED",
       "status": "POSTED_MANUALLY_VERIFIED",
       "outcome": "R17-01 manually posted by naief9961-tech and verified. No subsequent developer reply. Do not repost.",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "history": [
         {
           "checked_at": "2026-10-28T05:10:45Z",
@@ -4526,8 +4575,8 @@
       "last_seen_comment_at": "2026-10-30T05:20:13Z",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "status": "OWN_COMMENT_VERIFIED",
       "outcome": "R19-01 posted; do not repost.",
       "last_seen_review_id": 5697598695,
@@ -4540,8 +4589,8 @@
       "last_own_comment_at": null,
       "last_seen_comment_id": 6539924670,
       "last_seen_comment_at": "2026-10-31T06:10:01Z",
-      "last_checked_date": "2026-11-12",
-      "last_checked_at": "2026-11-12T05:04:26Z",
+      "last_checked_date": "2026-11-13",
+      "last_checked_at": "2026-11-13T04:59:46Z",
       "status": "SUPERSEDED_NOT_POSTED",
       "business_interest": "NONE_OBSERVED",
       "replies_after_last_own": [],
@@ -4564,8 +4613,8 @@
       "state": "closed",
       "last_own_comment_id": null,
       "last_seen_comment_id": null,
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "status": "CLOSED_TRACKED_ISSUE",
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
@@ -4585,8 +4634,8 @@
       "state": "closed",
       "last_own_comment_id": 6553838250,
       "last_seen_comment_id": 6569547936,
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "status": "OWN_COMMENT_VERIFIED",
       "replies_after_last_own": [
         {
@@ -4624,8 +4673,8 @@
     {
       "url": "https://github.com/WeatherXM/wg1200-firmware/issues/2",
       "state": "open",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_seen_comment_id": 6569936002,
       "last_own_comment_id": 6569936002,
       "replies_after_last_own": [],
@@ -4649,8 +4698,8 @@
     {
       "url": "https://github.com/langfuse/langfuse/issues/19594",
       "state": "open",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_seen_comment_id": 6592837310,
       "last_seen_comment_at": "2026-11-03T01:18:42Z",
       "last_own_comment_id": null,
@@ -4661,8 +4710,8 @@
     {
       "url": "https://github.com/langfuse/langfuse/pull/19595",
       "state": "open",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_seen_comment_id": 6660209061,
       "last_seen_comment_at": "2026-11-05T14:15:10Z",
       "last_own_comment_id": null,
@@ -4683,8 +4732,8 @@
     {
       "url": "https://github.com/apache/skywalking/issues/14194",
       "state": "closed",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_seen_comment_id": null,
       "last_seen_comment_at": null,
       "last_own_comment_id": null,
@@ -4705,8 +4754,8 @@
     {
       "url": "https://github.com/apache/skywalking-banyandb/pull/1460",
       "state": "closed",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_seen_comment_id": 6729639145,
       "last_seen_comment_at": "2026-11-09T00:52:08Z",
       "last_own_comment_id": 6623639937,
@@ -4773,8 +4822,8 @@
     {
       "url": "https://github.com/mlorentedev/pdf-modifier/issues/232",
       "state": "open",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_seen_comment_id": 6650352332,
       "last_seen_comment_at": "2026-11-05T05:16:09Z",
       "last_own_comment_id": 6650352332,
@@ -4794,8 +4843,8 @@
     {
       "url": "https://github.com/MrLesk/Backlog.md/issues/1179",
       "state": "closed",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_seen_comment_id": 6694189099,
       "last_seen_comment_at": "2026-11-06T20:00:17Z",
       "last_own_comment_id": 6677434895,
@@ -4839,8 +4888,8 @@
     {
       "url": "https://github.com/shpaw415/open-bot/issues/80",
       "state": "closed",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_seen_comment_id": 6758118327,
       "last_seen_comment_at": "2026-11-10T03:27:17Z",
       "last_own_comment_id": null,
@@ -4873,8 +4922,8 @@
     {
       "url": "https://github.com/nightly-labs/openbot/issues/7357",
       "state": "open",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_own_comment_id": 6786447306,
       "last_own_comment_at": "2026-11-11T03:49:00Z",
       "last_seen_comment_id": 6786447306,
@@ -4895,8 +4944,8 @@
     {
       "url": "https://github.com/davidmosiah/withings-mcp/issues/31",
       "state": "open",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_own_comment_id": null,
       "last_seen_comment_id": null,
       "replies_after_last_own": [],
@@ -4907,14 +4956,44 @@
     {
       "url": "https://github.com/weyucou/wyc6k-task-runner/issues/83",
       "state": "open",
-      "last_checked_at": "2026-11-12T05:04:26Z",
-      "last_checked_date": "2026-11-12",
+      "last_checked_at": "2026-11-13T04:59:46Z",
+      "last_checked_date": "2026-11-13",
       "last_own_comment_id": null,
-      "last_seen_comment_id": null,
+      "last_seen_comment_id": 6840233542,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_NOT_POSTED",
-      "outcome": "R32-01 pending user approval. No third-party post."
+      "status": "DRAFT_SUPERSEDED_BY_UPSTREAM_PR_DO_NOT_POST",
+      "outcome": "PR108 is open, not merged. Reviewed source and test diff covers R32 message-carrier/Anthropic boundary; historical draft retired. No NAIF comment was posted, so these are upstream updates, not replies to us.",
+      "last_seen_comment_at": "2026-11-13T00:39:23Z",
+      "history": [
+        {
+          "round_id": "2026-11-13-R33",
+          "date": "2026-11-13",
+          "event": "UPSTREAM_UPDATE_ON_UNPOSTED_DRAFT",
+          "comment_id": 6839989254,
+          "comment_url": "https://github.com/weyucou/wyc6k-task-runner/issues/83#issuecomment-6839989254",
+          "author": "ellen-goc",
+          "created_at": "2026-11-13T00:24:48Z"
+        },
+        {
+          "round_id": "2026-11-13-R33",
+          "date": "2026-11-13",
+          "event": "UPSTREAM_UPDATE_ON_UNPOSTED_DRAFT",
+          "comment_id": 6840233542,
+          "comment_url": "https://github.com/weyucou/wyc6k-task-runner/issues/83#issuecomment-6840233542",
+          "author": "ellen-goc",
+          "created_at": "2026-11-13T00:39:23Z"
+        },
+        {
+          "round_id": "2026-11-13-R33",
+          "date": "2026-11-13",
+          "event": "DRAFT_RETIRED",
+          "pr_url": "https://github.com/weyucou/wyc6k-task-runner/pull/108",
+          "head_sha": "10b9b786712b77c8610c55d1dbe755dc3aebc7b3",
+          "tests": "PR author reports 258 passed; not rerun by NAIF.",
+          "outcome": "PR108 is open, not merged. Reviewed source and test diff covers R32 message-carrier/Anthropic boundary; historical draft retired. No NAIF comment was posted, so these are upstream updates, not replies to us."
+        }
+      ]
     }
   ],
   "exclusions": [
@@ -5882,6 +5961,109 @@
       "created_at": "2026-11-12T04:50:49Z",
       "checked_at": "2026-11-12T05:04:26Z",
       "reason": "Reporter already supplies malformed-key diagnosis, prevalidation proposal and API-policy choices. Engine at5fbe2d15638f67bfd70e7d36f5747d4e39b5c9cf corroborates inconsistent presence/validity gates. Current main differs from report's PRB response wording; no Rust/runtime or complete all-path repair established. No open PRs returned; no draft."
+    },
+    {
+      "round_id": "2026-11-13-R33",
+      "url": "https://github.com/Kuadrant/mcp-gateway/issues/1671",
+      "reporter": "ManojLamani",
+      "created_at": "2026-11-13T03:32:38Z",
+      "checked_at": "2026-11-13T04:59:46Z",
+      "state_at_review": "open",
+      "repository": "Kuadrant/mcp-gateway",
+      "source_commit": "7459aa32345f658559f8de460c9070e78220849f",
+      "source_reviewed": true,
+      "sources": [
+        {
+          "path": "internal/mcp-router/ext_proc_adapter.go",
+          "commit": "7459aa32345f658559f8de460c9070e78220849f",
+          "url": "https://github.com/Kuadrant/mcp-gateway/blob/7459aa32345f658559f8de460c9070e78220849f/internal/mcp-router/ext_proc_adapter.go"
+        },
+        {
+          "path": "internal/routing/router_202607.go",
+          "commit": "7459aa32345f658559f8de460c9070e78220849f",
+          "url": "https://github.com/Kuadrant/mcp-gateway/blob/7459aa32345f658559f8de460c9070e78220849f/internal/routing/router_202607.go"
+        }
+      ],
+      "reason": "Reporter already provides parser-disagreement diagnosis, mitigation options and regression matrix. Source review corroborates case-insensitive Go decoding and original-byte unprefixed forwarding; no new additive finding. Related PR1647 typed-Params work must be coordinated. No Go regression or end-to-end security test run.",
+      "tests": "NOT_RUN",
+      "reply_status": "NO_ADDITIVE_DRAFT"
+    },
+    {
+      "round_id": "2026-11-13-R33",
+      "url": "https://github.com/NousResearch/hermes-agent/issues/154825",
+      "reporter": "a8lefx-dev",
+      "created_at": "2026-11-13T04:37:49Z",
+      "checked_at": "2026-11-13T04:59:46Z",
+      "state_at_review": "open",
+      "repository": "NousResearch/hermes-agent",
+      "source_commit": "71b676524e1e26f69a4ddcc9945a89e59a38d650",
+      "source_reviewed": true,
+      "sources": [
+        {
+          "path": "plugins/platforms/a2a/tools.py",
+          "commit": "71b676524e1e26f69a4ddcc9945a89e59a38d650",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/71b676524e1e26f69a4ddcc9945a89e59a38d650/plugins/platforms/a2a/tools.py"
+        },
+        {
+          "path": "plugins/platforms/a2a/adapter.py",
+          "commit": "71b676524e1e26f69a4ddcc9945a89e59a38d650",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/71b676524e1e26f69a4ddcc9945a89e59a38d650/plugins/platforms/a2a/adapter.py"
+        }
+      ],
+      "reason": "Report already identifies unaudited rejects, pre-send outbound rows and missing delivery outcome. Pinned tools/adapter code corroborates ordering; no independently validated event-schema redesign or new regression contribution. Counts alone do not prove wire delivery.",
+      "tests": "NOT_RUN",
+      "reply_status": "NO_ADDITIVE_DRAFT"
+    },
+    {
+      "round_id": "2026-11-13-R33",
+      "url": "https://github.com/jamesward/heroku-ops/issues/17",
+      "reporter": "jamesward",
+      "created_at": "2026-11-13T04:53:43Z",
+      "checked_at": "2026-11-13T04:59:46Z",
+      "state_at_review": "open",
+      "repository": "jamesward/heroku-ops",
+      "source_commit": "e087c000448c0eef7876f3bc1a9b0b1ede12bc55",
+      "source_reviewed": false,
+      "sources": [],
+      "reason": "Deployment/restart false-alarm hypothesis is plausible but source path and sanitized webhook payload were not independently reviewed. Need exact classifier and genuine-crash controls before suppressing alerts. Reporter already proposes correlation/delayed health checks. No runtime validation.",
+      "tests": "NOT_RUN",
+      "reply_status": "NO_ADDITIVE_DRAFT"
+    },
+    {
+      "round_id": "2026-11-13-R33",
+      "url": "https://github.com/luthersystems/tf-modules/issues/99",
+      "reporter": "sam-at-luther",
+      "created_at": "2026-11-13T04:56:52Z",
+      "checked_at": "2026-11-13T04:59:46Z",
+      "state_at_review": "open",
+      "repository": "luthersystems/tf-modules",
+      "source_commit": "cf0d04073a919a84d7d739f95616a6fcd4f36e48",
+      "source_reviewed": true,
+      "sources": [
+        {
+          "path": "aws-sftp/api_gateway.tf",
+          "commit": "cf0d04073a919a84d7d739f95616a6fcd4f36e48",
+          "url": "https://github.com/luthersystems/tf-modules/blob/cf0d04073a919a84d7d739f95616a6fcd4f36e48/aws-sftp/api_gateway.tf"
+        }
+      ],
+      "reason": "Deployment resource lacks redeployment triggers in pinned source, matching reporter's diagnosis and trigger-hash proposal. No additive solution; no Terraform plan, provider integration or AWS test.",
+      "tests": "NOT_RUN",
+      "reply_status": "NO_ADDITIVE_DRAFT"
+    },
+    {
+      "round_id": "2026-11-13-R33",
+      "url": "https://github.com/ensera-ai/taisce/issues/262",
+      "reporter": "althunibat",
+      "created_at": "2026-11-13T04:56:48Z",
+      "checked_at": "2026-11-13T04:59:46Z",
+      "state_at_review": "open",
+      "repository": "ensera-ai/taisce",
+      "source_commit": "a98c1fb5179a110143de18cf4fade4f89e568c03",
+      "source_reviewed": false,
+      "sources": [],
+      "reason": "Reporter supplies composite scope/endpoint FK proposal and regression criteria. Current insertion reportedly derives scope and endpoint together, so do not claim a demonstrated current cross-project leak. Source/migration/database verification incomplete; no new reply.",
+      "tests": "NOT_RUN",
+      "reply_status": "NO_ADDITIVE_DRAFT"
     }
   ],
   "history_search": {

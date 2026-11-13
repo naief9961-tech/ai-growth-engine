@@ -2,8 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R32: tool-error request boundary; one review draft](rounds/2026-11-12-R32/REPORT.md)
-- [R32 English draft — awaiting approval](rounds/2026-11-12-R32/DRAFTS.md)
+- [Latest report — R33: fresh screening; R32 draft retired](rounds/2026-11-13-R33/REPORT.md)
+- [R33 publication status — no new reply to copy](rounds/2026-11-13-R33/DRAFTS.md)
+
+- [Previous report — R32: historical tool-error investigation](rounds/2026-11-12-R32/REPORT.md)
+- [R32 historical draft — superseded by upstream PR108; DO NOT POST](rounds/2026-11-12-R32/DRAFTS.md)
 - [Previous report — R31: Withings confidence regression; one review draft](rounds/2026-11-11-R31/REPORT.md)
 - [R31 English draft — awaiting approval](rounds/2026-11-11-R31/DRAFTS.md)
 - [Previous report — R30: upstream merges verified; stale draft retired](rounds/2026-11-10-R30/REPORT.md)
