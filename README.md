@@ -2,6 +2,17 @@
 
 # NAIF Gravity — MCP & Integration Diagnostics
 
+## Explore our products — free first
+
+| Find a product | What it helps with | Start |
+| --- | --- | --- |
+| **[NAIF Gravity MCP Doctor](https://github.com/naief9961-tech/naif-gravity-mcp-diagnostics)** | Free MIT CLI for MCP Streamable HTTP handshake and `tools/list` diagnostics; offline Error Passport reports | [Install from PyPI or npm](https://github.com/naief9961-tech/naif-gravity-mcp-diagnostics#install-from-pypi-or-npm) |
+| **[NAIF JSON Rescue](skills/naif-json-rescue/SKILL.md)** | Free local JSON syntax checks for coding agents | [Read the Skill](skills/naif-json-rescue/SKILL.md) |
+| **[JSON / API / CSV sample checks](https://naifgravity.com/micro-v2)** | Free bounded previews; no active separate paid Micro V2 report checkout | [Open free previews](https://naifgravity.com/micro-v2) |
+| **[Optional one-time technical services](https://naifgravity.com/services)** | API, webhook, Docker, JSON and scoped repair diagnostics, each with its own live terms | [Browse current services](https://naifgravity.com/services?utm_source=github&utm_medium=readme&utm_campaign=product_discovery) |
+
+**[All product links, problem-to-product guide and limits →](PRODUCTS.md)** · **[أدلة مجانية بالعربية](https://naifgravity.com/ar/discover)**
+
 <!-- naif-storefront-refresh-20261030 -->
 ## New look at NAIF Gravity — 30 October 2026
 
@@ -24,21 +35,20 @@ NAIF Gravity provides bounded diagnostics and repair workflows for MCP, AI-agent
 
 This repository contains public diagnostic guidance, a small Python MCP health-check script, issue templates, and discovery metadata. It is not a complete source distribution of the hosted service.
 
-## What’s new: Micro Tools V2 — free preview, paid report
+## Micro Tools V2 — free previews, separate live service pages
 
-**Broken JSON? Unexpected API response? Need consistent data output?** Preview your sanitized sample at no charge, then choose a **one-time** report if the bounded result is useful. No subscription and no payment during preview.
+**Malformed JSON? Unexpected API response? Inconsistent CSV?** Start with a [bounded free preview](https://naifgravity.com/micro-v2). The preview does not charge, create an order, or deliver a paid report. **The separate Micro V2 paid-report checkout is not currently active.**
 
-| Live Micro Tool V2 | One-time USD | What you receive after verified payment |
-| --- | ---: | --- |
-| **JSON Validity Check** | **$1** | Pinpoint syntax issues; flag duplicate keys; safe trailing-comma repair where supported; inferred sample schema, CI snippet and SHA-256 receipt |
-| **API Response Shape Check** | **$2** | Compare two JSON response samples for added/removed keys and type changes; generate *sample-based* TypeScript/OpenAPI response schemas and QA notes (no live API probing) |
-| **JSON Normalize Mini** | **$3** | Stable key order, optional trimming/indentation, a change log, before/after sizes and SHA-256 receipt |
+For an optional, separately scoped one-time service, check the live page rather than assuming a Micro V2 preview can be upgraded in place:
 
-**[Try a free preview of the three tools →](https://naifgravity.com/micro-v2?utm_source=github&utm_medium=repo_readme&utm_campaign=micro_tools_v2)** · [Browse the live catalog](https://naifgravity.com/api/agent/catalog)
+| Focused service | Direct live page | Scope |
+| --- | --- | --- |
+| JSON Validity Check | [Service page](https://naifgravity.com/service/json-validity-check) | Bounded JSON syntax, including supported trailing-comma cases |
+| API Response Shape Check | [Service page](https://naifgravity.com/service/api-response-shape-check) | Compare supplied JSON response shapes; not a live API probe |
+| JSON Normalize Mini | [Service page](https://naifgravity.com/service/json-normalizer) | Normalize bounded JSON with documented output |
+| CSV Schema Audit Mini | [Service page](https://naifgravity.com/service/csv-schema-audit) | Bounded CSV sample checks |
 
-**Simple agent-to-report flow:** request a sample preview (`POST /api/micro-v2/preview`), request and accept a fixed-price quote (`POST /api/agent/quote` → `POST /api/quote/accept`), select an **eligible** checkout rail returned by the response, then retrieve the bounded report (`POST /api/micro-v2/deliver`) using the private delivery token **after payment verification**. Base USDC and TRON USDT may be available to eligible international buyers; Saudi-classified buyers use Apple Pay with human authorization. Agent-wallet checkout instructions are not an instruction to transfer funds automatically.
-
-All three tools accept sanitized, bounded samples (maximum **4,096 UTF-8 bytes**). Paid V2 inputs and reports are encrypted at rest; the original input is cleared from active records after report generation, with report retrieval limited to seven days. Never submit secrets, raw customer records, private keys or payment credentials. Per-call **x402 paid API** tools are a separate purchase path; the fourth CSV tool remains $5.
+Current price, regional eligibility, payment options and delivery terms are **only** those shown by each live service page and accepted quote. Inputs must be sanitized; do not submit API keys, customer records, payment credentials or private keys. The per-call x402 API routes below are separate from both the free preview and individual checkout.
 
 ---
 
@@ -129,7 +139,7 @@ The [services catalog](https://naifgravity.com/services) lists the current indiv
 
 **Agent workflow:** consult the [x402 manifest](https://naifgravity.com/.well-known/x402) or [OpenAPI spec](https://naifgravity.com/openapi.json), inspect the input schema, POST a sanitized bounded input, authorize the exact `402` payment with the buyer's own eligible wallet, and retrieve the result only after verified settlement. Never send private keys, customer records, tokens, or arbitrary production URLs.
 
-**Separate temporary launch discount:** 14 *scoped engineering/repair services* have automatic promotional prices in the [live agent catalog](https://naifgravity.com/api/agent/catalog), with [human-facing prices](https://naifgravity.com/services). No coupon is needed; a newly accepted quote fixes the amount. The promotion expires on 26 October 2026 at 05:40 UTC or after the first ten verified eligible purchases, whichever comes first. This discount **does not apply** to the four instant x402 API prices above.
+**Historical launch promotion:** The 12–26 October 2026 discount has ended. Do not apply the old percentage or prices to new quotes. See the [live service catalog](https://naifgravity.com/services) and the accepted quote for current terms; the x402 API routes below remain separate.
 
 **Coinbase indexing status:** The services are Coinbase CDP validator-compatible (all four returned `valid: true`, 25/25 checks on 12 October 2026), but **there is currently no confirmed NAIF Gravity direct resource indexed in Coinbase Bazaar**. The official [seller-discovery guide](https://docs.cdp.coinbase.com/x402/seller/get-discovered) requires a successfully settled paid call through the CDP facilitator before indexing is expected; validation alone, an ordinary USDC transfer, a GitHub star, or a mention of Coinbase does not constitute a Bazaar listing.
 
