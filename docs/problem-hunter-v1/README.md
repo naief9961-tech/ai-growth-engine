@@ -2,7 +2,10 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R33: fresh screening; R32 draft retired](rounds/2026-11-13-R33/REPORT.md)
+- [Latest report — R34: Antigravity transport regression boundary](rounds/2026-11-13-R34/REPORT.md)
+- [R34 English reply — pending user review, not posted](rounds/2026-11-13-R34/DRAFTS.md)
+
+- [Previous report — R33: fresh screening; R32 draft retired](rounds/2026-11-13-R33/REPORT.md)
 - [R33 publication status — no new reply to copy](rounds/2026-11-13-R33/DRAFTS.md)
 
 - [Previous report — R32: historical tool-error investigation](rounds/2026-11-12-R32/REPORT.md)

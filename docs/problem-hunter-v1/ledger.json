@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "NAIF Gravity — GitHub AI Problem Hunter V1",
   "owner": "naief9961-tech",
-  "last_round": "2026-11-13-R33",
+  "last_round": "2026-11-13-R34",
   "date_timezone": "Asia/Riyadh",
   "rounds": [
     {
@@ -704,6 +704,23 @@
       "third_party_comments_posted": 0,
       "commercial_requests_verified": 0,
       "limitations": "Search capped at ten results per query. Five complete issue/comment/timeline reads, three exploratory source reviews; no completed new repair investigation. PR108 author tests not rerun; open PR is not an integrated fix."
+    },
+    {
+      "id": "2026-11-13-R34",
+      "checked_at": "2026-11-13T05:12:10Z",
+      "kind": "USER_REQUESTED_TARGETED_FOLLOWUP",
+      "retrieved_results": 60,
+      "discovery_unique": 58,
+      "search_queries": 3,
+      "full_issue_candidate_reads": 3,
+      "source_investigations": 1,
+      "local_test_check_groups": 9,
+      "upstream_full_suites_run": 0,
+      "reply_drafts": 1,
+      "third_party_comments_posted": 0,
+      "commercial_requests_verified": 0,
+      "followup_threads_read": 0,
+      "limitations": "Targeted search after R33; old 48-thread followup sweep not repeated. AST-extracted Python checks; no agy, full APM integration, header/env resolution, _extra payloads or package stdio."
     }
   ],
   "automation": {
@@ -3496,6 +3513,55 @@
           "pr_url": "https://github.com/weyucou/wyc6k-task-runner/pull/108"
         }
       ]
+    },
+    {
+      "round_id": "2026-11-13-R34",
+      "rank": 1,
+      "url": "https://github.com/microsoft/apm/issues/3711",
+      "repository": "microsoft/apm",
+      "issue_number": 3711,
+      "reporter": "DimashOne",
+      "created_at": "2026-11-13T04:46:14Z",
+      "discovered_date": "2026-11-13",
+      "checked_at": "2026-11-13T05:12:10Z",
+      "state_at_review": "open",
+      "diagnosis": "Antigravity inherits Gemini's remote formatter: HTTP uses unsupported httpUrl and legacy SSE is accepted as url. Reporter has already corrected the path claim and verified url workaround; additive finding is SSE rejection plus Gemini non-regression boundary.",
+      "solution": "Antigravity-only formatter override: emit serverUrl/url for HTTP/streamable-http, reject selected legacy SSE; retain Gemini semantics and existing paths. Local illustrative candidate, not submitted upstream.",
+      "confidence": "High for pinned formatter/source and current official CLI documentation; runtime acceptance and complete repair not established.",
+      "benefit": "Adds a transport compatibility regression boundary without repeating reporter's path correction or URL workaround.",
+      "tests": "9 offline check groups passed on Python3.12.14: 4 HTTP variants/defaults, legacy SSE, invalid transport, minimal raw stdio, project/user paths. Source Git blob hashes verified. First harness assembly failed on imported denylist lookup; corrected unused lookup before successful run. No full suite/agy/network/config writes/credentials/packages.",
+      "sources": [
+        {
+          "local": "base.py",
+          "blob_sha": "4659cb43b84cb536771aa2092845428122c88337",
+          "path": "src/apm_cli/adapters/client/base.py",
+          "commit": "4782e389daf2b05f9fd762a65dec8c0cdade5177",
+          "url": "https://github.com/microsoft/apm/blob/4782e389daf2b05f9fd762a65dec8c0cdade5177/src/apm_cli/adapters/client/base.py"
+        },
+        {
+          "local": "gemini.py",
+          "blob_sha": "b889fc66b94aae27987e5a73125b27a07060bdea",
+          "path": "src/apm_cli/adapters/client/gemini.py",
+          "commit": "4782e389daf2b05f9fd762a65dec8c0cdade5177",
+          "url": "https://github.com/microsoft/apm/blob/4782e389daf2b05f9fd762a65dec8c0cdade5177/src/apm_cli/adapters/client/gemini.py"
+        },
+        {
+          "local": "antigravity.py",
+          "blob_sha": "53a52c61e621638afa0e709d28ec89546a8e1694",
+          "path": "src/apm_cli/adapters/client/antigravity.py",
+          "commit": "4782e389daf2b05f9fd762a65dec8c0cdade5177",
+          "url": "https://github.com/microsoft/apm/blob/4782e389daf2b05f9fd762a65dec8c0cdade5177/src/apm_cli/adapters/client/antigravity.py"
+        }
+      ],
+      "official_docs": "https://antigravity.google/docs/mcp#global-and-workspace-server-configs",
+      "pr_check": "13 open PR summaries; all-state Antigravity search34, httpUrl search2, issue3711 PR search0. Relevant Gemini diffs in3709 and3672 read; first100 file-list pages only, no exhaustive historical absence claim. Current timeline has no linked PR.",
+      "reply": "R34-01",
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_NOT_POSTED",
+      "post_url": null,
+      "commercial_interest": "NONE_OBSERVED"
     }
   ],
   "followups": [
@@ -4994,6 +5060,19 @@
           "outcome": "PR108 is open, not merged. Reviewed source and test diff covers R32 message-carrier/Anthropic boundary; historical draft retired. No NAIF comment was posted, so these are upstream updates, not replies to us."
         }
       ]
+    },
+    {
+      "url": "https://github.com/microsoft/apm/issues/3711",
+      "state": "open",
+      "last_checked_at": "2026-11-13T05:12:10Z",
+      "last_checked_date": "2026-11-13",
+      "last_own_comment_id": null,
+      "last_seen_comment_id": 6844713314,
+      "last_seen_comment_at": "2026-11-13T05:07:42Z",
+      "replies_after_last_own": [],
+      "business_interest": "NONE_OBSERVED",
+      "status": "DRAFT_NOT_POSTED",
+      "outcome": "Reporter corrected initial path claim and confirmed URL workaround before our draft. No NAIF publication; draft adds SSE compatibility boundary only."
     }
   ],
   "exclusions": [
@@ -6064,6 +6143,22 @@
       "reason": "Reporter supplies composite scope/endpoint FK proposal and regression criteria. Current insertion reportedly derives scope and endpoint together, so do not claim a demonstrated current cross-project leak. Source/migration/database verification incomplete; no new reply.",
       "tests": "NOT_RUN",
       "reply_status": "NO_ADDITIVE_DRAFT"
+    },
+    {
+      "round_id": "2026-11-13-R34",
+      "url": "https://github.com/amd/gaia/issues/7972",
+      "reporter": "kovtcharov",
+      "created_at": "2026-11-13T04:27:18Z",
+      "checked_at": "2026-11-13T05:12:10Z",
+      "reason": "Existing comments identify duplicate7335 and open fix7536; no new source investigation or repeated advice."
+    },
+    {
+      "round_id": "2026-11-13-R34",
+      "url": "https://github.com/amd/gaia/issues/7969",
+      "reporter": "kovtcharov",
+      "created_at": "2026-11-13T04:26:55Z",
+      "checked_at": "2026-11-13T05:12:10Z",
+      "reason": "Existing diagnosis covers install timeout/cache/concurrency; Windows fresh-install cause remains unconfirmed, no new additive verified fix."
     }
   ],
   "history_search": {
