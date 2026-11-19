@@ -745,7 +745,21 @@
       ],
       "third_party_comments_posted": 0,
       "commercial_requests_verified": 0,
-      "limitations": "Capped at10 newest results per topic, not exhaustive72h coverage. Five complete issue/comment/timeline reads, three exploratory source reads and two existing-fix PR diffs; no completed new repair investigation. Followup internal fix and test claims are attributed, not independently validated."
+      "limitations": "Capped at10 newest results per topic, not exhaustive72h coverage. Five complete issue/comment/timeline reads, three exploratory source reads and two existing-fix PR diffs; no completed new repair investigation. Followup internal fix and test claims are attributed, not independently validated.",
+      "targeted_followups": [
+        {
+          "checked_at": "2026-11-19T05:35:10.661Z",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/issues/665",
+          "reason": "User requested one concrete repair",
+          "completed_bounded_investigations": 1,
+          "paired_cases": 16,
+          "additional_cases": 3,
+          "full_suites": 0,
+          "drafts": 1,
+          "external_posts": 0,
+          "report": "rounds/2026-11-19-R35/CHART-665.md"
+        }
+      ]
     }
   ],
   "automation": {
@@ -3612,6 +3626,33 @@
       "last_seen_comment_id": 6951326074,
       "superseded_by": "https://github.com/microsoft/apm/pull/3789",
       "fix_commit": "932e45ffbf92bb7ac6ebdcfa73601ae6232e2149"
+    },
+    {
+      "round_id": "2026-11-19-R35",
+      "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/issues/665",
+      "repository": "aws-samples/sample-spec-driven-presentation-maker",
+      "issue_number": 665,
+      "reporter": "ShotaroKataoka",
+      "discovered_date": "2026-11-19",
+      "checked_at": "2026-11-19T05:35:10.661Z",
+      "state_at_review": "open",
+      "diagnosis": "Missing gapWidth/overlap appended after axId; stacked overlap already present, requiring gapWidth before overlap.",
+      "solution": "Insert at declared successor boundaries; reuse PR649 helper when merged; preserve value expressions.",
+      "confidence": "High for isolated source-block order; integration unverified",
+      "tests": "16 paired real python-pptx save/reopen cases baseline fails and candidate passes, values preserved;3 optional-child/idempotency cases pass; no full SDPM/ruff/XSD/PowerPoint",
+      "sources": [
+        {
+          "commit": "955b743a51dc9cf31782e4c6c39291a12d3accdb",
+          "blob_sha": "797347f70755416c9e75d82412b2bf5a636681af",
+          "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/blob/955b743a51dc9cf31782e4c6c39291a12d3accdb/sdpm/sdpm/engine/builder/elements/chart.py"
+        }
+      ],
+      "approval": {
+        "status": "PENDING_USER_APPROVAL"
+      },
+      "publication_status": "DRAFT_NOT_POSTED",
+      "reply": "R35-665",
+      "commercial_interest": "NONE_OBSERVED"
     }
   ],
   "followups": [
@@ -5148,6 +5189,17 @@
           ]
         }
       ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-spec-driven-presentation-maker/issues/665",
+      "state": "open",
+      "last_checked_at": "2026-11-19T05:35:10.661Z",
+      "last_checked_date": "2026-11-19",
+      "last_seen_comment_id": null,
+      "last_own_comment_id": null,
+      "replies_after_last_own": [],
+      "status": "DRAFT_NOT_POSTED",
+      "business_interest": "NONE_OBSERVED"
     }
   ],
   "exclusions": [

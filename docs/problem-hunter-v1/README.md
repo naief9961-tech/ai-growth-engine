@@ -2,6 +2,8 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
+- [R35 targeted follow-up: chart665 candidate,19 check cases, one pending reply](rounds/2026-11-19-R35/CHART-665.md)
+
 - [Latest report — R35: existing fixes reviewed; R34 draft retired](rounds/2026-11-19-R35/REPORT.md)
 - [R35 publication status — no new reply to copy](rounds/2026-11-19-R35/DRAFTS.md)
 
