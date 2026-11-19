@@ -322,7 +322,7 @@ print(json.dumps(result,indent=2))
 
 ```
 
-## English reply — pending user approval, NOT POSTED
+## English reply — USER APPROVED; POST BLOCKED, NOT POSTED
 
 I checked the bar-specific block at 955b743a51dc and reproduced the ordering issue using its extracted source with python-pptx 1.0.2.
 
@@ -337,3 +337,8 @@ I would reuse the _insert_in_order helper from #649:
 One compatibility detail: the current `elem.get("gapWidth") or style_gap_width ...` treats an explicit zero as a fallback. I preserved that behavior in this ordering-only candidate rather than mixing in a value-semantics change.
 
 These are isolated source-block tests with real PPTX serialization, not the full SDPM generate()/roundtrip suite, full OOXML schema validation or a PowerPoint application test. Before merging, the same matrix should run through tests/test_chart_roundtrip.py.
+
+
+## Publication attempt
+
+User explicitly approved this exact reply. GitHub rejected comment creation with403 Resource not accessible by integration. Re-read issue comments after the attempt: empty. No comment created, no permission workaround attempted. Original destination: https://github.com/aws-samples/sample-spec-driven-presentation-maker/issues/665. Manual publication remains possible by the owner; verify comments before posting.
