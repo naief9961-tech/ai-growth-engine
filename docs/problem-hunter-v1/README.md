@@ -2,8 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R34: Antigravity transport regression boundary](rounds/2026-11-13-R34/REPORT.md)
-- [R34 English reply — pending user review, not posted](rounds/2026-11-13-R34/DRAFTS.md)
+- [Latest report — R35: existing fixes reviewed; R34 draft retired](rounds/2026-11-19-R35/REPORT.md)
+- [R35 publication status — no new reply to copy](rounds/2026-11-19-R35/DRAFTS.md)
+
+- [Previous report — R34: Antigravity transport regression boundary](rounds/2026-11-13-R34/REPORT.md)
+- [R34 historical reply — upstream fix merged; DO NOT POST](rounds/2026-11-13-R34/DRAFTS.md)
 
 - [Previous report — R33: fresh screening; R32 draft retired](rounds/2026-11-13-R33/REPORT.md)
 - [R33 publication status — no new reply to copy](rounds/2026-11-13-R33/DRAFTS.md)
