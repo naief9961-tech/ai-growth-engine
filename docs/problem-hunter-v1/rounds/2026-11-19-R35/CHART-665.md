@@ -1,5 +1,7 @@
 # R35 targeted follow-up — chart665
 
+> Publication update2026-11-20: [comment7000865667](https://github.com/aws-samples/sample-spec-driven-presentation-maker/issues/665#issuecomment-7000865667) by naief9961-tech was manually posted2026-11-19T05:42:24Z and verified. Do not repost. Earlier investigation/403 notes below are historical; no later developer reply observed.
+
 Checked 2026-11-19T05:35:10.661Z. User explicitly requested solving one candidate after screening. This is a material new local investigation, not another generic comment. Upstream issue remains open with0 comments; latest30 PR summaries and full issue timeline read. Related open PR649 diff reviewed; it adds a reusable order helper for different elements and does not repair this bar block. No third-party publication.
 
 Issue: https://github.com/aws-samples/sample-spec-driven-presentation-maker/issues/665
@@ -322,7 +324,7 @@ print(json.dumps(result,indent=2))
 
 ```
 
-## English reply — USER APPROVED; POST BLOCKED, NOT POSTED
+## English reply — POSTED MANUALLY — VERIFIED; DO NOT REPOST
 
 I checked the bar-specific block at 955b743a51dc and reproduced the ordering issue using its extracted source with python-pptx 1.0.2.
 
