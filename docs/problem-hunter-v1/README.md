@@ -2,8 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R36: Git branch output; one review draft](rounds/2026-11-20-R36/REPORT.md)
-- [R36 English reply — pending approval, NOT POSTED](rounds/2026-11-20-R36/DRAFTS.md)
+- [Latest report — R37: CMS locale projection and duplicate-post reconciliation](rounds/2026-11-21-R37/REPORT.md)
+- [R37 one English draft — pending approval, NOT POSTED](rounds/2026-11-21-R37/DRAFTS.md)
+
+- [Previous report — R36: Git branch output; one review draft](rounds/2026-11-20-R36/REPORT.md)
+- [R36 historical draft — refresh overlap before approval; NOT POSTED](rounds/2026-11-20-R36/DRAFTS.md)
 - [R36 evidence — 11 local Git CLI assertion groups](rounds/2026-11-20-R36/TESTS.md)
 
 - [R35 chart665: manually posted and verified; DO NOT REPOST](rounds/2026-11-19-R35/CHART-665.md)
