@@ -15,6 +15,8 @@
 
 **Webhook signature mismatch, valid JSON but rejected signature, or repeated deliveries?** Start with our [free offline HMAC/retry checklist and synthetic fixtures](examples/naif-webhook-safe-fixtures-20261122/README.md). If you still need a person to diagnose the specific failure, [review Webhook Debug Mini's optional paid scope and current terms](https://naifgravity.com/service/webhook-debug-mini?utm_source=github&utm_medium=organic&utm_campaign=naif-webhook-checklist-20261122&utm_content=root-readme-webhook). **No secrets or customer payloads in the free fixtures.** The paid service is a separate, voluntary request—not a production-ready signature-verification product, automatic repair, or promise of a sale.
 
+**n8n's Webhook gets HTTP 200, but the next node is empty?** [Free decision tree plus two offline `body.*` field-mapping fixtures](examples/naif-webhook-safe-fixtures-20261122/n8n/README-field-mapping-200.md). The guide distinguishes an event that never arrived from a field-path error; it also separates free troubleshooting from an optional paid repair. No credentials or live customer webhooks are used.
+
 
 <!-- naif-storefront-refresh-20261030 -->
 ## New look at NAIF Gravity — 30 October 2026
