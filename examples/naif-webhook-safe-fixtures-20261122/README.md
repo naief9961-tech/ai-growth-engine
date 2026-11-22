@@ -39,6 +39,12 @@ The same four **synthetic** cases are also available as an [importable n8n JSON 
 
 Import the JSON into a new n8n workflow. Create a Crypto credential with the **public fake test key** `NAIF-demo-test-key-DO-NOT-USE-IN-PRODUCTION`, then select it in the **Calculate synthetic HMAC** node. Click **Execute workflow** and check the four expected classifications. Do not use this credential or workflow to accept production webhooks. It is not currently an officially approved n8n Creator Hub listing.
 
+## n8n received HTTP 200 but the next node is empty?
+
+This may be **field mapping**, not an invalid HMAC signature. Check that an n8n execution exists and inspect the Webhook node's actual output. If your sample is nested under `body`, the downstream node may need `{{ $json.body.order_id }}` rather than `{{ $json.order_id }}`.
+
+[Free n8n HTTP-200 field-path guide and two no-network test fixtures](n8n/README-field-mapping-200.md). Use fake examples only; a passing fixture isn't proof a production workflow ran. The guide links to a **separate, optional** paid mapping repair only if the free steps don't resolve it. Current eligibility and payment terms remain on the service page.
+
 ## A safe debugging checklist
 
 1. Record the provider and the failed step (receipt, signature verification, routing, retry, downstream job). Do not copy bearer tokens or private payloads.
