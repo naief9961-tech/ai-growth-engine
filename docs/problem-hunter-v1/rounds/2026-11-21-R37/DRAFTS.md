@@ -1,4 +1,6 @@
-# R37-01 — NOT POSTED; pending user approval
+> Status update 2026-11-22 (R38): issue452 closed as completed at2026-11-21T09:51:52Z. **RETIRED — DO NOT POST.** Historical text follows. Upstream fix/release not independently verified.
+
+# R37-01 — historical; NOT POSTED, RETIRED
 
 Destination: https://github.com/handi7/lontar-cms/issues/452
 

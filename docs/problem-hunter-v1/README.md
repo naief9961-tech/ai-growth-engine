@@ -2,8 +2,12 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R37: CMS locale projection and duplicate-post reconciliation](rounds/2026-11-21-R37/REPORT.md)
-- [R37 one English draft — pending approval, NOT POSTED](rounds/2026-11-21-R37/DRAFTS.md)
+- [Latest report — R38: CrossTalk test ordering; one review draft](rounds/2026-11-22-R38/REPORT.md)
+- [R38 English draft — pending approval, NOT POSTED](rounds/2026-11-22-R38/DRAFTS.md)
+- [R38 executed model and native-test limits](rounds/2026-11-22-R38/TESTS.md)
+
+- [Previous report — R37: CMS locale projection](rounds/2026-11-21-R37/REPORT.md)
+- [R37 historical draft — issue closed; DO NOT POST](rounds/2026-11-21-R37/DRAFTS.md)
 
 - [Previous report — R36: Git branch output; one review draft](rounds/2026-11-20-R36/REPORT.md)
 - [R36 historical draft — refresh overlap before approval; NOT POSTED](rounds/2026-11-20-R36/DRAFTS.md)
