@@ -33,6 +33,12 @@ duplicate  -> DUPLICATE_WITHIN_THIS_BATCH
 
 The sample key is intentionally fake and hard-coded. **Never reuse it in production.** No credentials are loaded, no actual webhook is received, and the tests do not contact the internet.
 
+## NAIF n8n importable demo
+
+The same four **synthetic** cases are also available as an [importable n8n JSON workflow](n8n/NAIF_n8n_Offline_Webhook_Fixture_Lab.json) — tested on n8n 2.43.7 in a network-isolated local container, including a clean re-import. It uses a **Manual Trigger** and the native Crypto HMAC node, so it does not open any public Webhook endpoint.
+
+Import the JSON into a new n8n workflow. Create a Crypto credential with the **public fake test key** `NAIF-demo-test-key-DO-NOT-USE-IN-PRODUCTION`, then select it in the **Calculate synthetic HMAC** node. Click **Execute workflow** and check the four expected classifications. Do not use this credential or workflow to accept production webhooks. It is not currently an officially approved n8n Creator Hub listing.
+
 ## A safe debugging checklist
 
 1. Record the provider and the failed step (receipt, signature verification, routing, retry, downstream job). Do not copy bearer tokens or private payloads.
