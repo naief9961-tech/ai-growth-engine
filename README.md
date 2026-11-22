@@ -13,6 +13,9 @@
 
 **[All product links, problem-to-product guide and limits →](PRODUCTS.md)** · **[أدلة مجانية بالعربية](https://naifgravity.com/ar/discover)**
 
+**Free webhook incident lab — 22 Nov 2026:** [Run synthetic HMAC signature, missing-header and retry fixtures locally](examples/naif-webhook-safe-fixtures-20261122/README.md). Includes five no-network Python tests, safe diagnostic checklists, and clearly separated optional service links. This is educational, not production replay protection or proof of sales.
+
+
 <!-- naif-storefront-refresh-20261030 -->
 ## New look at NAIF Gravity — 30 October 2026
 
