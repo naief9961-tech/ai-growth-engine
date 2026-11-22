@@ -77,7 +77,7 @@
         "content": "### How it works\nThis free offline demonstration explains two common webhook incidents: a signature that no longer matches the raw request body and an event sent more than once. Click Execute workflow manually. A fixture node creates four entirely synthetic requests: valid, altered body, missing signature, and duplicate. The native Crypto node calculates HMAC SHA256 for the exact synthetic text, a Code node classifies the cases, and the final Code node reports PASS or FAIL. The workflow never listens for real webhooks and makes no external requests.\n\n### Setup\nImport this workflow JSON into an isolated n8n editor. Create a new Crypto credential with its HMAC Secret set to the literal *public test string* NAIF-demo-test-key-DO-NOT-USE-IN-PRODUCTION. Select the credential in Calculate synthetic HMAC. Do not reuse that string in real systems. Click Execute workflow; verify four cases and one successful summary. No external service accounts or paid tools are needed. For a fresh-import check, export, re-import to a new workflow, set the demo credential there too, and run again.\n\n### Customization\nChange the synthetic raw-body text to see why even whitespace can invalidate a signature. The replay set exists only for the current run. Real receivers additionally require provider-specific signature headers, timestamps, constant-time comparison, secure secrets, bounded payloads, and persistent idempotency. This lab does not deliver or repair live webhooks.",
         "height": 640,
         "width": 580,
-        "color": 4
+        "color": 5
       },
       "id": "1496d8f2-7c3d-59af-b026-444525c1cd1f",
       "name": "01 Overview and safety note",
@@ -91,49 +91,49 @@
     {
       "parameters": {
         "content": "## Synthetic input only\nManual Trigger creates four safe fixture cases. No real webhook receiver or provider API.",
-        "height": 170,
-        "width": 445,
-        "color": 7
+        "height": 390,
+        "width": 460,
+        "color": 0
       },
       "id": "4980a6ed-d612-5283-8ed6-39b93c9884d4",
       "name": "02 Fixture generation",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        -130,
-        -360
+        -225,
+        -165
       ]
     },
     {
       "parameters": {
         "content": "## Local HMAC checks\nUse the native Crypto credential with the fake demo HMAC test string. Then classify and summarize each fixture.",
-        "height": 170,
-        "width": 705,
-        "color": 7
+        "height": 390,
+        "width": 840,
+        "color": 0
       },
       "id": "f3154f0a-6e89-5b48-b067-e74bb12e4fc8",
       "name": "03 Verify and classify",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        375,
-        -360
+        230,
+        -165
       ]
     },
     {
       "parameters": {
         "content": "**DEMO ONLY:** The example key is public. Replay detection resets on every run. This is not a provider-specific production webhook receiver, constant-time authenticator, or persistent deduplication system.",
-        "height": 220,
-        "width": 705,
-        "color": 2
+        "height": 180,
+        "width": 270,
+        "color": 6
       },
       "id": "c8574650-e4c8-5fe5-910f-a3023b1fbb7a",
       "name": "04 Critical security boundary",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        375,
-        470
+        245,
+        290
       ]
     }
   ],
