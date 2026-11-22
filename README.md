@@ -13,7 +13,7 @@
 
 **[All product links, problem-to-product guide and limits →](PRODUCTS.md)** · **[أدلة مجانية بالعربية](https://naifgravity.com/ar/discover)**
 
-**Free webhook incident lab — 22 Nov 2026:** [Run synthetic HMAC signature, missing-header and retry fixtures locally](examples/naif-webhook-safe-fixtures-20261122/README.md). Includes five no-network Python tests, safe diagnostic checklists, and clearly separated optional service links. This is educational, not production replay protection or proof of sales.
+**Webhook signature mismatch, valid JSON but rejected signature, or repeated deliveries?** Start with our [free offline HMAC/retry checklist and synthetic fixtures](examples/naif-webhook-safe-fixtures-20261122/README.md). If you still need a person to diagnose the specific failure, [review Webhook Debug Mini's optional paid scope and current terms](https://naifgravity.com/service/webhook-debug-mini?utm_source=github&utm_medium=organic&utm_campaign=naif-webhook-checklist-20261122&utm_content=root-readme-webhook). **No secrets or customer payloads in the free fixtures.** The paid service is a separate, voluntary request—not a production-ready signature-verification product, automatic repair, or promise of a sale.
 
 
 <!-- naif-storefront-refresh-20261030 -->
