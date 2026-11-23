@@ -2,7 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R38: CrossTalk test ordering; one review draft](rounds/2026-11-22-R38/REPORT.md)
+- [Latest report — R39: webhook enum preservation; one review draft](rounds/2026-11-23-R39/REPORT.md)
+- [R39 English draft — pending approval, NOT POSTED](rounds/2026-11-23-R39/DRAFTS.md)
+- [R39 executed source-boundary checks and limits](rounds/2026-11-23-R39/TESTS.md)
+
+- [Previous report — R38: CrossTalk test ordering; one review draft](rounds/2026-11-22-R38/REPORT.md)
 - [R38 English draft — pending approval, NOT POSTED](rounds/2026-11-22-R38/DRAFTS.md)
 - [R38 executed model and native-test limits](rounds/2026-11-22-R38/TESTS.md)
 
