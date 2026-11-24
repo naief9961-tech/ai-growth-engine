@@ -1,3 +1,5 @@
+> **RETIRED on 2026-11-24 — DO NOT POST.** Issue243 closed after [upstream commit ca45ed9](https://github.com/GoodOlClint/CrossTalk/commit/ca45ed9e144b4776736861a676bb13c88ff767b2). The text below is preserved only as historical evidence; its original pending-review label no longer applies. No comment was posted and no causal credit is claimed.
+
 # R38-01 — NOT POSTED; pending user approval
 
 Destination: https://github.com/GoodOlClint/CrossTalk/issues/243
