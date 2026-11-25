@@ -1,4 +1,6 @@
-# R41 isolated evidence — executed, not an application fix
+# R41 JavaScript isolated evidence — executed, not an application fix
+
+**Follow-up 2026-11-25:** native isolated Go tests now executed; see [six Go groups, original failures and candidate results](GO-TESTS.md). The JavaScript results below are unchanged.
 
 Runtime: Node24.22.3. Command actually run: `node r41/check.mjs`; exit0, eight assertion groups. Input: exact apply function extracted from web/src/app/events.ts at 8caff896859499b86398c1e3e75c964c40dca6f3 (blob ebb409b4c5755857f705340b0616aa65e194e206). TypeScript stripped with Node's built-in experimental stripTypeScriptTypes. No dependency installation or network in test.
 
@@ -13,7 +15,7 @@ Runtime: Node24.22.3. Command actually run: `node r41/check.mjs`; exit0, eight a
 |7 candidate reconnect | empty authoritative snapshot clears stale item |
 |8 limitation | snapshot-only patch still permits late live resurrection |
 
-There are8 groups, including3 paired groups (11 group executions). Stubs: QueryClient setQueryData in-memory Map, refreshRequests no-op, mergeLogs uses incoming. No React/EventSource/WebView2 or Go hub test. The Go command failed before any test; the draft Go guard was NOT compiled. No upstream suite, provider/API/OAuth/customer data or full OOXML-style validation claim.
+There are8 groups, including3 paired groups (11 group executions). Stubs: QueryClient setQueryData in-memory Map, refreshRequests no-op, mergeLogs uses incoming. No React/EventSource/WebView2 or Go hub test. At the initial run the Go command failed before any test; the guard was then uncompiled. This limitation is superseded for the isolated hub fixture by GO-TESTS.md; full application compilation remains untested. No upstream suite, provider/API/OAuth/customer data or full OOXML-style validation claim.
 
 Reproduction: fetch the pinned source through GitHub, verify its Git blob SHA, and extract text from `function apply(` up to (excluding) `// useAdminEvents` into apply.ts. Save the harness below as check.mjs next to it and run `node check.mjs`. The harness exercises only that reviewed function, not upstream entrypoints. No source is vendored here.
 
@@ -74,4 +76,4 @@ console.log(JSON.stringify({groups:results.length,results,limits:'Actual apply e
 
 ```
 
-The proposed backend guard needs native deterministic scheduling tests and race detector verification. Frontend snapshot tests include sequences that the current atomic subscribe/ready implementation should normally prevent; they establish defensive reducer behavior, not the incident's cause.
+The proposed backend guard now has native deterministic scheduling tests and race-detector coverage in the isolated fixture; full application tests remain required. Frontend snapshot tests include sequences that the current atomic subscribe/ready implementation should normally prevent; they establish defensive reducer behavior, not the incident's cause.

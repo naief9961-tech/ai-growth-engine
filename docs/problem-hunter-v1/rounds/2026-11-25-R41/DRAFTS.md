@@ -1,16 +1,18 @@
-# R41-01 — review draft, NOT POSTED
+# R41-01 — updated after isolated Go tests; NOT POSTED
 
 Destination: https://github.com/Mag1cFall/Antigravity2API/issues/11
 
-Approval: awaiting the user's review. Re-read the issue and PRs before publication.
+Pending user review. Evidence: [Go test harness and results](GO-TESTS.md). No third-party comment sent.
 
 ---
 
-I checked v0.1.12 at `8caff896859499b86398c1e3e75c964c40dca6f3`. One distinction may help narrow this down: the late `request.progress` in the log is not itself a `type: "request"` SSE event.
+I checked v0.1.12 (`8caff896859499b86398c1e3e75c964c40dca6f3`) and tested the event-ordering boundary in an isolated Go fixture.
 
-In `internal/app/events.go`, `logHandler.Handle` routes it through `hub.log`, which publishes `type: "log"`. In `web/src/app/events.ts`, that branch only updates the logs cache. I exercised the extracted `apply` function with a mocked QueryClient: running → cancelled → late progress log leaves the running list empty; running → cancelled → a late **request/running** event brings the entry back. So the log sequence alone does not prove which event resurrected the card.
+First, the late `request.progress` log alone does not prove that the request was resurrected. `logHandler.Handle` routes it through `hub.log` as `type: "log"`; the frontend's log branch only updates the logs cache. The extracted frontend handler confirms that running → cancelled → late log stays empty, whereas a late `type: "request"` with `state: "running"` restores the entry.
 
-There is a separate source-level ordering gap worth testing: `Trace.SetAccount` calls its watch callback after releasing the trace lock; the callback is `hub.begin`, which publishes unconditionally. `hub.end` removes the active ID and publishes the terminal row under `hub.mu`. A delayed begin can therefore publish after end. A candidate guard is to check active membership and publish within that same hub lock:
+A concrete ordering gap exists in `hub.begin`: it publishes unconditionally. If a previously captured running update reaches it after `hub.end`, existing subscribers receive running after terminal even though the active map no longer contains the request. `Trace.SetAccount` invokes its watch after releasing the trace lock, making that callback boundary worth checking.
+
+The candidate is to check membership and publish under the same lock used by `end`:
 
 ```go
 func (h *hub) begin(row requestdb.Row) {
@@ -23,10 +25,14 @@ func (h *hub) begin(row requestdb.Row) {
 }
 ```
 
-This is an uncompiled candidate, not a confirmed reproduction of the reported cancellation path. Also, `Trace.done` currently means an upstream finish event was observed; it is not a general finalization flag.
+I extracted seven hub methods from the SHA-verified source, with minimal Row/Trace/supporting-type stubs, and ran Go 1.27.4 with `go test -race -count=1`:
 
-For verification, add a deterministic hub test that holds a captured running update until after `end`, then releases it: existing subscribers must receive no subsequent running row, and a fresh subscription must contain no such request. Keep a control where updates to a still-active request are delivered. Run the native tests with the race detector.
+- Original: delayed-begin-after-end failed for cancelled, failed and completed states; the concurrent begin/end test also failed.
+- Candidate: all six top-level test groups passed, including 200 concurrent begin/end iterations, still-active updates, unrelated requests, fresh subscriptions and full-subscriber cleanup.
+- Neither fixture run reported a memory data race; this is a logical event-ordering defect.
 
-The pre-ready reducer should also replace entries by ID and remove terminal rows instead of appending blindly. Three paired extracted-function checks reproduced duplicate/terminal snapshot entries and passed with that change. The server currently queues its initial snapshot and ready under one lock, so those are defensive reducer checks, not proof of a live pre-ready race. This change does **not** repair a late live running event; an empty reconnect snapshot does clear stale state.
+This validates the guard at the isolated hub boundary, not the reported production cancellation path. The full Go application, real Trace callback path, React/EventSource and WebView2 were not tested. A synthetic SSE capture identifying an actual late request/running frame would close the remaining causal gap.
 
-Eight isolated assertion groups passed in Node 24.22.3. QueryClient, refresh and log merging were stubbed. No Go hub/race test, React/EventSource, WebView2, provider call or full application test was run. A synthetic SSE sequence identifying whether the offending message is `log` or `request` would resolve the remaining causal gap.
+Separately, pre-ready snapshot handling should upsert by ID and remove terminal entries rather than append blindly. Paired frontend checks cover that, but it does not fix late live events. The server currently queues snapshot and ready under one lock, so those are defensive reducer checks.
+
+Also avoid using `Trace.done` as a general finalization flag: it currently represents an observed upstream finish event.

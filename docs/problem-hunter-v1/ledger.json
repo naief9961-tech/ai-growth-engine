@@ -884,7 +884,18 @@
       "reply_drafts": 1,
       "third_party_comments_posted": 0,
       "commercial_requests_verified": 0,
-      "limitations": "8 source-extracted JavaScript groups with mocked cache/refresh/log merge; no Go compilation/race or browser/provider/integration run. Actual incident late request frame remains unobserved. 2 overlapping upstream fixes suppressed."
+      "limitations": "8 source-extracted JavaScript groups with mocked cache/refresh/log merge; no Go compilation/race or browser/provider/integration run. Actual incident late request frame remains unobserved. 2 overlapping upstream fixes suppressed.",
+      "followup_validations": [
+        {
+          "checked_at": "2026-11-25T08:47:24.748296+00:00",
+          "type": "GO_ISOLATED",
+          "groups": 6,
+          "baseline_failed_groups": 2,
+          "candidate_passed_groups": 6,
+          "go_version": "1.27.4",
+          "upstream_full_suites_run": 0
+        }
+      ]
     }
   ],
   "automation": {
@@ -4092,13 +4103,13 @@
       "reporter": "stphamz621",
       "created_at": "2026-11-25T05:01:34Z",
       "discovered_date": "2026-11-25",
-      "checked_at": "2026-11-25T05:09:05Z",
+      "checked_at": "2026-11-25T08:47:24.748296+00:00",
       "state_at_review": "open",
       "diagnosis": "Progress log alone cannot resurrect UI item; type=request running can. Unconditional hub.begin permits hypothetical delayed watch after end; actual cancellation path not reproduced.",
       "solution": "Candidate active-ID membership check and publishLocked within hub mutex; defensive snapshot upsert/filter; native deterministic lifecycle/race test required.",
-      "confidence": "High reducer/log distinction; medium ordering remedy; actual incident cause unresolved.",
+      "confidence": "High for isolated hub ordering defect and membership guard plus reducer/log distinction; actual incident cause unresolved.",
       "benefit": "Avoids conflating log and state events, identifies concrete serialized publication boundary and regression criteria.",
-      "tests": "8 isolated assertion groups (3 paired), Node24.22.3 actual apply extract with mocked cache/refresh/log merge. Go candidate uncompiled; no browser/provider/upstream suite.",
+      "tests": "8 initial JavaScript groups plus 6 isolated native Go groups. Original fails delayed-after-end and concurrent-ordering groups; candidate passes all6 with -race. Full application/real Trace/EventSource untested.",
       "sources": [
         {
           "path": "web/src/app/events.ts",
@@ -4134,7 +4145,23 @@
       "publication_status": "NOT_POSTED",
       "last_seen_comment_id": null,
       "commercial_interest": "NONE_OBSERVED",
-      "purchase_evidence": null
+      "purchase_evidence": null,
+      "history": [
+        {
+          "event": "ISOLATED_GO_VALIDATION",
+          "checked_at": "2026-11-25T08:47:24.748296+00:00",
+          "previous_tests": "8 isolated assertion groups (3 paired), Node24.22.3 actual apply extract with mocked cache/refresh/log merge. Go candidate uncompiled; no browser/provider/upstream suite.",
+          "previous_confidence": "High reducer/log distinction; medium ordering remedy; actual incident cause unresolved.",
+          "go_version": "go1.27.4 linux/amd64",
+          "baseline_exit_code": 1,
+          "candidate_exit_code": 0,
+          "top_level_groups": 6,
+          "candidate_concurrent_iterations": 200,
+          "memory_data_race_reported": false,
+          "scope": "Seven SHA-verified extracted hub methods with minimal supporting type/Trace stubs; no full application or real callback integration.",
+          "report": "docs/problem-hunter-v1/rounds/2026-11-25-R41/GO-TESTS.md"
+        }
+      ]
     }
   ],
   "followups": [

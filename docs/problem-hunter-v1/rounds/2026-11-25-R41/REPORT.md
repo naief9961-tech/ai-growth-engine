@@ -1,5 +1,7 @@
 # R41 — 25 November 2026: one diagnostic draft, no external post
 
+**Follow-up at 2026-11-25T08:47:24.748296+00:00:** Go1.27.4 official local toolchain verified; six native isolated hub groups executed. Original failed two groups; candidate passed all six with -race (including 200 concurrent begin/end iterations). No memory data race reported. Full application and incident causality remain unverified. [Reproducible Go evidence](GO-TESTS.md). Draft updated; NOT POSTED.
+
 Checked 2026-11-25T05:09:05Z; Asia/Riyadh date 2026-11-25. Parent head c5e5ac0879a339cd5420276d260f336e079bef7a.
 
 ## Actual scope
@@ -27,9 +29,9 @@ Reported v0.1.12 tag and inspected default head both resolve to 8caff896859499b8
 
 Trace.AddAttempt writes request.progress through slog; logHandler.Handle calls hub.log, which emits type=log. Frontend apply's log case changes logs only. Trace.SetAccount can invoke its watch after releasing the trace lock, and Snapshot labels the row running. The installed watch is hub.begin, which currently publishes without active-membership checking. hub.end removes active ID and publishes terminal state under the hub mutex. This establishes a possible delayed-begin ordering gap; there is no captured late request frame proving it caused this incident. Trace.done represents upstream completion, not general lifecycle finalization. Do not suppress all late diagnostic logs as a purported proven repair.
 
-Candidate: perform active membership check and publishLocked together under hub.mu in begin. Native compilation/race behavior untested. Add deterministic delayed-begin-after-end, begin-before-end, still-active control and reconnect tests. For pre-ready snapshots, replace by ID and remove terminal entries. Existing server subscribe queues snapshot and ready under one lock, so malformed pre-ready sequences are robustness checks, not established production interleavings.
+Candidate: perform active membership check and publishLocked together under hub.mu in begin. Isolated seven-method fixture compilation and race-detector run now completed; full application compilation/race behavior untested. Add deterministic delayed-begin-after-end, begin-before-end, still-active control and reconnect tests. For pre-ready snapshots, replace by ID and remove terminal entries. Existing server subscribe queues snapshot and ready under one lock, so malformed pre-ready sequences are robustness checks, not established production interleavings.
 
-[Executed tests and reproducible harness](TESTS.md): 8 assertion groups, including three baseline/candidate paired snapshot checks. Real extracted apply, mocked QueryClient, refresh and mergeLogs. No React, browser EventSource, WebView2, native Go, provider, OAuth or end-to-end tests. The go executable returned “Go: Unknown option: version”; usable native Go1.27 toolchain was not established. No dependency installation attempted.
+[Executed tests and reproducible harness](TESTS.md): 8 assertion groups, including three baseline/candidate paired snapshot checks. Real extracted apply, mocked QueryClient, refresh and mergeLogs. No React, browser EventSource, WebView2, full native Go application, provider, OAuth or end-to-end tests. Initially the go executable returned “Go: Unknown option: version”; follow-up identified it as a board game. Official Go1.27.4 was downloaded to an isolated scratch directory and its published SHA256 verified. Standard-library-only native tests then ran with dependency downloads disabled. No system installation or upstream dependencies.
 
 Overlap/policy: full issue/comments/timeline rechecked; all 3 available all-state PRs (#10/#7/#1) reviewed by summaries; none matches this cancellation defect. No linked PR at check. Untruncated source tree has no AGENTS/CONTRIBUTING file; README_en and development/contribution guide read. No downstream repository edits.
 
