@@ -895,6 +895,14 @@
           "go_version": "1.27.4",
           "upstream_full_suites_run": 0
         }
+      ],
+      "publication_events": [
+        {
+          "type": "USER_MANUAL_PUBLICATION",
+          "comment_id": 7157796113,
+          "url": "https://github.com/Mag1cFall/Antigravity2API/issues/11#issuecomment-7157796113",
+          "verified_at": "2026-11-25T09:03:52Z"
+        }
       ]
     }
   ],
@@ -4103,7 +4111,7 @@
       "reporter": "stphamz621",
       "created_at": "2026-11-25T05:01:34Z",
       "discovered_date": "2026-11-25",
-      "checked_at": "2026-11-25T08:47:24.748296+00:00",
+      "checked_at": "2026-11-25T09:03:52Z",
       "state_at_review": "open",
       "diagnosis": "Progress log alone cannot resurrect UI item; type=request running can. Unconditional hub.begin permits hypothetical delayed watch after end; actual cancellation path not reproduced.",
       "solution": "Candidate active-ID membership check and publishLocked within hub mutex; defensive snapshot upsert/filter; native deterministic lifecycle/race test required.",
@@ -4139,11 +4147,12 @@
       "pr_check": "No linked timeline PR; all3 available all-state PR summaries reviewed (#10/#7/#1). Issue/comments/timeline rechecked, zero comments.",
       "reply": "R41-01",
       "approval": {
-        "status": "PENDING_USER_REVIEW",
-        "checked_at": "2026-11-25T05:09:05Z"
+        "status": "USER_POSTED_MANUALLY",
+        "date": "2026-11-25",
+        "source": "User said «تم» after receiving R41-01; exact matching GitHub comment by naief9961-tech verified. This records this publication only, not approval for future comments."
       },
-      "publication_status": "NOT_POSTED",
-      "last_seen_comment_id": null,
+      "publication_status": "POSTED_MANUALLY_VERIFIED",
+      "last_seen_comment_id": 7157796113,
       "commercial_interest": "NONE_OBSERVED",
       "purchase_evidence": null,
       "history": [
@@ -4161,7 +4170,24 @@
           "scope": "Seven SHA-verified extracted hub methods with minimal supporting type/Trace stubs; no full application or real callback integration.",
           "report": "docs/problem-hunter-v1/rounds/2026-11-25-R41/GO-TESTS.md"
         }
-      ]
+      ],
+      "publication_history": [
+        {
+          "type": "MANUAL_PUBLICATION_VERIFIED",
+          "comment_id": 7157796113,
+          "url": "https://github.com/Mag1cFall/Antigravity2API/issues/11#issuecomment-7157796113",
+          "created_at": "2026-11-25T09:02:33Z",
+          "verified_at": "2026-11-25T09:03:52Z",
+          "previous_publication_status": "NOT_POSTED",
+          "previous_approval": {
+            "status": "PENDING_USER_REVIEW",
+            "checked_at": "2026-11-25T05:09:05Z"
+          }
+        }
+      ],
+      "published_comment_id": 7157796113,
+      "published_comment_url": "https://github.com/Mag1cFall/Antigravity2API/issues/11#issuecomment-7157796113",
+      "developer_response": "NONE_AFTER_POST_AT_VERIFICATION"
     }
   ],
   "followups": [
@@ -5891,13 +5917,26 @@
     {
       "url": "https://github.com/Mag1cFall/Antigravity2API/issues/11",
       "state": "open",
-      "last_checked_at": "2026-11-25T05:09:05Z",
+      "last_checked_at": "2026-11-25T09:03:52Z",
       "last_checked_date": "2026-11-25",
-      "last_own_comment_id": null,
-      "last_seen_comment_id": null,
+      "last_own_comment_id": 7157796113,
+      "last_seen_comment_id": 7157796113,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_NOT_POSTED"
+      "status": "POSTED_MANUALLY_VERIFIED",
+      "history": [
+        {
+          "event": "MANUAL_PUBLICATION_VERIFIED",
+          "checked_at": "2026-11-25T09:03:52Z",
+          "previous_status": "DRAFT_NOT_POSTED",
+          "previous_cursor": null,
+          "comment_id": 7157796113,
+          "url": "https://github.com/Mag1cFall/Antigravity2API/issues/11#issuecomment-7157796113"
+        }
+      ],
+      "last_own_comment_at": "2026-11-25T09:02:33Z",
+      "last_seen_comment_at": "2026-11-25T09:02:33Z",
+      "outcome": "Exact R41-01 manually posted; no subsequent comment at verification. Isolated Go/JS tests only, no confirmed full application fix."
     }
   ],
   "exclusions": [

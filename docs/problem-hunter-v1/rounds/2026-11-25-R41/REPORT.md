@@ -1,5 +1,7 @@
 # R41 — 25 November 2026: one diagnostic draft, no external post
 
+**Manual publication verified 2026-11-25T09:03:52Z:** The user posted R41-01 at 2026-11-25T09:02:33Z; [exact comment](https://github.com/Mag1cFall/Antigravity2API/issues/11#issuecomment-7157796113). Ledger own/seen cursor is 7157796113. No later developer comment or commercial inquiry at verification. Do not repost. Historical no-post/pending-review statements below describe the earlier round, before this manual publication.
+
 **Follow-up at 2026-11-25T08:47:24.748296+00:00:** Go1.27.4 official local toolchain verified; six native isolated hub groups executed. Original failed two groups; candidate passed all six with -race (including 200 concurrent begin/end iterations). No memory data race reported. Full application and incident causality remain unverified. [Reproducible Go evidence](GO-TESTS.md). Draft updated; NOT POSTED.
 
 Checked 2026-11-25T05:09:05Z; Asia/Riyadh date 2026-11-25. Parent head c5e5ac0879a339cd5420276d260f336e079bef7a.

@@ -1,8 +1,8 @@
-# R41-01 — updated after isolated Go tests; NOT POSTED
+# R41-01 — manually posted and verified; DO NOT REPOST
 
 Destination: https://github.com/Mag1cFall/Antigravity2API/issues/11
 
-Pending user review. Evidence: [Go test harness and results](GO-TESTS.md). No third-party comment sent.
+Manually published by the user at 2026-11-25T09:02:33Z: [verified comment](https://github.com/Mag1cFall/Antigravity2API/issues/11#issuecomment-7157796113). Exact text verified 2026-11-25T09:03:52Z. No subsequent comment at verification. Do not repost. This publication does not authorize future replies. Evidence: [Go test harness and results](GO-TESTS.md).
 
 ---
 
