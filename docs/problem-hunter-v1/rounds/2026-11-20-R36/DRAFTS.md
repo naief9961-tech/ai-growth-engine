@@ -1,3 +1,9 @@
+# RETIRED 2026-11-25 — DO NOT POST
+
+The core for-each-ref diagnosis is now covered by [upstream comment7150180799](https://github.com/modelcontextprotocol/servers/issues/5641#issuecomment-7150180799). Our draft was never posted; this is not a reply to NAIF. Retired to prevent duplicate advice. Original historical text preserved below; its old pending-approval heading is no longer operative.
+
+---
+
 # R36-01 — pending user approval; NOT POSTED
 
 Destination: https://github.com/modelcontextprotocol/servers/issues/5641
