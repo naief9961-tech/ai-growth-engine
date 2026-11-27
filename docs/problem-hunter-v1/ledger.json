@@ -4380,13 +4380,36 @@
       "pr_check": "Latest30 PRs; targeted494 query0; openPR488 files unrelated; values search capped30; historical384/400/410 read.0comments; finaltimeline labels only; no linked fix found.",
       "reply": "R43-01",
       "approval": {
-        "status": "PENDING_USER_REVIEW",
-        "checked_at": "2026-11-27T05:10:25Z"
+        "status": "APPROVED_IN_CHAT",
+        "checked_at": "2026-11-27T10:23:57Z",
+        "evidence": "User replied اوك after R43 review/publication request; approval does not override superseded/no-duplicate check."
       },
-      "publication_status": "NOT_POSTED",
+      "publication_status": "NOT_POSTED_SUPERSEDED",
       "last_seen_comment_id": null,
       "commercial_interest": "NONE_OBSERVED",
-      "purchase_evidence": null
+      "purchase_evidence": null,
+      "approval_history": [
+        {
+          "status": "PENDING_USER_REVIEW",
+          "checked_at": "2026-11-27T05:10:25Z"
+        }
+      ],
+      "latest_state": "closed",
+      "last_checked_at": "2026-11-27T10:23:57Z",
+      "followup_history": [
+        {
+          "checked_at": "2026-11-27T10:23:57Z",
+          "event": "UPSTREAM_FIX_MERGED_DRAFT_RETIRED",
+          "pr_url": "https://github.com/abhi478jeetur-rgb/env-saaf/pull/499",
+          "merge_commit_sha": "c0154b947ba81ca1b6564140885e062b05cd0af6",
+          "merged_at": "2026-11-27T07:18:19Z",
+          "issue_closed_at": "2026-11-27T07:18:21Z",
+          "comment_count": 0,
+          "reason": "PR499 implements selected-file extras, scaffold/ok gating, file-labelled text and deduplicated JSON union. Original draft superseded. Minor behavioral differences are not independently revalidated; no substitute comment posted.",
+          "tests": "Merged patch statically read; upstream tests not rerun; earlier R43 tests apply only to the recorded baseline/candidate.",
+          "commercial_interest": "NONE_OBSERVED"
+        }
+      ]
     }
   ],
   "followups": [
@@ -6227,8 +6250,8 @@
     },
     {
       "url": "https://github.com/abhi478jeetur-rgb/env-saaf/issues/494",
-      "state": "open",
-      "last_checked_at": "2026-11-27T05:10:25Z",
+      "state": "closed",
+      "last_checked_at": "2026-11-27T10:23:57Z",
       "last_checked_date": "2026-11-27",
       "last_own_comment_id": null,
       "last_own_comment_at": null,
@@ -6236,8 +6259,9 @@
       "last_seen_comment_at": null,
       "replies_after_last_own": [],
       "business_interest": "NONE_OBSERVED",
-      "status": "DRAFT_PENDING_USER_REVIEW",
-      "outcome": "R43-01 prepared only; never posted."
+      "status": "DRAFT_RETIRED_UPSTREAM_MERGED",
+      "outcome": "PR499 merged at2026-11-27T07:18:19Z; issue closed. R43-01 never posted; do not post.",
+      "latest_state": "closed"
     }
   ],
   "exclusions": [

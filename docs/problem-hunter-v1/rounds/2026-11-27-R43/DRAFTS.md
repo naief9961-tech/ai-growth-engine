@@ -1,10 +1,14 @@
-# R43 review copy — NOT POSTED
+# R43 historical copy — RETIRED, DO NOT POST
+
+## Publication follow-up — 2026-11-27T10:23:57Z
+
+**R43-01 is retired: DO NOT POST.** The user approved the reviewed reply in chat. The pre-publication check found [PR499](https://github.com/abhi478jeetur-rgb/env-saaf/pull/499) merged at 2026-11-27T07:18:19Z (10:18:19 Asia/Riyadh), merge commit `c0154b947ba81ca1b6564140885e062b05cd0af6`, and [issue494](https://github.com/abhi478jeetur-rgb/env-saaf/issues/494) closed. The exact CLI diff was read: selected-file extras, exit/scaffold gates, per-file text labels and deduplicated JSON union are implemented. No third-party comment was attempted or posted; the issue has0comments. No repair credit or commercial interest claimed. Upstream runtime tests were not rerun. The earlier R43 evidence and original draft below are historical, not current publication advice.
 
 Destination: https://github.com/abhi478jeetur-rgb/env-saaf/issues/494
 
-Status: PENDING_USER_REVIEW. One draft only. No third-party publication authorized by this document. Re-read comments and related PRs before any later explicitly approved posting; do not post if superseded.
+Original status at investigation: pending review. Subsequently approved in chat, then retired after the pre-publication check. No third-party comment posted.
 
-## R43-01 — full English text
+## R43-01 — historical English text (do not post)
 
 I reproduced this against `0b9a97dcb87badf5d198314df0617e716a34214b` using the actual CLI in temporary synthetic projects.
 

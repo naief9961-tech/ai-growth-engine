@@ -1,5 +1,11 @@
 # NAIF Gravity Problem Hunter — R43 / 27 November 2026
 
+## Publication follow-up — 2026-11-27T10:23:57Z
+
+**R43-01 is retired: DO NOT POST.** The user approved the reviewed reply in chat. The pre-publication check found [PR499](https://github.com/abhi478jeetur-rgb/env-saaf/pull/499) merged at 2026-11-27T07:18:19Z (10:18:19 Asia/Riyadh), merge commit `c0154b947ba81ca1b6564140885e062b05cd0af6`, and [issue494](https://github.com/abhi478jeetur-rgb/env-saaf/issues/494) closed. The exact CLI diff was read: selected-file extras, exit/scaffold gates, per-file text labels and deduplicated JSON union are implemented. No third-party comment was attempted or posted; the issue has0comments. No repair credit or commercial interest claimed. Upstream runtime tests were not rerun. The earlier R43 evidence and original draft below are historical, not current publication advice.
+
+## Original investigation snapshot
+
 Checked: 2026-11-27T05:10:25Z (Asia/Riyadh date 2026-11-27). Previous ledger round R42. Mandatory radar, current README, ledger and R42 report read before discovery. Comparison base: `4f48ea3984480f4bcd3db2d6c90c7b0e68b75427`.
 
 ## Outcome
