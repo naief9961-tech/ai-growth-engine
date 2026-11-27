@@ -2,7 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R42: four API timestamp paths; one review draft](rounds/2026-11-26-R42/REPORT.md)
+- [Latest report — R43: selected-file key drift; one review draft](rounds/2026-11-27-R43/REPORT.md)
+- [R43 English reply — pending review, NOT POSTED](rounds/2026-11-27-R43/DRAFTS.md)
+- [R43 twelve paired CLI groups and limits](rounds/2026-11-27-R43/TESTS.md)
+
+- [Previous report — R42: four API timestamp paths; one review draft](rounds/2026-11-26-R42/REPORT.md)
 - [R42 English reply — pending review, NOT POSTED](rounds/2026-11-26-R42/DRAFTS.md)
 - [R42 eight executed isolated groups and limits](rounds/2026-11-26-R42/TESTS.md)
 
