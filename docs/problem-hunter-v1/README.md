@@ -2,7 +2,11 @@
 
 Evidence-based help with user approval before posting to third-party repositories.
 
-- [Latest report — R43: upstream fix merged; draft retired](rounds/2026-11-27-R43/REPORT.md)
+- [Latest report — R44: breaking-event output contract](rounds/2026-11-28-R44/REPORT.md)
+- [R44 English reply — pending review, NOT POSTED](rounds/2026-11-28-R44/DRAFTS.md)
+- [R44 twelve isolated test groups and limits](rounds/2026-11-28-R44/TESTS.md)
+
+- [Previous report — R43: upstream fix merged; draft retired](rounds/2026-11-27-R43/REPORT.md)
 - [R43 historical reply — superseded by PR499; DO NOT POST](rounds/2026-11-27-R43/DRAFTS.md)
 - [R43 twelve paired CLI groups and limits](rounds/2026-11-27-R43/TESTS.md)
 
